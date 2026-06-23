@@ -1,0 +1,618 @@
+Pt. 30, App. B                                                12 CFR Ch. I (1–1–25 Edition)
+  1. Manage interest rate risk in a manner        vent the payment of compensation, fees, and
+that is appropriate to the size of the institu-   benefits that are excessive or that could lead
+tion and the complexity of its assets and li-     to material financial loss to the institution.
+abilities; and
+  2. Provide for periodic reporting to man-       III. PROHIBITION ON COMPENSATION THAT CON-
+agement and the board of directors regarding        STITUTES AN UNSAFE AND UNSOUND PRAC-
+interest rate risk with adequate information        TICE
+for management and the board of directors
+                                                            A. Excessive Compensation
+to assess the level of risk.
+  F. Asset growth. An institution’s asset           Excessive compensation is prohibited as an
+growth should be prudent and consider:            unsafe and unsound practice. Compensation
+  1. The source, volatility and use of the        shall be considered excessive when amounts
+funds that support asset growth;                  paid are unreasonable or disproportionate to
+  2. Any increase in credit risk or interest      the services performed by an executive offi-
+rate risk as a result of growth; and              cer, employee, director, or principal share-
+  3. The effect of growth on the institution’s    holder, considering the following:
+capital.                                            1. The combined value of all cash and non-
+  G. Asset quality. An insured depository in-     cash benefits provided to the individual;
+stitution should establish and maintain a           2. The compensation history of the indi-
+system that is commensurate with the insti-       vidual and other individuals with com-
+tution’s size and the nature and scope of its     parable expertise at the institution;
+operations to identify problem assets and           3. The financial condition of the institu-
+prevent deterioration in those assets. The in-    tion;
+stitution should:                                   4. Comparable compensation practices at
+  1. Conduct periodic assetquality reviews to     comparable institutions, based upon such
+identify problem assets;                          factors as asset size, geographic location,
+  2. Estimate the inherent losses in those as-    and the complexity of the loan portfolio or
+sets and establish reserves that are sufficient   other assets;
+to absorb estimated losses;                         5. For postemployment benefits, the pro-
+  3. Compare problem asset totals to capital;     jected total cost and benefit to the institu-
+  4. Take appropriate corrective action to re-    tion;
+solve problem assets;                               6. Any connection between the individual
+  5. Consider the size and potential risks of     and any fraudulent act or omission, breach
+material asset concentrations; and                of trust or fiduciary duty, or insider abuse
+  6. Provide periodic asset reports with ade-     with regard to the institution; and
+quate information for management and the            7. Any other factors the agencies deter-
+board of directors to assess the level of asset   mines to be relevant.
+risk.
+  H. Earnings. An insured depository institu-     B. Compensation Leading to Material Financial
+tion should establish and maintain a system                          Loss
+that is commensurate with the institution’s         Compensation that could lead to material
+size and the nature and scope of its oper-        financial loss to an institution is prohibited
+ations to evaluate and monitor earnings and       as an unsafe and unsound practice.
+ensure that earnings are sufficient to main-
+tain adequate capital and reserves. The insti-    [60 FR 35678, 35682, July 10, 1995, as amended
+tution should:                                    at 61 FR 43950, Aug. 27, 1996; 79 FR 54544,
+  1. Compare recent earnings trends relative      Sept. 11, 2014]
+to equity, assets, or other commonly used
+benchmarks to the institution’s historical        APPENDIX B TO PART 30—INTERAGENCY
+results and those of its peers;                      GUIDELINES ESTABLISHING INFORMA-
+  2. Evaluate the adequacy of earnings given         TION SECURITY STANDARDS
+the size, complexity, and risk profile of the
+institution’s assets and operations;                           TABLE OF CONTENTS
+  3. Assess the source, volatility, and sus-      I. Introduction
+tainability of earnings, including the effect        A. Scope
+of nonrecurring or extraordinary income or           B. Preservation of Existing Authority
+expense;                                             C. Definitions
+  4. Take steps to ensure that earnings are       II. Standards for Safeguarding Customer In-
+sufficient to maintain adequate capital and          formation
+reserves after considering the institution’s         A. Information Security Program
+asset quality and growth rate; and                   B. Objectives
+  5. Provide periodic earnings reports with       III. Development and Implementation of
+adequate information for management and              Customer Information Security Program
+the board of directors to assess earnings per-       A. Involve the Board of Directors
+formance.                                            B. Assess Risk
+  I. Compensation, fees and benefits. An insti-      C. Manage and Control Risk
+tution should maintain safeguards to pre-            D. Oversee Service Provider Arrangements
+
+                                              782
+Comptroller of the Currency, Treasury                                            Pt. 30, App. B
+  E. Adjust the Program                              i. Examples. (1) Consumer information in-
+  F. Report to the Board                           cludes:
+  G. Implement the Standards                         (A) A consumer report that a national
+  I. Introduction                                  bank or Federal savings association obtains;
+  The Interagency Guidelines Establishing            (B) Information from a consumer report
+Information Security Standards (Guidelines)        that the national bank or Federal savings as-
+set forth standards pursuant to section 39 of      sociation obtains from its affiliate after the
+the Federal Deposit Insurance Act (section         consumer has been given a notice and has
+39, codified at 12 U.S.C. 1831p–1), and sections   elected not to opt out of that sharing;
+501 and 505(b), codified at 15 U.S.C. 6801 and       (C) Information from a consumer report
+6805(b) of the Gramm-Leach Bliley Act.             that the national bank or Federal savings as-
+These Guidelines address standards for devel-      sociation obtains about an individual who
+oping and implementing administrative,             applies for but does not receive a loan, in-
+technical, and physical safeguards to protect      cluding any loan sought by an individual for
+the security, confidentiality, and integrity       a business purpose;
+of customer information. These Guidelines            (D) Information from a consumer report
+also address standards with respect to the         that the national bank or Federal savings as-
+proper disposal of consumer information,           sociation obtains about an individual who
+pursuant to sections 621 and 628 of the Fair       guarantees a loan (including a loan to a busi-
+Credit Reporting Act (15 U.S.C. 1681s and          ness entity); or
+1681w).                                              (E) Information from a consumer report
+  A. Scope. The Guidelines apply to customer       that the national bank or Federal savings as-
+information maintained by or on behalf of          sociation obtains about an employee or pro-
+entities over which the OCC has authority.         spective employee.
+Such entities, referred to as ‘‘the national         (2) Consumer information does not include:
+bank or Federal savings association,’’ are na-       (A) Aggregate information, such as the
+tional banks, Federal savings associations,        mean credit score, derived from a group of
+Federal branches and Federal agencies of           consumer reports; or
+foreign banks, and any subsidiaries of such          (B) Blind data, such as payment history on
+entities (except brokers, dealers, persons         accounts that are not personally identifi-
+providing insurance, investment companies,         able, that may be used for developing credit
+and investment advisers). The Guidelines           scoring models or for other purposes.
+also apply to the proper disposal of consumer        c. Consumer report has the same meaning as
+information by or on behalf of such entities.      set forth in the Fair Credit Reporting Act, 15
+  B. Preservation of Existing Authority. Nei-      U.S.C. 1681a(d).
+ther section 39 nor these Guidelines in any          d. Customer means any customer of the na-
+way limit the authority of the OCC to ad-          tional bank or Federal savings association as
+dress unsafe or unsound practices, violations      defined in 12 CFR 1016.3(i).
+of law, unsafe or unsound conditions, or             e. Customer information means any record
+other practices. The OCC may take action           containing nonpublic personal information,
+under section 39 and these Guidelines inde-        as defined in 12 CFR 1016.3(p), about a cus-
+pendently of, in conjunction with, or in addi-     tomer, whether in paper, electronic, or other
+tion to, any other enforcement action avail-       form, that is maintained by or on behalf of
+able to the OCC.                                   the national bank or Federal savings asso-
+  C. Definitions. 1. Except as modified in the     ciation.
+Guidelines, or unless the context otherwise          f. Customer information systems means any
+requires, the terms used in these Guidelines       methods used to access, collect, store, use,
+have the same meanings as set forth in sec-        transmit, protect, or dispose of customer in-
+tions 3 and 39 of the Federal Deposit Insur-       formation.
+ance Act (12 U.S.C. 1813 and 1831p–1).               g. Service provider means any person or en-
+  2. For purposes of the Guidelines, the fol-      tity that maintains, processes, or otherwise
+lowing definitions apply:                          is permitted access to customer information
+  a. Board of directors, in the case of a branch   or consumer information through its provi-
+or agency of a foreign bank, means the man-        sion of services directly to the national bank
+aging official in charge of the branch or          or Federal savings association.
+agency.
+                                                     II. STANDARDS FOR INFORMATION SECURITY
+  b. Consumer information means any record
+about an individual, whether in paper, elec-         A. Information Security Program. Each na-
+tronic, or other form, that is a consumer re-      tional bank or Federal savings association
+port or is derived from a consumer report          shall implement a comprehensive written in-
+and that is maintained or otherwise pos-           formation security program that includes
+sessed by or on behalf of the national bank        administrative, technical, and physical safe-
+or Federal savings association for a business      guards appropriate to the size and com-
+purpose. Consumer information also means a         plexity of the national bank or Federal sav-
+compilation of such records. The term does         ings association and the nature and scope of
+not include any record that does not identify      its activities. While all parts of the national
+an individual.                                     bank or Federal savings association are not
+
+                                               783
+Pt. 30, App. B                                                12 CFR Ch. I (1–1–25 Edition)
+required to implement a uniform set of poli-      obtain this information through fraudulent
+cies, all elements of the information security    means.
+program must be coordinated.                        b. Access restrictions at physical locations
+  B. Objectives. A national bank’s or Federal     containing customer information, such as
+savings association’s information security        buildings, computer facilities, and records
+program shall be designed to:                     storage facilities to permit access only to
+  1. Ensure the security and confidentiality
+                                                  authorized individuals;
+of customer information;
+  2. Protect against any anticipated threats        c. Encryption of electronic customer infor-
+or hazards to the security or integrity of        mation, including while in transit or in stor-
+such information;                                 age on networks or systems to which unau-
+  3. Protect against unauthorized access to       thorized individuals may have access;
+or use of such information that could result        d. Procedures designed to ensure that cus-
+in substantial harm or inconvenience to any       tomer information system modifications are
+customer; and                                     consistent with the national bank’s or Fed-
+  4. Ensure the proper disposal of customer       eral savings association’s information secu-
+information and consumer information.             rity program;
+                                                    e. Dual control procedures, segregation of
+ III. DEVELOPMENT AND IMPLEMENTATION OF
+       INFORMATION SECURITY PROGRAM               duties, and employee background checks for
+                                                  employees with responsibilities for or access
+  A. Involve the Board of Directors. The board    to customer information;
+of directors or an appropriate committee of         f. Monitoring systems and procedures to
+the board of each national bank or Federal        detect actual and attempted attacks on or
+savings association shall:
+                                                  intrusions into customer information sys-
+  1. Approve the national bank’s or Federal
+                                                  tems;
+savings association’s written information se-
+curity program; and                                 g. Response programs that specify actions
+  2. Oversee the development, implementa-         to be taken when the national bank or Fed-
+tion, and maintenance of the national bank’s      eral savings association suspects or detects
+or Federal savings association’s information      that unauthorized individuals have gained
+security program, including assigning spe-        access to customer information systems, in-
+cific responsibility for its implementation       cluding appropriate reports to regulatory
+and reviewing reports from management.            and law enforcement agencies; and
+  B. Assess Risk. Each national bank or Fed-        h. Measures to protect against destruction,
+eral savings association shall:                   loss, or damage of customer information due
+  1. Identify reasonably foreseeable internal     to potential environmental hazards, such as
+and external threats that could result in un-     fire and water damage or technological fail-
+authorized disclosure, misuse, alteration, or     ures.
+destruction of customer information or cus-
+                                                    2. Train staff to implement the national
+tomer information systems.
+                                                  bank’s or Federal savings association’s infor-
+  2. Assess the likelihood and potential dam-
+age of these threats, taking into consider-       mation security program.
+ation the sensitivity of customer informa-          3. Regularly test the key controls, systems
+tion.                                             and procedures of the information security
+  3. Assess the sufficiency of policies, proce-   program. The frequency and nature of such
+dures, customer information systems, and          tests should be determined by the national
+other arrangements in place to control risks.     bank’s or Federal savings association’s risk
+  C. Manage and Control Risk. Each national       assessment. Tests should be conducted or re-
+bank or Federal savings association shall:        viewed by independent third parties or staff
+  1. Design its information security program      independent of those that develop or main-
+to control the identified risks, commensu-        tain the security programs.
+rate with the sensitivity of the information        4. Develop, implement, and maintain, as
+as well as the complexity and scope of the        part of its information security program, ap-
+national bank’s or Federal savings associa-       propriate measures to properly dispose of
+tion’s activities. Each national bank or Fed-     customer information and consumer infor-
+eral savings association must consider            mation in accordance with each of the re-
+whether the following security measures are
+                                                  quirements of this paragraph III.
+appropriate for the national bank or Federal
+                                                    D. Oversee Service Provider Arrangements.
+savings association and, if so, adopt those
+measures the national bank or Federal sav-        Each national bank or Federal savings asso-
+ings association concludes are appropriate:       ciation shall:
+  a. Access controls on customer informa-           1. Exercise appropriate due diligence in se-
+tion systems, including controls to authen-       lecting its service providers;
+ticate and permit access only to authorized         2. Require its service providers by contract
+individuals and controls to prevent employ-       to implement appropriate measures designed
+ees from providing customer information to        to meet the objectives of these Guidelines;
+unauthorized individuals who may seek to          and
+
+                                              784
+Comptroller of the Currency, Treasury                                                Pt. 30, App. B
+  3. Where indicated by the national bank’s         tracts with its service providers that have
+or Federal savings association’s risk assess-       access to consumer information and that
+ment, monitor its service providers to con-         may dispose of consumer information, en-
+firm that they have satisfied their obliga-         tered into before July 1, 2005, must comply
+tions as required by section D.2. As part of        with the provisions of the Guidelines relat-
+this monitoring, a national bank or Federal         ing to the proper disposal of consumer infor-
+savings association should review audits,           mation by July 1, 2006.
+summaries of test results, or other equiva-
+lent evaluations of its service providers.          SUPPLEMENT A TO APPENDIX B TO PART 30—
+  E. Adjust the Program. Each national bank          INTERAGENCY GUIDANCE ON RESPONSE PRO-
+or Federal savings association shall monitor,        GRAMS FOR UNAUTHORIZED ACCESS TO CUS-
+evaluate, and adjust, as appropriate, the in-        TOMER INFORMATION AND CUSTOMER NO-
+formation security program in light of any            TICE
+relevant changes in technology, the sensi-
+                                                                      I. BACKGROUND
+tivity of its customer information, internal
+or external threats to information, and the           This Guidance 1 interprets section 501(b) of
+national bank’s or Federal savings associa-         the Gramm-Leach-Bliley Act (‘‘GLBA’’) and
+tion’s own changing business arrangements,          the Interagency Guidelines Establishing In-
+such as mergers and acquisitions, alliances         formation Security Standards (the ‘‘Security
+and joint ventures, outsourcing arrange-            Guidelines’’) 2 and describes response pro-
+ments, and changes to customer information          grams, including customer notification pro-
+systems.                                            cedures, that a financial institution should
+  F. Report to the Board. Each national bank        develop and implement to address unauthor-
+or Federal savings association shall report to      ized access to or use of customer information
+its board or an appropriate committee of the        that could result in substantial harm or in-
+board at least annually. This report should         convenience to a customer. The scope of, and
+describe the overall status of the informa-         definitions of terms used in, this Guidance
+tion security program and the national              are identical to those of the Security Guide-
+bank’s or Federal savings association’s com-        lines. For example, the term ‘‘customer in-
+pliance with these Guidelines. The reports          formation’’ is the same term used in the Se-
+should discuss material matters related to          curity Guidelines, and means any record con-
+its program, addressing issues such as: risk        taining nonpublic personal information
+assessment; risk management and control             about a customer, whether in paper, elec-
+decisions; service provider arrangements; re-       tronic, or other form, maintained by or on
+sults of testing; security breaches or viola-       behalf of the institution.
+tions and management’s responses; and rec-
+ommendations for changes in the informa-                     A. Interagency Security Guidelines
+tion security program.
+                                                      Section 501(b) of the GLBA required the
+  G. Implement the Standards. 1. Effective date.
+                                                    Agencies to establish appropriate standards
+Each national bank or Federal savings asso-
+                                                    for financial institutions subject to their ju-
+ciation must implement an information se-
+                                                    risdiction that include administrative, tech-
+curity program pursuant to these Guidelines
+                                                    nical, and physical safeguards, to protect the
+by July 1, 2001.
+                                                    security and confidentiality of customer in-
+  2. Two-year grandfathering of agreements
+                                                    formation. Accordingly, the Agencies issued
+with service providers. Until July 1, 2003, a
+                                                    Security Guidelines requiring every finan-
+contract that a national bank or Federal
+                                                    cial institution to have an information secu-
+savings association has entered into with a
+                                                    rity program designed to:
+service provider to perform services for it or
+                                                      1. Ensure the security and confidentiality
+functions on its behalf satisfies the provi-
+                                                    of customer information;
+sions of section III.D., even if the contract
+does not include a requirement that the
+                                                      1 This Guidance was jointly issued by the
+servicer maintain the security and confiden-
+tiality of customer information, as long as         Board of Governors of the Federal Reserve
+the national bank or Federal savings asso-          System (Board), the Federal Deposit Insur-
+ciation entered into the contract on or be-         ance Corporation (FDIC), the Office of the
+fore March 5, 2001.                                 Comptroller of the Currency (OCC), and the
+  3. Effective date for measures relating to the    Office of Thrift Supervision (OTS). Pursuant
+disposal of consumer information. Each na-          to 12 U.S.C. 5412, the OTS is no longer a
+tional bank or Federal savings association          party to this Guidance.
+must satisfy these Guidelines with respect to         2 12 CFR part 30, app. B (OCC); 12 CFR part
+
+the proper disposal of consumer information         208, app. D–2 and part 225, app. F (Board); and
+by July 1, 2005.                                    12 CFR part 364, app. B and 12 CFR 391.5
+  4. Exception for existing agreements with serv-   (FDIC). The ‘‘Interagency Guidelines Estab-
+ice providers relating to the disposal of con-      lishing Information Security Standards’’
+sumer information. Notwithstanding the re-          were formerly known as ‘‘The Interagency
+quirement in paragraph III.G.3., a national         Guidelines Establishing Standards for Safe-
+bank’s or Federal savings association’s con-        guarding Customer Information.’’
+
+                                                785
+Pt. 30, App. B                                                12 CFR Ch. I (1–1–25 Edition)
+  2. Protect against any anticipated threats      mation that could result in substantial harm
+or hazards to the security or integrity of        or inconvenience to any customer. 6
+such information; and
+  3. Protect against unauthorized access to                   II. RESPONSE PROGRAM
+or use of such information that could result
+                                                    Millions of Americans, throughout the
+in substantial harm or inconvenience to any
+                                                  country, have been victims of identity
+customer.
+                                                  theft. 7 Identity thieves misuse personal in-
+       B. Risk Assessment and Controls            formation they obtain from a number of
+                                                  sources, including financial institutions, to
+  1. The Security Guidelines direct every fi-     perpetrate identity theft. Therefore, finan-
+nancial institution to assess the following       cial institutions should take preventative
+risks, among others, when developing its in-      measures to safeguard customer information
+formation security program:                       against attempts to gain unauthorized ac-
+  a. Reasonably foreseeable internal and ex-      cess to the information. For example, finan-
+ternal threats that could result in unauthor-     cial institutions should place access controls
+ized disclosure, misuse, alteration, or de-       on customer information systems and con-
+struction of customer information or cus-         duct background checks for employees who
+tomer information systems;
+                                                  are authorized to access customer informa-
+  b. The likelihood and potential damage of
+                                                  tion. 8 However, every financial institution
+threats, taking into consideration the sensi-
+                                                  should also develop and implement a risk-
+tivity of customer information; and
+                                                  based response program to address incidents
+  c. The sufficiency of policies, procedures,
+                                                  of unauthorized access to customer informa-
+customer information systems, and other ar-
+                                                  tion in customer information systems 9 that
+rangements in place to control risks. 3
+                                                  occur nonetheless. A response program
+  2. Following the assessment of these risks,
+                                                  should be a key part of an institution’s infor-
+the Security Guidelines require a financial
+institution to design a program to address        mation security program. 10 The program
+the identified risks. The particular security
+                                                    6 See Security Guidelines, II.B. and III.D.
+measures an institution should adopt will de-
+pend upon the risks presented by the com-         Further, the Agencies note that, in addition
+plexity and scope of its business. At a min-      to contractual obligations to a financial in-
+imum, the financial institution is required       stitution, a service provider may be required
+to consider the specific security measures        to implement its own comprehensive infor-
+enumerated in the Security Guidelines, 4 and      mation security program in accordance with
+adopt those that are appropriate for the in-      the Safeguards Rule promulgated by the
+stitution, including:                             Federal Trade Commission (‘‘FTC’’), 16 CFR
+  a. Access controls on customer informa-         part 314.
+                                                    7 The FTC estimates that nearly 10 million
+tion systems, including controls to authen-
+ticate and permit access only to authorized       Americans discovered they were victims of
+individuals and controls to prevent employ-       some form of identity theft in 2002. See The
+ees from providing customer information to        Federal Trade Commission, Identity Theft
+unauthorized individuals who may seek to          Survey Report, (September 2003), available at
+obtain this information through fraudulent        http://www.ftc.gov/os/2003/09/synovatereport.pdf.
+                                                    8 Institutions should also conduct back-
+means;
+  b. Background checks for employees with         ground checks of employees to ensure that
+responsibilities for access to customer infor-    the institution does not violate 12 U.S.C.
+mation; and                                       1829, which prohibits an institution from hir-
+  c. Response programs that specify actions       ing an individual convicted of certain crimi-
+to be taken when the financial institution        nal offenses or who is subject to a prohibi-
+suspects or detects that unauthorized indi-       tion order under 12 U.S.C. 1818(e)(6).
+                                                    9 Under the Guidelines, an institution’s cus-
+viduals have gained access to customer in-
+formation systems, including appropriate re-      tomer information systems consist of all of the
+ports to regulatory and law enforcement           methods used to access, collect, store, use,
+agencies. 5                                       transmit, protect, or dispose of customer in-
+                                                  formation, including the systems maintained
+             C. Service Providers                 by its service providers. See Security Guide-
+  The Security Guidelines direct every fi-        lines, I.C.2.d.
+                                                    10 See FFIEC Information Technology Ex-
+nancial institution to require its service pro-
+viders by contract to implement appropriate       amination Handbook, Information Security
+measures designed to protect against unau-        Booklet, Dec. 2002 available at http://
+thorized access to or use of customer infor-      www.ffiec.gov/ffiecinfobase/html_pages/infosec_
+                                                  book_frame.htm. Federal Reserve SR 97–32,
+                                                  Sound Practice Guidance for Information Se-
+ 3 See Security Guidelines, III.B.                curity for Networks, Dec. 4, 1997; OCC Bul-
+ 4 See Security Guidelines, III.C.                letin 2000–14, ‘‘Infrastructure Threats—Intru-
+ 5 See Security Guidelines, III.C.                sion Risks’’ (May 15, 2000), for additional
+
+                                              786
+Comptroller of the Currency, Treasury                                           Pt. 30, App. B
+should be appropriate to the size and com-        fying appropriate law enforcement authori-
+plexity of the institution and the nature and     ties, in addition to filing a timely SAR in
+scope of its activities.                          situations involving Federal criminal viola-
+  In addition, each institution should be able    tions requiring immediate attention, such as
+to address incidents of unauthorized access       when a reportable violation is ongoing;
+to customer information in customer infor-          d. Taking appropriate steps to contain and
+mation systems maintained by its domestic         control the incident to prevent further unau-
+and foreign service providers. Therefore, con-    thorized access to or use of customer infor-
+sistent with the obligations in the Guide-        mation, for example, by monitoring, freez-
+lines that relate to these arrangements, and      ing, or closing affected accounts, while pre-
+with existing guidance on this topic issued       serving records and other evidence;13 and
+by the Agencies, 11 an institution’s contract       e. Notifying customers when warranted.
+with its service provider should require the        2. Where an incident of unauthorized ac-
+                                                  cess to customer information involves cus-
+service provider to take appropriate actions
+                                                  tomer information systems maintained by
+to address incidents of unauthorized access
+                                                  an institution’s service providers, it is the
+to the financial institution’s customer infor-
+                                                  responsibility of the financial institution to
+mation, including notification to the institu-
+                                                  notify the institution’s customers and regu-
+tion as soon as possible of any such incident,
+                                                  lator. However, an institution may authorize
+to enable the institution to expeditiously
+                                                  or contract with its service provider to no-
+implement its response program.
+                                                  tify the institution’s customers or regulator
+    A. Components of a Response Program           on its behalf.
+
+  1. At a minimum, an institution’s response                  III. CUSTOMER NOTICE
+program should contain procedures for the           Financial institutions have an affirmative
+following:                                        duty to protect their customers’ information
+  a. Assessing the nature and scope of an in-     against unauthorized access or use. Noti-
+cident, and identifying what customer infor-      fying customers of a security incident in-
+mation systems and types of customer infor-       volving the unauthorized access or use of the
+mation have been accessed or misused;             customer’s information in accordance with
+  b. Notifying its primary Federal regulator      the standard set forth below is a key part of
+as soon as possible when the institution be-      that duty. Timely notification of customers
+comes aware of an incident involving unau-        is important to manage an institution’s rep-
+thorized access to or use of sensitive cus-       utation risk. Effective notice also may re-
+tomer information, as defined below;              duce an institution’s legal risk, assist in
+  c. Consistent with the Agencies’ Suspicious     maintaining good customer relations, and
+Activity Report (‘‘SAR’’) regulations, 12 noti-   enable the institution’s customers to take
+                                                  steps to protect themselves against the con-
+                                                  sequences of identity theft. When customer
+guidance on preventing, detecting, and re-        notification is warranted, an institution may
+sponding to intrusions into financial institu-    not forgo notifying its customers of an inci-
+tion computer systems.                            dent because the institution believes that it
+   11 See Federal Reserve SR Ltr. 13–19, Guid-
+                                                  may be potentially embarrassed or inconven-
+ance on Managing Outsourcing Risk, Dec. 5,        ienced by doing so.
+2013; OCC Bulletin 2013–29, ‘‘Third-Party Re-
+lationships—Risk Management Guidance,’’                  A. Standard for Providing Notice
+Oct. 30, 2013; and FDIC FIL 68–99, Risk As-
+sessment Tools and Practices for Informa-           When a financial institution becomes
+tion System Security, July 7, 1999.               aware of an incident of unauthorized access
+   12 An institution’s obligation to file a SAR   to sensitive customer information, the insti-
+is set out in the Agencies’ SAR regulations       tution should conduct a reasonable inves-
+and Agency guidance. See 12 CFR 21.11 (na-        tigation to promptly determine the likeli-
+tional banks, Federal branches and agen-          hood that the information has been or will
+cies); 12 CFR 163.180 (Federal savings associa-   be misused. If the institution determines
+tions); 12 CFR 208.62 (State member banks);       that misuse of its information about a cus-
+12 CFR 211.5(k) (Edge and agreement cor-          tomer has occurred or is reasonably possible,
+porations); 12 CFR 211.24(f) (uninsured State     it should notify the affected customer as
+branches and agencies of foreign banks); 12       soon as possible. Customer notice may be de-
+CFR 225.4(f) (bank holding companies and          layed if an appropriate law enforcement
+their nonbank subsidiaries); 12 CFR part 353      agency determines that notification will
+(State non-member banks); and 12 CFR              interfere with a criminal investigation and
+390.355 (state savings associations). National
+banks and Federal savings associations must       eral Reserve SR 01–11, Identity Theft and
+file SARs in connection with computer in-         Pretext Calling, Apr. 26, 2001.
+trusions and other computer crimes. See OCC         13 See FFIEC Information Technology Ex-
+
+Bulletin 2000–14, ‘‘Infrastructure Threats—       amination Handbook, Information Security
+Intrusion Risks’’ (May 15, 2000); see also Fed-   Booklet, Dec. 2002, pp. 68–74.
+
+                                              787
+Pt. 30, App. B                                                 12 CFR Ch. I (1–1–25 Edition)
+provides the institution with a written re-        notice also should remind customers of the
+quest for the delay. However, the institution      need to remain vigilant over the next twelve
+should notify its customers as soon as notifi-     to twenty-four months, and to promptly re-
+cation will no longer interfere with the in-       port incidents of suspected identity theft to
+vestigation.                                       the institution. The notice should include
+     1. Sensitive Customer Information             the following additional items, when appro-
+                                                   priate:
+  Under the Guidelines, an institution must          a. A recommendation that the customer
+protect against unauthorized access to or use      review account statements and immediately
+of customer information that could result in       report any suspicious activity to the institu-
+substantial harm or inconvenience to any           tion;
+customer. Substantial harm or inconven-
+                                                     b. A description of fraud alerts and an ex-
+ience is most likely to result from improper
+access to sensitive customer information be-       planation of how the customer may place a
+cause this type of information is most likely      fraud alert in the customer’s consumer re-
+to be misused, as in the commission of iden-       ports to put the customer’s creditors on no-
+tity theft. For purposes of this Guidance,         tice that the customer may be a victim of
+sensitive customer information means a cus-        fraud;
+tomer’s name, address, or telephone number,          c. A recommendation that the customer
+in conjunction with the customer’s social se-      periodically obtain credit reports from each
+curity number, driver’s license number, ac-        nationwide credit reporting agency and have
+count number, credit or debit card number,         information relating to fraudulent trans-
+or a personal identification number or pass-       actions deleted;
+word that would permit access to the cus-            d. An explanation of how the customer
+tomer’s account. Sensitive customer informa-       may obtain a credit report free of charge;
+tion also includes any combination of compo-
+                                                   and
+nents of customer information that would
+allow someone to log onto or access the cus-         e. Information about the availability of the
+tomer’s account, such as user name and pass-       FTC’s online guidance regarding steps a con-
+word or password and account number.               sumer can take to protect against identity
+                                                   theft. The notice should encourage the cus-
+            2. Affected Customers                  tomer to report any incidents of identity
+  If a financial institution, based upon its in-   theft to the FTC, and should provide the
+vestigation, can determine from its logs or        FTC’s Web site address and toll-free tele-
+other data precisely which customers’ infor-       phone number that customers may use to ob-
+mation has been improperly accessed, it may        tain the identity theft guidance and report
+limit notification to those customers with         suspected incidents of identity theft. 15
+regard to whom the institution determines            2. The Agencies encourage financial insti-
+that misuse of their information has oc-           tutions to notify the nationwide consumer
+curred or is reasonably possible. However,         reporting agencies prior to sending notices
+there may be situations where the institu-         to a large number of customers that include
+tion determines that a group of files has          contact information for the reporting agen-
+been accessed improperly, but is unable to         cies.
+identify which specific customers’ informa-
+tion has been accessed. If the circumstances               C. Delivery of Customer Notice
+of the unauthorized access lead the institu-
+tion to determine that misuse of the infor-          Customer notice should be delivered in any
+mation is reasonably possible, it should no-       manner designed to ensure that a customer
+tify all customers in the group.                   can reasonably be expected to receive it. For
+                                                   example, the institution may choose to con-
+         B. Content of Customer Notice             tact all customers affected by telephone or
+  1. Customer notice should be given in a
+clear and conspicuous manner. The notice
+should describe the incident in general terms
+and the type of customer information that
+was the subject of unauthorized access or          to respond appropriately to customer inquir-
+use. It also should generally describe what        ies and requests for assistance.
+the institution has done to protect the cus-         15 Currently, the FTC Web site for the ID
+
+tomers’ information from further unauthor-         Theft brochure and the FTC Hotline phone
+ized access. In addition, it should include a      number are http://www.consumer.gov/idtheft
+telephone number that customers can call           and 1–877–IDTHEFT. The institution may
+for further information and assistance. 14 The     also refer customers to any materials devel-
+                                                   oped pursuant to section 151(b) of the FACT
+  14 The institution should, therefore, ensure     Act (educational materials developed by the
+that it has reasonable policies and proce-         FTC to teach the public how to prevent iden-
+dures in place, including trained personnel,       tity theft).
+
+                                               788
+Comptroller of the Currency, Treasury                                              Pt. 30, App. C
+by mail, or by electronic mail for those cus-        making proceedings (OCC Advisory Letters
+tomers for whom it has a valid e-mail ad-            2003–2 and 2003–3 (Feb. 21, 2003)), many of the
+dress and who have agreed to receive com-            abusive practices commonly associated with
+munications electronically.                          predatory mortgage lending, such as loan
+[66 FR 8633, Feb. 1, 2001, as amended at 69 FR       flipping and equity stripping, will involve
+77616, Dec. 28, 2004; 70 FR 15751, 15753, Mar. 29,   conduct that likely violates the Federal
+2005; 71 FR 5780, Feb. 3, 2006; 79 FR 54544,         Trade Commission Act’s (FTC Act) prohibi-
+Sept. 11, 2014]                                      tion against unfair or deceptive acts or prac-
+                                                     tices. 15 U.S.C. 45. In addition, loans that in-
+APPENDIX C TO PART 30—OCC GUIDE-                     volve violations of the FTC Act, or mortgage
+                                                     loans based predominantly on the fore-
+   LINES ESTABLISHING STANDARDS FOR
+                                                     closure or liquidation value of the borrower’s
+   RESIDENTIAL MORTGAGE LENDING                      collateral without regard to the borrower’s
+   PRACTICES                                         ability to repay the loan according to its
+              TABLE OF CONTENTS                      terms, will involve violations of OCC regula-
+                                                     tions governing real estate lending activi-
+I. Introduction                                      ties, 12 CFR 34.3 (Lending Rules).
+   A. Scope                                             iii. In addition, national banks, Federal
+   B. Preservation of Existing Authority             savings associations, and their respective op-
+   C. Relationship to Other Legal Require-           erating subsidiaries must comply with the
+   ments                                             requirements and Guidelines affecting ap-
+   D. Definitions                                    praisals of residential mortgage loans and
+II. Standards for Residential Mortgage Lend-         appraiser independence. 12 CFR part 34, sub-
+ing Practices                                        part C, and the Interagency Appraisal and
+   A. General                                        Evaluation Guidelines (OCC Bulletin 2010–42
+   B. Objectives                                     (December 10, 2010). For example, engaging
+III. Implementation of Residential Mortgage          in a practice of influencing the independent
+Lending Standards                                    judgment of an appraiser with respect to a
+   A. Avoidance of Particular Loan Terms,
+                                                     valuation of real estate that is to be security
+   Conditions, and Features
+                                                     for a residential mortgage loan would violate
+   B. Prudent Consideration of Certain Loan
+                                                     applicable standards.
+   Terms, Conditions and Features
+   C. Enhanced Care To Avoid Abusive Loan               iv. Targeting inappropriate credit products
+   Terms, Conditions, and Features in Certain        and unfair loan terms to certain borrowers
+   Mortgages                                         also may entail conduct that violates the
+   D. Avoidance of Consumer Misunder-                FTC Act, as well as the Equal Credit Oppor-
+   standing                                          tunity Act (ECOA) and the Fair Housing Act
+   E. Purchased and Brokered Loans                   (FHA). 15 U.S.C. 1691 et seq. 42 U.S.C. 3601 et
+   F. Monitoring and Corrective Action               seq. For example, ‘‘steering’’ a consumer to a
+                                                     loan with higher costs rather than to a com-
+                I. INTRODUCTION                      parable loan offered by the national bank or
+                                                     Federal savings association with lower costs
+  i. These OCC Guidelines for Residential
+                                                     for which the consumer could qualify, on a
+Mortgage Lending Practices (Guidelines) set
+forth standards pursuant to Section 39 of the        prohibited basis such as the borrower’s race,
+Federal Deposit Insurance Act, 12 U.S.C.             national origin, age, gender, or marital sta-
+1831p–1 (Section 39). The Guidelines are de-         tus, would be unlawful.
+signed to protect against involvement by na-            v. OCC regulations also prohibit national
+tional banks, Federal savings associations,          banks and their operating subsidiaries from
+Federal branches and Federal agencies of             providing lump sum, single premium fees for
+foreign banks, and their respective operating        debt cancellation contracts and debt suspen-
+subsidiaries (together, ‘‘national banks and         sion agreements in connection with residen-
+Federal savings associations’’), either di-          tial mortgage loans. 12 CFR 37.3(c)(2). Some
+rectly or through loans that they purchase           lending practices and loan terms, including
+or make through intermediaries, in preda-            financing single premium credit insurance
+tory or abusive residential mortgage lending         and the use of mandatory arbitration
+practices that are injurious to their respec-        clauses, also may significantly impair the
+tive customers and that expose the national          eligibility of a residential mortgage loan for
+bank or Federal savings association to cred-         purchase in the secondary market.
+it, legal, compliance, reputation, and other            vi. Finally, OCC regulations and super-
+risks. The Guidelines focus on the substance         visory guidance on fiduciary activities and
+of activities and practices, not the creation        asset management address the need for na-
+of policies. The Guidelines are enforceable          tional banks and Federal savings associa-
+under Section 39 in accordance with the pro-         tions to perform due diligence and exercise
+cedures prescribed by the regulations in 12          appropriate control with regard to trustee
+CFR part 30.                                         activities. See 12 CFR 9.6 (a), in the case of
+  ii. As the OCC has previously indicated in         national banks, and 12 CFR 150.200, in the
+guidance to national banks and in rule-              case of Federal savings associations, and the
+
+                                                 789
+

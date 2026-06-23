@@ -1,0 +1,314 @@
+{
+  "report_name": "Report_A.txt",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current, in-force federal board-level obligations for Category I U.S. GSIB bank holding companies and their insured depository institution subsidiaries.",
+    "unit_of_analysis": "Each individual board-level obligation, mapped to source, actor, duty, entity tier, committee or full-board locus, and any inside/outside or independent/non-independent director distinction.",
+    "structural_axes": [
+      "holding company versus insured depository institution subsidiary",
+      "Federal Reserve, OCC, FDIC, CFPB, and interagency source authority",
+      "statute, regulation, binding guideline, supervisory guidance, examination expectation, and disclosure rule",
+      "full board versus risk, audit, compensation, nominating/governance, and other board committees",
+      "inside versus outside directors",
+      "independent versus non-independent directors",
+      "current in-force obligations versus proposals, rescinded materials, secondary commentary, or best practices"
+    ],
+    "actor_classes_required": [
+      "full board of the Category I GSIB bank holding company",
+      "full board of insured depository institution subsidiaries",
+      "board risk committee",
+      "board audit committee",
+      "board compensation committee",
+      "nominating or governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent directors"
+    ],
+    "source_universe": [
+      "Federal Reserve statutes, regulations, SR letters, CA letters, and supervisory frameworks",
+      "OCC regulations, appendices, bulletins, and heightened standards",
+      "FDIC statutes, regulations, appendices, FILs, and corporate-governance or safety-and-soundness materials",
+      "CFPB regulations and guidance relevant to board-level consumer compliance oversight",
+      "interagency standards and guidance, including GLBA information security, third-party risk, stress testing, incentive compensation, BSA/AML, and safety-and-soundness standards"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity governance",
+      "BSA/AML program oversight",
+      "consumer compliance oversight",
+      "general safety and soundness",
+      "risk appetite and enterprise risk governance",
+      "board and committee composition, independence, training, and succession"
+    ],
+    "audience_use": "Bank directors, legal counsel, and policymakers using the work as a policy reform inventory for identifying duplicative, overlapping, and unduly burdensome board-level requirements.",
+    "form_depth_expectations": "Extensive 40- to 60-page, citation-specific working document with granular obligation-by-obligation treatment, clear source hierarchy, precise actor mapping, and reform-actionable overlap analysis."
+  },
+  "coverage_ledger": {
+    "cells_expected": 96,
+    "cells_covered": 31,
+    "cells_thin": 43,
+    "cells_missing": 22,
+    "material_omissions": [
+      "No obligation-by-obligation table or cell ledger; most sections provide narrative summaries rather than citation-level inventories.",
+      "Current FDIC source coverage is thin and repeatedly relies on the withdrawn FDIC proposed corporate-governance guidelines rather than current in-force obligations.",
+      "Audit committee coverage omits important current IDI audit committee regimes, including FDICIA and Part 363-style independence and audit committee duties.",
+      "CFPB and consumer-compliance coverage is very thin and includes an unsupported board-oversight claim under Regulation Z.",
+      "Inside/outside and independent/non-independent director distinctions are not systematically mapped beyond a few independence examples.",
+      "Several domains are treated only through broad supervisory guidance rather than granular statute/regulation/guidance-level duties."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 U.S.C. Section 5365",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Primary law supports enhanced prudential standards and board risk committee requirements for covered large bank holding companies."
+      },
+      {
+        "citation": "SR 12-17/CA 12-14",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve guidance supports the consolidated-supervision objectives and broad board/senior-management governance expectations described."
+      },
+      {
+        "citation": "SR 21-3/CA 21-1",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Official guidance supports the five board-effectiveness attributes and many of the cited oversight expectations."
+      },
+      {
+        "citation": "OCC Appendix D to 12 C.F.R. Part 30",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The Heightened Standards support the risk-governance-framework, risk appetite, independent-director, board oversight, and CRE/CAE access claims."
+      },
+      {
+        "citation": "OCC Bulletin 2025-51",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The OCC bulletin supports the described proposal to raise the covered-bank threshold and consider duplicative standards."
+      },
+      {
+        "citation": "FDIC Proposed Guidelines, Appendix C to Part 364",
+        "verdict": "STALE",
+        "centrality": "central",
+        "reason": "The FDIC corporate-governance proposal was withdrawn before the report date, so repeated prospective reliance on it is stale."
+      },
+      {
+        "citation": "12 C.F.R. Section 225.4",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The regulation supports the bank holding company source-of-strength duty for subsidiary banks."
+      },
+      {
+        "citation": "12 C.F.R. Section 252.33",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The regulation supports a board risk committee, enterprise-wide risk management oversight, CRO reporting, and risk-management-framework elements."
+      },
+      {
+        "citation": "12 C.F.R. Section 252.47",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Section 252.47 does not itself require the board to review and approve the firm's capital plan; that claim is attributed to the wrong regulatory provision."
+      },
+      {
+        "citation": "77 FR 29458, Supervisory Guidance on Stress Testing",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The interagency stress-testing guidance supports board-approved stress-testing policies and board use of stress-testing results."
+      },
+      {
+        "citation": "77 FR 19417 / 78 FR 17766, Leveraged Lending Guidance",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "peripheral",
+        "reason": "The report refers to final leveraged-lending guidance but cites the proposed-guidance Federal Register notice in the parenthetical."
+      },
+      {
+        "citation": "SR 14-8",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve recovery-planning guidance supports board or designated-committee oversight and annual review/update expectations."
+      },
+      {
+        "citation": "OCC Bulletin 2026-13 / SR 26-2",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Official revised model-risk guidance supports the report's statement that 2011 model-risk guidance was superseded and made less prescriptive."
+      },
+      {
+        "citation": "12 C.F.R. Section 217.122",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The advanced-approaches rule supports annual board or committee review/approval of advanced systems and board reporting of audit findings."
+      },
+      {
+        "citation": "Interagency Guidance on Third-Party Relationships: Risk Management, June 2023",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The interagency guidance supports board oversight, risk appetite, policy approval, reporting, and management-accountability expectations."
+      },
+      {
+        "citation": "66 FR 8616",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The GLBA safeguarding guidelines support board approval, oversight, and annual-report obligations across parallel banking-agency codifications."
+      },
+      {
+        "citation": "Computer Security Incident Notification Rule",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "The 36-hour notification obligation is supported, but the cited material does not establish a distinct board-level duty for incident notification."
+      },
+      {
+        "citation": "31 U.S.C. Section 5318",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The statute supports AML/CFT program elements and SAR/tipping-off provisions, though the report could map institution versus director duties more carefully."
+      },
+      {
+        "citation": "12 C.F.R. Section 21.11",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The OCC SAR rule supports board or designated-committee notification for SAR filings by national banks."
+      },
+      {
+        "citation": "12 C.F.R. Section 1026.36(j)(1)",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Regulation Z requires written policies and procedures, but the sampled provision does not impose the board-oversight duty the report adds."
+      }
+    ],
+    "summary": {
+      "supports": 15,
+      "wrong_attribution": 1,
+      "not_supported": 3,
+      "stale": 1,
+      "fabricated": 0,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "partial",
+      "note": "The report covers the full board and several committees, but actor mapping is inconsistent and not systematically tied to entity tier, source, or independent/non-independent director status."
+    },
+    "binding_vs_guidance": {
+      "verdict": "mixed",
+      "note": "The report often labels guidance and proposed rules, but it still relies on withdrawn proposals and sometimes treats supervisory guidance as operationally mandatory without enough legal calibration."
+    },
+    "reform_usefulness": {
+      "verdict": "moderately strong",
+      "note": "The overlap and reform-priority sections are useful and specific, especially on Fed/OCC duplication and cybersecurity codification, but their value is weakened by stale and unsupported source claims."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F2",
+      "severity": "peripheral",
+      "evidence": "The output says 12 C.F.R. 252.47 \"requires the board to review and approve\" the capital plan, but that provision does not support that duty."
+    },
+    {
+      "flag": "F3",
+      "severity": "central",
+      "evidence": "The output repeatedly cites \"FDIC Proposed Guidelines, Appendix C to Part 364\" even though that proposal had been withdrawn before the report date."
+    },
+    {
+      "flag": "F4",
+      "severity": "peripheral",
+      "evidence": "The output adds \"with board oversight of the program\" to 12 C.F.R. 1026.36(j)(1), which does not impose that board duty."
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "The output claims to be a \"comprehensive, citation-level inventory of all current, in-force obligations\" despite material omissions and stale authorities."
+    },
+    {
+      "flag": "F6",
+      "severity": "central",
+      "evidence": "The output says it \"spans more than twenty regulatory domains,\" but it is a short narrative memo, not the requested granular 40- to 60-page inventory."
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "The output claims to cover \"all current, in-force obligations imposed on the boards of directors\".",
+      "rationale": "It touches most requested domains and committees, but coverage is thin, not obligation-by-obligation, and materially misses or underdevelops important current in-force IDI, FDIC, CFPB, and audit-committee obligations. The F6 scope flag caps the effective score."
+    },
+    "D2_integrity": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "The output states that \"Each obligation is traced to its precise regulatory source\".",
+      "rationale": "Many core citations support the broad claims, but the report has stale, unsupported, and misattributed citations, uses secondary sources heavily, and lacks granular pin cites. The F2 flag caps the effective score."
+    },
+    "D3_accuracy": {
+      "raw": 2,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "The output says the FDIC proposal \"remains a proposed rule, not yet final\".",
+      "rationale": "Substantial portions are directionally accurate, but repeated reliance on withdrawn FDIC proposals as current/prospective, the unsupported CFPB board-duty claim, and the capital-plan misattribution create material current-law risk. The central stale-authority flag caps D3 at zero."
+    },
+    "D4_sludge_analysis": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 15,
+      "evidence": "The output identifies \"Priority 1: Cross-Agency Harmonization\".",
+      "rationale": "The report gives useful reform levers, including cross-agency harmonization, consolidation of domain-specific approvals, cybersecurity consolidation, periodicity harmonization, and guidance rationalization. The analysis is less reliable where underlying citations are stale or thin."
+    },
+    "D5_structure": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "The output organizes sections under \"Board Committee Obligations\".",
+      "rationale": "The section structure is readable and broadly tracks the requested domains, but it is not an inventory format and lacks the table-level granularity, actor/source matrix, and pin-cite precision needed for director counsel or policy reform use."
+    },
+    "D6_calibration": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "The output warns, \"Please review all content and verify against primary sources before relying on it.\"",
+      "rationale": "The report includes some helpful caveats about proposals, guidance, and secondary-source interpretations, but it overclaims completeness and currency. The false-exhaustiveness flag caps the effective score."
+    }
+  },
+  "overall_score": 30,
+  "tier": "D",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D1: The report addresses most named domains at least once, including capital, liquidity, resolution, recovery, operational resilience, model risk, third-party risk, cybersecurity, BSA/AML, consumer compliance, and safety and soundness.",
+      "D4: It provides reform-actionable categories, including cross-agency harmonization, cybersecurity framework consolidation, and periodicity harmonization.",
+      "D3: Several central Federal Reserve and OCC governance citations are directionally accurate, especially SR 21-3, SR 12-17, Regulation YY risk-committee provisions, and OCC Appendix D.",
+      "D6: It sometimes distinguishes proposed rules, guidance, and law-firm interpretation from binding authority."
+    ],
+    "weaknesses": [
+      "D3: The report repeatedly relies on withdrawn FDIC proposed corporate-governance guidelines, creating a central stale-authority problem.",
+      "D2: It includes unsupported or misattributed citations, including 12 C.F.R. 252.47 for board approval of capital plans and 12 C.F.R. 1026.36(j)(1) for board oversight.",
+      "D1: It does not deliver a granular citation-level inventory; it is a narrative summary with many thin cells and missing current in-force obligations.",
+      "D5: Actor mapping is incomplete, especially for IDI subsidiary boards, independent/non-independent directors, and committee-specific duties outside the major Fed/OCC governance materials.",
+      "D6: The report overstates its own exhaustiveness despite warning readers to verify the AI-generated content."
+    ],
+    "prioritized_remediation": [
+      "Replace the narrative structure with a source-by-source and actor-by-actor obligation table covering each agency, entity tier, committee, and director type.",
+      "Remove or clearly quarantine withdrawn/proposed authorities, especially the FDIC corporate-governance proposal and any stale incentive-compensation proposal status.",
+      "Re-verify every citation against current primary sources and add section-level pin cites for each claimed board duty.",
+      "Add missing current IDI and committee regimes, including FDICIA/Part 363 audit committee requirements and charter-specific SAR, BSA, GLBA, and safety-and-soundness equivalents.",
+      "Separate binding law, enforceable guidelines, supervisory guidance, examination expectations, disclosure duties, secondary commentary, and reform recommendations in distinct columns."
+    ],
+    "reliance_recommendation": "Do not rely on this report as a legal or policy inventory without a fresh primary-source rebuild; it may be useful only as a rough issue-spotting outline."
+  }
+}
+
+**Result:** Tier D (30/100) — integrity+scope-flagged. Broad and reform-aware, but not a reliable current-law inventory because it is thin, overclaims completeness, and contains stale or unsupported central citations.

@@ -1,0 +1,620 @@
+Pt. 30, App. D                                               12 CFR Ch. I (1–1–25 Edition)
+law and the bank’s or savings association’s      III. Standards for Board of Directors
+lending standards and practices, periodic          A. Require an Effective Risk Governance
+monitoring and evaluation of the nature,              Framework
+quantity and resolution of customer com-           B. Provide Active Oversight of Manage-
+plaints, and appropriate evaluation of the ef-        ment
+fectiveness of the bank’s or savings associa-      C. Exercise Independent Judgment
+tion’s standards and practices in accom-           D. Include Independent Directors
+plishing the objectives set forth in these         E. Provide Ongoing Training to All Direc-
+Guidelines. The bank’s or savings associa-            tors
+tion’s activities also should include appro-       F. Self-Assessments
+priate steps for taking corrective action in
+response to failures to comply with applica-                    I. INTRODUCTION
+ble law and the bank’s or savings associa-         1. The OCC expects a covered bank, as that
+tion’s lending standards, and for making ad-     term is defined in paragraph I.E. to establish
+justments to the bank’s or savings associa-      and implement a risk governance framework
+tion’s activities as may be appropriate to en-   to manage and control the covered bank’s
+hance their effectiveness or to reflect          risk-taking activities.
+changes in business practices, market condi-       2. This appendix establishes minimum
+tions, or the bank’s or savings association’s    standards for the design and implementation
+lines of business, residential mortgage loan     of a covered bank’s risk governance frame-
+programs, or customer base.                      work and minimum standards for the cov-
+[70 FR 6332, Feb. 7, 2005, as amended at 79 FR   ered bank’s board of directors in providing
+54544, Sept. 11, 2014]                           oversight to the framework’s design and im-
+                                                 plementation (Guidelines). These standards
+APPENDIX D TO PART 30—OCC GUIDE-                 are in addition to any other applicable re-
+   LINES  ESTABLISHING HEIGHTENED                quirements in law or regulation.
+                                                   3. A covered bank may use its parent com-
+   STANDARDS FOR CERTAIN LARGE IN-
+                                                 pany’s risk governance framework in its en-
+   SURED NATIONAL BANKS, INSURED
+                                                 tirety, without modification, if the frame-
+   FEDERAL SAVINGS ASSOCIATIONS,                 work meets these minimum standards, the
+   AND INSURED FEDERAL BRANCHES                  risk profiles of the parent company and the
+                                                 covered bank are substantially the same as
+             TABLE OF CONTENTS
+                                                 set forth in paragraph I.4. of these Guide-
+I. Introduction                                  lines, and the covered bank has dem-
+   A. Scope                                      onstrated through a documented assessment
+   B. Compliance Date                            that its risk profile and its parent company’s
+   C. Reservation of Authority                   risk profile are substantially the same. The
+   D. Preservation of Existing Authority         assessment should be conducted at least an-
+   E. Definitions                                nually, in conjunction with the review and
+II. Standards For Risk Governance Frame-         update of the risk governance framework
+      work                                       performed by independent risk management,
+   A. Risk Governance Framework                  as set forth in paragraph II.A. of these
+   B. Scope of Risk Governance Framework         Guidelines.
+   C. Roles and Responsibilities                   4. A parent company’s and covered bank’s
+   1. Role and Responsibilities of Front Line    risk profiles are substantially the same if, as
+      Units                                      reported on the covered bank’s Federal Fi-
+   2. Role and Responsibilities of Independent   nancial Institutions Examination Council
+      Risk Management                            Consolidated Reports of Condition and In-
+   3. Role and Responsibilities of Internal      come (Call Reports) for the four most recent
+      Audit                                      consecutive quarters, the covered bank’s av-
+   D. Strategic Plan                             erage total consolidated assets, as calculated
+   E. Risk Appetite Statement                    according to paragraph I.A. of these Guide-
+   F. Concentration and Front Line Unit Risk     lines, represent 95 percent or more of the
+      Limits                                     parent company’s average total consolidated
+   G. Risk Appetite Review, Monitoring, and      assets.1 A covered bank that does not satisfy
+      Communication Processes                    this test may submit a written analysis to
+   H. Processes Governing Risk Limit             the OCC for consideration and approval that
+      Breaches
+   I. Concentration Risk Management
+                                                   1 For a parent company, average total con-
+   J. Risk Data Aggregation and Reporting
+   K. Relationship of Risk Appetite State-       solidated assets means the average of the
+      ment, Concentration Risk Limits, and       parent company’s total consolidated assets,
+      Front Line Unit Risk Limits to Other       as reported on the parent company’s Form
+      Processes                                  FR Y–9C to the Board of Governors of the
+   L. Talent Management Processes                Federal Reserve System, or equivalent regu-
+   M. Compensation and Performance Man-          latory report, for the four most recent con-
+      agement Programs                           secutive quarters.
+
+                                             792
+Comptroller of the Currency, Treasury                                            Pt. 30, App. D
+demonstrates that the risk profile of the par-     with these Guidelines within 18 months from
+ent company and the covered bank are sub-          November 10, 2014;
+stantially the same based upon other factors         (d) A covered bank with average total con-
+not specified in this paragraph.                   solidated assets, as calculated according to
+  5. Subject to paragraph I.6. of these Guide-     paragraph I.A. of these Guidelines, less than
+lines, a covered bank should establish its         $50 billion that is a covered bank because
+own risk governance framework when the             that bank’s parent company controls at least
+parent company’s and covered bank’s risk           one other covered bank as of November 10,
+profiles are not substantially the same. The       2014 should comply with these Guidelines on
+covered bank’s framework should ensure             the date that such other covered bank should
+that the covered bank’s risk profile is easily     comply; and
+distinguished and separate from that of its          (e) A covered bank that does not come
+parent for risk management and supervisory         within the scope of these Guidelines on No-
+reporting purposes and that the safety and         vember 10, 2014, but subsequently becomes
+soundness of the covered bank is not jeopard-      subject to the Guidelines because average
+ized by decisions made by the parent com-          total consolidated assets, as calculated ac-
+pany’s board of directors and management.          cording to paragraph I.A. of these Guide-
+  6. When the parent company’s and covered         lines, are equal to or greater than $50 billion
+bank’s risk profiles are not substantially the     after November 10, 2014, should comply with
+same, a covered bank may, in consultation          these Guidelines within 18 months from the
+with the OCC, incorporate or rely on compo-        as-of date of the most recent Call Report
+nents of its parent company’s risk govern-         used in the calculation of the average.
+ance framework when developing its own
+                                                             C. Reservation of Authority
+risk governance framework to the extent
+those components are consistent with the             1. The OCC reserves the authority to apply
+objectives of these Guidelines.                    these Guidelines, in whole or in part, to a
+                                                   bank that has average total consolidated as-
+                   A. Scope                        sets less than $50 billion, if the OCC deter-
+                                                   mines such bank’s operations are highly
+  These Guidelines apply to any bank, as
+                                                   complex or otherwise present a heightened
+that term is defined in paragraph I.E. of
+                                                   risk as to warrant the application of these
+these Guidelines, with average total consoli-
+                                                   Guidelines;
+dated assets equal to or greater than $50 bil-
+                                                     2. The OCC reserves the authority, for each
+lion. In addition, these Guidelines apply to
+                                                   covered bank, to extend the time for compli-
+any bank with average total consolidated as-
+                                                   ance with these Guidelines or modify these
+sets less than $50 billion if that institution’s
+                                                   Guidelines; or
+parent company controls at least one cov-
+                                                     3. The OCC reserves the authority to deter-
+ered bank. For a covered bank, average total
+                                                   mine that compliance with these Guidelines
+consolidated assets means the average of the
+                                                   should no longer be required for a covered
+covered bank’s total consolidated assets, as
+                                                   bank. The OCC would generally make the de-
+reported on the covered bank’s Call Reports,
+                                                   termination under this paragraph I.C.3. if a
+for the four most recent consecutive quar-
+                                                   covered bank’s operations are no longer
+ters.
+                                                   highly complex or no longer present a
+              B. Compliance Date                   heightened risk. In determining whether a
+                                                   covered bank’s operations are highly com-
+  1. Initial compliance. The date on which a       plex or present a heightened risk, the OCC
+covered bank should comply with the Guide-         will consider the following factors: Com-
+lines is set forth below:                          plexity of products and services, risk profile,
+  (a) A covered bank with average total con-       and scope of operations.
+solidated assets, as calculated according to         4. When exercising the authority in this
+paragraph I.A. of these Guidelines, equal to       paragraph I.C., the OCC will apply notice and
+or greater than $750 billion as of November        response procedures, when appropriate, in
+10, 2014 should comply with these Guidelines       the same manner and to the same extent as
+on November 10, 2014;                              the notice and response procedures in 12 CFR
+  (b) A covered bank with average total con-       3.404.
+solidated assets, as calculated according to
+paragraph I.A. of these Guidelines, equal to            D. Preservation of Existing Authority
+or greater than $100 billion but less than $750      Neither section 39 of the Federal Deposit
+billion as of November 10, 2014 should comply      Insurance Act (12 U.S.C. 1831p–1) nor these
+with these Guidelines within six months            Guidelines in any way limits the authority
+from November 10, 2014;                            of the OCC to address unsafe or unsound
+  (c) A covered bank with average total con-       practices or conditions or other violations of
+solidated assets, as calculated according to       law. The OCC may take action under section
+paragraph I.A. of these Guidelines, equal to       39 and these Guidelines independently of, in
+or greater than $50 billion but less than $100     conjunction with, or in addition to any other
+billion as of November 10, 2014 should comply      enforcement action available to the OCC.
+
+                                               793
+Pt. 30, App. D                                                12 CFR Ch. I (1–1–25 Edition)
+                 E. Definitions                     (a) The board of directors or the board’s
+                                                  risk committee reviews and approves the
+  1. Bank means any insured national bank,
+                                                  risk governance framework;
+insured Federal savings association, or in-
+                                                    (b) Each Chief Risk Executive has unre-
+sured Federal branch of a foreign bank.
+                                                  stricted access to the board of directors and
+  2. Chief Audit Executive means an individual
+                                                  its committees to address risks and issues
+who leads internal audit and is one level
+                                                  identified through independent risk manage-
+below the Chief Executive Officer in a cov-
+                                                  ment’s activities;
+ered bank’s organizational structure.
+                                                    (c) The board of directors or its risk com-
+  3. Chief Risk Executive means an individual
+                                                  mittee approves all decisions regarding the
+who leads an independent risk management
+                                                  appointment or removal of the Chief Risk
+unit and is one level below the Chief Execu-
+                                                  Executive(s) and approves the annual com-
+tive Officer in a covered bank’s organiza-
+                                                  pensation and salary adjustment of the Chief
+tional structure. A covered bank may have
+                                                  Risk Executive(s); and
+more than one Chief Risk Executive.
+                                                    (d) No front line unit executive oversees
+  4. Control. A parent company controls a cov-
+                                                  any independent risk management unit.
+ered bank if it:
+                                                    8. Internal audit means the organizational
+  (a) Owns, controls, or holds with power to
+                                                  unit within a covered bank that is des-
+vote 25 percent or more of a class of voting
+                                                  ignated to fulfill the role and responsibilities
+securities of the covered bank; or
+                                                  outlined in 12 CFR part 30, Appendix A, II.B.
+  (b) Consolidates the covered bank for fi-
+                                                  Internal audit maintains independence from
+nancial reporting purposes.
+                                                  front line units and independent risk man-
+  5. Covered bank means any bank:                 agement through the following reporting
+  (a) With average total consolidated assets,     structure:
+as calculated according to paragraph I.A. of        (a) The Chief Audit Executive has unre-
+these Guidelines, equal to or greater than $50    stricted access to the board’s audit com-
+billion;                                          mittee to address risks and issues identified
+  (b) With average total consolidated assets      through internal audit’s activities;
+less than $50 billion if that bank’s parent         (b) The audit committee reviews and ap-
+company controls at least one covered bank;       proves internal audit’s overall charter and
+or                                                audit plans;
+  (c) With average total consolidated assets        (c) The audit committee approves all deci-
+less than $50 billion, if the OCC determines      sions regarding the appointment or removal
+such bank’s operations are highly complex or      and annual compensation and salary adjust-
+otherwise present a heightened risk as to         ment of the Chief Audit Executive;
+warrant the application of these Guidelines
+                                                    (d) The audit committee or the Chief Exec-
+pursuant to paragraph I.C. of these Guide-
+                                                  utive Officer oversees the Chief Audit Execu-
+lines.
+                                                  tive’s administrative activities; and
+  6. Front Line Unit. (a) Except as provided in
+                                                    (e) No front line unit executive oversees in-
+paragraph (b) of this definition, front line
+                                                  ternal audit.
+unit means any organizational unit or func-
+tion thereof in a covered bank that is ac-          9. Parent company means the top-tier legal
+countable for a risk in paragraph II.B. of        entity in a covered bank’s ownership struc-
+these Guidelines that:                            ture.
+  (i) Engages in activities designed to gen-        10. Risk appetite means the aggregate level
+erate revenue or reduce expenses for the par-     and types of risk the board of directors and
+ent company or covered bank;                      management are willing to assume to
+  (ii) Provides operational support or serv-      achieve a covered bank’s strategic objectives
+icing to any organizational unit or function      and business plan, consistent with applicable
+within the covered bank for the delivery of       capital, liquidity, and other regulatory re-
+products or services to customers; or             quirements.
+  (iii) Provides technology services to any         11. Risk profile means a point-in-time as-
+organizational unit or function covered by        sessment of a covered bank’s risks, aggre-
+these Guidelines.                                 gated within and across each relevant risk
+                                                  category, using methodologies consistent
+  (b) Front line unit does not ordinarily in-
+clude an organizational unit or function          with the risk appetite statement described in
+thereof within a covered bank that provides       paragraph II.E. of these Guidelines.
+legal services to the covered bank.                   II. STANDARDS FOR RISK GOVERNANCE
+  7. Independent risk management means any                       FRAMEWORK
+organizational unit within a covered bank
+that has responsibility for identifying, meas-      A. Risk Governance Framework. A covered
+uring, monitoring, or controlling aggregate       bank should establish and adhere to a for-
+risks. Such units maintain independence           mal, written risk governance framework
+from front line units through the following       that is designed by independent risk manage-
+reporting structure:                              ment and approved by the board of directors
+
+                                              794
+Comptroller of the Currency, Treasury                                           Pt. 30, App. D
+or the board’s risk committee. The risk gov-      duce risk given changes in the unit’s risk
+ernance framework should include delega-          profile or other conditions;
+tions of authority from the board of direc-         (b) Establish and adhere to a set of written
+tors to management committees and execu-          policies that include front line unit risk lim-
+tive officers as well as the risk limits estab-   its as discussed in paragraph II.F. of these
+lished for material activities. Independent       Guidelines. Such policies should ensure risks
+risk management should review and update          associated with the front line unit’s activi-
+the risk governance framework at least an-        ties are effectively identified, measured,
+nually, and as often as needed to address im-     monitored, and controlled, consistent with
+provements in industry risk management            the covered bank’s risk appetite statement,
+practices and changes in the covered bank’s       concentration risk limits, and all policies es-
+risk profile caused by emerging risks, its        tablished within the risk governance frame-
+strategic plans, or other internal and exter-     work under paragraphs II.C.2.(c) and II.G.
+nal factors.                                      through K. of these Guidelines;
+  B. Scope of Risk Governance Framework. The        (c) Establish and adhere to procedures and
+risk governance framework should cover the        processes, as necessary, to maintain compli-
+following risk categories that apply to the       ance with the policies described in paragraph
+covered bank: Credit risk, interest rate risk,    II.C.1.(b) of these Guidelines;
+liquidity risk, price risk, operational risk,       (d) Adhere to all applicable policies, proce-
+compliance risk, strategic risk, and reputa-      dures, and processes established by inde-
+tion risk.                                        pendent risk management;
+  C. Roles and Responsibilities. The risk gov-      (e) Develop, attract, and retain talent and
+ernance framework should include well-de-         maintain staffing levels required to carry
+fined risk management roles and responsibil-      out the unit’s role and responsibilities effec-
+ities for front line units, independent risk      tively, as set forth in paragraphs II.C.1.(a)
+management, and internal audit.2 The roles        through (d) of these Guidelines;
+and responsibilities for each of these organi-      (f) Establish and adhere to talent manage-
+zational units should be:                         ment processes that comply with paragraph
+  1. Role and Responsibilities of Front Line      II.L. of these Guidelines; and
+Units. Front line units should take responsi-       (g) Establish and adhere to compensation
+bility and be held accountable by the Chief       and performance management programs that
+Executive Officer and the board of directors      comply with paragraph II.M. of these Guide-
+for appropriately assessing and effectively       lines.
+managing all of the risks associated with           2. Role and Responsibilities of Independent
+their activities. In fulfilling this responsi-    Risk Management. Independent risk manage-
+bility, each front line unit should, either       ment should oversee the covered bank’s risk-
+alone or in conjunction with another organi-      taking activities and assess risks and issues
+zational unit that has the purpose of assist-     independent of front line units. In fulfilling
+ing a front line unit:                            these responsibilities, independent risk man-
+  (a) Assess, on an ongoing basis, the mate-      agement should:
+rial risks associated with its activities and       (a) Take primary responsibility and be
+use such risk assessments as the basis for        held accountable by the Chief Executive Offi-
+fulfilling its responsibilities under para-       cer and the board of directors for designing a
+graphs II.C.1.(b) and (c) of these Guidelines     comprehensive written risk governance
+and for determining if actions need to be         framework that meets these Guidelines and
+taken to strengthen risk management or re-        is commensurate with the size, complexity,
+                                                  and risk profile of the covered bank;
+  2 These roles and responsibilities are in ad-     (b) Identify and assess, on an ongoing
+dition to any roles and responsibilities set      basis, the covered bank’s material aggregate
+forth in Appendices A, B, and C to Part 30.       risks and use such risk assessments as the
+Many of the risk management practices es-         basis for fulfilling its responsibilities under
+tablished and maintained by a covered bank        paragraphs II.C.2.(c) and (d) of these Guide-
+to meet these standards, including loan re-       lines and for determining if actions need to
+view and credit underwriting and adminis-         be taken to strengthen risk management or
+tration practices, should be components of        reduce risk given changes in the covered
+its risk governance framework, within the         bank’s risk profile or other conditions;
+construct of the three distinct units identi-       (c) Establish and adhere to enterprise poli-
+fied herein. In addition, existing OCC guid-      cies that include concentration risk limits.
+ance sets forth standards for establishing        Such policies should state how aggregate
+risk management programs for certain risks,       risks within the covered bank are effectively
+e.g., compliance risk management. These           identified, measured, monitored, and con-
+risk-specific programs should also be consid-     trolled, consistent with the covered bank’s
+ered components of the risk governance            risk appetite statement and all policies and
+framework, within the context of the three        processes established within the risk govern-
+units described in paragraph II.C. of these       ance framework under paragraphs II.G.
+Guidelines.                                       through K. of these Guidelines;
+
+                                              795
+Pt. 30, App. D                                                   12 CFR Ch. I (1–1–25 Edition)
+   (d) Establish and adhere to procedures and        communicated to the board’s audit com-
+processes, as necessary, to ensure compli-           mittee;
+ance with the policies described in paragraph           (c) Report in writing, conclusions and ma-
+II.C.2.(c) of these Guidelines;                      terial issues and recommendations from
+   (e) Identify and communicate to the Chief         audit work carried out under the audit plan
+Executive Officer and the board of directors         described in paragraph II.C.3.(b) of these
+or the board’s risk committee:                       Guidelines to the board’s audit committee.
+   (i) Material risks and significant instances      Internal audit’s reports to the audit com-
+where independent risk management’s as-              mittee should also identify the root cause of
+sessment of risk differs from that of a front        any material issues and include:
+line unit; and                                          (i) A determination of whether the root
+   (ii) Significant instances where a front line     cause creates an issue that has an impact on
+unit is not adhering to the risk governance          one organizational unit or multiple organiza-
+framework, including instances when front            tional units within the covered bank; and
+line units do not meet the standards set                (ii) A determination of the effectiveness of
+forth in paragraph II.C.1. of these Guidelines;      front line units and independent risk man-
+   (f) Identify and communicate to the board         agement in identifying and resolving issues
+of directors or the board’s risk committee:          in a timely manner;
+   (i) Material risks and significant instances         (d) Establish and adhere to processes for
+where independent risk management’s as-              independently assessing the design and ongo-
+sessment of risk differs from the Chief Exec-        ing effectiveness of the risk governance
+utive Officer; and                                   framework on at least an annual basis. The
+   (ii) Significant instances where the Chief        independent assessment should include a
+Executive Officer is not adhering to, or hold-       conclusion on the covered bank’s compliance
+ing front line units accountable for adhering        with the standards set forth in these Guide-
+to, the risk governance framework;                   lines; 3
+   (g) Develop, attract, and retain talent and          (e) Identify and communicate to the
+maintain staffing levels required to carry           board’s audit committee significant in-
+out its role and responsibilities effectively,       stances where front line units or independent
+as set forth in paragraphs II.C.2.(a) through
+                                                     risk management are not adhering to the
+(f) of these Guidelines;
+                                                     risk governance framework;
+   (h) Establish and adhere to talent manage-
+                                                        (f) Establish a quality assurance program
+ment processes that comply with paragraph
+                                                     that ensures internal audit’s policies, proce-
+II.L. of these Guidelines; and
+                                                     dures, and processes comply with applicable
+   (i) Establish and adhere to compensation
+                                                     regulatory and industry guidance, are appro-
+and performance management programs that
+                                                     priate for the size, complexity, and risk pro-
+comply with paragraph II.M. of these Guide-
+                                                     file of the covered bank, are updated to re-
+lines.
+   3. Role and Responsibilities of Internal Audit.   flect changes to internal and external risk
+In addition to meeting the standards set             factors, emerging risks, and improvements
+forth in appendix A of part 30, internal audit       in industry internal audit practices, and are
+should ensure that the covered bank’s risk           consistently followed;
+governance framework complies with these                (g) Develop, attract, and retain talent and
+Guidelines and is appropriate for the size,          maintain staffing levels required to effec-
+complexity, and risk profile of the covered          tively carry out its role and responsibilities,
+bank. In carrying out its responsibilities, in-      as set forth in paragraphs II.C.3.(a) through
+ternal audit should:                                 (f) of these Guidelines;
+   (a) Maintain a complete and current inven-           (h) Establish and adhere to talent manage-
+tory of all of the covered bank’s material           ment processes that comply with paragraph
+processes, product lines, services, and func-        II.L. of these Guidelines; and
+tions, and assess the risks, including emerg-           (i) Establish and adhere to compensation
+ing risks, associated with each, which collec-       and performance management programs that
+tively provide a basis for the audit plan de-        comply with paragraph II.M. of these Guide-
+scribed in paragraph II.C.3.(b) of these Guide-      lines.
+lines;                                                  D. Strategic Plan. The Chief Executive Offi-
+   (b) Establish and adhere to an audit plan         cer should be responsible for the develop-
+that is periodically reviewed and updated            ment of a written strategic plan with input
+that takes into account the covered bank’s           from front line units, independent risk man-
+risk profile, emerging risks, and issues, and        agement, and internal audit. The board of di-
+establishes the frequency with which activi-         rectors should evaluate and approve the stra-
+ties should be audited. The audit plan should        tegic plan and monitor management’s efforts
+require internal audit to evaluate the ade-
+quacy of and compliance with policies, pro-            3 The annual independent assessment of the
+
+cedures, and processes established by front          risk governance framework may be con-
+line units and independent risk management           ducted by internal audit, an external party,
+under the risk governance framework. Sig-            or internal audit in conjunction with an ex-
+nificant changes to the audit plan should be         ternal party.
+
+                                                 796
+Comptroller of the Currency, Treasury                                           Pt. 30, App. D
+to implement the strategic plan at least an-        G. Risk Appetite Review, Monitoring, and
+nually. The strategic plan should cover, at a     Communication Processes. The risk govern-
+minimum, a three-year period and:                 ance framework should require: 5
+  1. Contain a comprehensive assessment of          1. Review and approval of the risk appetite
+risks that currently have an impact on the        statement by the board of directors or the
+covered bank or that could have an impact         board’s risk committee at least annually or
+on the covered bank during the period cov-        more frequently, as necessary, based on the
+ered by the strategic plan;                       size and volatility of risks and any material
+  2. Articulate an overall mission statement      changes in the covered bank’s business
+                                                  model, strategy, risk profile, or market con-
+and strategic objectives for the covered
+                                                  ditions;
+bank, and include an explanation of how the
+                                                    2. Initial communication and ongoing rein-
+covered bank will achieve those objectives;
+                                                  forcement of the covered bank’s risk appe-
+  3. Include an explanation of how the cov-       tite statement throughout the covered bank
+ered bank will update, as necessary, the risk     in a manner that causes all employees to
+governance framework to account for               align their risk-taking decisions with appli-
+changes in the covered bank’s risk profile        cable aspects of the risk appetite statement;
+projected under the strategic plan; and             3. Monitoring by independent risk manage-
+  4. Be reviewed, updated, and approved, as       ment of the covered bank’s risk profile rel-
+necessary, due to changes in the covered          ative to its risk appetite and compliance
+bank’s risk profile or operating environment      with concentration risk limits and reporting
+that were not contemplated when the stra-         on such monitoring to the board of directors
+tegic plan was developed.                         or the board’s risk committee at least quar-
+  E. Risk Appetite Statement. A covered bank      terly;
+should have a comprehensive written state-          4. Monitoring by front line units of compli-
+ment that articulates the covered bank’s          ance with their respective risk limits and re-
+risk appetite and serves as the basis for the     porting to independent risk management at
+risk governance framework. The risk appe-         least quarterly; and
+tite statement should include both quali-           5. When necessary due to the level and type
+tative components and quantitative limits.        of risk, monitoring by independent risk man-
+The qualitative components should describe        agement of front line units’ compliance with
+a safe and sound risk culture and how the         front line unit risk limits, ongoing commu-
+covered bank will assess and accept risks, in-    nication with front line units regarding ad-
+cluding those that are difficult to quantify.     herence to these limits, and reporting of any
+                                                  concerns to the Chief Executive Officer and
+Quantitative limits should incorporate sound
+                                                  the board of directors or the board’s risk
+stress testing processes, as appropriate, and
+                                                  committee, as set forth in paragraphs
+address the covered bank’s earnings, capital,
+                                                  II.C.2.(e) and (f) of these Guidelines, all at
+and liquidity. The covered bank should set        least quarterly.
+limits at levels that take into account ap-         H. Processes Governing Risk Limit Breaches.
+propriate capital and liquidity buffers and       A covered bank should establish and adhere
+prompt management and the board of direc-         to processes that require front line units and
+tors to reduce risk before the covered bank’s     independent risk management, in conjunc-
+risk profile jeopardizes the adequacy of its      tion with their respective responsibilities,
+earnings, liquidity, and capital.4                to:
+  F. Concentration and Front Line Unit Risk         1. Identify breaches of the risk appetite
+Limits. The risk governance framework             statement, concentration risk limits, and
+should include concentration risk limits and,     front line unit risk limits;
+as applicable, front line unit risk limits, for     2. Distinguish breaches based on the sever-
+the relevant risks. Concentration and front       ity of their impact on the covered bank;
+line unit risk limits should limit excessive        3. Establish protocols for when and how to
+risk taking and, when aggregated across           inform the board of directors, front line unit
+such units, provide that these risks do not       management, independent risk management,
+exceed the limits established in the covered      internal audit, and the OCC of a risk limit
+bank’s risk appetite statement.                   breach that takes into account the severity
+                                                  of the breach and its impact on the covered
+                                                  bank;
+  4 Where possible, covered banks should es-
+
+tablish aggregate risk appetite limits that         5 With regard to paragraphs 3., 4., and 5. in
+can be disaggregated and applied at the front     this paragraph II.G., the frequency of moni-
+line unit level. However, where this is not       toring and reporting should be performed
+possible, covered banks should establish lim-     more often, as necessary, based on the size
+its that reasonably reflect the aggregate         and volatility of risks and any material
+level of risk that the board of directors and     change in the covered bank’s business model,
+executive management are willing to accept.       strategy, risk profile, or market conditions.
+
+                                              797
+Pt. 30, App. D                                                12 CFR Ch. I (1–1–25 Edition)
+  4. Include in the protocols established in      the knowledge, skills, and abilities to effec-
+paragraph II.H.3. of these Guidelines the re-     tively identify, measure, monitor, and con-
+quirement to provide a written description of     trol relevant risks. The board of directors or
+how a breach will be, or has been, resolved;      an appropriate committee of the board
+and                                               should:
+  5. Establish accountability for reporting         1. Appoint a Chief Executive Officer and
+and resolving breaches that include con-          appoint or approve the appointment of a
+sequences for risk limit breaches that take       Chief Audit Executive and one or more Chief
+into account the magnitude, frequency, and        Risk Executives with the skills and abilities
+recurrence of breaches.                           to carry out their roles and responsibilities
+  I. Concentration Risk Management. The risk      within the risk governance framework;
+governance framework should include poli-           2. Review and approve a written talent
+cies and supporting processes appropriate for     management program that provides for de-
+the covered bank’s size, complexity, and risk     velopment, recruitment, and succession
+profile for effectively identifying, measuring,   planning regarding the individuals described
+monitoring, and controlling the covered
+                                                  in paragraph II.L.1. of these Guidelines, their
+bank’s concentrations of risk.
+                                                  direct reports, and other potential succes-
+  J. Risk Data Aggregation and Reporting. The
+                                                  sors; and
+risk governance framework should include a
+set of policies, supported by appropriate pro-      3. Require management to assign individ-
+cedures and processes, designed to provide        uals specific responsibilities within the tal-
+risk data aggregation and reporting capabili-     ent management program, and hold those in-
+ties appropriate for the size, complexity, and    dividuals accountable for the program’s ef-
+risk profile of the covered bank, and to sup-     fectiveness.
+port supervisory reporting requirements.            M. Compensation and Performance Manage-
+Collectively, these policies, procedures, and     ment Programs. A covered bank should estab-
+processes should provide for:                     lish and adhere to compensation and per-
+  1. The design, implementation, and main-        formance management programs that com-
+tenance of a data architecture and informa-       ply with any applicable statute or regulation
+tion technology infrastructure that support       and are appropriate to:
+the covered bank’s risk aggregation and re-         1. Ensure the Chief Executive Officer, front
+porting needs during normal times and dur-        line units, independent risk management,
+ing times of stress;                              and internal audit implement and adhere to
+  2. The capturing and aggregating of risk        an effective risk governance framework;
+data and reporting of material risks, con-          2. Ensure front line unit compensation
+centrations, and emerging risks in a timely       plans and decisions appropriately consider
+manner to the board of directors and the          the level and severity of issues and concerns
+OCC; and                                          identified by independent risk management
+  3. The distribution of risk reports to all      and internal audit, as well as the timeliness
+relevant parties at a frequency that meets        of corrective action to resolve such issues
+their needs for decision-making purposes.         and concerns;
+  K. Relationship of Risk Appetite Statement,       3. Attract and retain the talent needed to
+Concentration Risk Limits, and Front Line Unit    design, implement, and maintain an effective
+Risk Limits to Other Processes. A covered         risk governance framework; and
+bank’s front line units and independent risk        4. Prohibit any incentive-based payment
+management should incorporate at a min-           arrangement, or any feature of any such ar-
+imum the risk appetite statement, con-            rangement, that encourages inappropriate
+centration risk limits, and front line unit       risks by providing excessive compensation or
+risk limits into the following:                   that could lead to material financial loss.
+  1. Strategic and annual operating plans;
+  2. Capital stress testing and planning proc-      III. STANDARDS FOR BOARD OF DIRECTORS
+esses;
+  3. Liquidity stress testing and planning          A. Require an Effective Risk Governance
+processes;                                        Framework. Each member of a covered bank’s
+  4. Product and service risk management          board of directors should oversee the covered
+processes, including those for approving new      bank’s compliance with safe and sound bank-
+and modified products and services;               ing practices. The board of directors should
+  5. Decisions regarding acquisitions and         also require management to establish and
+divestitures; and                                 implement an effective risk governance
+  6. Compensation and performance manage-         framework that meets the minimum stand-
+ment programs.                                    ards described in these Guidelines. The board
+  L. Talent Management Processes. A covered       of directors or the board’s risk committee
+bank should establish and adhere to proc-         should approve any significant changes to
+esses for talent development, recruitment,        the risk governance framework and monitor
+and succession planning to ensure that man-       compliance with such framework.
+agement and employees who are responsible           B. Provide Active Oversight of Management.
+for or influence material risk decisions have     A covered bank’s board of directors should
+
+                                              798
+Comptroller of the Currency, Treasury                                               Pt. 30, App. E
+actively oversee the covered bank’s risk-tak-       assessment that includes an evaluation of its
+ing activities and hold management account-         effectiveness in meeting the standards in
+able for adhering to the risk governance            section III of these Guidelines.
+framework. In providing active oversight,
+the board of directors may rely on risk as-         [79 FR 54545, Sept. 11, 2014]
+sessments and reports prepared by inde-
+pendent risk management and internal audit          APPENDIX E TO PART 30—OCC GUIDE-
+to support the board’s ability to question,            LINES ESTABLISHING STANDARDS FOR
+challenge, and when necessary, oppose rec-             RECOVERY PLANNING BY CERTAIN
+ommendations and decisions made by man-                LARGE INSURED NATIONAL BANKS,
+agement that could cause the covered bank’s            INSURED FEDERAL SAVINGS ASSOCIA-
+risk profile to exceed its risk appetite or            TIONS,  AND    INSURED  FEDERAL
+jeopardize the safety and soundness of the             BRANCHES
+covered bank.
+  C. Exercise Independent Judgment. When                          TABLE OF CONTENTS
+providing active oversight under paragraph
+III.B. of these Guidelines, each member of          I. Introduction
+the board of directors should exercise sound,          A. Scope
+independent judgment.                                  B. Compliance date
+  D. Include Independent Directors. To pro-            C. Reservation of authority
+mote effective, independent oversight of the           D. Preservation of existing authority
+covered bank’s management, at least two                E. Definitions
+members of the board of directors: 6                II. Recovery Plan
+  1. Should not be an officer or employee of           A. Recovery plan
+the parent company or covered bank and has             B. Elements of recovery plan
+not been an officer or employee of the parent          1. Overview of covered bank
+company or covered bank during the pre-                2. Triggers
+vious three years;                                     3. Options for recovery
+  2. Should not be a member of the imme-               4. Impact assessments
+diate family, as defined in § 225.41(b)(3) of the      5. Escalation procedures
+Board of Governors of the Federal Reserve              6. Management reports
+System’s Regulation Y (12 CFR 225.41(b)(3)),
+                                                       7. Communication procedures
+of a person who is, or has been within the
+                                                       8. Other information
+last three years, an executive officer of the
+parent company or covered bank, as defined             C. Relationship to other processes; coordi-
+in § 215.2(e)(1) of Regulation O (12 CFR                  nation with other plans
+215.2(e)(1)); and                                   III. Management’s and Board of Directors’
+  3. Should qualify as an independent direc-              Responsibilities
+tor under the listing standards of a national          A. Management
+securities exchange, as demonstrated to the            B. Board of directors
+satisfaction of the OCC.
+  E. Provide Ongoing Training to All Directors.
+The board of directors should establish and                         I. INTRODUCTION
+adhere to a formal, ongoing training pro-             A. Scope. This appendix applies to a cov-
+gram for all directors. This program should         ered bank, as defined in paragraph I.E.3. of
+consider the directors’ knowledge and expe-         this appendix.
+rience and the covered bank’s risk profile.           B. Compliance Date
+The program should include, as appropriate,           1. A covered bank with average total con-
+training on:                                        solidated assets, calculated according to
+  1. Complex products, services, lines of busi-     paragraph I.E.1. of this appendix, equal to or
+ness, and risks that have a significant im-         greater than $250 billion as of January 1,
+pact on the covered bank;                           2025, should be in compliance with this ap-
+  2. Laws, regulations, and supervisory re-         pendix on January 1, 2025, except that the
+quirements applicable to the covered bank;          bank should be in compliance with:
+and                                                   a. the amended provisions on non-financial
+  3. Other topics identified by the board of        risk within 12 months from January 1, 2025,
+directors.                                          and
+  F. Self-Assessments. A covered bank’s board         b. paragraph II.D. of this appendix within
+of directors should conduct an annual self-         18 months from January 1, 2025.
+                                                      2. A covered bank with average total con-
+  6 This provision does not supersede other         solidated assets, calculated according to
+regulatory requirements regarding the com-          paragraph I.E.1. of this appendix, equal to or
+position of the Board that apply to Federal         greater than $100 billion but less than $250
+savings associations. These institutions            billion as of January 1, 2025, should be in
+must continue to comply with such other re-         compliance with this appendix within 12
+quirements.                                         months from January 1, 2025, except that the
+
+                                                799
+

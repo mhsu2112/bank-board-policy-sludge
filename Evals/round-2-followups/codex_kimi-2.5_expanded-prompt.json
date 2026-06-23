@@ -1,0 +1,324 @@
+{
+  "report_name": "kimi+GSIB_Board_Directors_Inventory+expanded_prompt.docx",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current U.S. federal board obligations for Category I global systemically important bank holding companies and their insured depository institution subsidiaries, evaluated for duplication, overlap, and undue burden.",
+    "unit_of_analysis": "Each discrete, current, in-force board-level obligation, with a pinpoint source, precise duty, entity tier, full-board or committee actor, director-type distinction, and reform relevance.",
+    "structural_axes": [
+      "entity tier: Category I GSIB bank holding company versus insured depository institution subsidiary",
+      "actor: full board versus board committee",
+      "committee type: audit, risk, compensation, nominating/governance, or another designated committee",
+      "director type: inside, outside, independent, non-independent, risk-expert, interested, or disqualified director",
+      "source tier: statute, regulation, enforceable guideline, supervisory guidance, examination manual, proposed rule, and interagency standard",
+      "issuing authority: Federal Reserve, OCC, FDIC, CFPB, and FFIEC or other interagency bodies",
+      "regulatory domain: safety and soundness, capital, stress testing, liquidity, resolution, recovery, operational resilience, model risk, third-party risk, incentive compensation, cybersecurity, BSA/AML, and consumer compliance",
+      "obligation attributes: operative text, applicability, duty verb, delegation, frequency, source status, effective date, and reform lever"
+    ],
+    "actor_classes_required": [
+      "Category I GSIB BHC full board",
+      "insured depository institution subsidiary full board",
+      "risk committee",
+      "audit committee",
+      "compensation committee",
+      "nominating/governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent or interested directors"
+    ],
+    "source_universe": [
+      "Federal Reserve regulations, SR/CA letters, guidance, and supervisory materials",
+      "OCC regulations, enforceable guidelines, bulletins, and Comptroller's Handbook material",
+      "FDIC regulations, guidance, examination material, and covered-IDI resolution-planning rules",
+      "CFPB supervision and examination materials relevant to consumer-compliance governance",
+      "FFIEC and other interagency standards",
+      "Federal statutes underlying board-level banking obligations"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience and business continuity",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity and information-security governance",
+      "BSA/AML program oversight",
+      "consumer compliance and UDAAP oversight",
+      "safety and soundness generally",
+      "committee composition, independence, audit, internal-control, and director-qualification obligations"
+    ],
+    "audience_use": "Bank directors, legal counsel, and policymakers seeking a working reform document that can support defensible consolidation, clarification, delegation, or removal proposals.",
+    "form_depth_expectations": "An extensive, approximately 40-60-page, granular citation-level inventory that distinguishes current binding law from guidance, maps every duty to entity and actor, and supports legally viable reform analysis. The ledger uses 120 sampled cells across 12 core domains and 10 required actor/entity classes."
+  },
+  "coverage_ledger": {
+    "cells_expected": 120,
+    "cells_covered": 52,
+    "cells_thin": 38,
+    "cells_missing": 30,
+    "material_omissions": [
+      "The 31-page, approximately 9,770-word document remains below the requested 40-60 pages and does not establish that it has captured all applicable federal obligations.",
+      "The report contains 62 labeled obligations, but most cite only an instrument or section rather than the exact subsection, paragraph, operative language, effective date, and source link expected in a legal working inventory.",
+      "Inside, outside, independent, and non-independent director distinctions are not supplied for every obligation; inside and non-independent directors are almost entirely absent.",
+      "The nominating/governance committee is described as recommended under SR 21-3, but the report does not inventory a distinct set of current obligations for that committee.",
+      "Operational resilience lacks a dedicated current-source inventory; the report substitutes third-party risk and authentication material and omits the 2020 interagency operational-resilience paper and business-continuity duty mapping.",
+      "Current Federal Reserve recovery-planning guidance is not inventoried; the recovery section is limited to rescinded OCC Appendix E and then conflates recovery planning with legally distinct resolution planning.",
+      "Major Category I requirements such as single-counterparty credit limits and the separate qualified-financial-contract regime are not inventoried even though the report claims to cover all applicable obligations.",
+      "Entity applicability is organized broadly by agency, but many entries infer a full-board duty from an institution-level requirement and do not distinguish BHC, national-bank, state-member-bank, and state-nonmember-bank subsidiaries row by row.",
+      "The rendered table of contents shows page 1 for every entry, and the document ends with a duplicate title page, reducing fitness as a working legal reference."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "SR 21-3 / CA 21-1 - five attributes of board effectiveness",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 21-3 supports the five stated board-effectiveness attributes and applies to domestic BHCs with at least $100 billion, but it is supervisory guidance; the report's statement that it is binding in practice is not the source's legal status: https://www.federalreserve.gov/supervisionreg/srletters/SR2103.htm"
+      },
+      {
+        "citation": "12 CFR 252.33 - risk committee charter, quarterly meetings, risk expertise, and independent chair",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 252.33 supports these risk-committee requirements. It does not, however, require approval of a risk appetite statement, contrary to the later duplication analysis: https://www.federalreserve.gov/frrs/regulations/section-25233-risk-management-and-risk-committee-requirements.htm"
+      },
+      {
+        "citation": "12 CFR 252.34 - board liquidity tolerance, semiannual review, policies, and risk-committee contingency funding plan approval",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 252.34 directly supports the stated board and risk-committee duties and frequencies, although senior management, not the board, establishes detailed liquidity limits: https://www.federalreserve.gov/frrs/regulations/section-25234-liquidity-risk-management-requirements.htm"
+      },
+      {
+        "citation": "12 CFR 252.44 - company-run stress tests and board approval of methodologies and assumptions",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "Section 252.44 governs stress-test analysis conducted by the Federal Reserve Board. It does not impose the report's company-run methodology-approval duty on the firm's board: https://www.federalreserve.gov/frrs/regulations/section-25244-analysis-conducted-by-the-board.htm"
+      },
+      {
+        "citation": "12 CFR 225.8 - annual capital-plan approval and capital-adequacy-process review",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 225.8(e)(1)(iii) requires the board or a designated committee to review capital-planning robustness, ensure remediation, and approve the plan before submission. Prior regulatory approval applies only to specified distributions, not every distribution: https://www.federalreserve.gov/frrs/regulations/section-2258-capital-planning-and-stress-capital-buffer-requirement.htm"
+      },
+      {
+        "citation": "12 CFR Part 249 - board LCR oversight and approval of quarterly disclosures and methodology changes",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Part 249 imposes LCR and disclosure obligations on the covered company but does not assign the stated review, approval, reporting, or methodology-change duties directly to the board: https://www.federalreserve.gov/frrs/regulations/section-24991-disclosure-requirements.htm"
+      },
+      {
+        "citation": "12 CFR 243.4 - biennial GSIB resolution plans and board approval",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 243.4 classifies U.S. GSIBs as biennial filers, alternates full and targeted plans, and requires board approval noted in the minutes before submission: https://www.federalreserve.gov/frrs/regulations/section-2434-resolution-plan-required.htm"
+      },
+      {
+        "citation": "OCC Bulletin 2025-XX - revised model risk management guidance",
+        "verdict": "FABRICATED",
+        "centrality": "central",
+        "reason": "An exact search found no such bulletin, and '2025-XX' is a placeholder. The actual OCC issuance is Bulletin 2026-13; SR 26-2 is real but expressly non-enforceable and contains no board policy-approval mandate: https://www.occ.treas.gov/news-events/newsroom/news-issuances-by-year/bulletins/2026-bulletins.html"
+      },
+      {
+        "citation": "12 CFR 252.63-252.64 - direct board TLAC reporting, structural-change approval, and compliance duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The provisions impose TLAC ratios, payout limits, and corporate-practice restrictions on the GSIB BHC; they do not assign the report's direct reporting, oversight, or structural-change approval duties to its board: https://www.federalreserve.gov/frrs/regulations/section-25263-external-total-loss-absorbing-capacity-requirement-and-buffer.htm"
+      },
+      {
+        "citation": "12 CFR Part 30 Appendix D - risk-governance approval, independent directors, training, self-assessment, and executive governance",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Current Appendix D supports the cited core board duties. The report is stale in repeatedly listing reputation risk as an eighth required category; the June 2026 eCFR lists seven categories after reputation risk was removed: https://www.ecfr.gov/current/title-12/chapter-I/part-30/appendix-Appendix%20D%20to%20Part%2030"
+      },
+      {
+        "citation": "OCC Bulletin 2026-10 / 12 CFR Part 30 Appendix E - recovery-planning rescission",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "OCC Bulletin 2026-10 confirms rescission of Appendix E effective in 2026. It does not itself establish that recovery and resolution planning were duplicative or interchangeable: https://www.occ.treas.gov/news-issuances/bulletins/2026/bulletin-2026-10.html"
+      },
+      {
+        "citation": "12 CFR Part 30 Appendix A - direct board duties for internal controls, internal audit, asset quality, and growth",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Appendix A primarily states institution-level standards. It directly assigns board or audit-committee review of internal-audit effectiveness and requires certain reports to the board, but not the broader categorical 'board must ensure' duties stated in the report: https://www.ecfr.gov/current/title-12/chapter-I/part-30/appendix-Appendix%20A%20to%20Part%2030"
+      },
+      {
+        "citation": "12 CFR Part 363 - 2026 audit-committee thresholds and large-institution requirements",
+        "verdict": "STALE",
+        "centrality": "central",
+        "reason": "Current 12 CFR 363.5 requires all-independent outside directors at $5 billion or more, majority independence from $1 billion to below $5 billion, and large-institution requirements above $5 billion. The report uses the old $1 billion, $500 million, and $3 billion thresholds: https://www.ecfr.gov/current/title-12/chapter-III/subchapter-B/part-363/section-363.5"
+      },
+      {
+        "citation": "12 CFR 360.10 - IDI resolution-plan board approval",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Current Section 360.10 applies full plans to Group A CIDIs with at least $100 billion and requires the CIDI board to approve each full resolution submission with approval noted in the minutes: https://www.ecfr.gov/current/title-12/chapter-III/subchapter-B/part-360/section-360.10"
+      },
+      {
+        "citation": "CFPB Compliance Management Review procedures - nondelegable board responsibility, resource allocation, reporting, and new-product approval",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The CMR procedures examine board and management oversight and allow delegated board-committee responsibility. They do not create binding, nondelegable board law or require board approval of new products; CFPB expressly says its manual is not a legal reference: https://www.consumerfinance.gov/compliance/supervision-exam-manual/"
+      },
+      {
+        "citation": "Dodd-Frank Sections 1031 and 1036 - board approval of UDAAP policies and oversight duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The statutes prohibit covered persons and service providers from engaging in UDAAPs and authorize CFPB action; they do not impose the stated direct board-policy approval and monitoring duties: https://uscode.house.gov/view.xhtml?edition=prelim&num=0&req=granuleid%3AUSC-prelim-title12-section5531"
+      },
+      {
+        "citation": "12 CFR 208.63, 21.21, and 326.8; FFIEC BSA/AML Manual - BSA program approval, officer designation, testing, and board training",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The sources support board approval of the written program, designation and resourcing of the BSA officer, reporting of independent-test results, and foundational director training, though several oversight details are examination guidance rather than regulation: https://bsaaml.ffiec.gov/manual/AssessingTheBSAAMLComplianceProgram/01_ep"
+      },
+      {
+        "citation": "2010 Interagency Guidance on Sound Incentive Compensation Policies - board oversight and review",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The guidance supports board oversight, approval of senior-executive arrangements, periodic review, and risk alignment. It consistently uses guidance language such as 'should,' which the report recasts as mandatory law: https://www.federalreserve.gov/frrs/guidance/guidance-on-sound-incentive-compensation-policies.htm"
+      },
+      {
+        "citation": "2023 Interagency Guidance on Third-Party Relationships - board oversight, policies, higher-risk contracts, and independent reviews",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The guidance broadly supports board oversight, management accountability, appropriate policy approval or delegation, reporting, and periodic independent reviews, while leaving execution to management: https://www.federalreserve.gov/frrs/guidance/interagency-guidance-on-third-party-relationships.htm"
+      },
+      {
+        "citation": "October 2023 Interagency Guidance on Climate-Related Financial Risks - current board obligations",
+        "verdict": "STALE",
+        "centrality": "central",
+        "reason": "The Federal Reserve, FDIC, and OCC withdrew these principles effective immediately on October 16, 2025. The June 2026 report nevertheless presents them as current, in-force obligations: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20251016a.htm"
+      }
+    ],
+    "summary": {
+      "supports": 11,
+      "wrong_attribution": 1,
+      "not_supported": 5,
+      "stale": 2,
+      "fabricated": 1,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "Adequate but incomplete",
+      "note": "Nearly every labeled obligation includes a Board Level line and many identify risk, audit, compensation, IT, compliance, or disclosure committees. The report does not systematically map inside, outside, independent, and non-independent directors, and the nominating/governance committee is mostly a recommendation rather than an obligation inventory."
+    },
+    "binding_vs_guidance": {
+      "verdict": "Poor and systematically blended",
+      "note": "The report labels sources by type in some headings and correctly marks OCC Appendix E as rescinded, but repeatedly converts SR letters, examination manuals, interagency guidance, and sound practices into categorical 'must' duties and even says supervisory guidance is binding in practice."
+    },
+    "reform_usefulness": {
+      "verdict": "Moderate but legally unsafe",
+      "note": "The six overlap themes and five priorities identify concrete consolidation and rulemaking levers, but they provide little burden evidence, do not consistently state what protections remain, and several core overlap premises are legally false."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F1",
+      "severity": "central",
+      "evidence": "The model-risk heading twice cites \"OCC Bulletin 2025-XX\"; the actual issuance is OCC Bulletin 2026-13."
+    },
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "The report attributes firm-run methodology approval to \"Stress Testing (12 CFR 252.44),\" a provision governing analysis conducted by the Federal Reserve Board."
+    },
+    {
+      "flag": "F3",
+      "severity": "central",
+      "evidence": "It presents the rescinded \"Interagency Guidance on Climate-Related Financial Risks (October 2023)\" as a current source and uses pre-2026 Part 363 thresholds."
+    },
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "It says the board \"must review and approve the disclosure process\" under Part 249 and assigns direct board duties under TLAC and UDAAP provisions."
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "The executive summary calls the report a \"comprehensive, citation-level catalog of all current, in-force obligations.\""
+    },
+    {
+      "flag": "F7",
+      "severity": "central",
+      "evidence": "The risk-committee analysis states, \"Both agencies require risk committee approval of the risk appetite statement and risk governance framework.\""
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "The report claims a \"comprehensive, citation-level catalog of all current, in-force obligations imposed on boards of directors.\"",
+      "rationale": "The report covers every named core domain except a meaningful operational-resilience inventory and contains 62 labeled obligations across the four agencies and interagency sources. It remains incomplete, below the requested depth, and omits entire required director classes, which caps D1 at 2."
+    },
+    "D2_integrity": {
+      "raw": 2,
+      "effective": 0,
+      "weight": 25,
+      "evidence": "\"Model Risk Governance (SR 26-2 / OCC Bulletin 2025-XX)\"",
+      "rationale": "Eleven sampled citations support their core claims, but the sample also contains a fabricated placeholder, a central misattribution, five unsupported duty claims, and two stale sources. The central F1 flag caps D2 at 0."
+    },
+    "D3_accuracy": {
+      "raw": 1,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "\"The board must review and approve the firm's stress testing methodologies and assumptions.\"",
+      "rationale": "The report repeatedly converts institution-level requirements and nonbinding supervisory material into direct board mandates, applies superseded Part 363 thresholds and withdrawn climate guidance, and builds reform analysis on those errors. Central F3 and F4 flags cap D3 at 0."
+    },
+    "D4_sludge_analysis": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 15,
+      "evidence": "\"The analysis below identifies six major areas of overlap\" and offers five prioritized consolidation opportunities.",
+      "rationale": "The report identifies concrete reform levers such as interagency consolidation, rulemaking, and entity-level delineation. It does not quantify incremental burden, often confuses shared subject matter with duplicate legal duties, and bases several centerpiece recommendations on false source mappings."
+    },
+    "D5_structure": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "\"For each obligation identified, the inventory specifies the precise regulatory source, the nature of the board-level duty\"",
+      "rationale": "Agency sections, numbered obligations, Board Level labels, committee fields, and occasional frequency and composition fields make the report scannable. Most entries still lack citation-level pinpoints and complete applicability fields, while the broken TOC and duplicate final cover materially reduce fitness."
+    },
+    "D6_calibration": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "The report says SR 21-3 \"functions as a binding expectation in practice.\"",
+      "rationale": "The report correctly flags the OCC recovery rescission and sometimes identifies guidance, recommendations, and delegation. Those strengths are outweighed by mandatory phrasing for nonbinding material and the false claim of complete current coverage. F5 caps D6 at 1."
+    }
+  },
+  "overall_score": 25,
+  "tier": "E",
+  "reliability_overlay": "integrity-flagged",
+  "narrative": {
+    "strengths": [
+      "D1: The report provides meaningful breadth through 62 labeled obligations spanning Federal Reserve, OCC, FDIC, CFPB, and interagency sources.",
+      "D5: Numbered obligation headings and repeated Board Level, committee, composition, and frequency labels make the document substantially more usable than a prose-only survey.",
+      "D1/D3: It correctly identifies the 2026 OCC recovery-planning rescission, the replacement of SR 11-7 by SR 26-2, and the separate FDIC IDI resolution-plan rule.",
+      "D3: Core Regulation YY liquidity and risk-committee duties and the Regulation Y capital-plan approval duty are generally mapped accurately.",
+      "D4: The final section offers five prioritized consolidation proposals and identifies the agencies or instruments that would need to act."
+    ],
+    "weaknesses": [
+      "D2/F1: The model-risk section cites the nonexistent placeholder 'OCC Bulletin 2025-XX,' despite the actual April 2026 issuance being readily identifiable as OCC Bulletin 2026-13.",
+      "D3/F3/F4: The report treats withdrawn climate guidance and old Part 363 thresholds as current and invents direct board duties under stress-testing, LCR, TLAC, model-risk, CFPB CMS, and UDAAP sources.",
+      "D2/F2: The load-bearing stress-test citation points to Federal Reserve analysis under 12 CFR 252.44, not a firm-board methodology approval requirement.",
+      "D1/D5: The inventory remains short of the requested depth, lacks exact subsection-level citations for most rows, and does not systematically cover inside, outside, and non-independent directors or nominating/governance duties.",
+      "D4/F7: The main overlap analysis incorrectly claims shared risk-appetite, strategic-plan, self-assessment, and audit-committee-independence mandates across agencies, so its consolidation priorities are not legally dependable."
+    ],
+    "prioritized_remediation": [
+      "Rebuild the source list against current primary materials as of June 2026, replacing the model-risk placeholder and removing the withdrawn climate principles, pre-2026 Part 363 thresholds, and deleted OCC reputation-risk category.",
+      "Create one row per obligation with exact section and paragraph, operative text, source tier, effective date, entity applicability, actor, delegation, frequency, and director-type fields.",
+      "Separate binding statutes and regulations, enforceable OCC guidelines, nonbinding SR letters and interagency guidance, examination procedures, proposed materials, and the report's own recommendations in both labels and duty verbs.",
+      "Correct the direct-duty mappings for stress testing, LCR disclosure, TLAC, model risk, CFPB CMS, UDAAP, and Part 30 safety-and-soundness standards before drawing overlap conclusions.",
+      "Re-run the sludge analysis only on validated rows, distinguish genuine duplicate approvals from parallel subject-matter expectations, quantify incremental burden where possible, and state the legal vehicle and retained safeguard for each reform."
+    ],
+    "reliance_recommendation": "Do not rely on this report as a current legal inventory or reform baseline; use it only as a structured research outline until counsel verifies every obligation and rebuilds the overlap analysis from current primary sources."
+  }
+}
+
+**Result:** Tier E (25/100) — integrity-flagged. The report is broad, well organized, and reform-oriented, but a fabricated citation, stale current-law claims, invented board duties, and unsupported overlap conclusions make it unsafe for legal or policy reliance.

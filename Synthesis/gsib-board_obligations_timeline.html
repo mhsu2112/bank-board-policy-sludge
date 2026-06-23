@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GSIB Board Duties: Binding Obligations & Supervisory Expectations, 1987–2026</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#ffffff; --panel:#ffffff; --panel2:#f5f6f8; --ink:#1f2328; --muted:#5b6470;
+    --line:#d8dce2; --rule:#c4cad2;
+    --congress:#2f5c8f; --fed:#2e7d6f; --occ:#b07d2b; --fdic:#735a9e;
+    --sec:#3b6fb0; --interagency:#6b7280; --ffiec:#9c5278; --cfpb:#b06a3c; --cut:#a23b2e;
+    --obl:#34506f; --exp:#4f8a7a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height:1.55;-webkit-font-smoothing:antialiased;font-size:16px}
+  .wrap{max-width:940px;margin:0 auto;padding:54px 28px 90px}
+  header{border-bottom:2px solid var(--ink);padding-bottom:22px}
+  .kicker{color:var(--muted);font-weight:700;letter-spacing:.12em;font-size:11.5px;text-transform:uppercase;margin-bottom:14px}
+  header h1{font-family:Georgia,"Times New Roman",serif;font-weight:600;font-size:32px;line-height:1.2;margin:0 0 14px;letter-spacing:-.2px;color:#15181c}
+  header .sub{color:#33383f;font-size:15.5px;max-width:760px;margin:0}
+  header .sub b{font-weight:700}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin:30px 0 6px;border:1px solid var(--line)}
+  .stat{padding:18px 18px;border-right:1px solid var(--line)}
+  .stat:last-child{border-right:none}
+  .stat .n{font-family:Georgia,"Times New Roman",serif;font-size:29px;font-weight:600;letter-spacing:-.5px;color:#15181c}
+  .stat .l{color:var(--muted);font-size:12px;margin-top:6px;line-height:1.4}
+  .stat.obl .n{color:var(--obl)}.stat.exp .n{color:var(--exp)}.stat.cut .n{color:var(--cut)}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:4px;padding:24px 24px 26px;margin:30px 0}
+  .card h2{font-family:Georgia,"Times New Roman",serif;font-weight:600;margin:0 0 4px;font-size:20px;color:#15181c}
+  .card .note{color:var(--muted);font-size:13px;margin-bottom:14px;max-width:780px}
+  .chartbox{position:relative;height:390px;background:#fff}
+  .clegend{display:flex;gap:22px;margin:2px 0 14px;font-size:13px;color:#33383f;flex-wrap:wrap}
+  .clegend span{display:flex;align-items:center;gap:8px}
+  .sw{width:13px;height:13px;border-radius:2px;flex:none;border:1px solid rgba(0,0,0,.15)}
+  .legend{display:flex;flex-wrap:wrap;gap:7px 9px;margin:14px 0 4px;font-size:12.5px;color:#33383f;align-items:center}
+  .legend button{all:unset;cursor:pointer;display:flex;align-items:center;gap:7px;padding:5px 11px;border-radius:3px;border:1px solid var(--line);transition:.12s;background:#fff}
+  .legend button:hover{background:var(--panel2)}
+  .legend button.off{opacity:.38;background:#f0f1f3}
+  .legend .sep{width:1px;height:22px;background:var(--line);margin:0 4px}
+  .legend .lab{font-weight:700;letter-spacing:.06em;text-transform:uppercase;font-size:11px;color:var(--muted)}
+  .legend button.typ{border-width:1.5px}
+  .dot{width:10px;height:10px;border-radius:50%;flex:none}
+  .sqr{width:11px;height:11px;border-radius:2px;flex:none}
+  /* timeline */
+  .timeline{position:relative;margin-top:10px}
+  .tl{position:relative;border-left:2px solid var(--rule);margin-left:82px;padding-left:0}
+  .ev{position:relative;padding:0 0 24px 28px}
+  .ev::before{content:"";position:absolute;left:-6px;top:6px;width:10px;height:10px;border-radius:50%;
+    background:var(--src);box-shadow:0 0 0 3px #fff}
+  .ev.cut::before{background:var(--cut)}
+  .yr{position:absolute;left:-112px;top:2px;width:64px;text-align:right;font-family:Georgia,serif;font-weight:600;font-size:16px;color:#15181c}
+  .yr small{display:block;font-family:"Helvetica Neue",Arial,sans-serif;font-weight:600;font-size:10px;color:var(--muted);letter-spacing:.04em;margin-top:1px}
+  .ebox{background:#fff;border:1px solid var(--line);border-left:3px solid var(--src);border-radius:3px;padding:13px 16px;transition:.12s}
+  .ev.cut .ebox{border-left-color:var(--cut)}
+  .ev.exp .ebox{border-left-style:dashed}
+  .ebox:hover{background:#fafbfc}
+  .ehead{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+  .etitle{font-weight:700;font-size:14.5px;color:#1a1d22}
+  .titlewrap{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap}
+  .tpill{flex:none;font-size:9.5px;font-weight:700;letter-spacing:.04em;padding:1px 6px;border-radius:3px;text-transform:uppercase}
+  .tpill.obl{color:var(--obl);border:1px solid var(--obl);background:rgba(52,80,111,.06)}
+  .tpill.exp{color:var(--exp);border:1px solid var(--exp);background:rgba(79,138,122,.07)}
+  .badge{flex:none;font-size:11px;font-weight:700;padding:2px 9px;border-radius:3px;white-space:nowrap;border:1px solid}
+  .badge.add{color:#2e6b4f;border-color:#9ec7b2;background:#f0f7f3}
+  .badge.cutb{color:var(--cut);border-color:#d9a79f;background:#faf1ef}
+  .badge.mix{color:#9a6a16;border-color:#dcc193;background:#faf5ea}
+  .src-tag{display:inline-block;font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+    color:var(--src);margin-top:9px}
+  .ev.cut .src-tag{color:var(--cut)}
+  .edesc{color:#33383f;font-size:13.5px;margin:7px 0 0}
+  .cite{color:var(--muted);font-size:11.5px;margin-top:8px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+  .phase{margin:34px 0 16px;display:flex;align-items:center;gap:14px}
+  .phase .pl{font-family:Georgia,serif;font-style:italic;font-size:15px;font-weight:600;color:#15181c}
+  .phase .bar{flex:1;height:1px;background:var(--rule)}
+  .phase.red .pl{color:var(--cut)}
+  footer{color:var(--muted);font-size:12px;margin-top:42px;border-top:1px solid var(--line);padding-top:20px}
+  @media(max-width:720px){
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .stat:nth-child(2){border-right:none}.stat:nth-child(1),.stat:nth-child(2){border-bottom:1px solid var(--line)}
+    .tl{margin-left:56px}.yr{left:-84px;width:50px;font-size:14px}
+    header h1{font-size:25px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="kicker">Policy sludge in the boardroom</div>
+    <h1>Board Duties at the Eight U.S. GSIBs:<br>Binding Obligations and Supervisory Expectations, 1987–2026</h1>
+    <p class="sub">Three and a half decades of federal duties layered onto the boards of the eight U.S. globally systemically important banks, shown in two stacked layers. <b style="color:var(--obl)">Binding obligations</b> are statutes and rules with the force of law. <b style="color:var(--exp)">Supervisory expectations</b> are guidance, examination standards, and rating frameworks that shape examinations but do not, by themselves, carry the force of law. The two layers heavily overlap — and that duplication is itself part of the burden, so the chart stacks them in full rather than netting it out. The 2025–2026 inflection falls almost entirely on the expectations layer.</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat obl"><div class="n" id="s-obl">–</div><div class="l">binding‑obligation duties at the 2024 peak (approx.)</div></div>
+    <div class="stat exp"><div class="n" id="s-exp">–</div><div class="l">supervisory‑expectation duties at peak (≈ the 149‑entry inventory)</div></div>
+    <div class="stat"><div class="n" id="s-comb">–</div><div class="l">combined board‑duty count, mid‑2026 (duplication retained)</div></div>
+    <div class="stat cut"><div class="n" id="s-cut">–</div><div class="l">duties rescinded, sunset, or reweighted in 2025–26</div></div>
+  </div>
+
+  <div class="card">
+    <h2>Cumulative board duties over time</h2>
+    <p class="note">Each column is the running count of active federal board‑level duties on a U.S. GSIB's holding‑company and lead‑bank boards as of that milestone year, split into binding obligations (lower segment) and supervisory expectations (upper segment).</p>
+    <div class="clegend">
+      <span><span class="sw" style="background:var(--obl)"></span>Binding obligations (statute / rule)</span>
+      <span><span class="sw" style="background:var(--exp)"></span>Supervisory expectations (guidance)</span>
+    </div>
+    <div class="chartbox"><canvas id="curve"></canvas></div>
+  </div>
+
+  <div class="card">
+    <h2>The timeline</h2>
+    <p class="note">Filter by layer or by source. Cards marked <em>removed</em> roll back, sunset, or de‑emphasize a duty; <em>reweighted</em> means the duty remains but its supervisory consequence narrows. Expectation cards have a dashed left edge. The <em>+N duties</em> counts are the approximate granular board duties each instrument adds.</p>
+    <div class="legend" id="legend"></div>
+    <div class="timeline"><div class="tl" id="tl"></div></div>
+  </div>
+
+  <footer id="foot"></footer>
+</div>
+
+<script>
+const SRC = {
+  congress:{name:"Statute (Congress)",c:"#2f5c8f"},
+  fed:{name:"Federal Reserve",c:"#2e7d6f"},
+  occ:{name:"OCC",c:"#b07d2b"},
+  fdic:{name:"FDIC",c:"#735a9e"},
+  sec:{name:"SEC",c:"#3b6fb0"},
+  interagency:{name:"Interagency",c:"#6b7280"},
+  ffiec:{name:"FFIEC",c:"#9c5278"},
+  cfpb:{name:"CFPB",c:"#b06a3c"}
+};
+const TYPE={obl:{name:"Binding obligation",c:"#34506f"},exp:{name:"Supervisory expectation",c:"#4f8a7a"}};
+
+// type: 'obl' = binding statute/rule ; 'exp' = supervisory expectation (guidance/exam/rating)
+// delta = approximate granular board duties added (+) or removed (–); expectation weights are
+// calibrated to the v3 supervisory-expectations inventory (149 citation-level entries).
+const EVENTS = [
+  {y:"1987",src:"interagency",type:"obl",t:"Bank Secrecy Act compliance‑program rule",delta:6,kind:"add",
+   desc:"The BSA program rule (later 31 CFR 1010.210) makes the board specifically responsible for approving a written BSA/AML program — noted in the minutes — designating a qualified BSA officer, receiving SAR/CTR reporting, ensuring independent testing, and board training. The cleanest full‑board, written, approved, minuted duty in the framework.",
+   cite:"31 CFR 1010.210"},
+  {y:"1991",src:"congress",type:"obl",t:"FDICIA §36 — Independent audit committee at the insured bank",delta:6,kind:"add",
+   desc:"The Federal Deposit Insurance Corporation Improvement Act (12 U.S.C. 1831m), implemented by FDIC Part 363, commands an outside‑director audit committee at the insured‑bank level — appointing the external auditor, reviewing management's ICFR assessment, and annual independence determinations.",
+   cite:"12 U.S.C. 1831m; 12 CFR Part 363"},
+  {y:"1992",src:"fdic",type:"exp",t:"FDIC Statement on the Responsibilities of Bank Directors & Officers",delta:6,kind:"add",
+   desc:"The FDIC's foundational expression of the supervisory baseline for directors: maintain independence and informed judgment, ensure qualified management, supervise through written policies and reports, heed examination findings, and avoid preferential insider transactions. Still maintained today (Pocket Guide / RMS Manual; updated Jan. 2024).",
+   cite:"FDIC Statement; Pocket Guide; RMS Manual"},
+  {y:"1995",src:"fed",type:"exp",t:"SR 95‑51 — Rating the adequacy of risk management",delta:2,kind:"add",
+   desc:"Establishes the supervisory expectation that the board (with senior management) actively oversees risk‑management processes and internal controls, and supplies the risk‑management rating definitions. Still operative for ≥$100B state member banks/BHCs.",
+   cite:"SR 95‑51 (Nov. 1995)"},
+  {y:"2001",src:"interagency",type:"obl",t:"GLBA §501(b) Information Security Standards",delta:2,kind:"add",
+   desc:"Interagency Safeguards Guidelines require the board to approve a written information‑security program and receive at least an annual report on its status, testing, and breaches — the binding cyber duty that still anchors board oversight today.",
+   cite:"66 FR 8616; GLBA §501(b); FDIA §39"},
+  {y:"2002",src:"sec",type:"obl",t:"Sarbanes‑Oxley — Audit committee independence & internal controls",delta:8,kind:"add",
+   desc:"As SEC issuers, GSIBs take on §301 (fully independent audit committee with authority to engage counsel), §404(a)/(b) (management ICFR assessment + auditor attestation) and §302 (quarterly CEO/CFO certification).",
+   cite:"SOX §§301, 302, 404; 17 CFR 240.10A‑3"},
+  {y:"2005",src:"ffiec",type:"exp",t:"FFIEC Examination Handbooks — BSA/AML and IT board duties",delta:18,kind:"add",
+   desc:"The FFIEC BSA/AML Examination Manual and IT Examination Handbook (Information Security and Management booklets), with the interagency safety‑and‑soundness standards, elaborate a dense set of board duties: approve and oversee the BSA/AML program, designate and resource a qualified BSA officer, receive SAR and independent‑testing reporting, approve and oversee the information‑security program, and oversee internal controls, audit, and IT governance.",
+   cite:"FFIEC BSA/AML Manual; FFIEC IT Handbook; 12 CFR 30 App. A/B"},
+  {y:"2008",src:"fed",type:"exp",t:"SR 08‑8 — Compliance Risk Management at large complex firms",delta:4,kind:"add",
+   desc:"Directs the board to oversee, approve, and periodically monitor the firm‑wide compliance‑risk‑management program and to promote the stature and independence of the corporate compliance function. (Revised Oct. 1, 2025 to remove reputational‑risk references.)",
+   cite:"SR 08‑8 / CA 08‑11"},
+  {y:"2010",d:"MAR",src:"fed",type:"exp",t:"SR 10‑6 — Funding & Liquidity Risk Management",delta:10,kind:"add",
+   desc:"Interagency policy statement and the OCC Liquidity handbook direct boards to set and approve the firm's liquidity risk tolerance, approve liquidity strategies and limits, receive at least quarterly liquidity reporting, and oversee contingency funding. (2023 addendum reinforced CFP and discount‑window readiness.)",
+   cite:"SR 10‑6 (Mar 17, 2010); OCC Liquidity handbook"},
+  {y:"2010",d:"JUN",src:"interagency",type:"exp",t:"Sound Incentive Compensation Policies",delta:5,kind:"add",
+   desc:"Boards must oversee the incentive‑compensation system, review plans for risk‑takers, ensure risk‑adjustment, deferral, and clawback features, and provide the comp‑committee oversight described in the guidance. Still the only operative federal comp standard — the Dodd‑Frank §956 rule has never been finalized.",
+   cite:"75 FR 36395; OCC Bulletin 2010‑24"},
+  {y:"2010",d:"JUL",src:"congress",type:"obl",t:"Dodd‑Frank Act §165 — Enhanced Prudential Standards",delta:7,kind:"add",
+   desc:"The watershed. §165(h) mandates a board risk committee; §165(d) board‑approved resolution plans ('living wills'); §165(i) stress‑test oversight; §619 (Volcker) compliance attestation; §956 incentive‑comp (proposed). The statutory engine for most of what follows.",
+   cite:"12 U.S.C. 5365; Pub. L. 111‑203"},
+  {y:"2011",d:"APR",src:"fed",type:"exp",t:"SR 11‑7 — Model Risk Management",delta:2,kind:"add",
+   desc:"Directed the board (or its delegate) to approve model‑risk policies and review them annually, with validation findings reported to the board. (Superseded in 2026 — see below.)",
+   cite:"SR 11‑7; OCC Bulletin 2011‑12"},
+  {y:"2012",d:"MAY",src:"interagency",type:"exp",t:"SR 12‑7 — Supervisory Guidance on Stress Testing",delta:4,kind:"add",
+   desc:"Boards must establish a comprehensive stress‑testing framework, maintain and annually approve written stress‑testing policies, actively evaluate results, and weigh them in capital‑adequacy and risk‑appetite decisions.",
+   cite:"77 FR 29458; SR 12‑7"},
+  {y:"2012",d:"OCT",src:"cfpb",type:"exp",t:"CFPB Supervision & Examination Manual — Compliance Management",delta:9,kind:"add",
+   desc:"Establishes the consumer‑compliance‑management‑system expectations: the board is ultimately responsible for approving and overseeing the CMS, board/committee reporting and minutes, chief‑compliance‑officer independent access, sales‑practice/incentive oversight, and compliance audit. (As of 2026, on the books but lightly enforced — see below.)",
+   cite:"CFPB Supervision & Exam Manual (CMR)"},
+  {y:"2012",d:"DEC",src:"fed",type:"exp",t:"SR 12‑17 — Consolidated Supervision Framework (LFIs)",delta:3,kind:"add",
+   desc:"Articulated board expectations for corporate strategy, risk appetite, culture, independent control functions, and management information systems — assessed through the LFI ratings. (Uses 'ensure/maintain' language now in tension with SR 21‑3's oversight framing.)",
+   cite:"SR 12‑17 (rev. Oct. 1, 2025)"},
+  {y:"2013",d:"JAN",src:"fed",type:"exp",t:"SR 13‑1 — Internal Audit Function",delta:3,kind:"add",
+   desc:"The chief audit executive should report functionally to the audit committee, which approves the audit charter, plan, and CAE appointment/compensation, and retains ownership of any outsourced internal‑audit work.",
+   cite:"SR 13‑1 / CA 13‑1"},
+  {y:"2013",src:"interagency",type:"obl",t:"§165(d) Resolution Plan Rule — full‑board approval",delta:2,kind:"add",
+   desc:"The §165(d) resolution‑plan rule (12 CFR 243) requires full‑board approval of the 'living will,' noted in the minutes.",
+   cite:"12 CFR 243.3(e)"},
+  {y:"2013",src:"occ",type:"exp",t:"OCC Third‑Party Risk Guidance (2013‑29)",delta:2,kind:"add",
+   desc:"OCC Bulletin 2013‑29 adds board approval of third‑party risk plans and policies and ultimate oversight of third‑party risk. (Superseded by the 2023 interagency guidance.)",
+   cite:"OCC Bulletin 2013‑29"},
+  {y:"2014",d:"SEP",src:"occ",type:"obl",t:"OCC Heightened Standards (Appendix D)",delta:13,kind:"add",
+   desc:"A second, parallel governance regime at the lead‑bank level: board approves the risk‑governance framework and risk‑appetite statement, approves CRO/CAE appointment and pay, seats two independent directors, mandates director training, and performs annual self‑assessment. Enforceable as rules despite the 'guidelines' label.",
+   cite:"79 FR 54545; 12 CFR Part 30, App. D"},
+  {y:"2014",d:"SEP",src:"fed",type:"obl",t:"Regulation YY — Enhanced Prudential Standards finalized",delta:16,kind:"add",
+   desc:"The single largest binding source: ~16 mandatory board duties for Category I firms — independent risk committee with chartered composition and quarterly CRO reporting, a qualified CRO, liquidity‑risk‑tolerance approval, annual contingency‑funding‑plan approval, stress‑test and TLAC oversight, and single‑counterparty limits.",
+   cite:"12 CFR Part 252, Subparts D–H"},
+  {y:"2014",d:"SEP",src:"fed",type:"exp",t:"SR 14‑8 / SR 14‑1 — Recovery Planning",delta:4,kind:"add",
+   desc:"Recovery planning must be integrated into corporate governance with board‑level oversight, escalation triggers, and reporting for large domestic BHCs. (Revised Oct. 1, 2025 to remove reputational‑risk references; board‑oversight duty retained.)",
+   cite:"SR 14‑8 (Sep 25, 2014)"},
+  {y:"2015",src:"fed",type:"exp",t:"SR 15‑18 / SR 15‑19 — Capital Planning",delta:12,kind:"add",
+   desc:"Codified board oversight of capital planning: ultimate accountability for capital decisions, annual plan approval, capital‑policy approval and annual review, at‑least‑quarterly capital‑adequacy briefings, escalation protocols, meeting recordkeeping, and (Category I) a mandatory quarterly internal‑audit briefing.",
+   cite:"SR 15‑18; SR 15‑19"},
+  {y:"2019",d:"FEB",src:"fed",type:"exp",t:"SR 19‑3 — Large Financial Institution (LFI) Rating System",delta:2,kind:"add",
+   desc:"Makes board effectiveness a rated supervisory element: the Governance & Controls component evaluates the board against the five SR 21‑3 attributes — the enforcement vehicle for the board‑effectiveness expectations.",
+   cite:"SR 19‑3 / CA 19‑2"},
+  {y:"2019",d:"FEB",src:"interagency",type:"exp",t:"165(d) GSIB Resolution Plan Guidance — board governance",delta:5,kind:"add",
+   desc:"The FRB/FDIC guidance for the eight U.S. GSIBs sets board‑governance expectations for the 'living will': governance playbooks enabling timely board action, fiduciary‑duty and interlocking‑board analysis, escalation triggers to the board for the bankruptcy‑filing decision, and an RLEN estimate tied to board action.",
+   cite:"84 FR 1438 (Feb 4, 2019)"},
+  {y:"2019",d:"NOV",src:"fed",type:"obl",t:"Tailoring Rule — Category I–IV defined",delta:1,kind:"add",
+   desc:"The tailoring rule (84 FR 59032) defines Category I–IV and pins Category I to G‑SIB status (12 CFR 252.5), fixing which firms carry the heaviest board duties.",
+   cite:"84 FR 59032; 12 CFR 252.5"},
+  {y:"2019",d:"NOV",src:"ffiec",type:"exp",t:"FFIEC Business Continuity Management booklet",delta:2,kind:"add",
+   desc:"The revised BCM booklet shifts boards from fixed annual approval toward ongoing business‑continuity / operational‑resilience oversight with credible challenge.",
+   cite:"FFIEC IT Handbook (BCM, 2019)"},
+  {y:"2020",src:"occ",type:"exp",t:"OCC Director's Book + Corporate & Risk Governance handbook",delta:30,kind:"add",
+   desc:"The densest single expectations source: the examiner‑facing committee‑by‑committee duties (executive, audit, credit, ALCO, risk, fiduciary, compensation, and governance/nominating committees), the board‑governance handbook items (leadership and independent‑chair structure, nomination, director compensation, minutes, access to management, outside advisors, training, self‑assessment), and the subsidiary‑bank board's duty to protect the bank's interests over the parent's.",
+   cite:"OCC Director's Book (2020); CRG handbook v2.0"},
+  {y:"2020",d:"OCT",src:"interagency",type:"exp",t:"SR 20‑24 — Sound Practices to Strengthen Operational Resilience",delta:5,kind:"add",
+   desc:"Board governance of operational resilience — approval of the tolerance for disruption, confirmation of resourcing and culture, oversight of the three lines, and surveillance reporting.",
+   cite:"SR 20‑24; OCC Bulletin 2020‑94"},
+  {y:"2021",d:"FEB",src:"fed",type:"exp",t:"SR 21‑3 Board Effectiveness — and the first consolidation",delta:14,kind:"mix",
+   desc:"A turning point in intent: SR 21‑3 distills board duties into five 'key attributes' (strategy/risk‑appetite, board information, accountability, support for IRM/internal audit, capable composition), while its companion SR 21‑4 rescinds or revises numerous legacy board letters to strip out duplication. It adds a structured set of board expectations but is the first deliberate attempt to streamline rather than simply layer on.",
+   cite:"86 FR 7927; SR 21‑3 / SR 21‑4"},
+  {y:"2023",d:"JUN",src:"interagency",type:"exp",t:"Interagency Third‑Party Risk Guidance (SR 23‑4)",delta:7,kind:"add",
+   desc:"Assigns the board ultimate oversight of third‑party risk and approval of related policies, with critical‑activity approval, periodic reporting, escalation, independent reviews, and concentration reporting; expressly rescinds the 2013 OCC/Fed/FDIC third‑party guidance, consolidating three sources into one.",
+   cite:"88 FR 37920; SR 23‑4"},
+  {y:"2023",d:"JUN",src:"sec",type:"obl",t:"SEC Cybersecurity Disclosure — Reg S‑K Item 106",delta:1,kind:"add",
+   desc:"Adds a binding board‑level cybersecurity‑governance disclosure duty, overlapping FFIEC and safety‑and‑soundness expectations.",
+   cite:"Reg S‑K Item 106; 17 CFR 229.106"},
+  {y:"2024",d:"OCT",src:"fdic",type:"obl",t:"FDIC IDI Resolution Rule (12 CFR 360.10)",delta:2,kind:"add",
+   desc:"Sharpens insured‑bank resolution‑submission duties, including board/committee escalation procedures. A third §956 incentive‑comp proposal (FIL‑21‑2024) would add a board comp committee of non‑executive directors — but the Fed and SEC decline to join, and it stays unfinalized.",
+   cite:"89 FR 56648; FDIC FIL‑21‑2024"},
+
+  {y:"2025",d:"MAR",src:"fdic",type:"obl",t:"FDIC 2023 corporate‑governance proposal withdrawn",delta:-1,kind:"cut",
+   desc:"The FDIC withdraws its proposed corporate‑governance guidelines (Part 364), which would have layered a stricter board regime — including a duty to 'confirm' compliance and a majority‑independent board — on $10B+ institutions. The latent obligation never becomes law.",
+   cite:"Withdrawn Mar 3, 2025"},
+  {y:"2025",d:"JUN",src:"fed",type:"exp",t:"Reputational risk removed from FRB examination programs",delta:0,kind:"mix",
+   desc:"The Federal Reserve announces it will stop using reputational risk in examinations, implemented through Oct. 1, 2025 revisions to SR 12‑17, SR 14‑8, and SR 08‑8 (and a 2026 interagency rule). Narrows the surface area of board oversight without removing a discrete duty.",
+   cite:"FRB announcement (Jun 23, 2025)"},
+  {y:"2025",d:"AUG",src:"ffiec",type:"exp",t:"FFIEC Cybersecurity Assessment Tool sunset",delta:-1,kind:"cut",
+   desc:"The CAT is retired; board expectations built around its maturity assessments are untethered, with regulators pointing firms to frameworks like NIST CSF 2.0.",
+   cite:"FFIEC AN‑09‑29; eff. Aug 31, 2025"},
+  {y:"2025",d:"SEP",src:"interagency",type:"exp",t:"Interagency climate‑risk principles withdrawn",delta:-1,kind:"cut",
+   desc:"The agencies withdraw the 2023 Principles for Climate‑Related Financial Risk Management for large institutions, removing the board‑level climate‑governance expectations they had placed on large‑firm boards.",
+   cite:"Withdrawn 2025 (nr‑ia‑2025‑103)"},
+  {y:"2025",d:"NOV",src:"fed",type:"exp",t:"LFI rating recalibration — board findings reweighted",delta:0,kind:"mix",
+   desc:"The Fed repeals the 'ascetic principle': a single Deficient‑1 (including in Governance & Controls) no longer makes a firm 'not well managed,' and the enforcement presumption for a Deficient‑1 is removed. The board duties remain, but a governance finding now carries far less consequence.",
+   cite:"90 FR 51329 (adopted Nov 5, 2025)"},
+  {y:"2025",d:"NOV",src:"fed",type:"exp",t:"Supervisory Operating Principles — focus on material risk",delta:0,kind:"mix",
+   desc:"Examiners are directed toward material financial risk and away from process‑and‑documentation findings; the MRA issuance standard is tightened and nonbinding observations are reinstated — functionally narrowing enforcement of process‑oriented board expectations.",
+   cite:"FRB Supervisory Operating Principles (Nov 18, 2025)"},
+  {y:"2025",d:"NOV",src:"cfpb",type:"exp",t:"CFPB 'Humility in Supervision' pledge — CMS lightly enforced",delta:-1,kind:"cut",
+   desc:"The CFPB moves to a sharply curtailed 2026 exam cycle (~50% fewer events, narrower scope, MRAs limited to pattern‑and‑practice harm, deference to other regulators). The CMS board expectations remain on the books but are now lightly enforced; prudential regulators carry the operative pressure.",
+   cite:"CFPB Humility Pledge (Nov 21, 2025)"},
+  {y:"2026",d:"APR",src:"interagency",type:"exp",t:"Model Risk Management guidance replaced — board duty removed",delta:-2,kind:"cut",
+   desc:"Revised interagency MRM guidance supersedes SR 11‑7, explicitly disclaims enforceability, and drops the board‑approval‑and‑annual‑review duty entirely. Firms that built board model‑risk calendars now hold a duty the agencies no longer require.",
+   cite:"SR 26‑2; OCC Bulletin 2026‑13 (Apr 17, 2026)"},
+  {y:"2026",d:"APR",src:"interagency",type:"obl",t:"'Reputation risk' supervisory‑use prohibition (rule)",delta:-1,kind:"cut",
+   desc:"An interagency rule bars examiners from using reputation risk and strikes reputational‑risk references from the safety‑and‑soundness and information‑security guidelines, narrowing the surface area of board oversight.",
+   cite:"91 FR 18279 (Apr 10, 2026)"},
+  {y:"2026",d:"MAY",src:"occ",type:"obl",t:"OCC Recovery Planning (Appendix E) rescinded",delta:-1,kind:"cut",
+   desc:"The OCC rescinds its codified bank‑board recovery‑plan approval duty in full, leaving only the holding‑company SR 14‑8 oversight hook. The OCC also proposes (Bulletin 2025‑51) raising the Heightened Standards threshold to $700B — a far larger rollback still pending.",
+   cite:"91 FR (doc. 2026‑06281); eff. May 1, 2026"}
+];
+
+// ---------- cumulative totals by layer ----------
+let ro=0,re=0; const pyO={},pyE={};
+EVENTS.forEach(e=>{ if(e.type==='obl') ro+=e.delta; else re+=e.delta; pyO[+e.y]=ro; pyE[+e.y]=re; });
+const years=[...new Set(EVENTS.map(e=>+e.y))].sort((a,b)=>a-b);
+let lo=0,le=0; const oData=[],eData=[];
+years.forEach(y=>{ if(pyO[y]!=null)lo=pyO[y]; if(pyE[y]!=null)le=pyE[y]; oData.push(lo); eData.push(le); });
+
+// stats (computed for honesty)
+const peakObl=Math.max(...oData);
+const peakExp=Math.max(...eData);
+const combinedNow=oData[oData.length-1]+eData[eData.length-1];
+const cutCount=EVENTS.filter(e=>e.kind==='cut').length;
+const mixDownCount=EVENTS.filter(e=>e.kind==='mix'&&(+e.y>=2025)).length;
+document.getElementById('s-obl').textContent='~'+peakObl;
+document.getElementById('s-exp').textContent='~'+peakExp;
+document.getElementById('s-comb').textContent='~'+combinedNow;
+document.getElementById('s-cut').textContent=(cutCount+mixDownCount);
+
+// ---------- stacked bar chart ----------
+const ctx=document.getElementById('curve');
+new Chart(ctx,{
+  type:'bar',
+  data:{labels:years.map(String),datasets:[
+    {label:'Binding obligations',data:oData,backgroundColor:'#34506f',hoverBackgroundColor:'#2a4259',maxBarThickness:30,categoryPercentage:.78,barPercentage:.92},
+    {label:'Supervisory expectations',data:eData,backgroundColor:'#5f9c8c',hoverBackgroundColor:'#4f8a7a',maxBarThickness:30,categoryPercentage:.78,barPercentage:.92}
+  ]},
+  options:{
+    responsive:true,maintainAspectRatio:false,
+    interaction:{mode:'index',intersect:false},
+    plugins:{legend:{display:false},
+      tooltip:{backgroundColor:'#1f2328',titleColor:'#fff',bodyColor:'#e8eef7',padding:10,
+        callbacks:{title:it=>String(it[0].label),
+          label:it=>` ${it.dataset.label}: ≈ ${it.parsed.y}`,
+          afterBody:it=>{const o=it.find(x=>x.datasetIndex===0),e=it.find(x=>x.datasetIndex===1);
+            return (o&&e)?['  combined: ≈ '+(o.parsed.y+e.parsed.y)]:[];}}}},
+    scales:{
+      x:{stacked:true,ticks:{color:'#5b6470',maxRotation:60,minRotation:45,font:{size:11}},grid:{display:false},border:{color:'#c4cad2'}},
+      y:{stacked:true,beginAtZero:true,suggestedMax:230,ticks:{color:'#5b6470'},grid:{color:'rgba(0,0,0,.06)'},border:{color:'#c4cad2'},
+         title:{display:true,text:'Cumulative board‑duty count (approx.; duplication retained)',color:'#5b6470'}}
+    }
+  }
+});
+
+// ---------- filters ----------
+const legend=document.getElementById('legend');
+const active=new Set(Object.keys(SRC));
+const typeActive=new Set(['obl','exp']);
+
+const tlab=document.createElement('span');tlab.className='lab';tlab.textContent='Layer:';legend.appendChild(tlab);
+Object.entries(TYPE).forEach(([k,v])=>{
+  const b=document.createElement('button');b.className='typ';b.dataset.t=k;
+  b.style.borderColor=v.c;
+  b.innerHTML=`<span class="sqr" style="background:${v.c}"></span>${v.name}`;
+  b.onclick=()=>{b.classList.toggle('off');typeActive.has(k)?typeActive.delete(k):typeActive.add(k);render();};
+  legend.appendChild(b);
+});
+const sep=document.createElement('span');sep.className='sep';legend.appendChild(sep);
+const slab=document.createElement('span');slab.className='lab';slab.textContent='Source:';legend.appendChild(slab);
+Object.entries(SRC).forEach(([k,v])=>{
+  const b=document.createElement('button');b.dataset.k=k;
+  b.innerHTML=`<span class="dot" style="background:${v.c}"></span>${v.name}`;
+  b.onclick=()=>{b.classList.toggle('off');active.has(k)?active.delete(k):active.add(k);render();};
+  legend.appendChild(b);
+});
+
+// ---------- timeline ----------
+const tl=document.getElementById('tl');
+const PHASES=[
+  {after:null,label:"Foundations · pre‑crisis"},
+  {after:"2010JUL",label:"Post‑crisis build‑out"},
+  {after:"2021FEB",label:"Layering & consolidation"},
+  {after:"2025MAR",label:"The 2025–26 rollback & reweighting",red:true}
+];
+function key(e){return e.y+(e.d||"");}
+function render(){
+  tl.innerHTML="";
+  EVENTS.forEach(e=>{
+    const ph=PHASES.find(p=>p.after===key(e));
+    if(ph){
+      const d=document.createElement('div');d.className='phase'+(ph.red?' red':'');
+      d.innerHTML=`<span class="pl">${ph.label}</span><span class="bar"></span>`;
+      tl.appendChild(d);
+    }
+    if(!active.has(e.src)) return;
+    if(!typeActive.has(e.type)) return;
+    const v=SRC[e.src];
+    const el=document.createElement('div');
+    el.className='ev '+e.type+(e.kind==='cut'?' cut':'');
+    el.style.setProperty('--src',v.c);
+    const badge = e.kind==='cut'?'<span class="badge cutb">removed</span>'
+                : e.kind==='mix'?'<span class="badge mix">reweighted</span>'
+                : `<span class="badge add">+${e.delta} duties</span>`;
+    const tp = e.type==='obl'?'<span class="tpill obl">Obligation</span>':'<span class="tpill exp">Expectation</span>';
+    el.innerHTML=`
+      <div class="yr">${e.y}${e.d?`<small>${e.d}</small>`:''}</div>
+      <div class="ebox">
+        <div class="ehead"><div class="titlewrap"><span class="etitle">${e.t}</span>${tp}</div>${badge}</div>
+        <div class="edesc">${e.desc}</div>
+        <div class="src-tag">${v.name}</div>
+        <div class="cite">${e.cite}</div>
+      </div>`;
+    tl.appendChild(el);
+  });
+}
+render();
+
+document.getElementById('foot').innerHTML =
+ `Two‑layer view compiled from the companion board‑<em>obligations</em> analysis (binding statutes and rules) and the v3 board‑<em>supervisory‑expectations</em> inventory (149 citation‑level entries), themselves drawn from the eCFR, Federal Register, and the published guidance of the Federal Reserve, OCC, FDIC, SEC, FFIEC, CFPB, and FinCEN. "Binding obligation" denotes a statute or rule with the force of law (the OCC Heightened Standards are included here as enforceable guidelines); "supervisory expectation" denotes guidance, examination standards, and rating frameworks that inform examinations but are not, by themselves, legally binding. The supervisory‑expectation weights are calibrated to that 149‑entry inventory. <b>Duplication is intentionally retained:</b> where an obligation and an expectation impose substantially the same board duty, both are counted, because a board must still track, evidence, and satisfy each — the overlap is part of the burden this project documents. Counts are approximate and illustrative. Proposed‑but‑unfinalized rules (e.g., Dodd‑Frank §956; the OCC $700B threshold proposal) are noted but excluded from the counts. Several 2025–26 changes reduce the <em>consequence</em> of expectations without formally deleting them (shown as reweighted). Not legal advice; confirm every citation against live text. Generated June 2026.`;
+</script>
+</body>
+</html>

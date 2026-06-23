@@ -1,0 +1,312 @@
+{
+  "report_name": "Report_D.txt",
+  "judge_model": "Codex GPT-5",
+  "spec_reconstruction": {
+    "domain": "Current U.S. federal board-level obligations for Category I global systemically important bank holding companies and their insured depository institution subsidiaries.",
+    "unit_of_analysis": "A citation-level obligation imposed on a board, board committee, or director class, with source, actor, entity level, duty, binding status, and applicability.",
+    "structural_axes": [
+      "Category I GSIB bank holding company versus insured depository institution subsidiary",
+      "Federal Reserve, OCC, FDIC, CFPB, and interagency source authority",
+      "Binding regulation/statute versus supervisory guidance/examination expectation",
+      "Full board versus board committees",
+      "Audit, risk, compensation, and nominating/governance committee duties",
+      "Inside/outside and independent/non-independent director distinctions",
+      "Regulatory domain and frequency or approval trigger"
+    ],
+    "actor_classes_required": [
+      "full board",
+      "audit committee",
+      "risk committee",
+      "compensation committee",
+      "nominating or governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent directors",
+      "BHC board versus IDI subsidiary board"
+    ],
+    "source_universe": [
+      "Federal Reserve regulations and supervisory guidance",
+      "OCC regulations, Part 30 appendices, bulletins, and handbooks",
+      "FDIC regulations and supervisory materials",
+      "CFPB supervision and compliance management materials",
+      "Interagency standards and guidance including FFIEC, BSA/AML, incentive compensation, model risk, cyber, and third-party risk materials"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity governance",
+      "BSA and AML program oversight",
+      "consumer compliance oversight",
+      "safety and soundness standards generally"
+    ],
+    "audience_use": "Bank directors, legal counsel, and policymakers using the work as a policy-reform inventory of duplicative, overlapping, and burdensome board requirements.",
+    "form_depth_expectations": "Granular citation-specific inventory, extensive enough to approximate 40 to 60 pages, with reform-useful classification rather than a generic summary."
+  },
+  "coverage_ledger": {
+    "cells_expected": 96,
+    "cells_covered": 8,
+    "cells_thin": 18,
+    "cells_missing": 70,
+    "material_omissions": [
+      "No real BHC-versus-IDI subsidiary mapping; the report repeatedly says 'the board' without identifying legal entity or charter type.",
+      "No current primary-source inventory by Federal Reserve, OCC, FDIC, CFPB, and interagency authority.",
+      "Most named regulatory domains are one-sentence generic assertions rather than citation-level obligations.",
+      "Committee coverage is skeletal and omits many required composition, charter, reporting, approval, independence, and frequency details.",
+      "Director-class coverage is generic and does not inventory inside/outside or independent/non-independent obligations source by source.",
+      "No analysis of duplication, overlap, reform levers, delegation options, or binding-versus-guidance distinctions."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "document-store 28eb... #page=5 for culture/code of ethics",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page is the OCC Director's Book table of contents, not the cited duty text."
+      },
+      {
+        "citation": "document-store 28eb... #page=5 for fiduciary duties, management oversight, succession planning",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The pin-cite lists later topics but does not substantiate these as current in-force Category I GSIB obligations."
+      },
+      {
+        "citation": "document-store 1f9c... #page=765 for sound, independent business judgment",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The FDIC manual page lists sound independent business judgment, but in proposed-bank examination context."
+      },
+      {
+        "citation": "document-store 1f9c... #page=765 for personal liability",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The cited page lists director liability examples; it is not a Category I GSIB-specific obligation."
+      },
+      {
+        "citation": "document-store 3729... #page=24 for active oversight of covered bank risk-taking",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The cited OCC heightened-standards text supports active board oversight for covered OCC banks."
+      },
+      {
+        "citation": "document-store 9de95... #page=70 for active oversight, independent judgment, training, and self-assessment",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited PDF page is an introduction/table-of-contents page, not the board standards asserted."
+      },
+      {
+        "citation": "document-store 05aa... #page=125 for audit committee outside-director requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The cited table summarizes 12 CFR 363 audit committee requirements by IDI asset size."
+      },
+      {
+        "citation": "document-store 05aa... #page=125 for audit committee financial expertise/outside counsel/large-customer limits",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The table supports those requirements for specified larger IDIs, subject to conditions."
+      },
+      {
+        "citation": "document-store 28eb... #page=5 for audit committee financial reporting/internal controls",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page does not contain this audit committee obligation."
+      },
+      {
+        "citation": "document-store 732f... #page=24 for internal audit inventory and root-cause reporting",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The cited page quotes OCC heightened-standards provisions for internal audit reporting to the audit committee."
+      },
+      {
+        "citation": "document-store 27eac... #page=15 for BHCs with $50 billion or more maintaining a risk committee",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The cited Regulation YY page supports risk-committee requirements, though it is not tailored to Category I GSIBs."
+      },
+      {
+        "citation": "document-store 27eac... #page=15 for quarterly CRO reports and quarterly risk committee meetings",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The cited Regulation YY page includes the quarterly report and meeting requirements."
+      },
+      {
+        "citation": "document-store 28eb... #page=5 for risk committee responsibility for risk management systems",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page is not the Regulation YY risk-committee rule and does not support this claim."
+      },
+      {
+        "citation": "document-store 28eb... #page=5 for inside directors' day-to-day role",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "The page does not state this, and the assertion is a general description rather than a regulatory obligation."
+      },
+      {
+        "citation": "document-store 208201... #page=1 for GSIB method 1 and method 2 annual calculation",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The Federal Register page supports the GSIB surcharge calculation statement, but it is not a board-level duty."
+      },
+      {
+        "citation": "document-store a55b... #page=1 for GSIB surcharge methodology",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The cited Federal Reserve notice supports the general methodology statement, but not a board obligation."
+      },
+      {
+        "citation": "document-store a737... #page=153 for LCR/NSFR board oversight",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page is a footnote page from another rule and does not state the asserted board duty."
+      },
+      {
+        "citation": "document-store a737... #page=153 for resolution planning board oversight",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page does not support the claim; 12 CFR 243.4 contains a separate board-approval duty."
+      },
+      {
+        "citation": "document-store a737... #page=153 for model risk governance",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page does not discuss model risk; SR 11-7 is the relevant supervisory guidance."
+      },
+      {
+        "citation": "document-store a737... #page=153 for BSA/AML and consumer compliance oversight",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited page does not support either claim; BSA board approval is found in separate regulations such as 12 CFR 21.21."
+      }
+    ],
+    "summary": {
+      "supports": 9,
+      "wrong_attribution": 0,
+      "not_supported": 11,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "Poor",
+      "note": "The report mostly uses generic 'the board' phrasing and does not map obligations by BHC board, IDI subsidiary board, charter, committee, or director independence status."
+    },
+    "binding_vs_guidance": {
+      "verdict": "Poor",
+      "note": "It blends regulations, OCC handbook material, FDIC examination instructions, and supervisory guidance as undifferentiated 'must' obligations."
+    },
+    "reform_usefulness": {
+      "verdict": "Absent",
+      "note": "It does not identify duplicative, overlapping, obsolete, ambiguous, or burdensome obligations and offers no reform levers."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "The board must oversee model risk governance"
+    },
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "The board must oversee cybersecurity governance"
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "This inventory provides a comprehensive overview"
+    },
+    {
+      "flag": "F6",
+      "severity": "central",
+      "evidence": "Comprehensive Inventory of Board-Level Obligations for Category I GSIBs"
+    },
+    {
+      "flag": "F7",
+      "severity": "central",
+      "evidence": "covering all major regulatory domains and ensuring compliance"
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "Regulatory Domains",
+      "rationale": "It names many required domains and some actor buckets, but coverage is only a skeletal summary and misses source-by-source, entity-level, committee-level, and director-class inventory requirements. F6 keeps the effective score at 1."
+    },
+    "D2_integrity": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "The board must oversee operational resilience",
+      "rationale": "Some cited pages support discrete audit, risk-committee, and OCC heightened-standards points, but many central claims cite unrelated table-of-contents or footnote pages. F2 and F7 cap the effective score at 1."
+    },
+    "D3_accuracy": {
+      "raw": 1,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "The board must oversee consumer compliance",
+      "rationale": "The report repeatedly converts broad governance expectations into mandatory domain-specific board duties without exact legal source or applicability. F4 central sets the effective score to 0."
+    },
+    "D4_sludge_analysis": {
+      "raw": 0,
+      "effective": 0,
+      "weight": 15,
+      "evidence": "How to Achieve Compliance",
+      "rationale": "There is no sludge analysis, no duplication or overlap map, and no reform-actionable framing; the compliance checklist does not satisfy the policy-reform purpose."
+    },
+    "D5_structure": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "Specific Committee Obligations",
+      "rationale": "The headings loosely follow the request, but the formatting is compressed, citation granularity is poor, and pervasive generic-actor language prevents working-document usability."
+    },
+    "D6_calibration": {
+      "raw": 0,
+      "effective": 0,
+      "weight": 10,
+      "evidence": "ensuring compliance with federal regulations and agency guidance",
+      "rationale": "The report gives no caveats about source limits, current-law uncertainty, binding status, or incomplete coverage, and falsely claims comprehensive coverage. F5 would cap this dimension even if the raw score were higher."
+    }
+  },
+  "overall_score": 14,
+  "tier": "E",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D5: The report at least organizes the answer under general board duties, committees, director distinctions, domains, and compliance steps.",
+      "D2: Several discrete citations do support real obligations, including audit committee requirements, Regulation YY risk committee requirements, and OCC heightened-standards board duties.",
+      "D1: It recognizes most of the domains named in the request, even though the treatment is thin.",
+      "D5: It attempts to distinguish audit, risk, compensation, and nominating/governance committees."
+    ],
+    "weaknesses": [
+      "D1/F6: The report is a short generic summary, not an extensive citation-level inventory across BHC and IDI entity levels.",
+      "D2/F2: Many central citations are wrong pin-cites or unrelated pages, especially repeated reliance on page 5 and page 153 citations.",
+      "D3/F4: It invents or overstates domain-specific 'must oversee' duties without exact current legal authority or applicability analysis.",
+      "D4: It contains no policy-sludge analysis and no reform levers for consolidation, delegation, clarification, or rescission.",
+      "D6/F5: It falsely claims comprehensive coverage despite omitting many core current obligations and source distinctions."
+    ],
+    "prioritized_remediation": [
+      "Rebuild the inventory from primary sources, with one row per obligation and exact source citation.",
+      "Separate BHC-level duties from IDI subsidiary duties and identify the relevant regulator and charter for each.",
+      "Replace generic 'board must oversee' statements with the precise duty, actor, trigger, frequency, and binding status.",
+      "Repair all pin-cites and remove claims supported only by table-of-contents pages, footnotes, or unrelated rule text.",
+      "Add a reform ledger identifying overlaps, duplications, delegable duties, guidance-only expectations, and statutory or regulatory change levers."
+    ],
+    "reliance_recommendation": "Do not rely on this report as a legal or policy-reform inventory; at most, use it as a rough topic checklist for a complete source-level rebuild."
+  }
+}
+
+**Result:** Tier E (14/100) — integrity+scope-flagged. The report is a generic and citation-unreliable summary, not a usable current-law board-obligation inventory for Category I GSIBs.

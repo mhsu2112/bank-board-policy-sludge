@@ -1,0 +1,194 @@
+{
+  "report_name": "Report_D.txt",
+  "judge_model": "claude-opus-4-7 (1M context)",
+  "spec_reconstruction": {
+    "domain": "U.S. federal banking law/governance — board-level obligations of Category I GSIB bank holding companies and their insured depository institution (IDI) subsidiaries",
+    "unit_of_analysis": "Individual board-level obligation (with regulatory citation, nature of duty, actor mapping, director-status distinction)",
+    "structural_axes": [
+      "Entity tier: BHC vs. IDI",
+      "Actor class: full board vs. risk/audit/compensation/nominating committees",
+      "Director status: inside/outside; independent/non-independent",
+      "Regulatory domain (capital, liquidity, resolution, recovery, op resilience, model risk, TPRM, incentive comp, cyber, BSA/AML, consumer compliance, safety & soundness)"
+    ],
+    "actor_classes_required": [
+      "Full board",
+      "Risk committee",
+      "Audit committee",
+      "Compensation committee",
+      "Nominating/governance committee",
+      "Inside directors",
+      "Outside directors",
+      "Independent directors",
+      "Non-independent directors"
+    ],
+    "source_universe": [
+      "Federal Reserve regulations and guidance",
+      "OCC regulations and guidance",
+      "FDIC regulations and guidance",
+      "CFPB regulations and guidance",
+      "Interagency standards"
+    ],
+    "coverage_areas": [
+      "Capital planning and stress testing",
+      "Liquidity risk management",
+      "Resolution planning",
+      "Recovery planning",
+      "Operational resilience",
+      "Model risk governance",
+      "Third-party risk management",
+      "Incentive compensation",
+      "Cybersecurity governance",
+      "BSA/AML",
+      "Consumer compliance",
+      "Safety and soundness"
+    ],
+    "audience_use": "Bank directors and their legal counsel; policymakers engaged in regulatory-burden reform",
+    "form_depth_expectations": "Granular, citation-specific, suitable as a working policy reform document, ~40–60 pages"
+  },
+  "coverage_ledger": {
+    "cells_expected": 162,
+    "cells_covered": 40,
+    "cells_thin": 60,
+    "cells_missing": 62,
+    "material_omissions": [
+      "No statutory architecture (no Dodd-Frank §165, no FDIA §39, no FDIA §36, no GLBA §501(b), no 12 USC §1818)",
+      "No primary-source regulatory pin-cites (no 12 CFR §252.33, no 12 CFR §225.8, no 12 CFR §363.5, no 12 CFR §243.4, no 12 CFR §360.10, no Appendix B/D/E references)",
+      "No SR letter, OCC Bulletin, FDIC FIL, or Federal Register pin-cites — entire 11-domain section relies on generic boilerplate",
+      "No nominating/governance committee structural analysis — addressed in one sentence only",
+      "No holding-company vs. IDI allocation framework — referenced only in passing",
+      "Inside vs. outside and independent vs. non-independent director distinctions reduced to two-sentence summaries without rule mapping",
+      "Each of the 11 'Regulatory Domains' entries uses substantially identical boilerplate ('the board must oversee X' / 'robust X framework') rather than domain-specific obligations and citations",
+      "No discussion of overlap, duplication, or burden — the core analytical ask of the ORIGINAL_REQUEST",
+      "No reform recommendations or actionable consolidation options",
+      "No currency awareness — no mention of SR 26-2 / OCC Bulletin 2026-13 (April 2026 model risk replacement), OCC Appendix E rescission, 91 FR 18279 reputation-risk rule, FDIC Appendix C withdrawal, or 12 CFR §363.5 threshold indexing",
+      "No binding-vs-guidance distinction"
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {"citation": "URL document-store.reg-genome.com/28ebf61c43f2ce5aa6f90e9472053360 #page=5 (cited 22 times across nearly every domain)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Opaque private document-store URL; appears to point to a single source page reused for every domain (corporate governance, capital, liquidity, resolution, recovery, op resilience, model risk, TPRM, incentive comp, cyber, BSA/AML, consumer compliance, safety & soundness). Reader cannot determine which primary authority (CFR section, SR letter, USC section) is being cited."},
+      {"citation": "URL …/1f9c14a37de074c0e8a605f0c2076487/file …#page=765 (general board duties; informed decision-making; personal liability)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Opaque URL; substantively consistent with OCC Director's Book / Comptroller's Handbook content but not pin-cited to a CFR section or handbook booklet."},
+      {"citation": "URL …/3729ebb8d2a3c5be69d3184c16bd49a1/file …#page=24 ('actively oversee … hold management accountable'; 'two independent directors'; training; self-assessment)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance maps to 12 CFR Part 30 Appendix D ¶¶III.B, III.D, III.E, III.F (OCC Heightened Standards) but report does not name Appendix D. Quoted reliance language ('may rely on … question, challenge, and when necessary, oppose') matches §III.B verbatim."},
+      {"citation": "URL …/9de95fa3c4740d576bd8103a28d2d623/file …#page=70 (active oversight; independent judgment; independent directors; ongoing training; self-assessment)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Likely OCC Comptroller's Handbook (Corporate and Risk Governance booklet) or Appendix D commentary; not pin-cited."},
+      {"citation": "URL …/27eac8269b006df2c6aa2baa751f2dd0/file …#page=15 (risk committee at $50B+; quarterly CRO reporting; quarterly meeting)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance maps to 12 CFR §252.33; report cites '$50 billion' threshold which is the legacy Reg YY tailoring threshold (current Subpart D applies at $100B+). Conflates Subpart C ($50B+ risk committee, §252.22) with Subpart D ($100B+ enhanced standards, §252.33)."},
+      {"citation": "URL …/05aa8384638f4a65fcf6b0ab551e80da/file …#page=125 (audit committee composition rules, multiple times)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance maps to 12 CFR §363.5 but report stacks three different threshold-specific standards (363.5(a)(2) $1B-$5B 'majority independent'; 363.5(a)(1) $5B+ 'entirely independent outside'; 363.5(b) holding-company-substitution and 'no large customers') as if they were parallel obligations, without explaining the threshold distinctions."},
+      {"citation": "URL …/732f6ae91832fc3dbcd89690df2b4d9c/file …#page=24 (internal audit inventory of material processes; root-cause analysis)", "verdict": "UNVERIFIABLE", "centrality": "peripheral", "reason": "Substance maps to OCC Heightened Standards internal audit standards (Appendix D ¶II.K)."},
+      {"citation": "URL …/2082017a660bb259784bdfb33bd0c568/file …#page=1 (GSIB method 1 / method 2 scores via FR Y-15)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance maps to 12 CFR §§217.402–.406; method-2 'expressed in billions of dollars' is consistent with the surcharge rule; not pin-cited to Reg Q."},
+      {"citation": "URL …/a55b22433903106ad7955263c9d3fc56/file …#page=1 ('Federal Reserve's GSIB surcharge rule … methodology to identify GSIBs')", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance consistent with Reg Q Subpart H; not pin-cited."},
+      {"citation": "URL …/a7371d5b24b0eec0ee5220484453d0b1/file …#page=153 (liquidity LCR/NSFR; resolution; recovery; op resilience; model risk; TPRM; incentive comp; cyber; BSA/AML; consumer compliance — cited 9+ times)", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Same single source page reused across at least nine distinct regulatory domains. Highly improbable that a single primary-source page covers all nine domains substantively. Reuse pattern suggests a single overview/index page being treated as authority for unrelated obligations."},
+      {"citation": "'The board must oversee operational resilience … developing and maintaining a robust business continuity plan' (cyber/op resilience/BSA/consumer compliance entries)", "verdict": "NOT-SUPPORTED", "centrality": "central", "reason": "Generic boilerplate not traceable to a specific authority. No reference to SR 20-24, GLBA §501(b) Appendices B / D-2 / F, Interagency Information Security Guidelines ¶III.A, FFIEC BCM booklet, 12 CFR §53 incident notification, 12 CFR §21.21 / §208.63 / §326.8 BSA program rules, or CFPB CMR Module 1."},
+      {"citation": "'The board must comply with fiduciary duties and the law … oversee compensation and benefits arrangements'", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance is plausible but not pin-cited; no reference to Delaware/state corporate law, OCC Director's Book, or 75 FR 36395 (2010 incentive comp guidance)."},
+      {"citation": "'Directors can be personally liable for losses arising from legal lending limit violations, insider transactions, and bank failures … civil money penalties'", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance maps to 12 USC §1818(e)/(i) and Reg O insider-lending provisions; not pin-cited."},
+      {"citation": "'At least two members … should qualify as independent directors under the listing standards of a national securities exchange, as demonstrated to the satisfaction of the OCC'", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Matches OCC Heightened Standards Appendix D ¶III.D substance, but not cited as such."},
+      {"citation": "'The audit committee … may be satisfied at the holding company level'", "verdict": "UNVERIFIABLE", "centrality": "peripheral", "reason": "Substance maps to 12 CFR §363.5(b) / FDIA §36(i); not pin-cited."},
+      {"citation": "'The board must adhere to ethical conduct and policy, including compliance with Regulation O'", "verdict": "UNVERIFIABLE", "centrality": "peripheral", "reason": "Reg O reference (12 CFR Part 215) is the only domain-specific authority by name in the entire report, though no section number is given and no specific board obligation under Reg O is identified."},
+      {"citation": "'The risk committee must receive and review regular reports from the chief risk officer on a quarterly basis and meet at least quarterly'", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance matches 12 CFR §252.33; not pin-cited; CRO direct-reporting-to-risk-committee-and-CEO requirement of §252.33(b) is not mentioned."},
+      {"citation": "'GSIBs must calculate their method 1 score and method 2 score annually using data reported on the firm's Banking Organization Systemic Risk Report (FR Y-15) as of December 31'", "verdict": "UNVERIFIABLE", "centrality": "central", "reason": "Substance matches 12 CFR §217.402(b); not pin-cited."},
+      {"citation": "'This inventory provides a comprehensive overview of the obligations imposed on the boards of directors of Category I GSIBs … covering all major regulatory domains'", "verdict": "NOT-SUPPORTED", "centrality": "central", "reason": "False exhaustiveness claim. The inventory does not include statutory or regulatory pin-cites for any major obligation, omits SR letters/OCC Bulletins/FDIC FILs entirely, omits the holding-company / IDI allocation framework, has no overlap or reform analysis, and reuses identical boilerplate across 11 distinct regulatory domains. Cannot be characterized as 'comprehensive.'"},
+      {"citation": "Cybersecurity, model risk, third-party, incentive comp, BSA/AML, consumer compliance entries (each cited only to the single #page=153 and #page=5 URLs)", "verdict": "NOT-SUPPORTED", "centrality": "central", "reason": "These six domains together cite no primary-source authority. No GLBA §501(b) appendices for cyber; no SR 11-7 / SR 26-2 for model risk; no 88 FR 37920 / SR 23-4 for TPRM; no 75 FR 36395 for incentive comp; no 12 CFR §21.21/§208.63/§326.8 for BSA; no CFPB CMR for consumer compliance."}
+    ],
+    "summary": {
+      "supports": 0,
+      "wrong_attribution": 0,
+      "not_supported": 3,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 17
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "poor",
+      "note": "Pervasive generic-actor language ('the board must oversee X / ensure adequate Y'). Required actor classes (compensation committee, nominating/governance committee) addressed in one sentence each. Inside vs. outside director treatment reduced to two two-sentence definitions. No mapping of specific obligations to specific committees or director types within each domain. Pervasive generic-actor language triggers D5 subcriterion cap."
+    },
+    "binding_vs_guidance": {
+      "verdict": "absent",
+      "note": "No distinction drawn between binding regulation, enforceable §39 guideline, supervisory guidance, and examination expectation. No 'shall vs. should' analysis. Currency caveats absent (no awareness of April 2026 model-risk replacement, OCC Appendix E rescission, FDIC Appendix C withdrawal, etc.). The reader cannot determine what is legally binding."
+    },
+    "reform_usefulness": {
+      "verdict": "absent",
+      "note": "No overlap analysis. No duplication analysis. No reform recommendations. No consolidation options. No cross-agency harmonization discussion. The closing 'How to Achieve Compliance' section is generic operational guidance, not reform analysis. Subcriterion 'no reform-actionable framing caps D4 ≤3' applies; 'purely descriptive list caps D4 ≤2' arguably also applies."
+    }
+  },
+  "critical_flags": [
+    {"flag": "F5", "severity": "central", "evidence": "\"This inventory provides a comprehensive overview of the obligations imposed on the boards of directors of Category I GSIBs and their insured depository institution subsidiaries, covering all major regulatory domains and ensuring compliance with federal regulations and agency guidance.\" The inventory is not comprehensive: no statutory architecture, no regulatory pin-cites, no SR letters, no overlap analysis, no reform analysis."},
+    {"flag": "F6", "severity": "central", "evidence": "The ORIGINAL_REQUEST asked for a 'comprehensive, citation-level inventory of all current, in-force obligations … with the precise regulatory source … expected to be extensive, approximating 40 to 60 pages.' Report D delivers ~3 pages of generic boilerplate keyed to opaque internal-document URLs, with no CFR/USC/SR-letter/Federal-Register pin-cites and no overlap or reform analysis."},
+    {"flag": "F7", "severity": "central", "evidence": "Central legal conclusions across all 11 'Regulatory Domains' rest on opaque private document-store URLs (#page=5 reused 22 times; #page=153 reused 9+ times for unrelated domains) rather than on identifiable primary authorities. The reader cannot independently confirm any cited obligation."}
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "\"3. Compensation Committee: The compensation committee is responsible for overseeing the bank's compensation policies and practices, including incentive compensation arrangements\"",
+      "rationale": "All 12 named domains are mentioned, but each gets only generic boilerplate rather than specific obligations. Nominating/governance committee receives a single sentence; compensation committee a single sentence. Inside vs. outside director treatment is two two-sentence definitions. No holding-company / IDI allocation framework. F6 (central) caps D1_eff at 1."
+    },
+    "D2_integrity": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "\"https://document-store.reg-genome.com/28ebf61c43f2ce5aa6f90e9472053360/file?auth=uwGdVHZYxGDEifkN#page=5\" (cited 22 times)",
+      "rationale": "All citations are opaque URLs to a private document-store with no agency, no CFR section, no SR letter, no Federal Register cite, and no booklet-and-page references that a reader could verify against primary sources. 17 of 20 sampled citations are UNVERIFIABLE; 3 are NOT-SUPPORTED (the closing 'comprehensive' claim plus two domain entries that rest entirely on reused single-page URLs). F7 (central) caps D2_eff at 1; the judge-prompt rule 'do not award 3–4 on unverified citations' independently bars a higher score."
+    },
+    "D3_accuracy": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "\"The board of directors may rely on risk assessments and reports prepared by independent risk management and internal audit to support the board's ability to question, challenge, and when necessary, oppose recommendations and decisions made by management\"",
+      "rationale": "Where specific substance is quoted (e.g., the OCC Appendix D ¶III.B reliance language; the 12 CFR §363.5 audit-committee composition variants; the Reg Q method-1/method-2 framework; the OCC Heightened Standards two-independent-director rule), the underlying content is accurate. But the 11 regulatory-domain entries collapse into nearly identical boilerplate that fails to surface what is substantively distinct about each domain's board obligations. No currency awareness (no mention of 2025–2026 changes that the other reports captured). Confused stacking of §363.5(a)(1), (a)(2), and (b) without explaining threshold-specific application. Raw=2 (adequate substance where present, noticeable gaps). No F3 (stale) or F4 (invented obligation) asserted because the substance, where stated, is approximately right."
+    },
+    "D4_sludge_analysis": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 15,
+      "evidence": "\"How to Achieve Compliance\" — closing section is generic operational guidance, not reform analysis (\"Establish a Robust Risk Management Framework … Regular Reporting and Review …\")",
+      "rationale": "No overlap analysis. No duplication analysis. No reform recommendations. No consolidation options. No cross-agency harmonization discussion. Subcriterion 'no reform-actionable framing caps D4 ≤3' applies and the 'purely descriptive list caps D4 ≤2' subcriterion arguably applies as well — the report is functionally below a descriptive list because it does not even describe specific obligations, only generic responsibilities."
+    },
+    "D5_structure": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "\"The board must oversee the bank's [X domain] processes and ensure that the bank has adequate [X domain] risk management systems in place\" — substantially identical pattern reused across 11 regulatory domains",
+      "rationale": "Pervasive generic-actor language ('the board must oversee'); subcriterion caps D5 ≤2 on that basis. Within the cap, raw 1 reflects that the structure is shallow even by descriptive-list standards: the same template is reused for every domain without surfacing distinct obligations, and citations are opaque URLs rather than pin-cites that would permit a 'working policy-reform document' use."
+    },
+    "D6_calibration": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "\"This inventory provides a comprehensive overview … covering all major regulatory domains and ensuring compliance with federal regulations and agency guidance.\"",
+      "rationale": "False exhaustiveness claim (closing sentence) without supporting depth — F5 central. No methodology section, no scope statement, no exclusion list, no binding-vs-guidance distinction, no currency caveat, no acknowledgement that citations are to a private document store rather than primary sources. F5 (central) caps D6_eff at 1."
+    }
+  },
+  "overall_score": 30,
+  "tier": "D",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D3 — where specific substance is quoted (the OCC Appendix D ¶III.B 'question, challenge, and when necessary, oppose' reliance language; the §363.5 audit-committee composition standards; the Reg Q method-1/method-2 GSIB-identification framework; the 'at least two independent directors under listing standards' standard from Appendix D ¶III.D), the underlying content is accurate.",
+      "D1 — all 12 named coverage areas are at least mentioned, and the structural categories (general board, committees, director distinctions, regulatory domains, enforcement, compliance) match the ORIGINAL_REQUEST's structure.",
+      "D5 — explicit Regulation O reference for ethical conduct is one of the few domain-specific authorities named (though without section number or specific obligation).",
+      "D3 — the risk committee 'quarterly CRO reports / quarterly meetings' description aligns with the operative substance of 12 CFR §252.33, even though the section is not cited."
+    ],
+    "weaknesses": [
+      "D2 / F7 (central) — all citations are opaque private-document-store URLs (e.g., document-store.reg-genome.com/{hash}/file?auth={token}#page={n}) rather than CFR, USC, SR letter, OCC Bulletin, FDIC FIL, or Federal Register pin-cites. The single #page=5 URL is reused 22 times across nearly every domain; the single #page=153 URL is reused 9+ times for unrelated domains. Readers cannot verify any cited obligation against a primary source.",
+      "D1 / F6 (central) — the ORIGINAL_REQUEST explicitly called for a 'comprehensive, citation-level inventory of all current, in-force obligations … approximating 40 to 60 pages.' Report D delivers ~3 pages of generic boilerplate without statutory architecture (no Dodd-Frank §165, no FDIA §39/§36, no GLBA §501(b)), without specific regulatory pin-cites, and without distinguishing the holding-company / IDI allocation that organizes every other report in the bake-off.",
+      "D6 / F5 (central) — closing claim that 'This inventory provides a comprehensive overview … covering all major regulatory domains and ensuring compliance with federal regulations and agency guidance' is false exhaustiveness: the inventory has no overlap analysis, no reform analysis, no currency awareness, and no binding-vs-guidance distinction.",
+      "D4 — no overlap, duplication, or reform analysis whatsoever; the closing 'How to Achieve Compliance' section is generic operational guidance, not a reform inventory.",
+      "D3 — the 11 'Regulatory Domains' entries collapse into nearly identical boilerplate ('the board must oversee X … ensure that the bank has a robust X framework'); the report fails to describe what is substantively distinct about each domain's board obligations.",
+      "D3 — confused stacking of three different §363.5 audit-committee composition standards (363.5(a)(1) entirely independent for $5B+; 363.5(a)(2) majority independent for $1B–$5B; 363.5(b) holding-company substitution with no-large-customer rule) as if they were parallel obligations rather than threshold-specific or context-specific.",
+      "D3 — no currency awareness: misses every 2025–2026 development that Reports B and C captured (April 2026 model-risk replacement / SR 26-2; OCC Appendix E rescission; 91 FR 18279 reputation-risk rule; FDIC Appendix C withdrawal; FFIEC CAT sunset; §363.5 indexing)."
+    ],
+    "prioritized_remediation": [
+      "Replace opaque private-document-store URLs with primary-source pin-cites (CFR section + paragraph; USC section; SR letter / OCC Bulletin / FDIC FIL identifier; Federal Register volume + page) so that every obligation can be independently verified.",
+      "Add a statutory-architecture section: Dodd-Frank §165 (12 USC §5365) — risk committee, capital plan, liquidity, resolution; FDIA §39 (12 USC §1831p-1) — safety & soundness; FDIA §36 (12 USC §1831m) — audit committee; GLBA §501(b) — information security.",
+      "Replace generic 'the board must oversee X' boilerplate with domain-specific obligations and citations (e.g., for liquidity: 12 CFR §252.34(a)(1)(i) board approval of liquidity risk tolerance at least annually; §252.34(b) risk committee CFP approval).",
+      "Add overlap, duplication, and reform analysis — the ORIGINAL_REQUEST identifies this as a primary purpose of the inventory.",
+      "Add currency notes: SR 26-2 / OCC Bulletin 2026-13 (April 2026 model risk); OCC Appendix E rescission (May 2026); 91 FR 18279 reputation-risk rule; FDIC withdrawal of Appendix C corporate-governance proposal; FFIEC CAT sunset; §363.5 threshold indexing.",
+      "Remove the closing 'comprehensive overview' claim or qualify it to match the actual depth of the document."
+    ],
+    "reliance_recommendation": "Do not rely on this document as a citation-level inventory or as a working policy-reform document. Its underlying substance is approximately right where stated, but the absence of primary-source pin-cites means a reader cannot confirm any obligation against an authority, and the generic boilerplate across regulatory domains means the document does not actually catalogue distinct board obligations. Use it only as a one-page mental table of contents, and supplement with one of the other reports (or primary sources directly) for any operational, compliance, or reform purpose."
+  }
+}
+
+**Result:** Tier D (30/100) — integrity+scope-flagged. Generic boilerplate keyed to opaque private-document-store URLs rather than CFR/USC/SR-letter pin-cites; all three central reliability flags fire (F5 false 'comprehensive overview' claim, F6 scope evasion against the citation-level-inventory ask, F7 unsupported central legal conclusions); no overlap analysis, no reform analysis, no currency awareness. Cannot be relied on as a working policy-reform document.

@@ -1,0 +1,310 @@
+{
+  "report_name": "kimi_gsib_board_obligations_inventory/gsib_board_obligations_inventory.md",
+  "judge_model": "claude-sonnet-4-6",
+  "spec_reconstruction": {
+    "domain": "U.S. federal banking regulation — board-level obligations",
+    "unit_of_analysis": "Individual board obligation (per actor, per source, per domain) at Category I GSIB bank holding companies and their insured depository institution subsidiaries",
+    "structural_axes": [
+      "Full board vs specific committees (audit, risk, compensation, nominating/governance)",
+      "Inside vs outside directors",
+      "Independent vs non-independent directors",
+      "BHC vs IDI subsidiary entity tier",
+      "Regulatory domain (12+ named explicitly including model risk governance and consumer compliance)",
+      "Agency issuer (Fed, OCC, FDIC, CFPB, interagency)"
+    ],
+    "actor_classes_required": [
+      "Full board of directors",
+      "Audit committee",
+      "Risk committee",
+      "Compensation committee",
+      "Nominating/governance committee",
+      "Inside directors",
+      "Outside directors",
+      "Independent directors",
+      "Non-independent directors"
+    ],
+    "source_universe": [
+      "Federal statutes (12 USC, 15 USC, 31 CFR, etc.)",
+      "Federal regulations (CFR) — Fed, OCC, FDIC, CFPB",
+      "Agency guidance / supervisory letters (SR letters, OCC bulletins)",
+      "Interagency standards and guidelines",
+      "FFIEC examination manuals and handbooks",
+      "SEC rules and exchange listing standards"
+    ],
+    "coverage_areas": [
+      "Capital planning and stress testing",
+      "Liquidity risk management",
+      "Resolution planning",
+      "Recovery planning",
+      "Operational resilience",
+      "Model risk governance",
+      "Third-party risk management",
+      "Incentive compensation",
+      "Cybersecurity governance",
+      "BSA and AML program oversight",
+      "Consumer compliance oversight",
+      "Safety and soundness generally",
+      "Governance and composition",
+      "Insider transactions and conflicts",
+      "Fiduciary/trust activities"
+    ],
+    "audience_use": "Bank directors and legal counsel; policymakers engaged in regulatory reform to identify and reduce duplicative, overlapping, and unduly burdensome board-level requirements",
+    "form_depth_expectations": "Granular, citation-specific, suitable as a working policy reform document; 40–60 pages in depth; specifying precise regulatory source, nature of duty, full board vs committee, inside/outside and independent/non-independent distinctions per obligation"
+  },
+  "coverage_ledger": {
+    "cells_expected": 135,
+    "cells_covered": 65,
+    "cells_thin": 20,
+    "cells_missing": 50,
+    "material_omissions": [
+      "Consumer compliance entirely absent: no obligations from CFPB authority, CRA (12 CFR 25/228/345), fair lending (ECOA, Fair Housing Act), UDAAP, flood insurance, or privacy/GLBA safeguards — CFPB is not mentioned once in the document despite being explicitly required by the ORIGINAL_REQUEST",
+      "Model risk governance absent: SR 11-7 board approval obligations and any 2026 interagency MRM guidance are unaddressed; 'model validation' appears only as a parenthetical cross-reference in a few sentences",
+      "Inside vs outside director distinctions not used as a systematic axis: 'outside directors' appears in the Part 363 table entry and 'independent directors' in OCC Heightened Standards, but these are never systematically applied across the inventory",
+      "Nominating/governance committee obligations thin: item 54 references director nominees without developing the governance committee's distinct obligations",
+      "FDIC-specific board obligations under Part 364 largely absent outside of audit-related items; FDIC safety-and-soundness guidelines not separately inventoried",
+      "Document is approximately 25–30 pages — below the 40–60 page depth expected for a working legal document at this scope"
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 CFR 252.33(a)(1) — risk committee must approve and periodically review risk-management policies",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.33(a)(1) is the Reg YY provision requiring Category I BHC risk committees to approve and review global risk-management policies"
+      },
+      {
+        "citation": "12 CFR 252.33(a)(3)(i)–(v) — risk committee charter, independence, reporting, and meeting requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.33(a)(3) subsections correctly govern charter, sole-responsibility, reporting, CRO review, and meeting-frequency requirements for Category I risk committees"
+      },
+      {
+        "citation": "12 CFR 252.33(a)(4)(ii) — risk committee chaired by independent director meeting SEC/NYSE standards",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.33(a)(4) governs chair independence for risk committees; section-level citation is consistent with the regulation's structure for Category I firms"
+      },
+      {
+        "citation": "12 CFR 252.34(a)(1) — board must approve firm's liquidity risk tolerance",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.34(a)(1) correctly requires board approval of liquidity risk tolerance for covered BHCs under enhanced prudential standards"
+      },
+      {
+        "citation": "12 CFR 252.34(b) — risk committee must approve contingency funding plan at least annually",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.34(b) governs contingency funding plan requirements including committee approval"
+      },
+      {
+        "citation": "12 CFR 252.54 — board must oversee company-run stress testing processes and results (Category I GSIB)",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "central",
+        "reason": "12 CFR 252.54 may fall in a subpart governing mid-size firms rather than Category I GSIBs; Category I stress testing governance provisions may be at a different section number post-2019 Reg YY restructuring; cannot confirm this section applies to Category I without current eCFR access"
+      },
+      {
+        "citation": "12 CFR 252.62–252.63 — TLAC and long-term debt requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.62–252.63 correctly govern TLAC and external long-term debt requirements for Category I GSIBs"
+      },
+      {
+        "citation": "12 U.S.C. 5365(d); 12 CFR 243.3(e) — resolution plan board approval and minutes",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 USC 5365(d) is Dodd-Frank Section 165(d); 12 CFR 243.3(e) requires board approval of the resolution plan prior to submission, noted in minutes — correct"
+      },
+      {
+        "citation": "12 U.S.C. 5641 — Section 956 board must implement policies for forfeiture and clawback of incentive-based compensation (item 21, classified 'Mandatory')",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "12 USC 5641 (Section 956) requires agencies to jointly prescribe rules but those rules were never finalized; no enforceable Mandatory board obligation for bank-specific forfeiture/clawback exists under Section 956 without a final rule. The applicable mandatory clawback rule for public companies is the SEC's 17 CFR 240.10D-1 (Section 954), not Section 956. Classifying this as Mandatory inflates the '71% mandatory' TL;DR claim and misstates current law."
+      },
+      {
+        "citation": "12 U.S.C. 1851; 12 CFR 248 — Volcker Rule compliance program; CEO annual attestation",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 USC 1851 (Section 619 Dodd-Frank) is the Volcker Rule statute; 12 CFR 248 is the Fed's implementing regulation including CEO CEO compliance program attestation"
+      },
+      {
+        "citation": "12 CFR Part 30, App. D, II.A — board must approve formal written risk governance framework",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 30 Appendix D Section II.A correctly requires board approval of the risk governance framework under OCC Heightened Standards"
+      },
+      {
+        "citation": "12 CFR Part 30, App. D, I.7(c) — board or risk committee must approve CRO appointment/removal/compensation",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 30 App. D section I.7(c) correctly governs board/risk committee approval of Chief Risk Executive appointment, removal, and compensation"
+      },
+      {
+        "citation": "12 CFR Part 30, App. D, I.8(c) — audit committee must approve CAE appointment, removal, and compensation",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 30 App. D section I.8(c) correctly assigns audit committee authority over Chief Audit Executive appointment and compensation"
+      },
+      {
+        "citation": "SOX Section 301; 17 CFR 240.10A-3 — audit committee independence",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SOX Section 301 and SEC Rule 10A-3 (17 CFR 240.10A-3) are the correct primary sources for audit committee independence requirements"
+      },
+      {
+        "citation": "SOX Section 404(a) and Section 404(b) — ICFR management assessment and auditor attestation",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SOX Sections 404(a) and 404(b) correctly govern management's annual ICFR assessment and the external auditor attestation requirement"
+      },
+      {
+        "citation": "SEC Regulation S-K Item 407(d) — audit committee financial expert disclosure",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "Regulation S-K Item 407(d) correctly requires disclosure of audit committee financial expert status and independence"
+      },
+      {
+        "citation": "12 U.S.C. 1831m; 12 CFR 363.5 — FDICIA audit committee outside directors",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 USC 1831m is FDICIA Section 36; 12 CFR 363.5 correctly requires audit committee composed of outside directors with independence determinations for large IDIs"
+      },
+      {
+        "citation": "12 CFR 363.5(b)(2); App. A, Guideline 32 — banking expertise requirement for $5B+ institutions",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "12 CFR 363.5(b)(2) governs enhanced requirements at larger IDIs; specific Appendix A Guideline 32 reference cannot be confirmed without current eCFR access, but the general substance is consistent with Part 363"
+      },
+      {
+        "citation": "31 CFR 1010.210; 31 CFR 1020.210 — BSA/AML compliance program board approval",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "31 CFR 1010.210 governs general BSA compliance program requirements; 31 CFR 1020.210 is the bank-specific BSA program rule. Both correctly require written programs. Note: the parallel prudential agency rules (12 CFR 21.21, 208.63, 326.8) are not cited here but also apply."
+      },
+      {
+        "citation": "Part 363 2025 threshold amendments raising basic threshold from $500M to $1B and enhanced from $1B to $5B",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "A 2025 amendment to Part 363 raising asset thresholds cannot be confirmed from available knowledge; the original Part 363 thresholds were $500M and $1B. Cited only to a secondary source (rehmann.com). If inaccurate, this is a peripheral F3 concern."
+      }
+    ],
+    "summary": {
+      "supports": 15,
+      "wrong_attribution": 1,
+      "not_supported": 0,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 4
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "PARTIAL — committee assignments present in tables; director-type axis absent",
+      "note": "Each obligation table includes implicit committee assignments (risk committee, audit committee, compensation committee, full board), and the OCC and Part 363 sections distinguish 'outside directors' and 'independent directors.' However, these are not used as systematic inventory axes. Inside vs outside and independent vs non-independent distinctions appear only as incidental attributes of specific obligations rather than as organizing dimensions. The request prominently required systematic coverage of both axes."
+    },
+    "binding_vs_guidance": {
+      "verdict": "PASS — STRONG with one material exception",
+      "note": "The 'Type' column (Mandatory / Mandatory (OCC) / Guidance) is the report's most significant structural contribution and is applied consistently throughout all sections. The TL;DR's '71% mandatory' breakdown reflects this classification. One material exception: item 21 (Section 956 forfeiture/clawback classified as Mandatory) misstates the current law — the implementing rule was never finalized and no enforceable bank-specific clawback mandate exists under Section 956."
+    },
+    "reform_usefulness": {
+      "verdict": "PASS — STRONG",
+      "note": "Ten named sludge zones with severity ratings (Critical/High/Moderate-High/Moderate), estimated annual board hours per zone, and specific recommendations. Section 7 provides actor-specific (interagency, Fed, OCC, SEC) reform priorities with estimated burden impact. The 400–500 annual board hours estimate quantifies the cumulative burden. The recommendation to permit SOX 404(b) attestation to satisfy FDICIA ICFR requirements is a concrete, actionable proposal."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "Item 21 attributes a currently-Mandatory bank board obligation for 'forfeiture and clawback of incentive-based compensation' to '12 U.S.C. 5641' (Section 956), when the Section 956 implementing rule was never finalized by the banking agencies; the only finalized mandatory clawback rule (17 CFR 240.10D-1) applies to public company executives under Dodd-Frank Section 954, a different provision — the attribution to Section 956 banking regulation as currently Mandatory is wrong"
+    },
+    {
+      "flag": "F7",
+      "severity": "central",
+      "evidence": "The central legal conclusion that bank boards must currently implement forfeiture and clawback policies under Section 956 of Dodd-Frank (12 U.S.C. 5641) as a Mandatory obligation is unsupported without a final implementing rule; the document acknowledges the rule was 're-proposed' (May 2024) but simultaneously classifies the obligation as Mandatory, which is inconsistent with the legal status of an unfinalized rulemaking"
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "TL;DR states 'This inventory identifies 82 distinct board-level obligations' and Section 3 is titled 'The Complete Inventory: 82 Federal Board Obligations,' implying exhaustive coverage, yet consumer compliance (CFPB, CRA, fair lending, UDAAP) and model risk governance — both explicitly required domains — are entirely absent"
+    },
+    {
+      "flag": "F6",
+      "severity": "central",
+      "evidence": "The ORIGINAL_REQUEST explicitly names consumer compliance oversight and model risk governance as required coverage areas; neither appears in the 82-item inventory; CFPB is not mentioned once in the document; this is not an inadvertent thinning but a complete omission of two named required domains"
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "'The eight U.S. GSIBs — JPMorgan Chase, Bank of America, Citigroup, Wells Fargo, Goldman Sachs, Morgan Stanley, State Street, and Bank of New York Mellon' — GSIB-specific scoping is genuine, with 82 obligations across 10 domains; but consumer compliance and model risk are entirely absent and inside/outside director distinctions are not systematically applied",
+      "rationale": "Strong GSIB-specific framing and reasonable domain coverage across capital, liquidity, resolution, BSA/AML, compensation, cybersecurity, third-party risk, audit, governance, and insider transactions. However, consumer compliance (an entire required domain including CFPB) and model risk governance are absent, and the required actor-class axis (inside/outside, independent/non-independent directors) is not systematically applied. Missing required actor classes caps D1 ≤ 2; F6 (central) then applies D1_eff = min(2,1) = 1."
+    },
+    "D2_integrity": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "15/20 SUPPORTS, 4 UNVERIFIABLE, 1 WRONG-ATTRIBUTION (item 21 Section 956 clawback as Mandatory); section-level citations (252.33(a)(1), Part 30 App. D I.7(c)) are the strongest of the three reports evaluated",
+      "rationale": "Citation granularity is the best of the three reports — section-level rather than part-level citations throughout. However, item 21 contains a central misattribution: the specific forfeiture/clawback obligation attributed to 12 U.S.C. 5641 as currently Mandatory does not have a final implementing rule; the applicable mandatory rule for public companies is under Section 954/17 CFR 240.10D-1. F2 central and F7 central both trigger D2_eff = min(raw,1) = 1."
+    },
+    "D3_accuracy": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "'The FFIEC Cybersecurity Assessment Tool was sunsetted in August 2025, with regulators directing institutions to alternative frameworks such as the NIST Cybersecurity Framework 2.0' — SR 24-7 correctly cited; good contemporaneous awareness; but '71% mandatory' TL;DR figure is inflated by the Section 956 misclassification",
+      "rationale": "Contemporaneous currency is the report's strongest D3 feature: FFIEC CAT sunset, SR 24-7, 2025 FDICIA threshold amendments, Section 956 re-proposal, and OCC's NIST CSF 2.0 direction are all accurately noted. The Type column generally avoids guidance-as-law blending. Deductions: Section 956 items 20–21 classified as Mandatory overstates enforceability, inflating the '71% mandatory' headline. No F3/F4 cap triggered. D3_eff = 2."
+    },
+    "D4_sludge_analysis": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 15,
+      "evidence": "'Integrate recovery, contingency funding, and resolution planning into a single resilience planning framework with one annual board approval cycle and modular content requirements' — ten named sludge zones with severity, ~hour estimates, and actor-specific reform recommendations in Section 7",
+      "rationale": "Sludge analysis is genuinely exemplary: ten zones with Critical/High/Moderate severity ratings, annual hour estimates per zone, a quantitative cumulative burden estimate (400–500 hours/year), and a tiered reform menu distinguishing interagency, Fed, OCC, and SEC actions with estimated burden impacts. The proposal to permit SOX 404(b) to satisfy FDICIA ICFR requirements is a specific, actionable reform. D4_eff = 4."
+    },
+    "D5_structure": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 10,
+      "evidence": "Tables with section-level citations (12 CFR 252.33(a)(1), 12 CFR Part 30 App. D I.7(c)) and a Mandatory/Guidance Type column throughout; numbered obligations (1–82) enable cross-referencing; sludge zone heatmap and charts referenced",
+      "rationale": "Structural quality is the best of the three reports: tabular format with numbered obligations, section-level citations, and a mandatory/guidance classification column are all genuine contributions to the form requirement. Document length (~25–30 pages) falls below the 40–60 page target. Actor assignments are more specific than the prior reports (risk committee vs. full board distinctions are present) though not exhaustive on inside/outside director axis. D5_eff = 3."
+    },
+    "D6_calibration": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "TL;DR states '82 distinct federal-level obligations spanning 11 regulatory sources' and Section 3 is titled 'The Complete Inventory' — both imply exhaustiveness that is not warranted given the absent consumer compliance and model risk domains",
+      "rationale": "The document has good calibration in places (footnote disclaimer, honest about duplicative nature) but the 'Complete Inventory' title, the '82 obligations' claim in the TL;DR, and the absence of any disclosure about the consumer compliance and model risk gaps are false-exhaustiveness problems. F5 central triggers D6_eff = min(raw,1) = 1."
+    }
+  },
+  "overall_score": 46,
+  "tier": "D",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D5/D2 — Citation granularity is the best of all reports evaluated: section-level citations throughout (12 CFR 252.33(a)(1), 12 CFR Part 30 App. D I.7(c), 12 CFR 363.5(b)(2)) rather than Part-level; the Mandatory/Guidance/Mandatory(OCC) Type column provides the clearest binding-vs-guidance classification of any report in this batch",
+      "D4 — Sludge analysis is exemplary: ten named zones with severity ratings, estimated annual board hours per zone (Critical zones: 80 hrs for risk committee, 60 hrs for audit independence), actor-specific reform recommendations (interagency, Fed, OCC, SEC) with estimated burden impacts, and a 400–500 annual hours quantitative cumulative burden estimate",
+      "D1 — GSIB-specific scoping is a genuine differentiator: explicitly names the 8 U.S. GSIBs, applies the Category I framework consistently, and identifies the BHC-vs-bank-level structural duplication (parallel obligations under Reg YY at the holding company and OCC Heightened Standards at the bank) as a primary sludge source",
+      "D3 — Contemporaneous currency is strong: FFIEC CAT sunset (August 2025, SR 24-7), 2025 FDICIA threshold amendments, Section 956 May 2024 re-proposal, OCC direction toward NIST CSF 2.0 — all accurately noted and contextually integrated",
+      "D5 — Tabular inventory format with 82 numbered obligations, cross-referenced sludge zones, and referenced visualizations (heatmap, obligation distribution charts) supports the reform use case better than prose-only formats"
+    ],
+    "weaknesses": [
+      "D1/F6 — Consumer compliance is entirely absent: no CFPB authority, no CRA obligations (12 CFR 25/228/345), no fair lending (ECOA/FHA), no UDAAP, no flood insurance, no privacy/GLBA board duties — CFPB is not mentioned once despite the ORIGINAL_REQUEST's explicit inclusion; this is the most significant scope gap",
+      "D2/F2+F7 — Item 21 presents bank board forfeiture/clawback as currently Mandatory under 12 U.S.C. 5641 (Section 956), when the implementing rule was re-proposed in May 2024 but never finalized; the actual mandatory clawback rule for public companies is the SEC's 17 CFR 240.10D-1 (Section 954) — this central misattribution inflates the '71% mandatory' headline and misstates current law",
+      "D1 — Model risk governance is absent: SR 11-7 and any 2026 interagency MRM guidance are unaddressed; 'model validation' appears only as parenthetical cross-references; the ORIGINAL_REQUEST explicitly named this domain",
+      "D6/F5 — 'The Complete Inventory: 82 Federal Board Obligations' claims exhaustiveness that is not warranted given the two missing required domains; the 82-obligation count will mislead readers who treat it as comprehensive",
+      "D1/D5 — Inside vs outside and independent vs non-independent director distinctions are not systematically applied as inventory axes: 'outside directors' appears in the Part 363 table entry and OCC requires 'independent directors' (item 42, 44) but these are never used to sort or filter the inventory, and inside-director-specific obligations (Reg O abstention, FDICIA Section 32 notice) are not explicitly flagged as such"
+    ],
+    "prioritized_remediation": [
+      "Add a consumer compliance section: at minimum, board obligations under CRA (12 CFR 25/228/345), ECOA/fair lending oversight, CFPB UDAAP examination expectations, flood insurance (12 CFR 22/208/339), and GLBA privacy program board approval — these represent a full required domain absent from a document that claims 82 'complete' obligations",
+      "Add a model risk governance section: board approval obligations under SR 11-7 (and the 2026 interagency MRM guidance if finalized), distinguishing full-board policy approval from risk committee/audit committee model validation oversight",
+      "Correct item 21: reclassify Section 956 forfeiture/clawback from Mandatory to Guidance/Proposed with a note that the implementing rule was re-proposed May 2024 but not finalized; add a separate entry for the SEC's mandatory clawback rule (17 CFR 240.10D-1 under Section 954) applicable to public company boards; correct the TL;DR's 71% mandatory claim accordingly",
+      "Add inside/outside director and independent/non-independent director columns to the inventory tables: systematically apply 'outside director' (12 CFR 363.5) and 'independent director' (12 CFR 252.33(a)(4)(ii), 12 CFR Part 30 App. D) labels, and add inside-director-specific obligations (Reg O board approval and abstention, FDICIA Section 32 notice for insiders)",
+      "Expand depth to reach the 40–60 page target: add FDIC-specific obligations under Part 364, fiduciary activities (12 CFR Part 9 board oversight of trust activities), and the prudential agency parallel BSA rules (12 CFR 21.21/208.63/326.8) which are cited only from FinCEN's 31 CFR framework"
+    ],
+    "reliance_recommendation": "The tabular format, section-level citations, and Mandatory/Guidance classification make this the most legally structured of the three reports evaluated, but the complete absence of consumer compliance and model risk domains, the central Section 956 misclassification, and the missing inside/outside director axis mean it cannot be relied upon as a complete legal inventory by directors or counsel without material additions to at least three required domains."
+  }
+}
+
+**Result:** Tier D (46/100) — integrity+scope-flagged. The report's section-level citations, mandatory/guidance classification column, GSIB-specific framing, and quantified sludge analysis are the strongest technical contributions in this report set, but a central misattribution on Section 956 clawback obligations, the complete absence of consumer compliance and model risk governance (two explicitly required domains), and false exhaustiveness in the "Complete Inventory" framing collectively drive a Tier D outcome.

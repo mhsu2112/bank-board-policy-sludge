@@ -1,0 +1,17 @@
+# Modelfile for the Gemma 4 E4B judge.
+# Purpose: raise the context window so a full 40-60 page report fits in one pass.
+# Ollama's default context is only ~4,000 tokens, which is far too small here.
+#
+# To build the judge model (run once, in the folder that contains this file):
+#   ollama create gemma4-judge -f Modelfile
+#
+# Then run it with:  ollama run gemma4-judge
+#
+# If your computer runs out of memory or is extremely slow, lower 65536 to 32768.
+# If a report still will not fit at 32768, note that as a finding: the Gemma
+# judge cannot process the full report locally on this machine.
+
+FROM gemma4:e4b
+
+PARAMETER num_ctx 65536
+PARAMETER temperature 0.2

@@ -1,0 +1,2026 @@
+DEPARTMENT OF THE TREASURY
+Office of the Comptroller of the Currency
+
+FEDERAL RESERVE SYSTEM
+[Docket No. OP-1374]
+
+
+FEDERAL DEPOSIT INSURANCE CORPORATION
+
+
+DEPARTMENT OF THE TREASURY
+Office of Thrift Supervision
+[Docket ID OTS-2010-0020]
+
+Guidance on Sound Incentive Compensation Policies
+
+AGENCIES: Office of the Comptroller of the Currency, Treasury (OCC); Board of
+Governors of the Federal Reserve System, (Board or Federal Reserve); Federal Deposit
+Insurance Corporation (FDIC); Office of Thrift Supervision, Treasury (OTS).
+ACTION: Final guidance.
+SUMMARY: The OCC, Board , FDIC and OTS (collectively, the Agencies) are
+adopting final guidance designed to help ensure that incentive compensation policies at
+banking organizations do not encourage imprudent risk-taking and are consistent with the
+safety and soundness of the organization.
+EFFECTIVE DATE: The guidance is effective on [INSERT DATE OF
+PUBLICATION IN THE FEDERAL REGISTER].
+FOR FURTHER INFORMATION CONTACT:
+OCC: Karen M. Kwilosz, Director, Operational Risk Policy, (202) 874-9457, or Reggy
+Robinson, Policy Analyst, Operational Risk Policy, (202) 874-4438.
+Board: William F. Treacy, Adviser, (202) 452-3859, Division of Banking Supervision and
+Regulation; Mark S. Carey, Adviser, (202) 452-2784, Division of International Finance;
+Kieran J. Fallon, Associate General Counsel, (202) 452-5270 or Michael W. Waldron,
+Counsel, (202) 452-2798, Legal Division. For users of Telecommunications Device for the
+Deaf (“TDD”) only, contact (202) 263-4869.
+FDIC: Mindy West, Chief, Policy and Program Development, Division of Supervision
+and Consumer Protection, (202) 898-7221, or Robert W. Walsh, Review Examiner, Policy
+and Program Development, Division of Supervision and Consumer Protection, (202) 898-
+6649.
+OTS: Rich Gaffin, Financial Analyst, Risk Modeling and Analysis, (202) 906-6181, or
+Richard Bennett, Senior Compliance Counsel, Regulations and Legislation Division, (202)
+906-7409; Donna Deale, Director, Holding Company and International Policy, (202) 906-
+7488, Grovetta Gardineer, Managing Director, Corporate and International Activities,
+(202) 906-6068; Office of Thrift Supervision, 1700 G Street, NW., Washington, DC 20552.
+
+                                           1
+SUPPLEMENTARY INFORMATION:
+I.     Background
+        Compensation arrangements are critical tools in the successful management of
+financial institutions. These arrangements serve several important and worthy objectives,
+including attracting skilled staff, promoting better organization-wide and employee
+performance, promoting employee retention, providing retirement security to employees,
+and allowing an organization’s personnel costs to vary along with revenues.
+        It is clear, however, that compensation arrangements can provide executives and
+employees with incentives to take imprudent risks that are not consistent with the long-
+term health of the organization. For example, offering large payments to managers or
+employees to produce sizable increases in short-term revenue or profit--without regard
+for the potentially substantial short or long-term risks associated with that revenue or
+profit--can encourage managers or employees to take risks that are beyond the capability
+of the financial institution to manage and control.
+        Flawed incentive compensation practices in the financial industry were one of
+many factors contributing to the financial crisis that began in 2007. Banking
+organizations too often rewarded employees for increasing the organization’s revenue or
+short-term profit without adequate recognition of the risks the employees’ activities
+posed to the organization.
+        Having witnessed the damaging consequences that can result from misaligned
+incentives, many financial institutions are now re-examining their compensation
+structures with the goal of better aligning the interests of managers and other employees
+with the long-term health of the institution. Aligning the interests of shareholders and
+employees, however, is not always sufficient to protect the safety and soundness of a
+banking organization. Because banking organizations benefit directly or indirectly from
+the protections offered by the federal safety net (including the ability of insured
+depository institutions to raise insured deposits and access the Federal Reserve’s discount
+window and payment services), shareholders of a banking organization in some cases
+may be willing to tolerate a degree of risk that is inconsistent with the organization’s
+safety and soundness. Thus, a review of incentive compensation arrangements and
+related corporate governance practices to ensure that they are effective from the
+standpoint of shareholders is not sufficient to ensure they adequately protect the safety
+and soundness of the organization.
+
+
+
+
+                                             2
+A. Proposed Guidance
+        In October 2009, the Federal Reserve issued and requested comment on Proposed
+Guidance on Sound Incentive Compensation Policies (“proposed guidance”) to help
+protect the safety and soundness of banking organizations supervised by the Federal
+Reserve and to promote the prompt improvement of incentive compensation practices
+throughout the banking industry. 1 The proposed guidance was based on three key
+principles. These principles provided that incentive compensation arrangements at a
+banking organization should—
+               • Provide employees incentives that appropriately balance risk and reward;
+               • Be compatible with effective controls and risk-management; and
+               • Be supported by strong corporate governance, including active and
+                 effective oversight by the organization’s board of directors.
+        Because incentive compensation arrangements for executive and non-executive
+employees may pose safety and soundness risks if not properly structured, the proposed
+guidance applied to senior executives as well as other employees who, either individually
+or as part of a group, have the ability to expose the relevant banking organization to
+material amounts of risk.
+        With respect to the first principle, the proposed guidance, among other things,
+provided that a banking organization should ensure that its incentive compensation
+arrangements do not encourage short-term profits at the expense of short- and longer-
+term risks to the organization. Rather, the proposed guidance indicated that banking
+organizations should adjust the incentive compensation provided so that employees bear
+some of the risk associated with their activities. To be fully effective, these adjustments
+should take account of the full range of risks that the employees’ activities may pose for
+the organization. The proposed guidance highlighted several methods that banking
+organizations could use to adjust incentive compensation awards or payments to take
+account of risk.
+        With respect to the second principle, the proposed guidance provided that banking
+organizations should integrate their approaches to incentive compensation arrangements
+with their risk-management and internal control frameworks to better monitor and control
+the risks these arrangements may create for the organization. Accordingly, the proposed
+guidance provided that banking organizations should ensure that risk-management
+personnel have an appropriate role in designing incentive compensation arrangements
+and assessing whether the arrangements may encourage imprudent risk-taking. In
+addition, the proposed guidance provided that banking organizations should track
+incentive compensation awards and payments, risks taken, and actual risk outcomes to
+determine whether incentive compensation payments to employees are reduced or
+adjusted to reflect adverse risk outcomes.
+       With respect to the third principle, the proposed guidance provided that a banking
+organization’s board of directors should play an informed and active role in ensuring that
+the organization’s compensation arrangements strike the proper balance between risk and
+
+1
+    74 FR 55227 (October 27, 2009).
+
+                                              3
+profit not only at the initiation of a compensation program, but on an ongoing basis.
+Thus, the proposed guidance provided that boards of directors should review and approve
+key elements of their organizations’ incentive compensation systems across the
+organization, receive and review periodic evaluations of whether their organizations’
+compensation systems for all major segments of the organization are achieving their risk-
+mitigation objectives, and directly approve the incentive compensation arrangements for
+senior executives.
+        The Board’s proposed guidance applied to all banking organizations supervised
+by the Federal Reserve. However, the proposed guidance also included provisions
+intended to reflect the diversity among banking organizations, both with respect to the
+scope and complexity of their activities, as well as the prevalence and scope of incentive
+compensation arrangements. Thus, for example, the proposed guidance provided that the
+reviews, policies, procedures, and systems implemented by a smaller banking
+organization that uses incentive compensation arrangements on a limited basis would be
+substantially less extensive, formalized, and detailed than those at a large, complex
+banking organization (LCBO) 2 that uses incentive compensation arrangements
+extensively. In addition, because sound incentive compensation practices are important
+to protect the safety and soundness of all banking organizations, the Federal Reserve
+announced that it would work with the other Federal banking agencies to promote
+application of the guidance to all banking organizations.
+        The Board invited comment on all aspects of the proposed guidance. The Board
+also specifically requested comments on a number of issues, including whether:
+             •   the three core principles are appropriate and sufficient to help ensure that
+                 incentive compensation arrangements do not threaten the safety and
+                 soundness of banking organizations;
+             •   there are any material legal, regulatory, or other impediments to the
+                 prompt implementation of incentive compensation arrangements and
+                 related processes that would be consistent with those principles;
+             •   formulaic limits on incentive compensation would likely promote the
+                 safety and soundness of banking organizations, whether applied generally
+                 or to specific types of employees or banking organizations;
+             •    market forces or practices in the broader financial services industry, such
+                 as the use of “golden parachute” or “golden handshake” arrangements to
+                 retain or attract employees, present challenges for banking organizations
+                 in developing and maintaining balanced incentive compensation
+                 arrangements;
+             •   the proposed guidance would impose undue burdens on, or have
+                 unintended consequences for, banking organizations, particularly smaller,
+                 less complex organizations, and whether there are ways such potential
+
+
+2
+  In the proposed guidance (issued by the Federal Reserve), the term LCBO was used as this is the term
+utilized by the Federal Reserve in describing such organizations. The final guidance uses the term Large
+Banking Organization (LBO), which encompasses terminology utilized by the OCC, FDIC and OTS.
+
+                                                    4
+                 burdens or consequences could be addressed in a manner consistent with
+                 safety and soundness; and
+             •   there are types of incentive compensation plans, such as organization-wide
+                 profit sharing plans that provide for distributions in a manner that is not
+                 materially linked to the performance of specific employees or groups of
+                 employees, that could and should be exempted from, or treated differently
+                 under, the guidance because they are unlikely to affect the risk-taking
+                 incentives of all, or a significant number of employees.
+B. Supervisory Initiatives
+      In connection with the issuance of the proposed guidance, the Federal Reserve
+announced two supervisory initiatives:
+             •   A special horizontal review of incentive compensation practices at
+                 LCBO’s ; and
+             •   A review of incentive compensation practices at other banking
+                 organizations as part of the regular, risk-focused examination process for
+                 these organizations.
+         The horizontal review was designed to assess: the potential for these
+arrangements or practices to encourage imprudent risk-taking; the actions an organization
+has taken or proposes to take to correct deficiencies in its incentive compensation
+practices; and the adequacy of the organization’s compensation-related risk-management,
+control, and corporate governance processes.
+
+
+       II.       Overview of Comments
+         The Board received 34 written comments on the proposed guidance, which were
+shared and reviewed by all of the Agencies. Commenters included banking
+organizations, financial services trade associations, service providers to financial
+organizations, representatives of institutional shareholders, labor organizations, and
+individuals. Most commenters supported the goal of the proposed guidance--to ensure
+that incentive compensation arrangements do not encourage imprudent or undue risk-
+taking at banking organizations. Commenters also generally supported the principles-
+based approach of the proposed guidance. For example, many commenters specifically
+supported the avoidance of formulaic or one-size-fits-all approaches to incentive
+compensation in the proposed guidance. These commenters noted financial organizations
+are very diverse and should be permitted to adopt incentive compensation measures that
+fit their needs, while also being consistent with safe and sound operations. Several
+commenters also asserted that a formulaic approach would inevitably lead to exaggerated
+risk-taking incentives in some situations while discouraging employees from taking
+reasonable and appropriate risks in others. One commenter also argued that unintended
+consequences would be more likely to result from a “rigid rulemaking” than from a
+flexible, principles-based approach.
+       Many commenters requested that the Board revise or clarify the proposed
+guidance in one or more respects. For example, several commenters asserted that the
+
+                                              5
+guidance should impose specific restrictions on incentive compensation at banking
+organizations or mandate certain corporate governance or risk-management practices.
+One commenter recommended a requirement that most compensation for senior
+executives be provided in the form of variable, performance-vested equity awards that are
+deferred for at least five years, and that stock option compensation be prohibited.
+Another commenter advocated a ban on “golden parachute” payments and on bonuses
+based on metrics related to one year or less of performance. Other commenters suggested
+that the guidance should require banking organizations to have an independent chairman
+of the board of directors, require annual majority voting for all directors, or provide for
+shareholders to have a vote (so called “say-on-pay” voting provisions) on the incentive
+compensation arrangements for certain employees of banking organizations. Other
+commenters requested that certain types of compensation plans, such as organization-
+wide profit sharing plans or 401(k) plans or plans covered by the Employee Retirement
+Income Security Act (29 U.S.C. 1400 et seq.), be exempted from the scope of the
+guidance because they were unlikely to provide employees incentives to expose their
+banking organization to undue risk.
+        Several commenters, however, did not support the proposed guidance. Some of
+these commenters felt that the proposed guidance was unnecessary and that the principles
+used in the proposed guidance were not needed. These commenters argued that the
+existing system of financial regulation and enforcement is sufficient to address the
+concerns raised in the proposed guidance. Several commenters also thought that the
+proposed guidance was too vague to be helpful, and that the ambiguity of the proposed
+guidance would make compliance more difficult, leading to increased costs and
+regulatory uncertainty. Some commenters also argued that the guidance was not
+warranted because there is insufficient evidence that incentive compensation practices
+contributed to safety and soundness or financial stability problems, or questioned the
+authority of the Federal Reserve or the other Federal banking agencies to act in this area.
+        In addition, a number of commenters expressed concern that the proposed
+guidance would impose undue burden on banking organizations, particularly smaller, less
+complex organizations. These commenters believed that incentive compensation
+practices at smaller banking organizations were generally not problematic from a safety
+and soundness perspective. 3 A number of commenters suggested that all or most smaller
+banking organizations should be exempt from the guidance. A number of commenters
+expressed concerns that the proposed guidance would impose unreasonable demands on
+the boards of directors of banking organizations and especially smaller organizations.
+        Several commenters also expressed concern that the proposed guidance, if
+implemented, could impede the ability of banking organizations to attract or retain
+qualified staff and compete with other financial services providers. In light of these
+concerns, some commenters suggested that the guidance expressly allow banking
+organizations to enter into such compensation arrangements as they deem necessary for
+recruitment or retention purposes. A number of commenters also encouraged the Federal
+Reserve to work with other domestic and foreign supervisors and authorities to promote
+
+3
+  On the other hand, one commenter requested that the proposed guidance not be enforced differently at
+larger institutions solely because of their size.
+
+                                                    6
+consistent standards for incentive compensation practices at financial institutions and a
+level competitive playing field for financial service providers.
+         The comments received on the proposed guidance are further discussed below.
+
+
+
+III.    Final Guidance
+        After carefully reviewing the comments on the proposed guidance, the Agencies
+have adopted final guidance that retains the same key principles embodied in the
+proposed guidance, with a number of adjustments and clarifications that address matters
+raised by the commenters. These principles are: (1) incentive compensation
+arrangements at a banking organization should provide employees incentives that
+appropriately balance risk and financial results in a manner that does not encourage
+employees to expose their organizations to imprudent risk; (2) these arrangements should
+be compatible with effective controls and risk-management; and (3) these arrangements
+should be supported by strong corporate governance, including active and effective
+oversight by the organization’s board of directors. The Agencies believe that it is
+important that incentive compensation arrangements at banking organizations do not
+provide incentives for employees to take risks that could jeopardize the safety and
+soundness of the organization. The final guidance seeks to address the safety and
+soundness risks of incentive compensation practices by focusing on the basic problem
+they can pose from a risk-management perspective, that is, incentive compensation
+arrangements – if improperly structured – can give employees incentives to take
+imprudent risks.
+        The Agencies believe the principles of the final guidance should help protect the
+safety and soundness of banking organizations and the stability of the financial system,
+and that adoption of the guidance is fully consistent with the Agencies’ statutory mandate
+to protect the safety and soundness of banking organizations. 4
+       The final guidance applies to all the banking organizations supervised by the
+Agencies, including national banks, state member banks, state nonmember banks, savings
+associations, U.S. bank holding companies, savings and loan holding companies, the U.S.
+operations of foreign banks with a branch, agency or commercial lending company in the
+United States, and Edge and agreement corporations (collectively, “banking
+organizations”).
+       A number of changes have been made to the proposed guidance in response to
+comments. For example, the final guidance includes several provisions designed to
+reduce burden on smaller banking organizations and other banking organizations that are
+
+
+4
+  See, e.g. 12 U.S.C. 1818(b). The Agencies regularly issue supervisory guidance based on the authority in
+section 8 of the Federal Deposit Insurance (FDI) Act. Guidance is used to identify practices that the
+Agencies believe would constitute an unsafe or unsound practice and/or identify risk-management systems,
+controls, or other practices that the Agencies believe would assist banking organizations in ensuring that
+they operate in a safe and sound manner. Savings associations should also refer to OTS’s rule on
+employment contracts 12 CFR 563.39.
+
+                                                    7
+not significant users of incentive compensation. The Agencies also have made a number
+of changes to clarify the scope, intent, and terminology of the final guidance.
+A.      Scope of Guidance
+        Compensation practices were not the sole cause of the financial crisis, but they
+certainly were a contributing cause--a fact recognized by 98 percent of the respondents to
+a survey of banking organizations engaged in wholesale banking activities conducted in
+2009 by the Institute of International Finance and publicly by a number of individual
+financial institutions. 5 Moreover, the problems caused by improper compensation
+practices were not limited to U.S. financial institutions, but were evident at major
+financial institutions worldwide, a fact recognized by international bodies such as the
+Financial Stability Board (FSB) and the Senior Supervisors Group. 6
+        Because compensation arrangements for executive and non-executive employees
+alike may pose safety and soundness risks if not properly structured, these principles and
+the final guidance apply to senior executives as well as other employees who, either
+individually or as part of a group, have the ability to expose the banking organization to
+material amounts of risk. 7 These employees are referred to as “covered employees” in
+the final guidance. In response to comments, the final guidance clarifies that an
+employee or group of employees has the ability to expose a banking organization to
+material amounts of risk if the employees’ activities are material to the organization or
+are material to a business line or operating unit that is itself material to the organization.
+        Some commenters suggested that certain categories of employees, such as tellers,
+bookkeepers, administrative assistants, or employees who process but do not originate
+transactions, do not expose banking organizations to significant levels of risk and
+therefore should be exempted from coverage under the final guidance. The final
+guidance, like the proposed guidance, indicates that the facts and circumstances will
+determine which jobs or categories of employees have the ability to expose the
+
+5
+  See, Institute of International Finance, Inc. (2009), Compensation in Financial Services: Industry Progress
+and the Agenda for Change (Washington: IIF, March) available at
+http://www.oliverwyman.com/ow/pdf_files/OW_En_FS_Publ_2009_CompensationInFS.pdf. See also UBS,
+Shareholder Report on UBS's Write-Downs, April 18, 2008, pp. 41-42 (identifies incentive effects of UBS
+compensation practices as contributing factors in losses suffered by UBS due to exposure to the subprime
+mortgage market) available at
+http://www.ubs.com/1/ShowMedia/investors/agm?contentId=140333&name=080418ShareholderReport.pdf.
+6
+  See, Financial Stability Forum (2009), FSF Principles for Sound Compensation Practices (87 KB PDF)
+(Basel, Switzerland: FSF, April), available at
+http://www.financialstabilityboard.org/publications/r_0904b.pdf; and Senior Supervisors Group (2009),
+Risk-management Lessons from the Global Banking Crisis of 2008 (Basel, Switzerland: SSG, October),
+available at http://www.newyorkfed.org/newsevents/news/banking/2009/ma091021.html. The Financial
+Stability Forum was renamed the Financial Stability Board in April 2009.
+7
+  In response to a number of comments requesting clarification regarding the scope of the term “senior
+executives” as used in the guidance, the final guidance states that “senior executive” includes, at a
+minimum, “executive officers” within the meaning of the Board’s Regulation O (12 CFR 215.2(e)(1)) and,
+for publicly traded companies, “named officers” within the meaning of the Securities and Exchange
+Commission’s rules on disclosure of executive compensation (17 CFR 229.402(a)(3)). Savings
+associations should also refer to OTS’s rule on loans by savings associations to their executive officers,
+directors, and principal shareholders. 12 CFR 563.43
+
+
+                                                     8
+organization to material risks and which jobs or categories of employees may be outside
+the scope of the guidance. The final guidance recognizes, for example, that tellers,
+bookkeepers, couriers, and data processing personnel would likely not expose
+organizations to significant risks of the types meant to be addressed by the guidance. On
+the other hand, employees or groups of employees who do not originate business or
+approve transactions could still expose a banking organization to material risk in some
+circumstances. Therefore, the Agencies do not believe it would be appropriate to provide
+a blanket exemption from the final guidance for any category of covered employees that
+would apply to all banking organizations.
+        After reviewing the comments, the Agencies have retained the principles-based
+framework of the proposed guidance. The Agencies believe this approach is the most
+effective way to address incentive compensation practices, given the differences in the
+size and complexity of banking organizations covered by the guidance and the
+complexity, diversity, and range of use of incentive compensation arrangements by those
+organizations. For example, activities and risks may vary significantly across banking
+organizations and across employees within a particular banking organization. For this
+reason, the methods used to achieve appropriately risk-sensitive compensation
+arrangements likely will differ across and within organizations, and use of a single,
+formulaic approach likely will provide at least some employees with incentives to take
+imprudent risks.
+        The Agencies, however, have not modified the guidance, as some commenters
+requested, to provide that a banking organization may enter into incentive compensation
+arrangements that are inconsistent with the principles of safety and soundness whenever
+the organization believes that such action is needed to retain or attract employees. The
+Agencies recognize that while incentive compensation serves a number of important
+goals for banking organizations, including attracting and retaining skilled staff, these
+goals do not override the requirement for banking organizations to have incentive
+compensation systems that are consistent with safe and sound operations and that do not
+encourage imprudent risk-taking. The final guidance provides banking organizations
+with considerable flexibility in structuring their incentive compensation arrangements in
+ways that both promote safety and soundness and that help achieve the arrangements’
+other objectives.
+         The Agencies are mindful, however, that banking organizations operate in both
+domestic and international competitive environments that include financial services
+providers that are not subject to prudential oversight by the Agencies and, thus, not
+subject to the final guidance. The Agencies also recognize that international coordination
+in this area is important both to promote competitive balance and to ensure that
+internationally active banking organizations are subject to consistent requirements. For
+this reason, the Agencies will continue to work with their domestic and international
+counterparts to foster sound compensation practices across the financial services industry.
+Importantly, the final guidance is consistent with both the Principles for Sound
+Compensation Practices and the related Implementation Standards adopted by the FSB in
+
+
+
+
+                                             9
+2009. 8 A number of commenters expressed concern about the levels of compensation
+paid to some employees of banking organizations. As noted above, several commenters
+requested that the Board eliminate or limit certain types of incentive compensation for
+employees of banking organizations. Other commenters advocated that certain forms of
+compensation be required. For example, some commenters urged a ban on incentive
+compensation payments made in stock options, while others supported their mandatory
+use. Comments also were received with regard to the use of other types of stock-based
+compensation, such as restricted stock and stock appreciation rights. Consistent with its
+principles-based approach, the final guidance does not mandate or prohibit the use of any
+specific forms of payment for incentive compensation or establish mandatory
+compensation levels or caps. Rather, the forms and levels of incentive compensation
+payments at banking organizations are expected to reflect the principles of the final
+guidance in a manner tailored to the business, risk profile, and other attributes of the
+banking organization. Incentive compensation structures that offer employees rewards
+for increasing short-term profit or revenue, without taking into account risk, may
+encourage imprudent risk-taking even if they meet formulaic levels or include or exclude
+certain forms of compensation. On the other hand, incentive compensation arrangements
+of various forms and levels may be properly structured so as not to encourage imprudent
+risk-taking.
+        In response to comments, the final guidance clarifies in a number of respects the
+expectation of the Agencies that the impact of the final guidance on banking
+organizations will vary depending on the size and complexity of the organization and its
+level of usage of incentive compensation arrangements. It is expected that the guidance
+will generally have less impact on smaller banking organizations, which typically are less
+complex and make less use of incentive compensation arrangements than larger banking
+organizations. Because of the size and complexity of their operations, large banking
+organizations (LBOs) 9 should have and adhere to systematic and formalized policies,
+procedures and processes. These are considered important in ensuring that incentive
+compensation arrangements for all covered employees are identified and reviewed by
+appropriate levels of management (including the board of directors where appropriate and
+control units), and that they appropriately balance risks and rewards . The final guidance
+highlights the types of policies, procedures, and systems that LBOs should have and
+maintain, but that are not expected of other banking organizations. It is expected that,
+particularly in the case of LBO’s, adoption of this principles-based approach will require
+an iterative supervisory process to ensure that the embedded flexibility that allows for
+
+8
+  See, Financial Stability Forum, FSF Principles for Sound Compensation Practices, in note 6; and
+Financial Stability Board (2009), FSB Principles for Sound Compensation Practices: Implementation
+Standards (35 KB PDF) (Basel, Switzerland: FSB, September), available at
+http://www.financialstabilityboard.org/publications/r_090925c.pdf.
+9
+  For purposes of the final guidance, LBOs include, in the case of banking organizations supervised by (i)
+the Federal Reserve, large, complex banking organizations as identified by the Federal Reserve for
+supervisory purposes; (ii) the OCC, the largest and most complex national banks as defined in the Large
+Bank Supervision booklet of the Comptroller's Handbook; (iii) the FDIC, large complex insured
+depository institutions (IDIs); and (iv) the OTS, the largest and most complex savings associations and
+savings and loan holding companies. The term “smaller banking organizations’ is used to refer to banking
+organizations that are not LBOs under the relevant agency's standard.
+
+
+                                                    10
+customized arrangements for each banking organization does not undermine effective
+implementation of the guidance.
+        With respect to U.S. operations of foreign banks, incentive compensation policies,
+including management, review, and approval requirements for a foreign bank’s U.S.
+operations should be coordinated with the foreign banking organization’s group-wide
+policies developed in accordance with the rules of the foreign banking organization’s
+home country supervisor. These policies and practices should be consistent with the
+foreign bank’s overall corporate and management structure and its framework for risk-
+management and internal controls, as well as with the final guidance.
+B. Balanced Incentive Compensation Arrangements
+        The first principle of the final guidance is that incentive compensation
+arrangements should provide employees incentives that appropriately balance risks and
+rewards in a manner that does not encourage imprudent risk-taking. The amounts of
+incentive pay flowing to covered employees should take account of and adjust for the
+risks and losses--as well as gains--associated with employees’ activities, so that
+employees do not have incentives to take imprudent risk. The formulation of this
+principle is slightly different from that used in the proposed guidance, which stated that
+organizations should provide employees incentives that do not encourage imprudent risk-
+taking beyond the organization’s ability to effectively identify and manage risk. This
+change was made to clarify that risk-management procedures and control functions that
+ordinarily limit risk-taking do not obviate the need to identify covered employees and to
+develop incentive compensation arrangements that properly balance risk-taking
+incentives. To be fully effective, balancing adjustments to incentive compensation
+arrangements should take account of the full range of risks that employees’ activities may
+pose for the organization, including credit, market, liquidity, operational, legal,
+compliance, and reputational risks.
+        A number of commenters expressed the view that increased controls could
+mitigate a lack of balance in incentive compensation arrangements. Under this view,
+unbalanced incentive compensation arrangements could be addressed either through the
+modification of the incentive compensation arrangements or through the application of
+additional or more effective risk controls to the business. The final guidance recognizes
+that strong and effective risk-management and internal control functions are critical to the
+safety and soundness of banking organizations. However, the Agencies believe that
+poorly designed or managed incentive compensation arrangements can themselves be a
+source of risk to banking organizations and undermine the controls in place. Unbalanced
+incentive compensation arrangements can place substantial strain on the risk-
+management and internal control functions of even well-managed organizations.
+Furthermore, poorly balanced incentive compensation arrangements can encourage
+employees to take affirmative actions to weaken the organization’s risk-management or
+internal control functions.
+        The final guidance, like the proposed guidance, outlines four methods that are
+currently in use to make compensation more sensitive to risk. These are risk adjustment
+of awards; deferral of payment; longer performance periods; and reduced sensitivity to
+short-term performance. Each method has advantages and disadvantages. For example,
+
+                                             11
+incentive compensation arrangements for senior executives at LBOs are likely to be
+better balanced if they involve deferral of a substantial portion of the executives’
+incentive compensation over a multi-year period, with payment made in the form of stock
+or other equity-based instruments and with the number of instruments ultimately received
+dependent on the performance of the organization (or, ideally, the performance of the
+executive) during the deferral period. Deferral, however, may not be effective in
+constraining the incentives of employees who may have the ability to expose the
+organization to long-term risks, as these risks may not be realized during a reasonable
+deferral period. For this reason, the final guidance recognizes that in some cases, two or
+more methods may be needed in combination (e.g., risk adjustment of awards and
+deferral of payment) to achieve an incentive compensation arrangement that properly
+balances risk and reward.
+        Furthermore, the few methods noted in the final guidance are not exclusive, and
+other effective methods or variations may exist or be developed. Methods for achieving
+balanced compensation arrangements at one organization may not be effective at another
+organization. Each organization is responsible for ensuring that its incentive
+compensation arrangements are consistent with the safety and soundness of the
+organization. The guidance clarifies that LBOs should actively monitor industry,
+academic, and regulatory developments in incentive compensation practices and theory
+and be prepared to incorporate into their incentive compensation systems new or
+emerging methods that are likely to improve the organization’s long-term financial well-
+being and safety and soundness.
+        In response to a question asked in the proposed guidance, several commenters
+requested that certain types of compensation plans be treated as beyond the scope of the
+final guidance because commenters believed these plans do not threaten the safety and
+soundness of banking organizations. These included organization-wide profit sharing
+plans, 401(k) plans, defined benefit plans, and ERISA plans.
+        The final guidance does not exempt any broad categories of compensation plans
+based on their tax structure, corporate form, or status as a retirement or other employee
+benefit plans, because any type of incentive compensation plan may be implemented in a
+way that increases risk inappropriately. In response to these comments, however, the
+final guidance recognizes that the term “incentive compensation” does not include
+arrangements that are based solely on the employees’ level of compensation and that do
+not vary based on one or more performance metrics (e.g., a 401(k) plan under which the
+organization contributes a set percentage of an employee’s salary). In addition, the final
+guidance notes that incentive compensation plans that provide for awards based solely on
+overall organization-wide performance are unlikely to provide employees, other than
+senior executives and individuals who have the ability to materially affect the
+organization’s overall performance, with unbalanced risk-taking incentives.
+        In many cases, there were comments on both sides of an issue, with some wanting
+less or no guidance and others wanting tough, or very specific prohibitions. For example,
+a number of commenters argued that the use of “golden parachutes” and similar retention
+and recruitment provisions to retain employees should be prohibited because such
+
+
+
+                                            12
+provisions have been abused in the past. 10 A larger number of commenters, however,
+argued against a per se ban on such arrangements, stating that these provisions were in
+some cases essential elements of effective recruiting and retention packages and are not
+necessarily a threat to safety and soundness. One commenter stated that golden parachute
+payments triggered by changes in control of a banking organization are too speculative to
+encourage imprudent risk-taking by employees.
+       The final guidance, like the proposed guidance, provides that banking
+organizations should carefully consider the potential for golden parachutes and similar
+arrangements to affect the risk-taking behavior of employees. The final guidance adds
+language noting that arrangements that provide an employee with a guaranteed payout
+upon departure from an organization regardless of performance may neutralize the effect
+of any balancing features included in the arrangement to help prevent imprudent risk-
+taking. Organizations should consider including balancing features -- such as risk
+adjustments or deferral requirements -- in golden parachutes and similar arrangements to
+mitigate the potential for the arrangements to encourage imprudent risk-taking.
+         Provisions that require a departing employee to forfeit deferred incentive
+compensation payments may also weaken the effectiveness of a deferral arrangement if
+the departing employee is able to negotiate a “golden handshake” arrangement with the
+employee’s new organization 11 . Golden handshake provisions present special issues for
+banking organizations and supervisors, some of which are discussed in the final guidance,
+because it is the action of the employee’s new employer – which may not be a regulated
+institution – that can affect the current employer’s ability to properly align the
+employee’s interest with the organization’s long-term health. The final guidance states
+that LBOs should monitor whether golden handshake arrangements are materially
+weakening the organization’s efforts to constrain the risk-taking incentives of employees.
+The Agencies will continue to work with banking organizations and others to develop
+appropriate methods for addressing any effect that such arrangements may have on the
+safety and soundness of banking organizations.
+C. Compatibility with Effective Controls and Risk-management
+        The second principle of the final guidance states that a banking organization’s
+risk-management processes and internal controls should reinforce and support the
+development and maintenance of balanced incentive compensation arrangements.
+Banking organizations should integrate incentive compensation arrangements into their
+risk-management and internal control frameworks to ensure that balance is achieved. In
+particular, banking organizations should have appropriate controls to ensure that
+processes for achieving balance are followed. Appropriate personnel, including risk-
+management personnel, should have input in the design and assessment of incentive
+compensation arrangements. Compensation for risk-management and control personnel
+
+10
+   Arrangements that provide for an employee (typically a senior executive), upon departure from an
+organization or a change in control of the organization, to receive large additional payments or the
+accelerated payment of deferred amounts without regard to risk or risk outcomes are sometimes called
+“golden parachutes.”
+11
+   Golden handshakes are arrangements that compensate an employee for some or all of the estimated, non-
+adjusted value of deferred incentive compensation that would have been forfeited upon departure from the
+employee’s previous employment.
+
+                                                  13
+should be sufficient to attract and retain appropriately qualified personnel and such
+compensation should not be based substantially on the financial performance of the
+business unit that they review. Rather, their performance should be based primarily on
+the achievement of the objectives of their functions (e.g., adherence to internal controls).
+        Banking organizations should monitor incentive compensation awards, risks taken
+and actual risk outcomes to determine whether incentive compensation payments to
+employees are reduced to reflect adverse risk outcomes. Incentive compensation
+arrangements that are found not to appropriately reflect risk should be modified as
+necessary. Organizations should not only provide rewards when performance standards
+are met or exceeded, they should also reduce compensation when standards are not met.
+If senior executives or other employees are paid substantially all of their potential
+incentive compensation when risk outcomes are materially worse than expected,
+employees may be encouraged to take large risks in the hope of substantially increasing
+their personal compensation, knowing that their downside risks are limited. Simply put,
+incentive compensation arrangements should not create a "heads I win, tails the firm
+loses" expectation.
+        A significant number of comments expressed concerns about the scope of the
+applicability of the proposed guidance to smaller banking organizations as well as the
+burden the proposed guidance would impose on these organizations. In response to these
+comments, the final guidance has made more explicit the Agencies’ view that the
+monitoring methods and processes used by a banking organization should be
+commensurate with the size and complexity of the organization, as well as its use of
+incentive compensation. Thus, for example, a smaller organization that uses incentive
+compensation only to a limited extent may find that it can appropriately monitor its
+arrangements through normal management processes. The final guidance also discusses
+specific aspects of policies and procedures related to controls and risk-management that
+are applicable to LBOs and are not expected of other banking organizations.
+D. Strong Corporate Governance
+        The third principle of the final guidance is that incentive compensation programs
+at banking organizations should be supported by strong corporate governance, including
+active and effective oversight by the organization’s board of directors. 12 The board of
+directors of an organization is ultimately responsible for ensuring that the organization’s
+incentive compensation arrangements for all covered employees -- not solely senior
+executives -- are appropriately balanced and do not jeopardize the safety and soundness
+of the organization. Boards of directors should receive data and analysis from
+management or other sources that are sufficient to allow the board to assess whether the
+overall design and performance of the organization’s incentive compensation
+arrangements are consistent with the organization’s safety and soundness. These reviews
+and reports should be appropriately scoped to reflect the size and complexity of the
+banking organization’s activities and the prevalence and scope of its incentive
+compensation arrangements. The structure, composition, and resources of the board of
+
+12
+   In the case of foreign banking organizations (FBOs), the term “board of directors” refers to the relevant
+oversight body for the firm’s U.S. operations, consistent with the FBO’s overall corporate and management
+structure.
+
+
+                                                    14
+directors should be constructed to permit effective oversight of incentive compensation.
+The board of directors should, for example, have, or have access to, a level of expertise
+and experience in risk-management and compensation practices in the financial services
+sector that is appropriate for the nature, scope, and complexity of the organization’s
+activities. 13
+        Given the key role of senior executives in managing the overall risk-taking
+activities of an organization, the board of directors should directly approve compensation
+arrangements involving senior executives and closely monitor such payments and their
+sensitivity to risk outcomes. If the compensation arrangements for a senior executive
+include a deferral of payment or “clawback” provision, then the review should include
+sufficient information to determine if the provision has been triggered and executed as
+planned. The board also should approve and document any material exceptions or
+adjustments to the incentive compensation arrangements established for senior executives
+and should carefully consider and monitor the effects of any approved exceptions or
+adjustments to the arrangements.
+        In response to comments expressing concern about the impact of the proposed
+guidance on smaller banking organizations, the final guidance identifies specific aspects
+of the corporate governance provisions of the final guidance that are applicable to LBOs
+or other organizations that use incentive compensation to a significant degree, and are not
+expected of other banking organizations. In particular, boards of directors of LBOs and
+other organizations that use incentive compensation to a significant degree should
+actively oversee the development and operation of the organization’s incentive
+compensation policies, systems and related control processes. If such an organization
+does not already have a compensation committee, reporting to the full board, with
+primary responsibility for incentive compensation arrangements, the board should
+consider establishing one. LBOs, in particular, should follow a systematic approach,
+outlined in the final guidance, in developing compensation systems that have balanced
+incentive compensation arrangements.
+        Several commenters expressed concern that the proposed guidance appeared to
+create a new substantive qualification for boards of directors that requires the boards of
+all banking organizations to have members with expertise in compensation and risk-
+management issues. A group of commenters noted that such a requirement could limit an
+already small pool of people suitable to serve on boards of directors of banking
+organizations and that smaller organizations may not have access to, or the resources to
+compensate, directors meeting these additional requirements. Some commenters also
+stated that terms such as “closely monitor” and “actively oversee” could be read to
+impose a higher standard on directors for their oversight of incentive compensation
+issues. On the other hand, one commenter noted that current law requires financial
+expertise on the boards of directors and audit committees of public companies and
+recommended that specialized risk-management competencies be required on the boards
+of all banking organizations.
+
+
+
+13
+     Savings associations should also refer to OTS’s rule on directors, officers, and employees. 12 CFR 563.33
+
+
+                                                     15
+         To address concerns raised by these commenters, the final guidance clarifies that
+risk-management and compensation expertise and experience at the board level may be
+present collectively among the members of the board, and may come from formal
+training or from experience in addressing risk-management and compensation issues,
+including as a director, or may be obtained from advice received from outside counsel,
+consultants, or other experts with expertise in incentive compensation and risk-
+management. Furthermore, the final guidance recognizes that smaller organizations with
+less complex and extensive incentive compensation arrangements may not find it
+necessary or appropriate to require specially tailored board expertise or to retain and use
+outside experts in this area.
+        A banking organization’s disclosure practices should support safe and sound
+incentive compensation arrangements. Specifically, a banking organization should
+supply an appropriate amount of information concerning its incentive compensation
+arrangements and related risk-management, control, and governance processes to
+shareholders to allow them to monitor and, where appropriate, take actions to restrain the
+potential for such arrangements to encourage employees to take imprudent risks.
+        While some commenters supported increased public disclosure of the incentive
+compensation practices of banking organizations, a greater number expressed concerns
+that any required disclosures of incentive compensation information by banking
+organizations be tailored to protect the privacy of employees and take account of the
+impact of such disclosures on the ability of organizations to attract and retain talent.
+Several commenters supported an alignment of required disclosures with existing
+requirements for public companies, arguing that additional requirements would add to the
+regulatory burden on banking organizations.
+       The proposed guidance did not impose specific disclosure requirements on
+banking organizations. The final guidance makes no significant changes from the
+proposed guidance with regard to disclosures, and states that the scope and level of
+information disclosed by a banking organization should be tailored to the nature and
+complexity of the organization and its incentive compensation arrangements. The final
+guidance notes that banking organizations should comply with the incentive
+compensation disclosure requirements of the federal securities law and other laws, as
+applicable.
+        A number of commenters supported additional governance requirements for
+banking organizations, such as “say on pay” provisions requiring shareholder approval of
+compensation plans, separation of the board chair and chief executive officer positions,
+majority voting for directors, annual elections for all directors, and improvements to the
+audit function. Some of these comments seek changes in federal laws beyond the
+jurisdiction of the Agencies; others address issues – such as “say on pay” requirements –
+that are currently under consideration by the Congress. The final guidance does not
+preempt or preclude these proposals, and indicates that the Agencies expect organizations
+to comply with all applicable statutory disclosure, voting and other requirements.
+E. Continuing Supervisory Initiatives
+      The horizontal review of incentive compensation practices at LBOs is well
+underway. While this initiative is being led by the Federal Reserve, the other federal
+
+                                            16
+banking agencies are participating in the work. Supervisory teams have collected
+substantial information from LBOs concerning existing incentive compensation practices
+and related risk-management and corporate governance processes. In addition, LBOs
+have submitted analyses of shortcomings or “gaps” in existing practices relative to the
+principles contained in the proposed guidance, as well as plans for addressing identified
+weaknesses. Some organizations already have implemented changes to make their
+incentive compensation arrangements more risk sensitive. Indeed, many organizations
+are recognizing that strong risk-management and control systems are not sufficient to
+protect the organization from undue risks, including risks arising from unbalanced
+incentive compensation arrangements. Other organizations have considerably more work
+to do, such as developing processes that can effectively compare incentive compensation
+payments to risks and risk outcomes. The Agencies intend to continue to regularly
+review incentive compensation arrangements and related risk-management, control, and
+corporate governance practices of LBOs and to work with these organizations through the
+supervisory process to promptly correct any deficiencies that may be inconsistent with
+safety and soundness. 14
+        The Agencies intend to actively monitor the actions being taken by banking
+organizations with respect to incentive compensation arrangements and will review and
+update this guidance as appropriate to incorporate best practices that emerge. In addition,
+in order to monitor and encourage improvements, Federal Reserve staff will prepare a
+report, in consultation with the other Federal banking agencies, after the conclusion of
+2010 on trends and developments in compensation practices at banking organizations.
+IV.      Other Matters
+        In accordance with the Paperwork Reduction Act (PRA) of 1995 (44 U.S.C. 3506;
+5 CFR Part 1320 Appendix A.1), the Agencies have determined that certain aspects of the
+final guidance constitute a collection of information. The Board made this determination
+under the authority delegated to the Board by the Office of Management and Budget
+(OMB).
+        An agency may not conduct or sponsor, and an organization is not required to
+respond to, an information collection unless the information collection displays a
+currently valid OMB control number. Any changes to the Agencies’ regulatory reporting
+forms that may be made in the future to collect information related to incentive
+compensation arrangements would be addressed in a separate Federal Register notice.
+      The final guidance includes provisions that state large banking organizations
+(LBOs) should (i) have policies and procedures that identify and describe the role(s) of
+
+14
+   For smaller banking organizations, the Federal Reserve is gathering consistent information through
+regularly scheduled examinations and the normal supervisory process. The focus of the data gathering is to
+identify the types of incentive plans in place, the job types covered and the characteristics, prevalence and
+level of documentation available for those incentive compensation plans. After comparing and analyzing
+the information collected, supervisory efforts and expectations will be scaled appropriately to the size and
+complexity of the organization and its incentive compensation arrangements. For these smaller banking
+organizations, the expectation is that there will be very limited, if any, targeted examination work or
+supervisory follow-up. To the extent that any of these organizations has incentive compensation
+arrangements, the policies and systems necessary to monitor these arrangements are expected to be
+substantially less extensive, formalized and detailed than those of larger, more complex organizations.
+
+                                                     17
+the personnel and units authorized to be involved in incentive compensation
+arrangements, identify the source of significant risk-related inputs, establish appropriate
+controls governing these inputs to help ensure their integrity, and identify the
+individual(s) and unit(s) whose approval is necessary for the establishment or
+modification of incentive compensation arrangements; (ii) create and maintain sufficient
+documentation to permit an audit of the organization’s processes for incentive
+compensation arrangements; (iii) have any material exceptions or adjustments to the
+incentive compensation arrangements established for senior executives approved and
+documented by its board of directors; and (iv) have its board of directors receive and
+review, on an annual or more frequent basis, an assessment by management of the
+effectiveness of the design and operation of the organization’s incentive compensation
+system in providing risk-taking incentives that are consistent with the organization’s
+safety and soundness.
+        The OCCand OTS have obtained, and the FDIC is seeking, emergency approval
+under 5 CFR 1320.13 for issuance of the guidance and will issue a Federal Register
+notice shortly for 60 days of comment as part of the regular PRA clearance process.
+During the regular PRA clearance process the estimated average response time may be
+re-evaluated.
+        The Board has approved the collection of information under its delegated
+authority. As discussed earlier in this notice, on October 27, 2009, the Board published
+in the Federal Register a notice requesting comment on the proposed Guidance on Sound
+Incentive Compensation Policies (74 FR 55227). The comment period for this notice
+expired November 27, 2009. The Board received three comments that specifically
+addressed paperwork burden. The commenters asserted that the hourly estimate of the
+cost of compliance should be considerably higher than the Board projected.
+        The final guidance clarifies in a number of respects the expectation that the effect
+of the final guidance on banking organizations will vary depending on the size and
+complexity of the organization and its level of use of incentive compensation
+arrangements. For example, the final guidance makes more explicit the view that the
+monitoring methods and processes used by a banking organization should be
+commensurate with the size and complexity of the organization, as well as its use of
+incentive compensation. In addition, the final guidance highlights the types of policies,
+procedures, systems, and specific aspects of corporate governance that LBOs should have
+and maintain, but that are not expected of other banking organizations.
+        In response to comments and taking into account the considerations discussed
+above, the Board is increasing the burden estimate for implementing or modifying
+policies and procedures to monitor incentive compensation. For this purpose,
+consideration of burden is limited to items in the final guidance constituting an
+information collection within the meaning of the PRA. The Board estimates that 1,502
+large respondents would take, on average, 480 hours (two months) to modify policies and
+procedures to monitor incentive compensation. The Board estimates that 5,058 small
+respondents would take, on average, 80 hours (two business weeks) to establish or
+modify policies and procedures to monitor incentive compensation. The total one-time
+burden is estimated to be 1,125,600 hours. In addition, the Board estimates that, on a
+continuing basis, respondents would take, on average, 40 hours (one business week) each
+
+                                             18
+year to maintain policies and procedures to monitor incentive compensation arrangements
+and estimates the annual on-going burden to be 262,400 hours. The total annual PRA
+burden for this information collection is estimated to be 1,388,000 hours.
+General description of report:
+This information collection is authorized pursuant to:
+Board - Sections 11(a), 11(i), 25, and 25A of the Federal Reserve Act (12 U.S.C. 248(a),
+248(i), 602, and 611,), section 5 of the Bank Holding Company Act (12 U.S.C. 1844),
+and section 7(c) of the International Banking Act (12 U.S.C. 3105(c)).
+OCC - 12 U.S.C. 161, and Section 39 of the Federal Deposit Insurance Act (12 U.S.C.
+1831p-1).
+FDIC - Section 39 of the Federal Deposit Insurance Act (12 U.S.C. 1831p-1)
+OTS - Section 39 of the Federal Deposit Insurance Act (12 U.S.C. 1831p-1) and Sections
+4, 5, and 10 of the Home Owners' Loan Act (12 U.S.C. 1463, 1464, and 1467a).
+        The Agencies expect to review the policies and procedures for incentive
+compensation arrangements as part of their supervisory processes. To the extent the
+Agencies collect information during an examination of a banking organization,
+confidential treatment may be afforded to the records under exemption 8 of the Freedom
+of Information Act (FOIA), 5 U.S.C. 552(b)(8).
+Board:
+Title of Information Collection: Recordkeeping Provisions Associated with the Guidance
+on Sound Incentive Compensation Policies.
+Agency form number: FR 4027.
+OMB control number: 7100 – to be assigned.
+Frequency: Annually.
+Affected Public: Businesses or other for-profit.
+Respondents: U.S. bank holding companies, state member banks, Edge and agreement
+corporations, and the U.S. operations of foreign banks with a branch, agency, or
+commercial lending company subsidiary in the United States.
+Estimated average hours per response: Implementing or modifying policies and
+procedures: large respondents 480 hours; small respondents 80 hours. Maintenance of
+policies and procedures: 40 hours.
+Estimated number of respondents: Large respondents, 1,502; Small respondents, 5,058
+Estimated total annual burden: 1,388,000 hours.
+        As mentioned above, the OCC and OTS have obtained emergency approval under
+5 CFR 1320.13. Their approval was obtained prior to the Board revising its burden
+estimates based on the comments received. For this reason, the OCC and OTS are
+publishing in this notice the original burden estimates. They will issue a Federal Register
+notice shortly for 60 days of comment as part of the regular PRA clearance process.
+During the regular PRA clearance process the estimated average response time may be
+
+                                            19
+re-evaluated based on comments received. The FDIC is seeking emergency approval
+under 5 CFR 1320.13 and is publishing in this notice the revised burden estimates
+developed by the Board based on the comments received. The FDIC will issue a Federal
+Register notice shortly for 60 days of comment as part of the regular PRA clearance
+process and, during the regular PRA clearance process, the estimated average response
+time may be re-evaluated based on comments received.
+OCC:
+Title of Information Collection: Guidance on Sound Incentive Compensation Policies.
+Agency form number: N/A.
+OMB control number: 1557-0245.
+Frequency: Annually.
+Affected Public: Businesses or other for-profit.
+Respondents: National banks.
+Estimated average hours per response: 40 hours.
+Estimated number of respondents: 1,650.
+Estimated total annual burden: 66,000 hours.
+
+
+FDIC:
+Title of Information Collection: Guidance on Sound Incentive Compensation Policies.
+Agency form number: N/A.
+OMB control number: 3064-NEW.
+Frequency: Annually.
+Affected Public: Businesses or other for-profit.
+Respondents: Insured state nonmember banks.
+Estimated average hours per response: Implementing or modifying policies and
+procedures: large respondents 480 hours; small respondents 80 hours. Maintenance of
+policies and procedures: 40 hours.
+Estimated number of respondents: Implementing or modifying policies and procedures:
+large respondents – 20; small respondents – 4,870; Maintenance of policies and
+procedures: 4,890.
+Estimated total annual burden: 594,800 hours.
+
+
+OTS:
+Title of Information Collection: Sound Incentive Compensation Guidance.
+Agency form number: N/A.
+
+
+                                            20
+OMB control number: 1550-0129
+Frequency: Annually.
+Affected Public: Businesses or other for-profit.
+Respondents: Savings associations.
+Estimated average hours per response: 40 hours.
+Estimated number of respondents: 765
+Estimated total annual burden: 30,600 hours
+         The Agencies have a continuing interest in the public’s opinions of our collections
+of information. At any time, comments regarding the burden estimate or any other aspect
+of this collection of information, including suggestions for reducing the burden, may be
+sent to:
+Board:
+Secretary, Board of Governors of the Federal Reserve System, 20th and C Streets, NW.,
+Washington, DC 20551.
+OCC:
+Communications Division, Office of the Comptroller of the Currency, Mailstop 2-3,
+Attention: 1557-0245, 250 E Street, SW., Washington, DC 20219. In addition,
+comments may be sent by fax to (202) 874-5274 or by electronic mail to
+regs.comments@occ.treas.gov. You may personally inspect and photocopy comments at
+the OCC, 250 E Street, SW., Washington, DC 20219. For security reasons, the OCC
+requires that visitors make an appointment to inspect comments. You may do so by
+calling (202) 874-4700. Upon arrival, visitors will be required to present valid
+government-issued photo identification and to submit to security screening in order to
+inspect and photocopy comments.
+FDIC:
+All comments should refer to the name of the collection, ‘‘Guidance on Sound Incentive
+Compensation Policies.’’ Comments may be submitted by any of the following methods:
+• http://www.FDIC.gov/regulations/laws/federal/propose.html.
+• E-mail: comments@fdic.gov.
+• Mail: Gary Kuiper (202.898.3877), Counsel, Federal Deposit Insurance Corporation, F-
+1072, 550 17th Street, NW, Washington, DC 20429.
+• Hand Delivery: Comments may be hand-delivered to the guard station at the rear of the
+550 17th Street Building (located on F Street), on business days between 7 a.m. and 5
+p.m.
+OTS:
+Information Collection Comments, Chief Counsel’s Office, Office of Thrift Supervision,
+1700 G Street, NW, Washington, DC 20552; send a facsimile transmission to (202) 906–
+6518; or send an e-mail to infocollection.comments@ots.treas.gov. OTS will post
+
+                                            21
+comments and the related index on the OTS Internet Site at http://www.ots.treas.gov. In
+addition, interested persons may inspect comments at the Public Reading Room, 1700 G
+Street, NW, Washington DC 20552 by appointment. To make an appointment, call (202)
+906–5922, send an e-mail to public.info@ots.treas.gov, or send a facsimile transmission
+to (202) 906–7755.
+OMB:
+Additionally, please send a copy of your comments by mail to: Office of Management
+and Budget, 725 17th Street, NW, #10235, Paperwork Reduction Project (insert Agency
+OMB control number), Washington, DC 20503. Comments can also be sent by fax to
+(202) 395-6974.
+       While the Regulatory Flexibility Act (5 U.S.C. 603(b)) does not apply to this
+guidance, because it is not being adopted as a rule, the Agencies have considered the
+potential impact of the proposed guidance on small banking organizations. For the
+reasons discussed in the “Supplementary Information” above, the Agencies believe that
+issuance of the proposed guidance is needed to help ensure that incentive compensation
+arrangements do not pose a threat to the safety and soundness of banking organizations,
+including small banking organizations. The Board in the proposed guidance sought
+comment on whether the guidance would impose undue burdens on, or have unintended
+consequences for, small organizations and whether there were ways such potential
+burdens or consequences could be addressed in a manner consistent with safety and
+soundness.
+        It is estimated that the guidance will apply to 8,763 small banking organizations.
+See 13 CFR 121.201. As noted in the “Supplementary Information” above, a number of
+commenters expressed concern that the proposed guidance would impose undue burden
+on smaller organizations. The Agencies have carefully considered the comments
+received on this issue. In response to these comments, the final guidance includes several
+provisions designed to reduce burden on smaller banking organizations. For example, the
+final guidance has made more explicit the Agencies’ view that the monitoring methods
+and processes used by a banking organization should be commensurate with the size and
+complexity of the organization, as well as its use of incentive compensation. The final
+guidance also highlights the types of policies, procedures, and systems that LBOs should
+have and maintain, but that are not expected of other banking organizations. Like the
+proposed guidance, the final guidance focuses on those employees who have the ability,
+either individually or as part of a group, to expose a banking organization to material
+amounts of risk and is tailored to account for the differences between large and small
+banking organizations.
+V.     Final Guidance
+       The text of the final guidance is as follows:
+
+
+
+
+                                            22
+GUIDANCE ON SOUND INCENTIVE COMPENSATION POLICIES
+I.       Introduction
+        Incentive compensation practices in the financial industry were one of many
+factors contributing to the financial crisis that began in mid-2007. Banking organizations
+too often rewarded employees for increasing the organization’s revenue or short-term
+profit without adequate recognition of the risks the employees’ activities posed to the
+organization 1 . These practices exacerbated the risks and losses at a number of banking
+organizations and resulted in the misalignment of the interests of employees with the
+long-term well-being and safety and soundness of their organizations. This document
+provides guidance on sound incentive compensation practices to banking organizations
+supervised by the Federal Reserve, the Office of the Comptroller of the Currency, the
+Federal Deposit Insurance Corporation, and the Office of Thrift Supervision (collectively,
+the “Agencies”). 2 This guidance is intended to assist banking organizations in designing
+and implementing incentive compensation arrangements and related policies and
+procedures that effectively consider potential risks and risk outcomes. 3
+        Alignment of incentives provided to employees with the interests of shareholders
+of the organization often also benefits safety and soundness. However, aligning
+employee incentives with the interests of shareholders is not always sufficient to address
+safety-and-soundness concerns. Because of the presence of the federal safety net,
+(including the ability of insured depository institutions to raise insured deposits and
+access the Federal Reserve’s discount window and payment services), shareholders of a
+banking organization in some cases may be willing to tolerate a degree of risk that is
+inconsistent with the organization’s safety and soundness. Accordingly, the Agencies
+expect banking organizations to maintain incentive compensation practices that are
+consistent with safety and soundness, even when these practices go beyond those needed
+to align shareholder and employee interests.
+       To be consistent with safety and soundness, incentive compensation
+arrangements 4 at a banking organization should:
+
+
+1
+ Examples of risks that may present a threat to the organization’s safety and soundness include credit,
+market, liquidity, operational, legal, compliance, and reputational risks.
+2
+  As used in this guidance, the term “banking organization” includes national banks, state member banks,
+state nonmember banks, savings associations, U.S. bank holding companies, savings and loan holding
+companies, Edge and agreement corporations, and the U.S. operations of foreign banking organizations
+(FBOs) with a branch, agency, or commercial lending company in the United States.
+3
+  This guidance and the principles reflected herein are consistent with the Principles for Sound
+Compensation Practices issued by the Financial Stability Board (FSB) in April 2009, and with the FSB’s
+Implementation Standards for those principles, issued in September 2009.
+4
+  In this guidance, the term “incentive compensation” refers to that portion of an employee’s current or
+potential compensation that is tied to achievement of one or more specific metrics (e.g., a level of sales,
+revenue, or income). Incentive compensation does not include compensation that is awarded solely for,
+and the payment of which is solely tied to, continued employment (e.g., salary). In addition, the term does
+not include compensation arrangements that are determined based solely on the employee’s level of
+
+                                                    23
+             •   Provide employees incentives that appropriately balance risk and reward;
+             •   Be compatible with effective controls and risk-management; and
+             •   Be supported by strong corporate governance, including active and
+                 effective oversight by the organization’s board of directors.
+These principles, and the types of policies, procedures, and systems that banking
+organizations should have to help ensure compliance with them, are discussed later in this
+guidance.
+       The Agencies expect banking organizations to regularly review their incentive
+compensation arrangements for all executive and non-executive employees who, either
+individually or as part of a group, have the ability to expose the organization to material
+amounts of risk, as well as to regularly review the risk-management, control, and
+corporate governance processes related to these arrangements. Banking organizations
+should immediately address any identified deficiencies in these arrangements or
+processes that are inconsistent with safety and soundness. Banking organizations are
+responsible for ensuring that their incentive compensation arrangements are consistent
+with the principles described in this guidance and that they do not encourage employees
+to expose the organization to imprudent risks that may pose a threat to the safety and
+soundness of the organization.
+        The Agencies recognize that incentive compensation arrangements often seek to
+serve several important and worthy objectives. For example, incentive compensation
+arrangements may be used to help attract skilled staff, induce better organization-wide
+and employee performance, promote employee retention, provide retirement security to
+employees, or allow compensation expenses to vary with revenue on an organization-
+wide basis. Moreover, the analysis and methods for ensuring that incentive compensation
+arrangements take appropriate account of risk should be tailored to the size, complexity,
+business strategy, and risk tolerance of each organization. The resources required will
+depend upon the complexity of the firm and its use of incentive compensation
+arrangements. For some, the task of designing and implementing compensation
+arrangements that properly offer incentives for executive and non-executive employees to
+pursue the organization’s long-term well-being and that do not encourage imprudent risk-
+taking is a complex task that will require the commitment of adequate resources.
+        While issues related to designing and implementing incentive compensation
+arrangements are complex, the Agencies are committed to ensuring that banking
+organizations move forward in incorporating the principles described in this guidance
+into their incentive compensation practices. 5
+
+
+compensation and does not vary based on one or more performance metrics (e.g., a 401(k) plan under
+which the organization contributes a set percentage of an employee’s salary).
+5
+  In December 2009 the Federal Reserve, working with the other Agencies , initiated a special horizontal
+review of incentive compensation arrangements and related risk-management, control, and corporate
+governance practices of large banking organizations (LBOs). This initiative was designed to spur and
+monitor the industry’s progress towards the implementation of safe and sound incentive compensation
+arrangements, identify emerging best practices, and advance the state of practice more generally in the
+industry.
+
+                                                    24
+         As discussed further below, because of the size and complexity of their
+operations, LBOs 6 should have and adhere to systematic and formalized policies,
+procedures, and processes. These are considered important in ensuring that incentive
+compensation arrangements for all covered employees are identified and reviewed by
+appropriate levels of management (including the board of directors where appropriate and
+control units), and that they appropriately balance risks and rewards. In several places,
+this guidance specifically highlights the types of policies, procedures, and systems that
+LBOs should have and maintain, but that generally are not expected of smaller, less
+complex organizations. LBOs warrant the most intensive supervisory attention because
+they are significant users of incentive compensation arrangements and because flawed
+approaches at these organizations are more likely to have adverse effects on the broader
+financial system. The Agencies will work with LBOs as necessary through the
+supervisory process to ensure that they promptly correct any deficiencies that may be
+inconsistent with the safety and soundness of the organization.
+        The policies, procedures, and systems of smaller banking organizations that use
+incentive compensation arrangements 7 are expected to be less extensive, formalized, and
+detailed than those of LBOs. Supervisory reviews of incentive compensation
+arrangements at smaller, less-complex banking organizations will be conducted by the
+Agencies as part of the evaluation of those organizations’ risk-management, internal
+controls, and corporate governance during the regular, risk-focused examination process.
+These reviews will be tailored to reflect the scope and complexity of an organization’s
+activities, as well as the prevalence and scope of its incentive compensation
+arrangements. Little, if any, additional examination work is expected for smaller banking
+organizations that do not use, to a significant extent, incentive compensation
+arrangements. 8
+        For all banking organizations, supervisory findings related to incentive
+compensation will be communicated to the organization and included in the relevant
+report of examination or inspection. In addition, these findings will be incorporated, as
+appropriate, into the organization’s rating component(s) and subcomponent(s) relating to
+risk-management, internal controls, and corporate governance under the relevant
+supervisory rating system, as well as the organization’s overall supervisory rating.
+
+
+6
+  For supervisory purposes, the Agencies segment organizations they supervise into different supervisory
+portfolios based on, among other things, size, complexity, and risk profile. For purposes of the final
+guidance, LBOs include, in the case of banking organizations supervised by (i) the Federal Reserve, large,
+complex banking organizations as identified by the Federal Reserve for supervisory purposes; (ii) the OCC,
+the largest and most complex national banks as defined in the Large Bank Supervision booklet of the
+Comptroller's Handbook; (iii) the FDIC, large, complex insured depository institutions (IDIs); and (iv) the
+OTS, the largest and most complex savings associations and savings and loan holding companies.
+7
+    This guidance does not apply to banking organizations that do not use incentive compensation.
+8
+  To facilitate these reviews, where appropriate, a smaller banking organization should review its
+compensation arrangements to determine whether it uses incentive compensation arrangements to a
+significant extent in its business operations. A smaller banking organization will not be considered a
+significant user of incentive compensation arrangements simply because the organization has a firm-wide
+profit-sharing or bonus plan that is based on the bank’s profitability, even if the plan covers all or most of
+the organization’s employees.
+
+
+                                                      25
+        An organization’s appropriate federal supervisor may take enforcement action
+against a banking organization if its incentive compensation arrangements or related risk-
+management, control, or governance processes pose a risk to the safety and soundness of
+the organization, particularly when the organization is not taking prompt and effective
+measures to correct the deficiencies. For example, the appropriate federal supervisor may
+take an enforcement action if material deficiencies are found to exist in the organization’s
+incentive compensation arrangements or related risk-management, control, or governance
+processes, or the organization fails to promptly develop, submit, or adhere to an effective
+plan designed to ensure that its incentive compensation arrangements do not encourage
+imprudent risk-taking and are consistent with principles of safety and soundness. As
+provided under section 8 of the Federal Deposit Insurance Act (12 U.S.C. 1818), an
+enforcement action may, among other things, require an organization to take affirmative
+action, such as developing a corrective action plan that is acceptable to the appropriate
+federal supervisor to rectify safety-and-soundness deficiencies in its incentive
+compensation arrangements or related processes. Where warranted, the appropriate
+federal supervisor may require the organization to take additional affirmative action to
+correct or remedy deficiencies related to the organization’s incentive compensation
+practices.
+        Effective and balanced incentive compensation practices are likely to evolve
+significantly in the coming years, spurred by the efforts of banking organizations,
+supervisors, and other stakeholders. The Agencies will review and update this guidance
+as appropriate to incorporate best practices that emerge from these efforts.
+II.       Scope of Application
+       The incentive compensation arrangements and related policies and procedures of
+banking organizations should be consistent with principles of safety and soundness. 9
+Incentive compensation arrangements for executive officers as well as for non-executive
+personnel who have the ability to expose a banking organization to material amounts of
+risk may, if not properly structured, pose a threat to the organization’s safety and
+soundness. Accordingly, this guidance applies to incentive compensation arrangements
+for:
+      •   Senior executives and others who are responsible for oversight of the
+          organization’s firm-wide activities or material business lines; 10
+
+
+
+9
+  In the case of the U.S. operations of FBOs, the organization’s policies, including management, review,
+and approval requirements for its U.S. operations, should be coordinated with the FBO’s group-wide
+policies developed in accordance with the rules of the FBO’s home country supervisor. The policies of the
+FBO’s U.S. operations should also be consistent with the FBO’s overall corporate and management
+structure, as well as its framework for risk-management and internal controls. In addition, the policies for
+the U.S. operations of FBOs should be consistent with this guidance.
+10
+   Senior executives include, at a minimum, “executive officers” within the meaning of the Federal
+Reserve’s Regulation O (see 12 CFR 215.2(e)(1)) and, for publicly traded companies, “named officers”
+within the meaning of the Securities and Exchange Commission’s rules on disclosure of executive
+compensation (see 17 CFR 229.402(a)(3)). Savings associations should also refer to OTS’s rule on loans
+by saving associations to their executive officers, directors, and principal shareholders. (12 CFR 563.43).
+
+
+                                                     26
+     •   Individual employees, including non-executive employees, whose activities may
+         expose the organization to material amounts of risk (e.g., traders with large
+         position limits relative to the organization’s overall risk tolerance); and
+     •   Groups of employees who are subject to the same or similar incentive
+         compensation arrangements and who, in the aggregate, may expose the
+         organization to material amounts of risk, even if no individual employee is likely
+         to expose the organization to material risk (e.g., loan officers who, as a group,
+         originate loans that account for a material amount of the organization’s credit
+         risk).
+        For ease of reference, these executive and non-executive employees are
+collectively referred to hereafter as “covered employees” or “employees.” Depending on
+the facts and circumstances of the individual organization, the types of employees or
+categories of employees that are outside the scope of this guidance because they do not
+have the ability to expose the organization to material risks would likely include, for
+example, tellers, bookkeepers, couriers, or data processing personnel.
+
+        In determining whether an employee, or group of employees, may expose a
+banking organization to material risk, the organization should consider the full range of
+inherent risks arising from, or generated by, the employee’s activities, even if the
+organization uses risk-management processes or controls to limit the risks such activities
+ultimately may pose to the organization. Moreover, risks should be considered to be
+material for purposes of this guidance if they are material to the organization, or are
+material to a business line or operating unit that is itself material to the organization. 11
+For purposes of illustration, assume that a banking organization has a structured-finance
+unit that is material to the organization. A group of employees within that unit who
+originate structured-finance transactions that may expose the unit to material risks should
+be considered “covered employees” for purposes of this guidance even if those
+transactions must be approved by an independent risk function prior to consummation, or
+the organization uses other processes or methods to limit the risk that such transactions
+may present to the organization.
+
+        Strong and effective risk-management and internal control functions are critical to
+the safety and soundness of banking organizations. However, irrespective of the quality
+of these functions, poorly designed or managed incentive compensation arrangements can
+themselves be a source of risk to a banking organization. For example, incentive
+compensation arrangements that provide employees strong incentives to increase the
+organization’s short-term revenues or profits, without regard to the short- or long-term
+risk associated with such business, can place substantial strain on the risk-management
+and internal control functions of even well-managed organizations.
+
+      Moreover, poorly balanced incentive compensation arrangements can encourage
+employees to take affirmative actions to weaken or circumvent the organization’s risk-
+
+11
+   Thus, risks may be material to an organization even if they are not large enough to themselves threaten
+the solvency of the organization.
+
+
+                                                    27
+management or internal control functions, such as by providing inaccurate or incomplete
+information to these functions, to boost the employee’s personal compensation.
+Accordingly, sound compensation practices are an integral part of strong risk-
+management and internal control functions. A key goal of this guidance is to encourage
+banking organizations to incorporate the risks related to incentive compensation into their
+broader risk-management framework. Risk-management procedures and risk controls
+that ordinarily limit risk-taking do not obviate the need for incentive compensation
+arrangements to properly balance risk-taking incentives.
+
+III. Principles of a Sound Incentive Compensation System
+Principle 1: Balanced Risk-Taking Incentives
+Incentive compensation arrangements should balance risk and financial results in a
+manner that does not encourage employees to expose their organizations to
+imprudent risks.
+        Incentive compensation arrangements typically attempt to encourage actions that
+result in greater revenue or profit for the organization. However, short-run revenue or
+profit can often diverge sharply from actual long-run profit because risk outcomes may
+become clear only over time. Activities that carry higher risk typically yield higher
+short-term revenue, and an employee who is given incentives to increase short-term
+revenue or profit, without regard to risk, will naturally be attracted to opportunities to
+expose the organization to more risk.
+        An incentive compensation arrangement is balanced when the amounts paid to an
+employee appropriately take into account the risks (including compliance risks), as well
+as the financial benefits, from the employee’s activities and the impact of those activities
+on the organization’s safety and soundness. As an example, under a balanced incentive
+compensation arrangement, two employees who generate the same amount of short-term
+revenue or profit for an organization should not receive the same amount of incentive
+compensation if the risks taken by the employees in generating that revenue or profit
+differ materially. The employee whose activities create materially larger risks for the
+organization should receive less than the other employee, all else being equal.
+        The performance measures used in an incentive compensation arrangement have
+an important effect on the incentives provided employees and, thus, the potential for the
+arrangement to encourage imprudent risk-taking. For example, if an employee’s
+incentive compensation payments are closely tied to short-term revenue or profit of
+business generated by the employee, without any adjustments for the risks associated
+with the business generated, the potential for the arrangement to encourage imprudent
+risk-taking may be quite strong. Similarly, traders who work with positions that close at
+year-end could have an incentive to take large risks toward the end of a year if there is no
+mechanism for factoring how such positions perform over a longer period of time. The
+same result could ensue if the performance measures themselves lack integrity or can be
+manipulated inappropriately by the employees receiving incentive compensation.
+       On the other hand, if an employee’s incentive compensation payments are
+determined based on performance measures that are only distantly linked to the
+employee’s activities (e.g., for most employees, organization-wide profit), the potential
+
+                                             28
+for the arrangement to encourage the employee to take imprudent risks on behalf of the
+organization may be weak. For this reason, plans that provide for awards based solely on
+overall organization-wide performance are unlikely to provide employees, other than
+senior executives and individuals who have the ability to materially affect the
+organization’s overall risk profile, with unbalanced risk-taking incentives.
+         Incentive compensation arrangements should not only be balanced in design, they
+also should be implemented so that actual payments vary based on risks or risk outcomes.
+If, for example, employees are paid substantially all of their potential incentive
+compensation even when risk or risk outcomes are materially worse than expected,
+employees have less incentive to avoid activities with substantial risk.
+
+     •   Banking organizations should consider the full range of risks associated with
+         an employee’s activities, as well as the time horizon over which those risks
+         may be realized, in assessing whether incentive compensation arrangements
+         are balanced.
+        The activities of employees may create a wide range of risks for a banking
+organization, such as credit, market, liquidity, operational, legal, compliance, and
+reputational risks, as well as other risks to the viability or operation of the organization.
+Some of these risks may be realized in the short term, while others may become apparent
+only over the long term. For example, future revenues that are booked as current income
+may not materialize, and short-term profit-and-loss measures may not appropriately
+reflect differences in the risks associated with the revenue derived from different
+activities (e.g., the higher credit or compliance risk associated with subprime loans versus
+prime loans). 12 In addition, some risks (or combinations of risky strategies and positions)
+may have a low probability of being realized, but would have highly adverse effects on
+the organization if they were to be realized (“bad tail risks”). While shareholders may
+have less incentive to guard against bad tail risks because of the infrequency of their
+realization and the existence of the federal safety net, these risks warrant special attention
+for safety-and-soundness reasons given the threat they pose to the organization’s
+solvency and the federal safety net.
+        Banking organizations should consider the full range of current and potential risks
+associated with the activities of covered employees, including the cost and amount of
+capital and liquidity needed to support those risks, in developing balanced incentive
+compensation arrangements. Reliable quantitative measures of risk and risk outcomes
+(“quantitative measures”), where available, may be particularly useful in developing
+balanced compensation arrangements and in assessing the extent to which arrangements
+are properly balanced. However, reliable quantitative measures may not be available for
+all types of risk or for all activities, and their utility for use in compensation arrangements
+varies across business lines and employees. The absence of reliable quantitative
+measures for certain types of risks or outcomes does not mean that banking organizations
+
+12
+   Importantly, the time horizon over which a risk outcome may be realized is not necessarily the same as
+the stated maturity of an exposure. For example, the ongoing reinvestment of funds by a cash management
+unit in commercial paper with a one-day maturity not only exposes the organization to one-day credit risk,
+but also exposes the organization to liquidity risk that may be realized only infrequently.
+
+
+                                                    29
+should ignore such risks or outcomes for purposes of assessing whether an incentive
+compensation arrangement achieves balance. For example, while reliable quantitative
+measures may not exist for many bad-tail risks, it is important that such risks be
+considered given their potential effect on safety and soundness. As in other risk-
+management areas, banking organizations should rely on informed judgments, supported
+by available data, to estimate risks and risk outcomes in the absence of reliable
+quantitative risk measures.
+        Large banking organizations. In designing and modifying incentive compensation
+arrangements, LBOs should assess in advance of implementation whether such
+arrangements are likely to provide balanced risk-taking incentives. Simulation analysis
+of incentive compensation arrangements is one way of doing so. Such analysis uses
+forward-looking projections of incentive compensation awards and payments based on a
+range of performance levels, risk outcomes, and levels of risks taken. This type of
+analysis, or other analysis that results in assessments of likely effectiveness, can help an
+LBO assess whether incentive compensation awards and payments to an employee are
+likely to be reduced appropriately as the risks to the organization from the employee’s
+activities increase.
+     •   An unbalanced arrangement can be moved toward balance by adding or
+         modifying features that cause the amounts ultimately received by employees
+         to appropriately reflect risk and risk outcomes.
+        If an incentive compensation arrangement may encourage employees to expose
+their banking organization to imprudent risks, the organization should modify the
+arrangement as needed to ensure that it is consistent with safety and soundness. Four
+methods are often used to make compensation more sensitive to risk. These methods are:
+     o Risk Adjustment of Awards: The amount of an incentive compensation award for
+       an employee is adjusted based on measures that take into account the risk the
+       employee’s activities may pose to the organization. Such measures may be
+       quantitative, or the size of a risk adjustment may be set judgmentally, subject to
+       appropriate oversight.
+     o Deferral of Payment: The actual payout of an award to an employee is delayed
+       significantly beyond the end of the performance period, and the amounts paid are
+       adjusted for actual losses or other aspects of performance that are realized or
+       become better known only during the deferral period. 13 Deferred payouts may be
+       altered according to risk outcomes either formulaically or judgmentally, subject to
+       appropriate oversight. To be most effective, the deferral period should be
+       sufficiently long to allow for the realization of a substantial portion of the risks
+       from employee activities, and the measures of loss should be clearly explained to
+
+
+13
+   The deferral-of-payment method is sometimes referred to in the industry as a “clawback.” The term
+“clawback” also may refer specifically to an arrangement under which an employee must return incentive
+compensation payments previously received by the employee (and not just deferred) if certain risk
+outcomes occur. Section 304 of the Sarbanes-Oxley Act of 2002 (15 U.S.C. 7243), which applies to chief
+executive officers and chief financial officers of public banking organizations, is an example of this more
+specific type of “clawback” requirement.
+
+
+                                                     30
+         employees and closely tied to their activities during the relevant performance
+         period.
+     o Longer Performance Periods: The time period covered by the performance
+       measures used in determining an employee’s award is extended (for example,
+       from one year to two or more years). Longer performance periods and deferral of
+       payment are related in that both methods allow awards or payments to be made
+       after some or all risk outcomes are realized or better known.
+     o Reduced Sensitivity to Short-Term Performance: The banking organization
+       reduces the rate at which awards increase as an employee achieves higher levels
+       of the relevant performance measure(s). Rather than offsetting risk-taking
+       incentives associated with the use of short-term performance measures, this
+       method reduces the magnitude of such incentives. This method also can include
+       improving the quality and reliability of performance measures in taking into
+       account both short-term and long-term risks, for example improving the reliability
+       and accuracy of estimates of revenues and long-term profits upon which
+       performance measures depend. 14
+        These methods for achieving balance are not exclusive, and additional methods or
+variations may exist or be developed. Moreover, each method has its own advantages
+and disadvantages. For example, where reliable risk measures exist, risk adjustment of
+awards may be more effective than deferral of payment in reducing incentives for
+imprudent risk-taking. This is because risk adjustment potentially can take account of the
+full range and time horizon of risks, rather than just those risk outcomes that occur or
+become more evident during the deferral period. On the other hand, deferral of payment
+may be more effective than risk adjustment in mitigating incentives to take hard-to-
+measure risks (such as the risks of new activities or products, or certain risks such as
+reputational or operational risk that may be difficult to measure with respect to particular
+activities), especially if such risks are likely to be realized during the deferral period.
+Accordingly, in some cases two or more methods may be needed in combination for an
+incentive compensation arrangement to be balanced.
+        The greater the potential incentives an arrangement creates for an employee to
+increase the risks associated with the employee’s activities, the stronger the effect should
+be of the methods applied to achieve balance. Thus, for example, risk adjustments used
+to counteract a materially unbalanced compensation arrangement should have a similarly
+material impact on the incentive compensation paid under the arrangement. Further,
+improvements in the quality and reliability of performance measures themselves, for
+example improving the reliability and accuracy of estimates of revenues and profits upon
+which performance measures depend, can significantly improve the degree of balance in
+risk-taking incentives.
+
+
+
+14
+   Performance targets may have a material effect on risk-taking incentives. Such targets may offer
+employees greater rewards for increments of performance that are above the target or may provide that
+awards will be granted only if a target is met or exceeded. Employees may be particularly motivated to
+take imprudent risk in order to reach performance targets that are aggressive, but potentially achievable.
+
+
+                                                     31
+         Where judgment plays a significant role in the design or operation of an incentive
+compensation arrangement, strong policies and procedures, internal controls, and ex post
+monitoring of incentive compensation payments relative to actual risk outcomes are
+particularly important to help ensure that the arrangements as implemented are balanced
+and do not encourage imprudent risk-taking. For example, if a banking organization
+relies to a significant degree on the judgment of one or more managers to ensure that the
+incentive compensation awards to employees are appropriately risk-adjusted, the
+organization should have policies and procedures that describe how managers are
+expected to exercise that judgment to achieve balance and that provide for the manager(s)
+to receive appropriate available information about the employee’s risk-taking activities to
+make informed judgments.
+        Large banking organizations. Methods and practices for making compensation
+sensitive to risk are likely to evolve rapidly during the next few years, driven in part by
+the efforts of supervisors and other stakeholders. LBOs should actively monitor
+developments in the field and should incorporate into their incentive compensation
+systems new or emerging methods or practices that are likely to improve the
+organization’s long-term financial well-being and safety and soundness.
+   •   The manner in which a banking organization seeks to achieve balanced
+       incentive compensation arrangements should be tailored to account for the
+       differences between employees—including the substantial differences
+       between senior executives and other employees—as well as between banking
+       organizations.
+        Activities and risks may vary significantly both across banking organizations and
+across employees within a particular banking organization. For example, activities, risks,
+and incentive compensation practices may differ materially among banking organizations
+based on, among other things, the scope or complexity of activities conducted and the
+business strategies pursued by the organizations. These differences mean that methods
+for achieving balanced compensation arrangements at one organization may not be
+effective in restraining incentives to engage in imprudent risk-taking at another
+organization. Each organization is responsible for ensuring that its incentive
+compensation arrangements are consistent with the safety and soundness of the
+organization.
+        Moreover, the risks associated with the activities of one group of non-executive
+employees (e.g., loan originators) within a banking organization may differ significantly
+from those of another group of non-executive employees (e.g., spot foreign exchange
+traders) within the organization. In addition, reliable quantitative measures of risk and
+risk outcomes are unlikely to be available for a banking organization as a whole,
+particularly a large, complex organization. This factor can make it difficult for banking
+organizations to achieve balanced compensation arrangements for senior executives who
+have responsibility for managing risks on an organization-wide basis solely through use
+of the risk-adjustment-of-award method.
+         Furthermore, the payment of deferred incentive compensation in equity (such as
+restricted stock of the organization) or equity-based instruments (such as options to
+acquire the organization’s stock) may be helpful in restraining the risk-taking incentives
+
+                                             32
+of senior executives and other covered employees whose activities may have a material
+effect on the overall financial performance of the organization. However, equity-related
+deferred compensation may not be as effective in restraining the incentives of lower-level
+covered employees (particularly at large organizations) to take risks because such
+employees are unlikely to believe that their actions will materially affect the
+organization’s stock price.
+        Banking organizations should take account of these differences when constructing
+balanced compensation arrangements. For most banking organizations, the use of a
+single, formulaic approach to making employee incentive compensation arrangements
+appropriately risk-sensitive is likely to result in arrangements that are unbalanced at least
+with respect to some employees. 15
+        Large banking organizations. Incentive compensation arrangements for senior
+executives at LBOs are likely to be better balanced if they involve deferral of a
+substantial portion of the executives’ incentive compensation over a multi-year period in
+a way that reduces the amount received in the event of poor performance, substantial use
+of multi-year performance periods, or both. Similarly, the compensation arrangements
+for senior executives at LBOs are likely to be better balanced if a significant portion of
+the incentive compensation of these executives is paid in the form of equity-based
+instruments that vest over multiple years, with the number of instruments ultimately
+received dependent on the performance of the organization during the deferral period.
+        The portion of the incentive compensation of other covered employees that is
+deferred or paid in the form of equity-based instruments should appropriately take into
+account the level, nature, and duration of the risks that the employees’ activities create for
+the organization and the extent to which those activities may materially affect the overall
+performance of the organization and its stock price. Deferral of a substantial portion of
+an employee’s incentive compensation may not be workable for employees at lower pay
+scales because of their more limited financial resources. This may require increased
+reliance on other measures in the incentive compensation arrangements for these
+employees to achieve balance.
+     •   Banking organizations should carefully consider the potential for “golden
+         parachutes” and the vesting arrangements for deferred compensation to
+         affect the risk-taking behavior of employees while at the organizations.
+        Arrangements that provide for an employee (typically a senior executive), upon
+departure from the organization or a change in control of the organization, to receive
+large additional payments or the accelerated payment of deferred amounts without regard
+to risk or risk outcomes can provide the employee significant incentives to expose the
+organization to undue risk. For example, an arrangement that provides an employee with
+a guaranteed payout upon departure from an organization, regardless of performance,
+
+
+
+15
+   For example, spreading payouts of incentive compensation awards over a standard three-year period
+may not appropriately reflect the differences in the type and time horizon of risk associated with the
+activities of different groups of employees, and may not be sufficient by itself to balance the compensation
+arrangements of employees who may expose the organization to substantial longer-term risks.
+
+
+                                                     33
+may neutralize the effect of any balancing features included in the arrangement to help
+prevent imprudent risk-taking.
+        Banking organizations should carefully review any such existing or proposed
+arrangements (sometimes called “golden parachutes”) and the potential impact of such
+arrangements on the organization’s safety and soundness. In appropriate circumstances
+an organization should consider including balancing features – such as risk adjustment or
+deferral requirements that extend past the employee’s departure – in the arrangements to
+mitigate the potential for the arrangements to encourage imprudent risk-taking. In all
+cases, a banking organization should ensure that the structure and terms of any golden
+parachute arrangement entered into by the organization do not encourage imprudent risk-
+taking in light of the other features of the employee’s incentive compensation
+arrangements.
+        Large banking organizations. Provisions that require a departing employee to
+forfeit deferred incentive compensation payments may weaken the effectiveness of the
+deferral arrangement if the departing employee is able to negotiate a “golden handshake”
+arrangement with the new employer. 16 This weakening effect can be particularly
+significant for senior executives or other skilled employees at LBOs whose services are
+in high demand within the market.
+         Golden handshake arrangements present special issues for LBOs and supervisors.
+For example, while a banking organization could adjust its deferral arrangements so that
+departing employees will continue to receive any accrued deferred compensation after
+departure (subject to any clawback or malus 17 ), these changes could reduce the
+employee’s incentive to remain at the organization and, thus, weaken an organization’s
+ability to retain qualified talent, which is an important goal of compensation, and create
+conflicts of interest. Moreover, actions of the hiring organization (which may or may not
+be a supervised banking organization) ultimately may defeat these or other risk-balancing
+aspects of a banking organization’s deferral arrangements. LBOs should monitor
+whether golden handshake arrangements are materially weakening the organization’s
+efforts to constrain the risk-taking incentives of employees. The Agencies will continue
+to work with banking organizations and others to develop appropriate methods for
+addressing any effect that such arrangements may have on the safety and soundness of
+banking organizations.
+
+
+
+
+16
+   Golden handshakes are arrangements that compensate an employee for some or all of the estimated, non-
+adjusted value of deferred incentive compensation that would have been forfeited upon departure from the
+employee’s previous employment.
+17
+   A malus arrangement permits the employer to prevent vesting of all or part of the amount of a deferred
+remuneration award. Malus provisions are invoked when risk outcomes are worse than expected or when
+the information upon which the award was based turns out to have been incorrect. Loss of unvested
+compensation due to the employee voluntarily leaving the firm is not an example of malus as the term is
+used in this guidance.
+
+                                                    34
+   •   Banking organizations should effectively communicate to employees the ways
+       in which incentive compensation awards and payments will be reduced as
+       risks increase.
+        In order for the risk-sensitive provisions of incentive compensation arrangements
+to affect employee risk-taking behavior, the organization’s employees need to understand
+that the amount of incentive compensation that they may receive will vary based on the
+risk associated with their activities. Accordingly, banking organizations should ensure
+that employees covered by an incentive compensation arrangement are informed about
+the key ways in which risks are taken into account in determining the amount of incentive
+compensation paid. Where feasible, an organization’s communications with employees
+should include examples of how incentive compensation payments may be adjusted to
+reflect projected or actual risk outcomes. An organization’s communications should be
+tailored appropriately to reflect the sophistication of the relevant audience(s).
+Principle 2: Compatibility with Effective Controls and Risk-management
+A banking organization’s risk-management processes and internal controls should
+reinforce and support the development and maintenance of balanced incentive
+compensation arrangements.
+       In order to increase their own compensation, employees may seek to evade the
+processes established by a banking organization to achieve balanced compensation
+arrangements. Similarly, an employee covered by an incentive compensation
+arrangement may seek to influence, in ways designed to increase the employee’s pay, the
+risk measures or other information or judgments that are used to make the employee’s
+pay sensitive to risk.
+      Such actions may significantly weaken the effectiveness of an organization’s
+incentive compensation arrangements in restricting imprudent risk-taking. These actions
+can have a particularly damaging effect on the safety and soundness of the organization if
+they result in the weakening of risk measures, information, or judgments that the
+organization uses for other risk-management, internal control, or financial purposes. In
+such cases, the employee’s actions may weaken not only the balance of the organization’s
+incentive compensation arrangements, but also the risk-management, internal controls,
+and other functions that are supposed to act as a separate check on risk-taking. For this
+reason, traditional risk-management controls alone do not eliminate the need to identify
+employees who may expose the organization to material risk, nor do they obviate the
+need for the incentive compensation arrangements for these employees to be balanced.
+Rather, a banking organization’s risk-management processes and internal controls should
+reinforce and support the development and maintenance of balanced incentive
+compensation arrangements.
+   •   Banking organizations should have appropriate controls to ensure that their
+       processes for achieving balanced compensation arrangements are followed
+       and to maintain the integrity of their risk-management and other functions.
+        To help prevent damage from occurring, a banking organization should have
+strong controls governing its process for designing, implementing, and monitoring
+incentive compensation arrangements. Banking organizations should create and maintain
+
+                                           35
+sufficient documentation to permit an audit of the effectiveness of the organization’s
+processes for establishing, modifying, and monitoring incentive compensation
+arrangements. Smaller banking organizations should incorporate reviews of these
+processes into their overall framework for compliance monitoring (including internal
+audit).
+        Large banking organizations. LBOs should have and maintain policies and
+procedures that (i) identify and describe the role(s) of the personnel, business units, and
+control units authorized to be involved in the design, implementation, and monitoring of
+incentive compensation arrangements; (ii) identify the source of significant risk-related
+inputs into these processes and establish appropriate controls governing the development
+and approval of these inputs to help ensure their integrity; and (iii) identify the
+individual(s) and control unit(s) whose approval is necessary for the establishment of new
+incentive compensation arrangements or modification of existing arrangements.
+        An LBO also should conduct regular internal reviews to ensure that its processes
+for achieving and maintaining balanced incentive compensation arrangements are
+consistently followed. Such reviews should be conducted by audit, compliance, or other
+personnel in a manner consistent with the organization’s overall framework for
+compliance monitoring. An LBO’s internal audit department also should separately
+conduct regular audits of the organization’s compliance with its established policies and
+controls relating to incentive compensation arrangements. The results should be reported
+to appropriate levels of management and, where appropriate, the organization’s board of
+directors.
+     •   Appropriate personnel, including risk-management personnel, should have
+         input into the organization’s processes for designing incentive compensation
+         arrangements and assessing their effectiveness in restraining imprudent risk-
+         taking.
+        Developing incentive compensation arrangements that provide balanced risk-
+taking incentives and monitoring arrangements to ensure they achieve balance over time
+requires an understanding of the risks (including compliance risks) and potential risk
+outcomes associated with the activities of the relevant employees. Accordingly, banking
+organizations should have policies and procedures that ensure that risk-management
+personnel have an appropriate role in the organization’s processes for designing incentive
+compensation arrangements and for assessing their effectiveness in restraining imprudent
+risk-taking. 18 Ways that risk managers might assist in achieving balanced compensation
+arrangements include, but are not limited to, (i) reviewing the types of risks associated
+with the activities of covered employees; (ii) approving the risk measures used in risk
+adjustments and performance measures, as well as measures of risk outcomes used in
+deferred-payout arrangements; and (iii) analyzing risk-taking and risk outcomes relative
+to incentive compensation payments.
+
+
+
+18
+   Involvement of risk-management personnel in the design and monitoring of these arrangements also
+should help ensure that the organization’s risk-management functions can properly understand and address
+the full range of risks facing the organization.
+
+
+                                                   36
+        Other functions within an organization, such as its control, human resources, or
+finance functions, also play an important role in helping ensure that incentive
+compensation arrangements are balanced. For example, these functions may contribute
+to the design and review of performance measures used in compensation arrangements or
+may supply data used as part of these measures.
+   •   Compensation for employees in risk-management and control functions
+       should be sufficient to attract and retain qualified personnel and should
+       avoid conflicts of interest.
+        The risk-management and control personnel involved in the design, oversight, and
+operation of incentive compensation arrangements should have appropriate skills and
+experience needed to effectively fulfill their roles. These skills and experiences should
+be sufficient to equip the personnel to remain effective in the face of challenges by
+covered employees seeking to increase their incentive compensation in ways that are
+inconsistent with sound risk-management or internal controls. The compensation
+arrangements for employees in risk-management and control functions thus should be
+sufficient to attract and retain qualified personnel with experience and expertise in these
+fields that is appropriate in light of the size, activities, and complexity of the
+organization.
+       In addition, to help preserve the independence of their perspectives, the incentive
+compensation received by risk-management and control personnel staff should not be
+based substantially on the financial performance of the business units that they review.
+Rather, the performance measures used in the incentive compensation arrangements for
+these personnel should be based primarily on the achievement of the objectives of their
+functions (e.g., adherence to internal controls).
+   •   Banking organizations should monitor the performance of their incentive
+       compensation arrangements and should revise the arrangements as needed if
+       payments do not appropriately reflect risk.
+        Banking organizations should monitor incentive compensation awards and
+payments, risks taken, and actual risk outcomes to determine whether incentive
+compensation payments to employees are reduced to reflect adverse risk outcomes or
+high levels of risk taken. Results should be reported to appropriate levels of
+management, including the board of directors where warranted and consistent with
+Principle 3 below. The monitoring methods and processes used by a banking
+organization should be commensurate with the size and complexity of the organization,
+as well as its use of incentive compensation. Thus, for example, a small, noncomplex
+organization that uses incentive compensation only to a limited extent may find that it can
+appropriately monitor its arrangements through normal management processes.
+        A banking organization should take the results of such monitoring into account in
+establishing or modifying incentive compensation arrangements and in overseeing
+associated controls. If, over time, incentive compensation paid by a banking organization
+does not appropriately reflect risk outcomes, the organization should review and revise its
+incentive compensation arrangements and related controls to ensure that the
+arrangements, as designed and implemented, are balanced and do not provide employees
+incentives to take imprudent risks.
+
+                                            37
+Principle 3: Strong Corporate Governance
+Banking organizations should have strong and effective corporate governance to
+help ensure sound compensation practices, including active and effective oversight
+by the board of directors.
+        Given the key role of senior executives in managing the overall risk-taking
+activities of an organization, the board of directors of a banking organization should
+directly approve the incentive compensation arrangements for senior executives. 19 The
+board also should approve and document any material exceptions or adjustments to the
+incentive compensation arrangements established for senior executives and should
+carefully consider and monitor the effects of any approved exceptions or adjustments on
+the balance of the arrangement, the risk-taking incentives of the senior executive, and the
+safety and soundness of the organization.
+       The board of directors of an organization also is ultimately responsible for
+ensuring that the organization’s incentive compensation arrangements for all covered
+employees are appropriately balanced and do not jeopardize the safety and soundness of
+the organization. The involvement of the board of directors in oversight of the
+organization’s overall incentive compensation program should be scaled appropriately to
+the scope and prevalence of the organization’s incentive compensation arrangements.
+        Large banking organizations and organizations that are significant users of
+incentive compensation. The board of directors of an LBO or other banking organization
+that uses incentive compensation to a significant extent should actively oversee the
+development and operation of the organization’s incentive compensation policies,
+systems, and related control processes. The board of directors of such an organization
+should review and approve the overall goals and purposes of the organization’s incentive
+compensation system. In addition, the board should provide clear direction to
+management to ensure that the goals and policies it establishes are carried out in a
+manner that achieves balance and is consistent with safety and soundness.
+        The board of directors of such an organization also should ensure that steps are
+taken so that the incentive compensation system--including performance measures and
+targets--is designed and operated in a manner that will achieve balance.
+     •   The board of directors should monitor the performance, and regularly
+         review the design and function, of incentive compensation arrangements.
+        To allow for informed reviews, the board should receive data and analysis from
+management or other sources that are sufficient to allow the board to assess whether the
+overall design and performance of the organization’s incentive compensation
+arrangements are consistent with the organization’s safety and soundness. These reviews
+
+19
+   As used in this guidance, the term “board of directors” is used to refer to the members of the board of
+directors who have primary responsibility for overseeing the incentive compensation system. Depending
+on the manner in which the board is organized, the term may refer to the entire board of directors, a
+compensation committee of the board, or another committee of the board that has primary responsibility for
+overseeing the incentive compensation system. In the case of FBOs, the term refers to the relevant
+oversight body for the firm’s U.S. operations, consistent with the FBO’s overall corporate and management
+structure.
+
+
+                                                   38
+and reports should be appropriately scoped to reflect the size and complexity of the
+banking organization’s activities and the prevalence and scope of its incentive
+compensation arrangements.
+       The board of directors of a banking organization should closely monitor incentive
+compensation payments to senior executives and the sensitivity of those payments to risk
+outcomes. In addition, if the compensation arrangement for a senior executive includes a
+clawback provision, then the review should include sufficient information to determine if
+the provision has been triggered and executed as planned.
+        The board of directors of a banking organization should seek to stay abreast of
+significant emerging changes in compensation plan mechanisms and incentives in the
+marketplace as well as developments in academic research and regulatory advice
+regarding incentive compensation policies. However, the board should recognize that
+organizations, activities, and practices within the industry are not identical. Incentive
+compensation arrangements at one organization may not be suitable for use at another
+organization because of differences in the risks, controls, structure, and management
+among organizations. The board of directors of each organization is responsible for
+ensuring that the incentive compensation arrangements for its organization do not
+encourage employees to take risks that are beyond the organization’s ability to manage
+effectively, regardless of the practices employed by other organizations.
+        Large banking organizations and organizations that are significant users of
+incentive compensation. The board of an LBO or other organization that uses incentive
+compensation to a significant extent should receive and review, on an annual or more
+frequent basis, an assessment by management, with appropriate input from risk-
+management personnel, of the effectiveness of the design and operation of the
+organization’s incentive compensation system in providing risk-taking incentives that are
+consistent with the organization’s safety and soundness. These reports should include an
+evaluation of whether or how incentive compensation practices may increase the
+potential for imprudent risk-taking.
+        The board of such an organization also should receive periodic reports that review
+incentive compensation awards and payments relative to risk outcomes on a backward-
+looking basis to determine whether the organization’s incentive compensation
+arrangements may be promoting imprudent risk-taking. Boards of directors of these
+organizations also should consider periodically obtaining and reviewing simulation
+analysis of compensation on a forward-looking basis based on a range of performance
+levels, risk outcomes, and the amount of risks taken.
+   •   The organization, composition, and resources of the board of directors
+       should permit effective oversight of incentive compensation.
+        The board of directors of a banking organization should have, or have access to, a
+level of expertise and experience in risk-management and compensation practices in the
+financial services industry that is appropriate for the nature, scope, and complexity of the
+organization’s activities. This level of expertise may be present collectively among the
+members of the board, may come from formal training or from experience in addressing
+these issues, including as a director, or may be obtained through advice received from
+outside counsel, consultants, or other experts with expertise in incentive compensation
+
+                                             39
+and risk-management. The board of directors of an organization with less complex and
+extensive incentive compensation arrangements may not find it necessary or appropriate
+to require special board expertise or to retain and use outside experts in this area.
+        In selecting and using outside parties, the board of directors should give due
+attention to potential conflicts of interest arising from other dealings of the parties with
+the organization or for other reasons. The board also should exercise caution to avoid
+allowing outside parties to obtain undue levels of influence. While the retention and use
+of outside parties may be helpful, the board retains ultimate responsibility for ensuring
+that the organization’s incentive compensation arrangements are consistent with safety
+and soundness.
+        Large banking organizations and organizations that are significant users of
+incentive compensation. If a separate compensation committee is not already in place or
+required by other authorities, 20 the board of directors of an LBO or other banking
+organization that uses incentive compensation to a significant extent should consider
+establishing such a committee--reporting to the full board--that has primary responsibility
+for overseeing the organization’s incentive compensation systems. A compensation
+committee should be composed solely or predominantly of non-executive directors. If
+the board does not have such a compensation committee, the board should take other
+steps to ensure that non-executive directors of the board are actively involved in the
+oversight of incentive compensation systems. The compensation committee should work
+closely with any board-level risk and audit committees where the substance of their
+actions overlap.
+     •   A banking organization’s disclosure practices should support safe and sound
+         incentive compensation arrangements.
+        If a banking organization’s incentive compensation arrangements provide
+employees incentives to take risks that are beyond the tolerance of the organization’s
+shareholders, these risks are likely to also present a risk to the safety and soundness of the
+organization. 21 To help promote safety and soundness, a banking organization should
+provide an appropriate amount of information concerning its incentive compensation
+arrangements for executive and non-executive employees and related risk-management,
+control, and governance processes to shareholders to allow them to monitor and, where
+appropriate, take actions to restrain the potential for such arrangements and processes to
+encourage employees to take imprudent risks. Such disclosures should include
+information relevant to employees other than senior executives. The scope and level of
+the information disclosed by the organization should be tailored to the nature and
+complexity of the organization and its incentive compensation arrangements. 22
+
+20
+  See, New York Stock Exchange Listed Company Manual Section 303A.05(a); Nasdaq Listing Rule
+5605(d); Internal Revenue Code section 162(m) (26 U.S.C. 162(m)).
+21
+   On the other hand, as noted previously, compensation arrangements that are in the interests of the
+shareholders of a banking organization are not necessarily consistent with safety and soundness.
+22
+   A banking organization also should comply with the incentive compensation disclosure requirements of
+the federal securities law and other laws as applicable. See, e.g., Proxy Disclosure Enhancements, SEC
+Release Nos. 33-9089, 34-61175, 74 F.R 68334 (Dec. 23, 2009) (to be codified at 17 CFR pts. 229 and
+249).
+
+                                                     40
+       •   Large banking organizations should follow a systematic approach to
+           developing a compensation system that has balanced incentive compensation
+           arrangements.
+        At banking organizations with large numbers of risk-taking employees engaged in
+diverse activities, an ad hoc approach to developing balanced arrangements is unlikely to
+be reliable. Thus, an LBO should use a systematic approach--supported by robust and
+formalized policies, procedures, and systems--to ensure that those arrangements are
+appropriately balanced and consistent with safety and soundness. Such an approach
+should provide for the organization effectively to:
+              o Identify employees who are eligible to receive incentive compensation and
+                whose activities may expose the organization to material risks. These
+                employees should include (i) senior executives and others who are
+                responsible for oversight of the organization’s firm-wide activities or
+                material business lines; (ii) individual employees, including non-executive
+                employees, whose activities may expose the organization to material
+                amounts of risk; and (iii) groups of employees who are subject to the same
+                or similar incentive compensation arrangements and who, in the
+                aggregate, may expose the organization to material amounts of risk;
+              o Identify the types and time horizons of risks to the organization from the
+                activities of these employees;
+              o Assess the potential for the performance measures included in the
+                incentive compensation arrangements for these employees to encourage
+                the employees to take imprudent risks;
+              o Include balancing elements, such as risk adjustments or deferral periods,
+                within the incentive compensation arrangements for these employees that
+                are reasonably designed to ensure that the arrangement will be balanced in
+                light of the size, type, and time horizon of the inherent risks of the
+                employees’ activities;
+              o Communicate to the employees the ways in which their incentive
+                compensation awards or payments will be adjusted to reflect the risks of
+                their activities to the organization; and
+              o Monitor incentive compensation awards, payments, risks taken, and risk
+                outcomes for these employees and modify the relevant arrangements if
+                payments made are not appropriately sensitive to risk and risk outcomes.
+III.       Conclusion
+       Banking organizations are responsible for ensuring that their incentive
+compensation arrangements do not encourage imprudent risk-taking behavior and are
+consistent with the safety and soundness of the organization. The Agencies expect
+banking organizations to take prompt action to address deficiencies in their incentive
+compensation arrangements or related risk-management, control, and governance
+processes.
+
+
+
+                                              41
+        The Agencies intend to actively monitor the actions taken by banking
+organizations in this area and will promote further advances in designing and
+implementing balanced incentive compensation arrangements. Where appropriate, the
+Agencies will take supervisory or enforcement action to ensure that material deficiencies
+that pose a threat to the safety and soundness of the organization are promptly addressed.
+The Agencies also will update this guidance as appropriate to incorporate best practices
+as they develop over time.
+
+
+This concludes the text of the Guidance on Sound Incentive Compensation Policies.
+
+
+
+
+                                            42
+[THIS SIGNATURE PAGE PERTAINS TO THE FINAL GUIDANCE ENTITLED
+
+“GUIDANCE ON SOUND INCENTIVE COMPENSATION POLICIES.”]
+
+
+
+Dated: June 17, 2010
+
+
+
+
+John C. Dugan (signed)
+John C. Dugan,
+Comptroller of the Currency
+
+
+
+
+                              43
+[THIS SIGNATURE PAGE PERTAINS TO THE FINAL GUIDANCE ENTITLED
+
+“GUIDANCE ON SOUND INCENTIVE COMPENSATION POLICIES.”]
+
+
+By order of the Board of Governors of the Federal Reserve System, June 21, 2010.
+
+
+
+
+Robert deV. Frierson (signed)
+Robert deV. Frierson
+Deputy Secretary of the Board
+
+
+
+
+                                        44
+[THIS SIGNATURE PAGE PERTAINS TO THE FINAL GUIDANCE ENTITLED
+
+“GUIDANCE ON SOUND INCENTIVE COMPENSATION POLICIES.”]
+
+
+
+Dated: June 21, 2010
+
+
+
+Valerie J. Best (signed)
+
+Valerie J. Best
+Assistant Executive Secretary
+Federal Deposit Insurance Corporation
+
+
+
+
+                                        45
+[THIS SIGNATURE PAGE PERTAINS TO THE FINAL GUIDANCE ENTITLED
+
+“GUIDANCE ON SOUND INCENTIVE COMPENSATION POLICIES.”]
+
+
+
+Dated: June 10, 2010
+
+By the Office of Thrift Supervision.
+
+
+
+
+John E. Bowman (signed)
+John E. Bowman,
+Acting Director
+
+
+
+
+                                       46
+

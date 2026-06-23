@@ -1,0 +1,291 @@
+{
+  "report_name": "Iqidis_Summary-of-Online-and-Irys-Database-Authorities_expanded+prompt.md",
+  "judge_model": "claude-sonnet-4-6",
+  "spec_reconstruction": {
+    "domain": "U.S. federal banking regulation — board-level obligations",
+    "unit_of_analysis": "Individual board obligation (per actor, per source, per domain) at Category I GSIB bank holding companies and their insured depository institution subsidiaries",
+    "structural_axes": [
+      "Full board vs specific committees (audit, risk, compensation, nominating/governance)",
+      "Inside vs outside directors",
+      "Independent vs non-independent directors",
+      "BHC vs IDI subsidiary entity tier",
+      "Regulatory domain (12+ named explicitly)",
+      "Agency issuer (Fed, OCC, FDIC, CFPB, interagency)"
+    ],
+    "actor_classes_required": [
+      "Full board of directors",
+      "Audit committee",
+      "Risk committee",
+      "Compensation committee",
+      "Nominating/governance committee",
+      "Inside directors",
+      "Outside directors",
+      "Independent directors",
+      "Non-independent directors"
+    ],
+    "source_universe": [
+      "Federal statutes (12 USC, 31 CFR, etc.)",
+      "Federal regulations (CFR) — Fed, OCC, FDIC, CFPB",
+      "Agency guidance / supervisory letters (SR letters, OCC bulletins, CA letters)",
+      "Interagency standards and guidelines",
+      "FFIEC examination manuals and handbooks"
+    ],
+    "coverage_areas": [
+      "Capital planning and stress testing",
+      "Liquidity risk management",
+      "Resolution planning",
+      "Recovery planning",
+      "Operational resilience",
+      "Model risk governance",
+      "Third-party risk management",
+      "Incentive compensation",
+      "Cybersecurity governance",
+      "BSA and AML program oversight",
+      "Consumer compliance oversight",
+      "Safety and soundness generally"
+    ],
+    "audience_use": "Bank directors and legal counsel; policymakers engaged in regulatory reform to identify and reduce duplicative, overlapping, and unduly burdensome board-level requirements",
+    "form_depth_expectations": "Granular, citation-specific, 40–60 pages in depth; specifying precise regulatory source, nature of duty, full board vs committee, inside/outside and independent/non-independent distinctions per obligation; suitable as a working policy reform document"
+  },
+  "coverage_ledger": {
+    "cells_expected": 120,
+    "cells_covered": 50,
+    "cells_thin": 55,
+    "cells_missing": 15,
+    "material_omissions": [
+      "All 12 required domains are present, but every domain is covered at outline/scaffold level (2–5 bullets) rather than at the citation-specific, per-obligation depth the request requires",
+      "Director-type distinctions are summarized in Section 5 but not systematically applied to individual obligations in each domain section",
+      "Category I GSIB scope statement lists only 6 of 8 U.S. G-SIBs (JPMorgan Chase, Bank of America, Citigroup, Goldman Sachs, Morgan Stanley, Wells Fargo) — omitting State Street and Bank of New York Mellon, which are designated U.S. G-SIBs and Category I BHCs under the Fed's tailoring framework",
+      "Document is approximately 20–25 pages — below the 40–60 page target — and explicitly acknowledges it is a scaffold/template rather than the completed inventory",
+      "No sludge analysis: no identification of duplicative obligations, no overlap mapping, no mechanism tags (duplicative/cumulative/cascade/stale), no reform levers — the primary purpose of the request as a 'working policy reform document' is unexecuted",
+      "Binding/guidance three-tier framework proposed in introduction but not consistently applied to individual obligations in domain sections"
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 CFR part 252 (Reg YY) — capital planning, stress testing, risk committee requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 252 is the correct cite for Reg YY enhanced prudential standards covering capital planning, stress testing, liquidity, and risk committee requirements for large BHCs"
+      },
+      {
+        "citation": "SR 15-18 / SR 15-19 — capital planning governance for large and non-complex firms",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 15-18 and SR 15-19 (both 2015) are real SR letters establishing board oversight expectations for capital planning at large and mid-size banking organizations respectively"
+      },
+      {
+        "citation": "SR 11-7 — Guidance on Model Risk Management (board oversight of model risk)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 11-7 (2011, joint with OCC) is the foundational model risk management guidance; it addresses board/senior management responsibilities for MRM oversight"
+      },
+      {
+        "citation": "12 CFR part 30, Appendix D — OCC Heightened Standards, §II–III (board oversight duties)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 30 Appendix D contains the OCC Heightened Standards; Sections II and III address risk governance framework requirements and board oversight obligations"
+      },
+      {
+        "citation": "FRB Commercial Bank Examination Manual, Section 5000.1 — Duties and Responsibilities of Directors",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The CBEM Section 5000.1 is a real reference articulating core board director responsibilities including capital adequacy, policy approval, and management supervision"
+      },
+      {
+        "citation": "12 CFR parts 249 and related provisions — LCR/NSFR rules",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 CFR Part 249 is the correct citation for the Fed's LCR rule; NSFR is also covered in related provisions — accurate Part-level cite"
+      },
+      {
+        "citation": "12 CFR part 252, subpart G — TLAC/LTD rule for GSIB BHCs",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 252 Subpart G contains TLAC and external long-term debt requirements for U.S. GSIBs — correct"
+      },
+      {
+        "citation": "12 CFR part 217 (Reg Q) — GSIB surcharge and capital requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 217 (Reg Q) implements U.S. capital requirements including the GSIB surcharge capital buffer"
+      },
+      {
+        "citation": "Dodd-Frank § 165(d) and implementing rules (FRB/FDIC joint rule) for resolution plans",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Dodd-Frank Section 165(d) is the statutory basis for resolution plan requirements; the Fed/FDIC jointly implement it — correct"
+      },
+      {
+        "citation": "31 CFR Chapter X — BSA and implementing regulations",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "31 CFR Chapter X (formerly Part 103) contains FinCEN's BSA implementing regulations including the BSA compliance program requirements"
+      },
+      {
+        "citation": "OCC part 30 App. A/B; FDIC part 364 App. A/B — interagency safety and soundness standards",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "These four appendices contain the interagency safety-and-soundness standards for internal controls, information systems, and internal audit — all correctly cited"
+      },
+      {
+        "citation": "CFPB Supervision and Examination Manual — CMS module (board responsible for compliance management system)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The CFPB's exam manual CMS module addresses board-level responsibility for compliance management — accurate characterization"
+      },
+      {
+        "citation": "Interagency Guidance on Sound Incentive Compensation Policies (2010)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The 2010 interagency incentive compensation guidance (SR 10-9 / 75 FR 36395) is real and correctly described as placing board oversight responsibility on compensation governance"
+      },
+      {
+        "citation": "FDIC Part 360/381 resolution and orderly liquidation standards",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 CFR Part 381 is the FDIC's covered insured depository institution resolution plan rule; Part 360 deals with deposit insurance determination — both real"
+      },
+      {
+        "citation": "SR 12-17 — consolidated supervision framework for large financial institutions",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 12-17 (2012) is the Fed's guidance establishing the large financial institution supervisory framework including governance and corporate culture expectations"
+      },
+      {
+        "citation": "Citation [2] https://www.federalreserve.gov/Boarddocs/SupManual/cbem/cbem_p5.pdf — FRB CBEM Section 5000.1",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "The CBEM Section 5000.1 reference is real and accurate; the specific URL uses an older /Boarddocs/ path format that may be stale. Content is correct but URL currency cannot be confirmed."
+      },
+      {
+        "citation": "Citation [3][4] FSB 2025 G-SIB list (fsb.org/2025/11/...)",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "FSB publishes its annual G-SIB list in November; a November 2025 publication date is consistent with the annual cycle and the document's June 2026 date"
+      },
+      {
+        "citation": "Citation [8] https://www.bis.org/basel_framework/chapter/SCO/40.htm — BIS Basel Framework G-SIB methodology",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "BIS Basel Framework chapter SCO 40 contains the G-SIB assessment methodology — correct primary source for the international G-SIB framework"
+      },
+      {
+        "citation": "Category I defined in 12 CFR part 217 (Reg Q) and 12 CFR part 252 (Reg YY) tailoring rules",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Category I firms are defined in the Fed's tailoring rules in both 12 CFR 217 and 252 — correct"
+      },
+      {
+        "citation": "Scope lists 'currently JPMorgan Chase, Bank of America, Citigroup, Goldman Sachs, Morgan Stanley, Wells Fargo' as Category I G-SIB BHCs",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "The current U.S. G-SIB list has 8 institutions — State Street and Bank of New York Mellon are omitted; all 8 are Category I BHCs under the Fed's tailoring framework; the 6-firm list is factually incomplete"
+      }
+    ],
+    "summary": {
+      "supports": 17,
+      "wrong_attribution": 0,
+      "not_supported": 1,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 2
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "PARTIAL — committee headings present; director-type distinctions summarized but not obligation-level",
+      "note": "Each domain section includes a 'Committee allocation' subsection naming which board committee handles the obligation. Section 5 is dedicated to director-type distinctions and correctly identifies independence requirements for audit, risk, compensation, and nominating/governance committees. However, individual obligation entries do not systematically tag whether the actor is independent/non-independent, inside/outside, or full board vs committee — the framework is proposed but not applied at obligation level."
+    },
+    "binding_vs_guidance": {
+      "verdict": "PARTIAL — three-tier framework proposed; inconsistently applied in domain sections",
+      "note": "The introduction correctly proposes three authority tiers: Binding / Soft-law but highly influential / Persuasive. Domain sections often mix these without explicit tagging — e.g., the capital planning section lists Reg YY (binding) alongside SR 15-18 guidance without distinguishing their legal effect on each obligation. The framework is conceptually present but not mechanically applied."
+    },
+    "reform_usefulness": {
+      "verdict": "FAIL — no sludge analysis executed",
+      "note": "The request's primary purpose was a 'working policy reform document' identifying 'duplicative, overlapping, and unduly burdensome' board requirements. This document contains no identification of overlapping obligations, no duplication mapping, no reform levers or consolidation recommendations for any specific obligation. Section 6 proposes a structure for building such a document but does not execute it. The document explicitly offers to continue in 'a follow-on exchange' — treating the reform analysis as future work."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F6",
+      "severity": "peripheral",
+      "evidence": "Document explicitly states 'That is beyond what can be fully executed in one chat response' and Section 6 ('Turning this into a 40–60 page inventory') treats the complete product as future work; the output is a scaffold rather than the requested working inventory, though this limitation is openly disclosed rather than concealed"
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "All 12 required domains present (capital, liquidity, resolution, recovery, operational resilience, model risk, third-party, incentive comp, cyber, BSA/AML, consumer compliance, safety and soundness) but every domain covered at 2–5 bullet outline level; scope statement omits State Street and BNY Mellon from 8-GSIB U.S. list",
+      "rationale": "Domain breadth is the strongest D1 feature — all required areas addressed, including model risk governance (SR 11-7) and consumer compliance (CFPB CMS module), which several other reports missed. However, depth is outline-level throughout, inside/outside director distinctions are not systematically applied to individual obligations, and the GSIB scope statement is incomplete (6 of 8 firms). F6 is peripheral so D1_eff = raw = 2."
+    },
+    "D2_integrity": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 25,
+      "evidence": "17/20 SUPPORTS, 1 NOT-SUPPORTED (6-firm GSIB list), 2 UNVERIFIABLE; 'SR 11-7 states that the board of directors (or a board committee) is responsible for overseeing the firm's overall risk management framework' — accurate characterization; all major source citations (Part 252, Part 30 App. D, 31 CFR Ch. X) verified",
+      "rationale": "Citation accuracy is solid — all primary regulatory source citations are correct at Part/Appendix level; no fabrications, no misattributions. One NOT-SUPPORTED (6-firm GSIB list) is peripheral to the main legal analysis. Deduction for Part-level rather than section-level granularity, which is insufficient for legal working document use. No F1/F2/F7 flags. D2_eff = 3."
+    },
+    "D3_accuracy": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "'Throughout, I distinguish three levels of authority: Binding (statutes, regulations, formal rules, enforceable orders) / Soft law but highly influential / Persuasive/interpretive' — correct three-tier framework; but the 2025 FSB G-SIB list citation suggests contemporary awareness while current deregulatory developments (SR 21-4, OCC threshold proposals, FDIC 2025 withdrawal) are absent",
+      "rationale": "Substantive accuracy is generally correct — the regulatory landscape is accurately described at outline level. The three-tier authority framework is conceptually right. Currency: FSB 2025 G-SIB list and TLAC rules are contemporary; however, no mention of SR 21-3/21-4, OCC's proposed threshold increase, FDIC 2025 guidance withdrawal, or the 2026 interagency MRM guidance — gaps for a June 2026 document. No F3/F4 flags. D3_eff = 2."
+    },
+    "D4_sludge_analysis": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 15,
+      "evidence": "No duplication mapping, no overlap identification, no mechanism tags, no reform levers; Section 6 proposes a grid template but provides only one example row; the closing offer to 'take one domain and build out a fully-detailed citation-level table' treats the sludge analysis as future work",
+      "rationale": "The request's primary purpose was identifying 'duplicative, overlapping, and unduly burdensome' board-level requirements for a 'working policy reform document.' This output contains no executed sludge analysis, no overlap mapping, no consolidation recommendations. The purely descriptive list subcriterion caps D4 ≤ 2; the no-reform-actionable-framing subcriterion caps D4 ≤ 3. Raw = 1 (multiple material problems). D4_eff = 1."
+    },
+    "D5_structure": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "Seven-section structure with domain-by-domain organization, committee allocation subheadings, and a proposed grid format (Section 6) demonstrating appropriate granularity; but the grid contains only 1 example row, and all citations are at Part/Appendix level rather than section/subsection level",
+      "rationale": "Document structure is logical and well-organized; the master source map, committee allocation subheadings, and proposed Section 6 grid show the right architecture. Actual granularity is Part-level throughout, insufficient for legal counsel use. Depth (~20-25 pages) below target. Actor language is generic (e.g., 'board or risk committee' appears throughout). D5_eff = 2."
+    },
+    "D6_calibration": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 10,
+      "evidence": "'That is beyond what can be fully executed in one chat response, but it is possible to (1) map the controlling sources comprehensively, (2) outline the board-level duties those sources impose, and (3) give you a structured template' — explicit upfront limitation statement; Section 6 ('Turning this into a 40–60 page inventory') further operationalizes the gap",
+      "rationale": "Calibration is exemplary — the document is the only one in this evaluation batch to explicitly and precisely state what it is and is not delivering. It scopes its deliverable accurately (source map + outline + template), proposes a methodology for completion, and offers to continue the work. No false exhaustiveness (F5). No overclaiming. F6 is peripheral and does not affect D6. D6_eff = 4."
+    }
+  },
+  "overall_score": 58,
+  "tier": "C",
+  "reliability_overlay": "scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D6 — Calibration is exemplary and unique in this evaluation batch: the document opens by explicitly stating 'That is beyond what can be fully executed in one chat response' and closes by offering to continue in a follow-on exchange; Section 6 operationalizes the gap between the scaffold and the 40–60 page deliverable — honest self-limitation is a meaningful positive",
+      "D1 — All 12 required regulatory domains are present: uniquely in this batch, the document covers model risk governance (SR 11-7 cited with correct board responsibilities) and consumer compliance (CFPB CMS module) alongside all other required areas — no required domain is absent",
+      "D2 — Citation integrity is solid: 17/20 sampled citations verified as supporting; all major sources (Part 252, Part 30 App. D, SR 11-7, SR 12-17, SR 15-18/19, 31 CFR Chapter X, CFPB CMS manual) are correctly identified; zero fabrications or wrong attributions",
+      "D1/D5 — Section 5 (Director-type distinctions) is a dedicated treatment of the independent/non-independent axis that no other report in this batch provides in a dedicated section; committee composition requirements for audit, risk, compensation, and nominating/governance committees are explicitly summarized",
+      "D5 — The master source map (Section 2) correctly identifies the full primary regulatory corpus by agency, making it a useful research reference even in outline form; the GSIB-specific tailoring framework (Category I in 12 CFR 217 and 252) is correctly invoked"
+    ],
+    "weaknesses": [
+      "D4 — Sludge analysis is entirely absent: the request's core purpose — identifying duplicative, overlapping, and unduly burdensome board requirements for a working policy reform document — is unexecuted; no overlap mapping, no mechanism tags, no reform levers, no consolidation recommendations appear anywhere in the document",
+      "D5 — Depth is inadequate for the stated use case: approximately 20–25 pages vs. 40–60 requested; every domain section provides 2–5 bullets without the per-obligation, clause-level citation granularity that directors and legal counsel require; the Section 6 template grid has only one example row",
+      "D1 — GSIB scope statement is factually incomplete: only 6 of 8 U.S. Category I G-SIBs are listed (State Street and Bank of New York Mellon omitted), which affects the completeness of the scoping claim and may cause readers to underestimate the custody-bank model obligations applicable to those institutions",
+      "D3 — Binding/guidance three-tier framework introduced correctly but not systematically applied in domain sections: individual obligations in Sections 4.1–4.11 are not tagged as binding or guidance, leaving the reader to infer the authority level from the source citation",
+      "D3 — Currency gaps: no mention of SR 21-3/21-4 (2021 board effectiveness guidance and inactivations), OCC's proposed threshold increase from $50B to $700B, FDIC's 2025 withdrawal of corporate governance guidelines, or contemporaneous deregulatory developments — meaningful for a June 2026 document"
+    ],
+    "prioritized_remediation": [
+      "Execute the sludge analysis: for each domain, identify which obligations overlap with obligations in other domains (e.g., risk appetite approval required under Reg YY, OCC Heightened Standards, and SR 21-3 separately); apply mechanism tags (duplicative/cumulative/cascade) and propose consolidation levers — this is the central missing deliverable",
+      "Build out the Section 6 grid for all domains: add one row per identified obligation with exact section-level citation, binding/guidance classification, committee assignment, director-type applicability, and sludge tag — this converts the scaffold into the requested working inventory",
+      "Correct GSIB scope: add State Street and Bank of New York Mellon; note any unique obligations applicable to custody-model GSIBs (e.g., different asset composition, lower trading book, different resolution profile)",
+      "Apply binding/guidance classification to each obligation in domain sections: tag every obligation bullet with Binding (statute/regulation), Soft law/highly influential (SR letter/guidance), or Persuasive — carry the Section 1 three-tier framework through to the obligation level",
+      "Update for 2025–26 developments: add SR 21-3/21-4 (board effectiveness and letter inactivations), OCC threshold proposals, FDIC 2025 governance guidance withdrawal, and the 2026 interagency MRM update if in force — these are material to a current reform-oriented inventory"
+    ],
+    "reliance_recommendation": "This document functions well as a research scaffold and master source map for building the requested inventory — the domain coverage, source identification, and calibration are genuine contributions — but it cannot be relied upon as the inventory itself; the sludge analysis, obligation-level citations, and systematic actor-type application all remain to be developed."
+  }
+}
+
+**Result:** Tier C (58/100) — scope-flagged. The document delivers the only report in this batch to cover all 12 required domains and the only one with a dedicated director-type distinctions section and explicit self-calibration about its limitations, but it is fundamentally a research scaffold rather than the working policy reform document requested: the sludge analysis is entirely absent, depth is approximately half the target, and citation granularity stays at Part/Appendix level throughout.

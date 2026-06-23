@@ -1,0 +1,718 @@
+DEPARTMENT OF THE TREASURY
+
+Office of the Comptroller of the Currency
+
+12 CFR Part 30
+
+[Docket ID OCC–2025-0339]
+
+RIN 1557-AF40
+
+Rescission of OCC Guidelines Establishing Standards for Recovery Planning by
+
+Certain Large Insured National Banks, Insured Federal Savings Associations, and
+
+Insured Federal Branches
+
+AGENCY: Office of the Comptroller of the Currency (OCC), Treasury.
+
+ACTION: Final rule.
+
+SUMMARY: The OCC is amending its regulations by rescinding “OCC Guidelines
+
+Establishing Standards for Recovery Planning by Certain Large Insured National Banks,
+
+Insured Federal Savings Associations, and Insured Federal Branches.”
+
+DATES: This rule is effective [INSERT DATE 30 DAYS AFTER DATE OF
+
+PUBLICATION IN THE FEDERAL REGISTER].
+
+FOR FURTHER INFORMATION CONTACT: Sean Young, Chief Counsel’s Office,
+
+(202) 649-5490; Office of the Comptroller of the Currency, 400 7th Street, SW,
+
+Washington, DC 20219. If you are deaf, hard of hearing, or have a speech disability,
+
+please dial 7-1-1 to access telecommunications relay services.
+
+SUPPLEMENTARY INFORMATION:
+I. Introduction
+
+       As a part of the OCC’s ongoing assessment of its supervisory framework to
+
+identify and eliminate unnecessary regulatory burden, the agency is amending 12 CFR
+
+part 30 by rescinding the OCC Guidelines Establishing Standards for Recovery Planning
+
+by Certain Large Insured National Banks, Insured Federal Savings Associations, and
+
+Insured Federal Branches contained in appendix E.
+II. Background
+
+        In September 2016, the OCC issued the OCC Guidelines Establishing Standards
+
+for Recovery Planning by Certain Large Insured National Banks, Insured Federal Savings
+
+Associations, and Insured Federal Branches (Guidelines). 1 Under the Guidelines, an
+
+insured national bank, insured Federal savings association, or insured Federal branch
+
+subject to the standards (covered banks) should have a recovery plan that includes (1)
+
+quantitative or qualitative indicators of the risk or existence of severe stress that reflect its
+
+particular vulnerabilities; (2) a wide range of credible options that it could undertake in
+
+response to the stress to restore its financial strength and viability; and (3) an assessment
+
+and description of how these options would affect it. The Guidelines provide that a
+
+recovery plan should also address (1) the covered bank’s overall organizational and legal
+
+entity structure and its interconnections and interdependencies; (2) procedures for
+
+escalating decision making to senior management or the board of directors or an
+
+appropriate committee thereof (board); (3) management reports; (4) communication
+
+procedures; and (5) any other information the OCC communicates in writing. The
+
+Guidelines also set forth the responsibilities of management and the board with respect to
+
+the covered bank’s recovery plan.
+
+        The 2016 Guidelines applied to banks with total consolidated assets of $50 billion
+
+or more. In 2018, the OCC amended the Guidelines to raise the threshold to $250 billion
+
+based on its view, at that time, that these larger, more complex, and potentially more
+
+interconnected banks presented greater systemic risk to the financial system and would
+
+benefit most from recovery planning. 2
+
+        In October 2024, the OCC amended the Guidelines to apply to banks with average
+
+total consolidated assets of $100 billion or more; incorporate a testing standard; and
+
+
+1
+  81 FR 66791 (Sept. 29, 2016). The Guidelines are codified at 12 CFR part 30, appendix E. They were
+issued pursuant to section 39 of the Federal Deposit Insurance Act, 12 U.S.C. 1831p-1, which authorizes
+the OCC to prescribe enforceable safety and soundness standards.
+2
+  See 83 FR 66604 (Dec. 27, 2018).
+clarify the role of non-financial (including operational and strategic) risk in recovery
+
+planning. 3
+
+           In November 2025, the OCC, as a part of the agency’s ongoing assessment of its
+
+supervisory framework to identify and eliminate unnecessary regulatory burden,
+
+proposed to amend 12 CFR part 30 by rescinding the Guidelines contained in appendix
+
+E. 4
+
+III. Summary of Comments on the Notice of Proposed Rulemaking
+
+           The OCC received eight comments on the proposal, representing a range of
+
+viewpoints, including two trade associations, a state government official, a consumer
+
+advocacy group, and several individuals. Some commenters expressed support for the
+
+proposed recission of the Guidelines while other commenters expressed opposition to the
+
+proposal. Two commenters expressed support for rescinding the Guidelines. One
+
+commenter claimed that rescinding the Guidelines would reduce regulatory burden and
+
+inefficiencies without compromising the safety and soundness of the covered banks.
+
+Another commenter supported rescinding the Guidelines on the grounds that they are
+
+unnecessary, lack cost-benefit justification, and rescinding them would eliminate
+
+duplicative requirements because they overlap with other contingency planning and risk
+
+management practices.
+
+           Risk Management Function. Several commenters stated that the Guidelines should
+
+be maintained because they serve an important risk management function. Two
+
+commenters claimed that institutions should be planning for as many scenarios as
+
+possible and that planning and preparation are appropriate steps to address stress events.
+
+Another commenter stated that removing the Guidelines would eliminate an important
+
+risk assessment process, and the resulting written recovery plans serve as valuable
+
+
+
+3
+    See 89 FR 84255 (Oct. 22, 2024).
+4
+    See 90 FR 51587 (Nov. 18, 2025).
+references and resources for banks during periods of financial and non-financial stress.
+
+The same commenter further stated that without recovery plans, an institution may panic
+
+during periods of stress resulting in poor decision making that could destroy value rapidly
+
+and undermine confidence in banks and the banking system. Another commenter stated
+
+that recovery planning is a preparedness exercise that improves an institution’s reaction
+
+to unexpected situations, that an institution will be better prepared to react having gone
+
+through the recovery planning process, and that recovery planning ensures that each
+
+group within an organization understands its role and the available options during stress
+
+events.
+
+           The OCC agrees with commenters that institutions should proactively engage in
+
+risk management to develop the skills and strategies necessary to navigate periods of
+
+operational and market stress. However, as discussed in the proposal, the OCC has
+
+determined that the Guidelines do not materially improve risk management at covered
+
+banks because much of the recovery planning documentation is, by its nature, scenario-
+
+dependent or otherwise conjectural and, therefore, is likely to be irrelevant or of limited
+
+utility when a covered bank faces stress. 5 The OCC further believes that proper risk
+
+management should be a dynamic process that involves real-time responses to the facts
+
+and circumstances of a stress event or periods of stress. 6 When periods of stress arise, the
+
+OCC believes that bank management is best positioned to assess the risks unique to their
+
+institution and should have the freedom to pursue the risk management strategy that best
+
+suits their bank’s business model, complexities, and risks under the facts and
+
+circumstances. The recission of the Guidelines restores bank management’s ability to
+
+determine the optimal risk management strategy, without limiting appropriate supervisory
+
+oversight.
+
+
+
+5
+    Id. at 51588.
+6
+    Id.
+           Lack of Data in Support of Proposal. Two commenters asserted that the data
+
+analysis in support of the proposal was insufficient. One commenter stated that the
+
+proposal lacks evidence of the proposal’s effect on supervisory outcomes or how
+
+recission of the Guidelines interacts with and does not degrade other frameworks (e.g.,
+
+resolution planning, long-term debt and total loss-absorbing capacity, and liquidity and
+
+contingency funding planning). Another commenter stated that the agency offered no
+
+evidence for certain statements in the proposal. Specifically, the commenter stated that
+
+the agency did not provide any evidence for the statement that recovery planning
+
+documentation is “scenario dependent or otherwise conjectural and, therefore, is likely to
+
+be irrelevant or of limited utility when a covered bank faces stress” and “that covered
+
+banks are well attuned to indicia of stress without regard to the presence of the recovery
+
+planning triggers and escalation procedure expectation of the Guidelines.”
+
+           Consistent with the earlier iterations of the Guidelines and other rulemakings, the
+
+OCC relies on its supervisory observations and expert judgments to establish and revise
+
+supervisory policy. Since the Guidelines were last amended in 2024, the OCC has
+
+undertaken a new initiative to review and refresh its supervisory approach to restore
+
+balance, reset the agency’s tolerance for risk, focus supervision on material financial
+
+risks, and free banks to lend, invest, innovate, and grow responsibly. As stated in the
+
+proposal, the OCC has observed through this process that the significant expenditure of
+
+resources incurred by covered banks to establish and maintain recovery planning
+
+documentation is not justified because the documentation the agency has reviewed as part
+
+of its supervisory activities is, by its nature, scenario-dependent or otherwise conjectural
+
+and, therefore, is likely to be irrelevant or of limited utility when a covered bank faces
+
+stress. 7 The OCC, consistent with other agency proposed supervisory reforms, 8 has also
+
+
+
+7
+    90 FR 51588.
+8
+    See, e.g., 90 FR 48835 (Oct. 30, 2025) (Unsafe or Unsound Practices, Matters Requiring Attention).
+observed that this expenditure of resources on the development of recovery planning
+
+documentation forces covered banks to prioritize policies, process, documentation, and
+
+other non-financial risks over material financial risks that pose a threat to an institution’s
+
+financial condition. The agency believes that relief from the Guidelines will allow bank
+
+management at the covered banks to dedicate more resources to addressing those material
+
+financial risks that pose a threat to their institution’s financial condition. Further, the OCC
+
+has also determined that banks do not need a prescriptive framework for coordinating
+
+their risk management functions. As the agency observed over a decade ago, banks
+
+already engage in the type of risk management activities necessary to respond to
+
+operational and market stress events. 9 The OCC continues to expect covered banks to
+
+engage in prudent risk management, including preparing for operational and market
+
+stresses. The recission of the Guidelines merely restores bank management’s ability to
+
+determine what risk management strategies are most appropriate for their bank’s
+
+respective business models, management structures, complexities, and risks.
+
+        Prior Stress Events Support Maintaining the Guidelines. Several commenters
+
+claimed that the market stress and bank failures of 2023 demonstrate that the agency
+
+should not rescind the Guidelines and either maintain or strengthen them. 10
+
+        In the OCC’s experience, recovery plans required under the Guidelines have not
+
+been useful risk management tools for banks. Likewise, for the reasons described in the
+
+proposal, the OCC does not expect the Guidelines to yield useful recovery plans in the
+
+future because much of the recovery planning documentation is, by its nature, scenario-
+
+dependent or otherwise conjectural and, therefore, is likely to be irrelevant or of limited
+
+utility when a covered bank faces stress. 11 Moreover, following the bank failures of 2023,
+
+
+
+9
+  See 81 FR 66797.
+10
+   The commenters did not specify which bank failures they were referring to, but for purposes of
+discussion, the agency assumes the commenters were referring to the failures of Silicon Valley Bank on
+March 10, 2023, Signature Bank on March 10, 2023, and First Republic Bank on May 1, 2023.
+11
+   90 FR 51588.
+the agency did not rely upon any observations that recovery planning documentation was
+
+utilized at covered banks during this period of market stress, nor did the OCC determine
+
+that prescriptive recovery planning guidelines would have been effective at addressing
+
+stress at the covered banks as justification for reducing the Guidelines’ threshold. 12
+
+         After carefully reviewing and considering all of the comments received, the OCC
+
+is adopting the final rule as proposed. Although some commenters disagreed with the
+
+proposal, the OCC believes recission of the Guidelines is necessary to achieve the
+
+agency’s goal of identifying and eliminating unnecessary regulatory burden that has been
+
+imposed on banks. Further, the agency believes that the Guidelines can be eliminated
+
+without creating additional risk to the safety and soundness of the covered banks or the
+
+banking system.
+
+IV. Contingency Funding Planning
+
+         As a part of the proposal, the OCC also invited public comment on whether the
+
+contingency funding plan expectations set forth in the Interagency Policy Statement on
+
+Funding and Liquidity Risk Management and the Addendum to the Interagency Policy
+
+Statement on Funding and Liquidity Risk Management: Importance of Contingency
+
+Funding Plans (collectively, the Contingency Funding Guidelines) should be codified. 13
+
+One commenter expressed support for codification of the Contingency Funding
+
+Guidelines on the grounds that contingency funding plans consider a range of stress
+
+scenarios, ensure that an institution can continue to operate during periods of stress, help
+
+maintain public trust, protect an institution’s reputation, and ensure the stability of the
+
+financial system. Two commenters opposed codification of the Contingency Funding
+
+Guidelines for various reasons. One commenter stated that codification of a contingency
+
+
+
+
+12
+   Rather, the agency relied upon the observation that institutions with more than $100 billion in assets
+“generally have a level of risk, complexity, and interconnectedness at which recovery planning is most
+beneficial.” See 89 FR 84256.
+13
+   See 90 FR 51589.
+funding requirement would be inconsistent with the agency’s goal of reducing regulatory
+
+burden. Another commenter acknowledged that having reliable contingency funding
+
+sources was important to bank safety and soundness but still expressed opposition to
+
+codification. The commenter observed that the OCC has ample supervisory tools at its
+
+disposal to address concerns related to funding and liquidity risk management. The
+
+commenter further stated that there would not be any benefit to codifying a contingency
+
+funding requirement and codification of such a requirement could impose incremental
+
+cost burdens on institutions.
+
+        Upon consideration of the comments received concerning codification of the
+
+Contingency Funding Guidelines, the OCC has declined to pursue codification at this
+
+time. The OCC will continue to review the Contingency Funding Guidelines for
+
+opportunities to refine and improve the agency’s supervision of contingency funding
+
+planning activities. As discussed in the proposal, the OCC expects that all banks have a
+
+formal contingency funding plan that considers a range of possible stress scenarios,
+
+assesses the stability of funding during periods of stress, and provides for a broad range
+
+of funding sources under adverse conditions. 14
+
+V. Final Rule
+
+        The final rule adopts as final the proposed recission of the OCC Guidelines
+
+Establishing Standards for Recovery Planning by Certain Large Insured National Banks,
+
+Insured Federal Savings Associations, and Insured Federal Branches contained at 12 CFR
+
+part 30, appendix E. The OCC believes the recission of the Guidelines achieves the
+
+OCC’s goal of identifying and eliminating unnecessary regulatory burden without
+
+
+
+14
+  Id.; see also Addendum to the Interagency Policy Statement on Funding and Liquidity Risk Management:
+Importance of Contingency Funding Plans, OCC Bulletin 2023-25, which can be accessed here:
+https://www.occ.gov/news-issuances/news-releases/2023/nr-ia-2023-82a.pdf; Interagency Policy Statement
+on Funding and Liquidity Risk Management, Federal Reserve SR 10-6 (Mar. 17, 2010), FDIC FIL-13-2010
+(Apr. 10, 2010), and OCC Bulletin 2010-13 (Mar. 22, 2010). These individual agency issuances released
+the 2010 Interagency Policy Statement on Funding and Liquidity Risk Management, which can be accessed
+here: https://www.govinfo.gov/content/pkg/FR-2010-03-22/pdf/2010-6137.pdf.
+compromising the safety and soundness of the covered banks or the banking system.
+
+Covered banks will no longer be required to develop and maintain formal recovery
+
+planning documentation and the OCC will no longer examine for recovery planning
+
+documentation. Recission of the Guidelines does not restrict banks from continuing to
+
+engage in recovery planning activities but rather provides bank management with
+
+increased freedom to allocate resources more efficiently and pursue those risk
+
+management activities best suited to a bank’s business model, management structure,
+
+complexities, and risks. While the Guidelines may no longer impose unnecessary
+
+regulatory burden on the covered banks, these institutions remain responsible for
+
+managing the risks to their business models.
+
+VI. Regulatory Analysis
+
+Paperwork Reduction Act
+
+           Under the Paperwork Reduction Act of 1995 (PRA), 15 the OCC may not conduct
+
+or sponsor, and a respondent is not required to respond to, an information collection
+
+unless it displays a currently valid Office of Management and Budget (OMB) control
+
+number. The OCC has reviewed the final rule and determined that it would not create any
+
+new, or revise any existing, collections of information under the PRA and therefore,
+
+requires no PRA filings, other than a discontinuance request to the OMB for the currently
+
+approved “Guidelines Establishing Standards for Recovery Planning by Certain Large
+
+Insured National Banks, Insured Federal Savings Associations, and Insured Federal
+
+Branches (1557-0333)” information collection.
+
+           Title of Information Collection: Guidelines Establishing Standards for Recovery
+
+           Planning by Certain Large Insured National Banks, Insured Federal Savings
+
+           Associations, and Insured Federal Branches.
+
+           OMB Control Number: 1557-0333.
+
+
+15
+     44 U.S.C. 3501 et. seq.
+           Affected Public: Businesses or other for-profit organizations.
+
+           Description: Twelve CFR part 30, appendix E, current Guidelines apply to
+
+           national banks, insured Federal savings associations, and insured Federal
+
+           branches of foreign banks with total consolidated assets of $100 billion or more.
+
+           The OMB previously approved the collection of information in the current
+
+           Guidelines, which are found at paragraphs II.B., II.C., and III. Specifically,
+
+           paragraph II.B. lists the elements of the recovery plan, which are an overview of
+
+           the covered bank; triggers; options for recovery; impact assessments; escalation
+
+           procedures; management reports; communication procedures; and other
+
+           information. Paragraph II.C. addresses the relationship of the plan to other
+
+           covered bank processes and coordination with other plans, including the processes
+
+           and plans of its bank holding company. Paragraph III. outlines management and
+
+           the board’s responsibilities. The current Guidelines also include a testing standard,
+
+           which provides that a covered bank should test its recovery plan.
+
+           Additionally, the current Guidelines clarify the role of non-financial risk
+
+           (including operational and strategic risk) in recovery planning.
+
+           Current Burden
+
+           Frequency of Response: On occasion.
+
+           Total Number of Respondents: 21.
+
+           Total Burden per Respondent: 32,017 hours.
+
+           Total Burden for Collection: 672,360 hours.
+
+Regulatory Flexibility Act
+
+           The Regulatory Flexibility Act (RFA) 16 requires an agency, in connection with a
+
+final rule, to prepare a Regulatory Flexibility Analysis describing the impact of the final
+
+rule on small entities (defined by the Small Business Administration for purposes of the
+
+
+16
+     5 U.S.C. 601 et seq.
+RFA to include commercial banks and savings institutions with total assets of $850
+
+million or less and trust companies with total assets of $47 million or less). Under section
+
+605(b) of the RFA, this analysis is not required if an agency certifies that the rulemaking
+
+would not have a significant economic impact on a substantial number of small entities
+
+and publishes its certification and a short explanatory statement in the Federal Register
+
+along with its rule.
+
+           The OCC certifies that the recission of Guidelines contained in appendix E of 12
+
+CFR part 30, will not have a significant impact on a substantial number of small entities.
+
+The Guidelines only apply to those insured national banks, insured Federal savings
+
+associations, or insured Federal branches with average total consolidated assets of $100
+
+billion or more. Therefore, the recission of the Guidelines would impact no small entities
+
+supervised by the OCC. Accordingly, a Regulatory Flexibility Analysis is not required.
+
+Unfunded Mandates Reform Act of 1995
+
+           The OCC analyzed the final rule under the factors set forth in the Unfunded
+
+Mandates Reform Act of 1995. 17 Under this analysis, the OCC considered whether the
+
+final rule includes a Federal mandate that may result in the expenditure by State, local,
+
+and Tribal governments, in the aggregate, or by the private sector, of $100 million or
+
+more (currently $187 million, as adjusted annually for inflation) in any one year. The
+
+OCC has determined that the cost savings associated with the rescission of the
+
+Guidelines’ mandates will be approximately $20 million annually. Therefore, the OCC
+
+concludes that the recission of the Guidelines contained in 12 CFR part 30, appendix E,
+
+will not result in an expenditure of $187 million or more annually by State, local, and
+
+Tribal governments, in the aggregate, or by the private sector in any one year.
+
+Riegle Community Development and Regulatory Improvement Act of 1994
+
+
+
+
+17
+     2 U.S.C. 1531 et seq.
+           Pursuant to section 302(a) of the Riegle Community Development and Regulatory
+
+Improvement Act of 1994, 18 in determining the effective date and administrative
+
+compliance requirements for new regulations that impose additional reporting, disclosure,
+
+or other requirements on insured depository institutions, the OCC must consider,
+
+consistent with the principles of safety and soundness and the public interest: (1) any
+
+administrative burdens that the rule would place on depository institutions, including
+
+small depository institutions, and customers of depository institutions; and (2) the
+
+benefits of the rulemaking. This rulemaking would not impose any additional reporting,
+
+disclosure, or other requirements on insured depository institutions. Therefore, section
+
+302(a) of the Riegle Community Development and Regulatory Improvement Act of 1994
+
+does not apply to this rulemaking.
+
+Executive Orders 12866 and 14192
+
+           Executive Order 12866, titled “Regulatory Planning and Review,” as amended,
+
+provides that the Office of Information and Regulatory Affairs (OIRA), will review all
+
+“significant regulatory actions” as defined therein. OIRA has determined that this final
+
+rule is not a “significant regulatory action” for purposes of Executive Order 12866.
+
+Executive Order 14192, titled “Unleashing Prosperity Through Deregulation,” separately
+
+requires that an agency, unless prohibited by law, identify at least ten existing regulations
+
+to be repealed when the agency publicly proposes for notice and comment or otherwise
+
+promulgates a new regulation with total costs greater than zero. Executive Order 14192
+
+further requires that new incremental costs associated with new regulations shall, to the
+
+extent permitted by law, be offset by the elimination of existing costs associated with at
+
+least ten prior regulations. The final rule will result in approximately $20 million of
+
+annual cost savings to covered banks and is a deregulatory action under Executive Order
+
+14192.
+
+
+18
+     12 U.S.C. 4802(a).
+Congressional Review Act
+
+         Before a rule can take effect, the Congressional Review Act (CRA) 19 provides that
+
+the OCC must submit to Congress and to the Comptroller General the rule along with a
+
+report indicating whether it is a “major rule.” In general, if a rule is a “major rule,” the
+
+CRA provides that unless Congress enacts a joint resolution of disapproval the rule takes
+
+effect the later of: (1) 60 days after Congress receives the required report or publication
+
+of the rule in the Federal Register, whichever is later; or (2) the date the rule would
+
+otherwise take effect. 20
+
+          The CRA defines a “major rule” as any rule that the Administrator of OIRA of
+
+the OMB finds has resulted in or is likely to result in (1) an annual effect on the economy
+
+of $100,000,000 or more; (2) a major increase in costs or prices for consumers, individual
+
+industries, Federal, State, or local government agencies or geographic regions; or (3) a
+
+significant adverse effect on competition, employment, investment, productivity,
+
+innovation, or the ability of United States-based enterprises to compete with foreign-
+
+based enterprises in domestic and export markets. 21
+
+         OIRA has determined that this final rule is not a major rule. As required by the
+
+CRA, the OCC will submit the final rule and other appropriate reports to Congress and
+
+the Government Accountability Office for review.
+
+List of Subjects in 12 CFR Part 30
+
+         Administrative practice and procedure, National banks, Reporting and
+
+recordkeeping requirements.
+
+     For the reasons stated in the preamble, and under the authority of 12 U.S.C. 93a and
+
+12 U.S.C. 1831p-1, the Office of the Comptroller of the Currency amends 12 CFR part
+
+30 as follows:
+
+
+19
+   5 U.S.C. 801 et seq.
+20
+   5 U.S.C. 801(a)(3).
+21
+   5 U.S.C. 804(2).
+PART 30—SAFETY AND SOUNDNESS STANDARDS
+
+       1. The authority citation for part 30 continues to read as follows:
+
+       Authority:12 U.S.C. 1, 93a, 371, 1462a, 1463, 1464, 1467a, 1818, 1828, 1831p-
+
+1, 1881-1884, 3102(b) and 5412(b)(2)(B); 15 U.S.C. 1681s, 1681w, 6801, and
+
+6805(b)(1).
+
+APPENDIX E TO PART 30 [REMOVED]
+
+       2. Removes appendix E to part 30.
+
+
+
+Jonathan V. Gould,
+Comptroller of the Currency.
+

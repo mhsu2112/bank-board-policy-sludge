@@ -1,0 +1,323 @@
+{
+  "report_name": "Board_duties+GLM-5.2+expanded_prompt.docx",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current U.S. federal board obligations for Category I global systemically important bank holding companies and their insured depository institution subsidiaries, evaluated for overlap, duplication, and undue burden.",
+    "unit_of_analysis": "Each discrete, current, in-force board-level obligation, with a pinpoint source, duty, entity tier, board or committee actor, director-type distinction, and reform relevance.",
+    "structural_axes": [
+      "entity tier: Category I GSIB bank holding company versus insured depository institution subsidiary",
+      "actor: full board versus board committee",
+      "committee type: audit, risk, compensation, nominating/governance, or another designated committee",
+      "director type: inside, outside, independent, non-independent, risk-expert, interested, or disqualified director",
+      "source tier: statute, regulation, enforceable guideline, supervisory guidance, examination manual, proposed rule, and interagency standard",
+      "issuing authority: Federal Reserve, OCC, FDIC, CFPB, and FFIEC or other interagency bodies",
+      "regulatory domain: safety and soundness, capital, stress testing, liquidity, resolution, recovery, operational resilience, model risk, third-party risk, incentive compensation, cybersecurity, BSA/AML, and consumer compliance",
+      "obligation attributes: precise operative text, applicability, frequency, delegation, approval versus oversight, current status, and reform lever"
+    ],
+    "actor_classes_required": [
+      "Category I GSIB BHC full board",
+      "insured depository institution subsidiary full board",
+      "risk committee",
+      "audit committee",
+      "compensation committee",
+      "nominating/governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent or interested directors"
+    ],
+    "source_universe": [
+      "Federal Reserve regulations, SR/CA letters, guidance, and supervisory materials",
+      "OCC regulations, enforceable guidelines, bulletins, and Comptroller's Handbook material",
+      "FDIC regulations, guidance, examination material, and covered-IDI resolution-planning rules",
+      "CFPB supervision and examination materials relevant to consumer-compliance governance",
+      "FFIEC and other interagency standards",
+      "Federal statutes underlying board-level banking obligations"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience and business continuity",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity and information-security governance",
+      "BSA/AML program and sanctions oversight",
+      "consumer compliance and fair-lending oversight",
+      "safety and soundness generally",
+      "committee composition, independence, audit, internal-control, and financial-reporting obligations"
+    ],
+    "audience_use": "Bank directors, legal counsel, and policymakers seeking a working policy-reform document that can support defensible consolidation, clarification, delegation, or removal proposals.",
+    "form_depth_expectations": "An extensive, approximately 40-60-page, granular citation-level inventory that distinguishes current binding law from guidance, maps every duty to entity and actor, and supports legally viable reform analysis. The ledger uses 120 sampled cells across 12 core domains and 10 required actor/entity classes."
+  },
+  "coverage_ledger": {
+    "cells_expected": 120,
+    "cells_covered": 25,
+    "cells_thin": 40,
+    "cells_missing": 55,
+    "material_omissions": [
+      "The 16-page DOCX includes the original request and is far short of the requested 40-60-page working legal inventory.",
+      "The report gives roughly one or two narrative entries per domain rather than a row for every discrete obligation, and most citations lack a section, subsection, paragraph, date, or quotation from operative text.",
+      "BHC-versus-IDI applicability is mentioned but not mapped consistently; FDIC covered-IDI resolution-plan duties under 12 CFR 360.10 are omitted.",
+      "Inside, outside, and non-independent directors are not systematically inventoried. Independent-director statements are isolated and several are legally wrong.",
+      "Category I-specific obligations beyond the named domains, including TLAC, QFC, and single-counterparty-credit-limit governance, are absent despite the request for all applicable federal obligations.",
+      "The report does not distinguish approval, review, oversight, notification, and management-execution duties with sufficient precision, nor does it state delegation or frequency where the authority does.",
+      "Binding regulations, enforceable OCC guidelines, supervisory guidance, examination expectations, proposed rules, securities rules, and a New York state rule are blended into a single inventory.",
+      "Current 2026 model-risk guidance is omitted; superseded SR 11-7 and OCC 2011-12 are presented as current.",
+      "The purported inventory uses literal Markdown headings and bullets in the DOCX rather than a citation-level Word table or other working legal matrix."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 CFR Part 30 Appendix A; 12 CFR Part 263 Appendix A; 12 CFR Part 364 Appendix A - interagency safety-and-soundness standards",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The OCC and FDIC references are generally relevant, but the Federal Reserve standards are codified at 12 CFR Part 208 Appendix D-1, not Part 263 Appendix A: https://www.federalreserve.gov/frrs/guidance/interagency-guidelines-establishing-standards-for-safety-and-soundness.htm"
+      },
+      {
+        "citation": "12 CFR Part 30 Appendix D - front-end/ongoing/end-feedback functions and risk-committee composition",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "OCC Appendix D uses front line, independent risk management, and internal audit and requires at least two independent full-board directors; it does not require a risk committee or a majority-independent risk committee: https://www.ecfr.gov/current/title-12/chapter-I/part-30/appendix-Appendix%20D%20to%20Part%2030"
+      },
+      {
+        "citation": "12 CFR 225.8 - annual capital-plan board approval",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 225.8 requires the board or a designated committee to review and approve the capital plan before submission and requires the board to review capital-planning effectiveness at least annually: https://www.federalreserve.gov/frrs/regulations/section-2258-capital-planning-and-stress-capital-buffer-requirement.htm"
+      },
+      {
+        "citation": "12 CFR Part 252 Subpart B; Part 324 Subpart B; Part 325 Subpart D - board approval of stress-test methodologies and results",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The composite citations transpose agency rules: the OCC rule is Part 46 and the FDIC rule is Part 325. Current 12 CFR 252.15 requires approval of policies and procedures and consideration of results, not approval of methodologies or results: https://www.federalreserve.gov/frrs/regulations/section-25215-methodologies-and-practices.htm"
+      },
+      {
+        "citation": "12 CFR Part 252 Subpart C and Interagency Policy Statement on Funding and Liquidity Risk Management (2008)",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The applicable large-BHC liquidity-governance rule is in Regulation YY Subpart D, including 12 CFR 252.34, and the interagency policy statement was issued in 2010, not 2008: https://www.federalreserve.gov/frrs/regulations/section-25234-liquidity-risk-management-requirements.htm"
+      },
+      {
+        "citation": "12 CFR Parts 249 and 329 - direct board LCR and NSFR controls and breach-reporting duties",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The OCC liquidity-coverage rule is Part 50, not Part 329, and the ratio rules do not themselves impose the report's stated direct board-control and breach-notification duties; board governance is principally in 12 CFR 252.34."
+      },
+      {
+        "citation": "12 USC 5365; 12 CFR Part 243; 12 CFR Part 382 - resolution-plan board approval",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "Board approval is supported by 12 CFR 243.4(f), but the parallel FDIC joint resolution-plan rule is Part 381, not Part 382: https://www.federalreserve.gov/frrs/regulations/section-2434-resolution-plan-required.htm"
+      },
+      {
+        "citation": "Federal Reserve and FDIC Interagency Guidance on Recovery Planning (August 2019)",
+        "verdict": "FABRICATED",
+        "centrality": "central",
+        "reason": "Searches of both agencies and the Federal Register found no such source. The 2019 joint guidance concerned resolution planning; Federal Reserve recovery guidance was SR 14-8, while OCC recovery guidelines were separately rescinded in 2026: https://www.federalreserve.gov/supervisionreg/topics/recovery-and-resolution.htm"
+      },
+      {
+        "citation": "Interagency Sound Practices to Strengthen Operational Resilience (June 2020) - mandatory board framework approval and disruption tolerances",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The paper was issued in October 2020, states that it creates no new regulations or guidance, and supports board oversight but not the claimed standalone mandatory framework-approval and tolerance-setting duties: https://www.federalreserve.gov/frrs/guidance/interagency-paper-on-sound-practices-to-strengthen-operational-resilience.htm"
+      },
+      {
+        "citation": "FFIEC IT Handbook, NYDFS Part 500, and SEC cyber-disclosure rules - board policy approval and periodic director cyber training",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "These authorities have different scopes and do not collectively impose the stated federal Category I duties. The state and securities sources cannot substitute for the omitted federal interagency information-security guidelines, and the cited set does not mandate periodic director training."
+      },
+      {
+        "citation": "SR 11-7 and OCC Bulletin 2011-12 - current model-risk board duties",
+        "verdict": "STALE",
+        "centrality": "central",
+        "reason": "The agencies superseded SR 11-7 and rescinded OCC 2011-12 on April 17, 2026. The replacement guidance also says it is nonbinding and nonprescriptive: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-13.html"
+      },
+      {
+        "citation": "2023 Interagency Guidance on Third-Party Relationships - board responsibility and policy oversight",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The guidance supports ultimate board responsibility, management accountability, appropriate reporting, and policies proportionate to third-party risk, though detailed due diligence, negotiation, and monitoring are management functions: https://www.federalreserve.gov/frrs/guidance/interagency-guidance-on-third-party-relationships.htm"
+      },
+      {
+        "citation": "12 CFR Part 252 Appendix A, 2010 incentive-compensation guidance, and proposed Section 956 rule - mandatory compensation governance",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "Part 252 Appendix A concerns supervisory stress-test scenarios, not compensation. The 2010 source is guidance, and Section 956 still had no final joint rule; the 2024 text was an NPR: https://www.occ.treas.gov/news-issuances/news-releases/2024/nr-ia-2024-47.html"
+      },
+      {
+        "citation": "31 USC 5318, FinCEN rules, and FFIEC BSA/AML Manual - BSA program approval and officer designation",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The banking-agency BSA rules and current FFIEC manual support board approval of the written program and board designation and oversight of the BSA officer, but not a universal quarterly reporting frequency: https://bsaaml.ffiec.gov/docs/manual/04_AssessingTheBSAAMLComplianceProgram/04.pdf"
+      },
+      {
+        "citation": "31 CFR Part 501 and FFIEC OFAC materials - mandated board OFAC oversight",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "Part 501 imposes OFAC reporting, procedure, and recordkeeping duties but no direct board-approval requirement. FFIEC materials describe risk-based controls and examination expectations, not the categorical board mandate stated in the report."
+      },
+      {
+        "citation": "CFPB Compliance Management Review procedures - board consumer-compliance oversight",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The CFPB procedures expressly examine board and management oversight of the compliance-management system, but they are examination guidance rather than binding board law: https://www.consumerfinance.gov/compliance/supervision-examinations/compliance-management-review-examination-procedures/"
+      },
+      {
+        "citation": "12 CFR 1003.5 - board approval of the HMDA loan application register",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Section 1003.5 requires the financial institution to submit and disclose HMDA data; it does not require approval by the board or a designated committee: https://www.consumerfinance.gov/rules-policy/regulations/1003/5/"
+      },
+      {
+        "citation": "12 CFR Part 252 Subpart O and OCC Appendix D - domestic Category I risk-committee composition",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "Domestic large-BHC risk-committee duties are in Regulation YY Subpart D, particularly 12 CFR 252.33. The rule requires an independent chair and one risk-experienced member, not an independent risk expert or majority-independent committee: https://www.federalreserve.gov/frrs/regulations/section-25233-risk-management-and-risk-committee-requirements.htm"
+      },
+      {
+        "citation": "12 CFR Part 363, OCC Appendix D, SOX, and SEC Rule 10A-3 - audit-committee duties and independence",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Part 363 and Rule 10A-3 support core audit-committee independence and external-auditor oversight. The report overstates the financial-expert point: SEC rules require disclosure of whether an expert exists, not appointment of one: https://www.sec.gov/file/33-8177"
+      },
+      {
+        "citation": "Federal Reserve Guidance on Board Effectiveness (SR 21-9 / CA 21-5)",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The Federal Reserve's board-effectiveness guidance is SR 21-3 / CA 21-1, not SR 21-9 / CA 21-5; CA 21-5 concerns an unrelated CRA coronavirus response: https://www.federalreserve.gov/supervisionreg/srletters/SR2103.htm"
+      }
+    ],
+    "summary": {
+      "supports": 5,
+      "wrong_attribution": 8,
+      "not_supported": 5,
+      "stale": 1,
+      "fabricated": 1,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "Poor",
+      "note": "The report names the full board and four requested committees and sometimes discusses independence, but it does not systematically map BHC versus IDI boards, inside versus outside directors, or non-independent and interested directors. Several risk-committee and financial-expert distinctions are inaccurate."
+    },
+    "binding_vs_guidance": {
+      "verdict": "Poor and systematically blended",
+      "note": "Regulations, enforceable guidelines, supervisory guidance, examination procedures, proposed rules, securities rules, and state law are grouped under 'Regulatory Sources' and translated into categorical 'must' duties without a reliable source-status field."
+    },
+    "reform_usefulness": {
+      "verdict": "Concrete but legally unsafe",
+      "note": "The report proposes consolidation, harmonized cycles, delegated approvals, and a single framework, but it rarely identifies the legal vehicle or what must remain, and several proposals rest on duties the cited law does not impose."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F1",
+      "severity": "central",
+      "evidence": "The report cites \"Federal Reserve and FDIC Interagency Guidance on Recovery Planning (August 2019),\" for which no primary source exists."
+    },
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "Examples include \"Part 263, App. A (Fed),\" \"Part 382 (FDIC),\" and \"SR 21-9 / CA 21-5.\""
+    },
+    {
+      "flag": "F3",
+      "severity": "central",
+      "evidence": "The model-risk section relies on \"Federal Reserve SR 11-7; OCC Bulletin 2011-12\" after both were replaced in April 2026."
+    },
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "It says the board \"must review and approve the institution's HMDA loan application register (LAR) prior to submission.\""
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "It claims to \"comprehensively\" catalog current duties and concludes they span \"every conceivable risk domain.\""
+    },
+    {
+      "flag": "F7",
+      "severity": "central",
+      "evidence": "A central reform premise says, \"Board approval is required for both the Recovery Plan (guidance) and the Resolution Plan (rule).\""
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "\"This inventory comprehensively catalogs the in-force, board-level obligations imposed on Category I\" GSIBs and their IDI subsidiaries.",
+      "rationale": "The response addresses every named core domain and the requested four committees, but it offers only a thin set of entries, does not inventory all current obligations, and misses required director classes. Missing actor classes cap D1 at 2."
+    },
+    "D2_integrity": {
+      "raw": 1,
+      "effective": 0,
+      "weight": 25,
+      "evidence": "\"Federal Reserve and FDIC Interagency Guidance on Recovery Planning (August 2019).\"",
+      "rationale": "Only 5 of 20 sampled citations support the core claim without a dispositive attribution problem. Eight are misattributed, five do not support the duty, one is stale, and one source could not be found after primary-source verification. Central F1 caps D2 at 0."
+    },
+    "D3_accuracy": {
+      "raw": 1,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "\"the board (or a designated committee) must review and approve the institution's HMDA loan application register\"",
+      "rationale": "The report repeatedly converts institution-level rules or supervisory guidance into direct mandatory board acts and relies on superseded model-risk material. Central stale-as-current and invented-obligation flags cap D3 at 0."
+    },
+    "D4_sludge_analysis": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 15,
+      "evidence": "\"Adopt a single, unified set of interagency safety and soundness standards in the Code of Federal Regulations\"",
+      "rationale": "Six reform themes identify concrete levers such as consolidation, cycle harmonization, delegation, and a single framework. The analysis does not measure duplication at obligation level, distinguish legal vehicles consistently, or establish what protections must remain, and several recommendations use false duty predicates."
+    },
+    "D5_structure": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "\"For each obligation, it specifies the precise regulatory source, the nature of the board-level duty, the target\"",
+      "rationale": "Domain headings and repeated source/duty/actor/distinction fields make the report scannable. It is not a granular working inventory, lacks pinpoint rows and applicability fields, uses pervasive generic-board language, and renders literal Markdown rather than a functional Word matrix."
+    },
+    "D6_calibration": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "The report says the obligations are \"spanning every conceivable risk domain.\"",
+      "rationale": "It occasionally labels guidance, a proposed rule, and a state-specific source, but generally speaks in categorical legal terms despite major uncertainty and gaps. Its explicit comprehensive and all-domain claims trigger F5 and cap D6 at 1."
+    }
+  },
+  "overall_score": 25,
+  "tier": "E",
+  "reliability_overlay": "integrity-flagged",
+  "narrative": {
+    "strengths": [
+      "D1: The report is explicitly scoped to Category I GSIB BHCs and IDI subsidiaries and touches all twelve domains named in the request.",
+      "D5: Each domain generally repeats source, nature-of-duty, board-versus-committee, director-distinction, and reform fields, which makes the short report easy to scan.",
+      "D4: The final section offers concrete reform mechanisms, including interagency consolidation, consolidated stress-test approval, harmonized planning cycles, delegation, and framework rationalization.",
+      "D6: The report sometimes signals source status, including \"Proposed Rule,\" \"guidance,\" and the state-specific nature of NYDFS Part 500."
+    ],
+    "weaknesses": [
+      "D2/F1: The load-bearing 2019 Federal Reserve/FDIC recovery-planning guidance citation appears not to exist, while numerous other sources use the wrong CFR part, subpart, agency, date, or letter number.",
+      "D3/F3/F4: Central duties are invented or stale, including HMDA LAR board approval, majority-independent risk-committee composition, direct LCR/NSFR board duties, and current reliance on superseded model-risk guidance.",
+      "D2: Fifteen of twenty sampled citations were misattributed, unsupported, stale, or fabricated, making the document unsafe for directors or counsel without source-by-source reconstruction.",
+      "D1/D5: The response is far shorter than requested, omits much of the Category I obligation universe, lacks row-level pinpoints, and does not systematically map BHC/IDI or inside/outside/non-independent actors.",
+      "D4/F7: Several centerpiece sludge conclusions, especially recovery-versus-resolution and HMDA approval burden, depend on inaccurate statements of existing law."
+    ],
+    "prioritized_remediation": [
+      "Rebuild the authority set from current primary sources as of June 2026; remove the nonexistent 2019 recovery source and replace superseded model-risk and rescinded recovery materials with their current status.",
+      "Create one row per obligation with exact section and paragraph, operative text, source tier, agency, effective date, entity applicability, actor, duty verb, delegation, frequency, and current-status fields.",
+      "Correct the central legal mappings for stress testing, liquidity, resolution and recovery planning, operational resilience, model risk, HMDA, risk-committee composition, and incentive compensation before drawing overlap conclusions.",
+      "Separate binding statutes and regulations, enforceable guidelines, nonbinding supervisory or examination material, proposed rules, securities or listing rules, and state law in both labels and prose.",
+      "Re-run the sludge analysis only on validated obligation rows, identify the legal instrument needed for each reform, and state what control or accountability mechanism would remain after consolidation or delegation."
+    ],
+    "reliance_recommendation": "Do not rely on this report as a legal inventory or reform baseline; use it only as a preliminary topic outline until every obligation and reform premise has been rebuilt and verified by counsel against current primary sources."
+  }
+}
+
+**Result:** Tier E (25/100) - integrity-flagged. The report is a broad, well-sectioned outline with concrete reform ideas, but pervasive citation failures and invented or stale central duties make it unsafe as a legal or policy-reform inventory.

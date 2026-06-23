@@ -1,0 +1,192 @@
+{
+  "report_name": "Report_B.txt",
+  "judge_model": "claude-opus-4-7 (1M context)",
+  "spec_reconstruction": {
+    "domain": "U.S. federal banking law/governance — board-level obligations of Category I GSIB bank holding companies and their insured depository institution (IDI) subsidiaries",
+    "unit_of_analysis": "Individual board-level obligation (with regulatory citation, nature of duty, actor mapping, director-status distinction, and duplication/reform analysis)",
+    "structural_axes": [
+      "Entity tier: BHC vs. IDI subsidiary (national bank, state member, state nonmember, CIDI)",
+      "Actor class: full board vs. risk committee vs. audit committee vs. compensation committee vs. nominating/governance committee",
+      "Director status: inside vs. outside; independent vs. non-independent; risk expert; exchange-listing-independent",
+      "Source tier: binding regulation / enforceable safety-and-soundness guideline / supervisory guidance / examination procedure",
+      "Regulatory domain (capital, liquidity, resolution, recovery, op resilience, model risk, third-party, incentive comp, cyber, BSA/AML, consumer compliance, safety & soundness)"
+    ],
+    "actor_classes_required": [
+      "Full board",
+      "Risk committee",
+      "Audit committee",
+      "Compensation committee",
+      "Nominating/governance committee",
+      "Inside directors",
+      "Outside directors",
+      "Independent directors",
+      "Non-independent directors"
+    ],
+    "source_universe": [
+      "Federal Reserve (Reg YY, Reg Y, Reg Q, SR letters, LFI rating)",
+      "OCC (Heightened Standards Appendix D, Appendix A safety & soundness, Appendix B info security, Appendix E recovery [rescinded 2026], Part 21 security/BSA, OCC bulletins)",
+      "FDIC (Part 363 FDICIA audit, Part 360.10 CIDI resolution, Part 364 info security, Part 326 BSA)",
+      "CFPB (CMR/CMR-IT/UDAAP/ECOA examination procedures)",
+      "Interagency standards (third-party 2023, information security GLBA, incentive comp 2010, model risk SR 26-2)",
+      "Statutes (Dodd-Frank §165 EPS implicit, FDIA §39 explicit, BSA implicit)"
+    ],
+    "coverage_areas": [
+      "Strategy and risk governance framework",
+      "Board composition/independence/expertise",
+      "Capital planning and stress testing",
+      "Liquidity risk management (incl. LCR/NSFR)",
+      "Resolution planning (Title I + CIDI)",
+      "Recovery planning",
+      "Operational resilience",
+      "Model risk governance",
+      "Third-party risk management",
+      "Incentive compensation",
+      "Cybersecurity / info security / incident notification",
+      "BSA/AML",
+      "Consumer compliance (CFPB CMR, UDAAP, fair lending)",
+      "Safety and soundness standards"
+    ],
+    "audience_use": "Bank directors and their legal counsel; policymakers engaged in reform aimed at reducing duplicative/overlapping/unduly burdensome board-level requirements; explicitly self-described as a working policy-reform inventory",
+    "form_depth_expectations": "Granular, citation-specific, comprehensive inventory; ~40–60 pages; trace each obligation to source/nature/actor/director-status; include cross-domain matrix"
+  },
+  "coverage_ledger": {
+    "cells_expected": 162,
+    "cells_covered": 122,
+    "cells_thin": 22,
+    "cells_missing": 18,
+    "material_omissions": [
+      "No dedicated nominating/governance committee section despite being an explicit required actor class — board-composition, succession-planning, and director-nomination duties not separately treated",
+      "Source-of-strength doctrine (12 CFR §225.4(a)(1)) — a foundational Fed board obligation — is not cited",
+      "Regulation O / Section 22(h) insider-lending board approval (12 CFR Part 215, §337.3) and conflicts-of-interest framework absent",
+      "12 U.S.C. §1818 director removal, civil-money-penalty tiers, and industry-wide prohibition (the principal enforcement-exposure scaffolding for board members) not addressed",
+      "31 U.S.C. §5318 BSA statutory grounding — including §5318(g) SAR/tipping-off personal liability — not cited; only the implementing regulations are",
+      "12 CFR §21.11(h) per-SAR-filing board notification (and (h)(2) non-suspect-director notification for insider-abuse SARs) absent",
+      "OCC Bulletin 2025-51 (proposed $700B Heightened Standards threshold) defensibly excluded under the methodology's 'proposed rules excluded' rule, but the methodology's choice arguably suppresses material reform context",
+      "SEC oversight requirements (Item 106 cyber, Item 407 audit/nom/comp committee disclosure) explicitly excluded by methodology — defensible but reduces fitness for the stated 'directors and counsel' audience",
+      "Inside vs. outside director treatment is solid at the FDICIA audit-committee level but is not run as a systematic axis across other domains (e.g., Reg YY risk committee independence is described, but the inside/outside cut is not consistently applied)"
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {"citation": "12 CFR 252.33(a) BHC risk committee (independent chair, risk expert, quarterly review)", "verdict": "SUPPORTS", "centrality": "central", "reason": "eCFR confirms independent-chair structure (S-K Item 407 / exchange listing standards) and risk-management experience requirement."},
+      {"citation": "12 CFR 252.33(a)(1) risk committee responsibility for liquidity", "verdict": "SUPPORTS", "centrality": "central", "reason": "Cross-reference between risk committee subpart and liquidity rule (§252.34) accurately characterized."},
+      {"citation": "12 CFR 252.34(a) board approval of liquidity risk tolerance and policies", "verdict": "SUPPORTS", "centrality": "central", "reason": "Reg YY liquidity provisions confirmed."},
+      {"citation": "12 CFR 252.34(b) risk committee CFP approval at least annually", "verdict": "SUPPORTS", "centrality": "central", "reason": "Risk committee or designated subcommittee approval of contingency funding plan verified."},
+      {"citation": "12 CFR 252.34(c) at least quarterly liquidity reporting to board or risk committee", "verdict": "SUPPORTS", "centrality": "central", "reason": "Reg YY reporting cadence accurate."},
+      {"citation": "12 CFR 252.35 liquidity stress testing and buffer", "verdict": "SUPPORTS", "centrality": "central", "reason": "Stress testing and buffer requirement accurately summarized."},
+      {"citation": "12 CFR 225.8 capital plan and stress capital buffer", "verdict": "SUPPORTS", "centrality": "central", "reason": "Reg Y capital plan rule and SCB process verified."},
+      {"citation": "12 CFR Part 217 advanced approaches board approval and audit reporting", "verdict": "SUPPORTS", "centrality": "central", "reason": "Advanced approaches implementation plan board approval and §217.122(i) annual audit reporting exist."},
+      {"citation": "12 CFR 243.4(f) / 381.4(f) Title I resolution plan board approval and minutes", "verdict": "SUPPORTS", "centrality": "central", "reason": "Joint Fed/FDIC rule requires board approval pre-submission and minutes notation."},
+      {"citation": "12 CFR 360.10 FDIC CIDI resolution plan (with GSIB-affiliated biennial cycle under 2024 final rule)", "verdict": "SUPPORTS", "centrality": "central", "reason": "2024 FDIC final rule confirmed: GSIB-affiliated CIDIs biennial starting 2026; others triennial starting 2025."},
+      {"citation": "12 CFR 363.5(a)(1) $5B+ IDI audit committee — outside directors independent of management", "verdict": "SUPPORTS", "centrality": "central", "reason": "eCFR confirms verbatim, including January 1, 2026 threshold increase from $1B to $5B."},
+      {"citation": "12 CFR 363.5(a)(2) $1B-<$5B audit committee — outside directors, majority independent of management", "verdict": "SUPPORTS", "centrality": "central", "reason": "Outside-director composition with majority-independent-of-management requirement verified."},
+      {"citation": "12 CFR 21.21 / 208.63 / 326.8 BSA program board approval and minutes notation (OCC/Fed/FDIC parallel)", "verdict": "SUPPORTS", "centrality": "central", "reason": "All three parallel BSA program regulations exist and require board-approved, minuted programs."},
+      {"citation": "12 CFR Part 30 Appendix D OCC Heightened Standards — risk governance framework, risk appetite, independent directors", "verdict": "SUPPORTS", "centrality": "central", "reason": "Appendix D content and at-least-two independent directors expectation verified."},
+      {"citation": "12 CFR Part 30 Appendix B / Part 364 Appendix B / Part 225 Appendix F — Interagency GLBA information security guidelines (board program approval)", "verdict": "SUPPORTS", "centrality": "central", "reason": "Parallel codification across OCC/FDIC/Fed accurate; board/committee approval of written info-security program required."},
+      {"citation": "12 CFR Part 21 Subpart A — security officer annual report to board with substance in minutes", "verdict": "SUPPORTS", "centrality": "peripheral", "reason": "12 CFR §21.4 reporting requirement matches Report B's characterization."},
+      {"citation": "12 CFR Part 53 / 12 CFR 225 Subpart N / 12 CFR 304 Subpart C — 36-hour computer-security incident notification", "verdict": "SUPPORTS", "centrality": "central", "reason": "Cross-agency computer-security incident notification rule exists; characterization accurate."},
+      {"citation": "SR 15-18 Category I capital planning supervisory expectations", "verdict": "SUPPORTS", "centrality": "central", "reason": "SR 15-18 confirmed as applying to Category I firms; governance, internal controls, capital policy, scenario design, projection methodology characterization accurate."},
+      {"citation": "SR 23-4 / OCC Bulletin 2023-17 / FDIC FIL-29-2023 — 2023 Interagency Guidance on Third-Party Relationships", "verdict": "SUPPORTS", "centrality": "central", "reason": "Federal Reserve issued the June 7, 2023 interagency TPRM guidance as SR 23-4; all three agency bulletin numbers verified."},
+      {"citation": "OCC Appendix E to Part 30 recovery planning guidelines treated as RESCINDED and excluded from current obligations", "verdict": "SUPPORTS", "centrality": "central", "reason": "OCC finalized rescission on March 31, 2026 (Federal Register April 1, 2026); Report B's exclusion is current and correct."}
+    ],
+    "summary": {
+      "supports": 20,
+      "wrong_attribution": 0,
+      "not_supported": 0,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "strong, with one gap",
+      "note": "Each obligation is tagged with a specific actor — BHC full board vs. BHC risk committee vs. IDI full board vs. IDI audit committee vs. CIDI board vs. compensation committee — and the cross-domain matrix in Chapter 13 makes the actor cut explicit. Director-status terminology gets its own dedicated chapter (Chapter 12) which is a strength. Gap: nominating/governance committee is not separately treated, and the inside/outside cut is not consistently applied across non-audit domains."
+    },
+    "binding_vs_guidance": {
+      "verdict": "exemplary",
+      "note": "Every obligation table column-tags status as 'Binding rule,' 'Enforceable guideline,' 'Supervisory guidance,' or 'Examination procedure.' The methodology section explains the four-tier source hierarchy. Proposed rules and Appendix E (rescinded) are explicitly excluded with reasons. The 'guidance-driven hardening' note in Chapter 14 frames the de-facto-rule problem honestly."
+    },
+    "reform_usefulness": {
+      "verdict": "exemplary",
+      "note": "Chapter 14 categorizes burden (parent-subsidiary duplication, approval proliferation, committee overlap, board-management boundary, terminology, guidance hardening); Chapter 15 maps each to a reform lever; Appendix E gives a practical board calendar; Appendix I provides an A–H coding key for classifying obligations. This is the strongest reform-actionable framing in the bake-off."
+    }
+  },
+  "critical_flags": [
+    {"flag": "F6", "severity": "peripheral", "evidence": "Nominating/governance committee — an explicit ORIGINAL_REQUEST actor class — is not separately treated; Reg O insider transactions and §1818 director enforcement framework are absent. The methodology defensibly excludes SEC/exchange-listing/SOX/Delaware fiduciary duties, but the scope choice does leave gaps. Partial scope evasion, not material."}
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 20,
+      "evidence": "\"The inventory excludes proposed rules, exchange-listing rules, SEC proxy rules, state corporate-law fiduciary duties, private contractual obligations, confidential supervisory findings, and firm-specific enforcement actions.\"",
+      "rationale": "All named coverage areas (capital, liquidity, resolution, recovery, op resilience, model risk, TPRM, incentive comp, cyber, BSA/AML, consumer compliance, safety & soundness) are present and most are deeply covered. Material gaps: no dedicated nominating/governance committee section; §225.4(a)(1) source of strength not cited; Reg O / §337.3 insider transactions absent; §1818 enforcement framework absent; §21.11(h) per-SAR board notification absent. F6 peripheral applies but does not cap (not material scope evasion)."
+    },
+    "D2_integrity": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 25,
+      "evidence": "\"OCC recovery-planning guidelines formerly located at 12 CFR part 30, appendix E are treated as rescinded and are not counted as current in-force obligations.\"",
+      "rationale": "20/20 sampled citations SUPPORTS, zero unverifiable. Currency exceptional — captures the March 31, 2026 Appendix E rescission, the 2026 effective date of the FDICIA $1B→$5B threshold change, and the GSIB-affiliated CIDI biennial 2026 cycle. SR 23-4 (TPRM) and SR 15-18 (Category I capital planning) verified to exact agency identifiers. Justifies exemplary score."
+    },
+    "D3_accuracy": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 20,
+      "evidence": "\"Supervisory guidance and examination manuals generally do not create binding law, but they often shape examiner expectations, board reporting packages, and governance burdens in practice.\"",
+      "rationale": "Substantive characterizations align with primary sources: independent-chair definition under §252.33, four-tier GLBA codification, FDICIA outside-director vs. independent-of-management terminology, GSIB CIDI biennial cycle, Appendix E rescission. No instance of guidance presented as binding law; binding-vs-guidance distinction is explicitly column-tagged on every table. No F3 (stale) or F4 (invented obligation) found."
+    },
+    "D4_sludge_analysis": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 15,
+      "evidence": "\"Code A: Nondelegable board approval … Code G: Legal-entity duplication … Code H: Terminology conflict.\"",
+      "rationale": "Six structural burden categories → eight reform levers → A–H coding key → practical board calendar. Reform recommendations are concrete (e.g., 'permit common enterprise resolution board package with entity-specific approval pages,' 'harmonize director-status glossary'), name specific instruments, and preserve accountability rather than recommending across-the-board deregulation. Best-in-class reform-actionable framing."
+    },
+    "D5_structure": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 10,
+      "evidence": "\"RES-003 — CIDI resolution submission board approval … Primary source 12 CFR 360.10 … Board actor: Covered IDI board\"",
+      "rationale": "Highly granular: 14 chapters, cross-domain matrix, source register with URLs, ~60 obligation cards with structured fields (Legal status / Primary source / Board actor / Duty summary / Evidence artifact / Overlap issue / Reform treatment). Falls short of 4 because: (a) Appendix H repeats the same 'Policy-reform coding' boilerplate paragraph 11 times verbatim, indicating template fill rather than calibrated drafting; (b) no dedicated nominating/governance committee section; (c) some chapter tables run citations without subsection pin-cites (e.g., '12 CFR part 217' alone)."
+    },
+    "D6_calibration": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 10,
+      "evidence": "\"This document is a working policy-reform inventory, not legal advice … It should be validated by counsel against the current Code of Federal Regulations …\"",
+      "rationale": "Methodology section explicitly defines what is in and out of scope; Appendix C ('Preliminary Open Issues for Counsel Validation') and Appendix F ('Suggested Counsel Review Questions') treat the inventory as a starting point requiring validation; status column on every table prevents guidance-as-rule confusion; no false-exhaustiveness claims (Report deliberately avoids the word 'comprehensive' in favor of 'working draft'). No F5."
+    }
+  },
+  "overall_score": 93,
+  "tier": "A",
+  "reliability_overlay": "clean",
+  "narrative": {
+    "strengths": [
+      "D2 — citation integrity is the strongest in the bake-off so far: 20/20 sampled citations SUPPORTS, including the March 31, 2026 OCC Appendix E rescission, the 2026 FDICIA §363.5 threshold change, and the GSIB-affiliated CIDI biennial 2026 cycle under the 2024 FDIC final rule. The report is current through the report date.",
+      "D3 / binding-vs-guidance — every table column-tags 'Binding rule / Enforceable guideline / Supervisory guidance / Examination procedure,' and the executive summary and Chapter 14 explicitly flag the 'guidance-driven hardening' problem rather than collapsing the categories.",
+      "D4 / reform usefulness — Chapter 15's eight reform levers, the A–H coding key in Appendix I, and the practical board calendar in Appendix E together give the report a true working-document character; the framing 'preserve accountability, reduce ritual' is concretely operationalized.",
+      "D6 / calibration — methodology section explicitly excludes proposed rules, SEC/exchange/SOX/Delaware items, and confidential supervisory findings, with reasons; the 'Important Note on Use' and the counsel-validation appendices keep the epistemic posture honest.",
+      "Structural axes — Chapter 12 'Director Status, Independence, and Committee Composition' is the single best treatment of the inside/outside/independent/expert terminology problem across the four reports, and the cross-domain matrix in Chapter 13 makes the actor x domain x approval cut visible at a glance."
+    ],
+    "weaknesses": [
+      "D1 / F6 (peripheral) — nominating/governance committee, an explicitly required actor class in the ORIGINAL_REQUEST, has no dedicated section; succession-planning and director-nomination duties are not separately enumerated even though SR 21-3 and OCC Appendix D both create them.",
+      "D1 — source-of-strength doctrine (12 CFR §225.4(a)(1)), Regulation O insider-transaction board approval (12 CFR Part 215 / §337.3), and the §1818 director-removal / CMP / industry-prohibition framework are absent — collectively, the principal individual-director enforcement scaffolding is missing.",
+      "D1 — BSA section is regulation-only: 31 U.S.C. §5318(g) tipping-off personal liability, §5318(h) program statutory grounding, and §21.11(h) per-SAR board notification (a hard codified board duty) are not addressed.",
+      "D5 — Appendix H repeats an identical 'Policy-reform coding:' paragraph verbatim 11 times across its source-by-source notes, which reads as template fill and dilutes an otherwise strong structure.",
+      "D6 (minor) — the inventory's defensible exclusion of SEC, exchange-listing, and SOX obligations limits fitness for the named audience of 'bank directors and their legal counsel,' even though the methodology defends the scope."
+    ],
+    "prioritized_remediation": [
+      "Add a dedicated Chapter on nominating/governance committee obligations (succession planning under SR 21-3, OCC Appendix D talent/CEO appointment, board-self-assessment cadence, director-nomination process).",
+      "Add a §1818 / director-liability chapter: removal, CMP tiers, industry-wide prohibition, six-year post-resignation continuing jurisdiction, and the §1818(b)(8) CAMELS-management linkage.",
+      "Add the Regulation O / §22(h) insider-lending board-approval regime (12 CFR Part 215, §337.3) and Source-of-Strength doctrine (§225.4(a)(1)) — both are core BHC board duties.",
+      "Strengthen BSA section with 31 U.S.C. §5318(g)/(h) statutory grounding and the 12 CFR §21.11(h) per-SAR board-notification rule including the (h)(2) non-suspect-director carve-out.",
+      "Replace the repeated 'Policy-reform coding' boilerplate in Appendix H with source-specific reform analysis to match the granularity of the obligation cards in Appendix D."
+    ],
+    "reliance_recommendation": "Reliable as a working policy-reform inventory and as a starting brief for counsel review of duplication and burden across federal banking obligations on Category I GSIB boards; the citation integrity and currency are strong enough to ground reform advocacy, but counsel should supplement with the Reg O / §1818 / nominating-committee gaps before relying on this as a complete director-duties map."
+  }
+}
+
+**Result:** Tier A (93/100) — clean. Exemplary citation integrity (20/20 SUPPORTS including very current 2026 changes), best-in-class reform analysis with a coding key and board calendar, and consistent binding-vs-guidance tiering — held back from a higher score by the absence of a nominating/governance committee section, Regulation O / §1818 / source-of-strength coverage, and repetitive boilerplate in Appendix H.

@@ -1,0 +1,300 @@
+{
+  "report_name": "Bank_Board_Obligation_Inventory_1+Opus4.8+original prompt.xlsx",
+  "judge_model": "claude-sonnet-4-6",
+  "spec_reconstruction": {
+    "domain": "U.S. federal banking regulation — board-level obligations",
+    "unit_of_analysis": "Individual board obligation (per actor, per source, per domain) at Category I GSIB bank holding companies and their insured depository institution subsidiaries",
+    "structural_axes": [
+      "Full board vs specific committees (audit, risk, compensation, nominating/governance)",
+      "Inside vs outside directors",
+      "Independent vs non-independent directors",
+      "BHC vs IDI subsidiary entity tier",
+      "Regulatory domain (12 domains named explicitly)",
+      "Agency issuer (Fed, OCC, FDIC, CFPB, interagency)"
+    ],
+    "actor_classes_required": [
+      "Full board of directors",
+      "Audit committee",
+      "Risk committee",
+      "Compensation committee",
+      "Nominating/governance committee",
+      "Inside directors",
+      "Outside directors",
+      "Independent directors",
+      "Non-independent directors"
+    ],
+    "source_universe": [
+      "Federal statutes (12 USC, 15 USC, 42 USC, etc.)",
+      "Federal regulations (CFR) — Fed, OCC, FDIC, CFPB",
+      "Agency guidance / supervisory letters (SR letters, OCC bulletins, CA letters)",
+      "Interagency standards and guidelines",
+      "FFIEC examination manuals and handbooks"
+    ],
+    "coverage_areas": [
+      "Capital planning and stress testing",
+      "Liquidity risk management",
+      "Resolution planning",
+      "Recovery planning",
+      "Operational resilience",
+      "Model risk governance",
+      "Third-party risk management",
+      "Incentive compensation",
+      "Cybersecurity governance",
+      "BSA and AML program oversight",
+      "Consumer compliance oversight",
+      "Safety and soundness generally",
+      "Governance and composition",
+      "Insider transactions",
+      "Fiduciary/trust activities"
+    ],
+    "audience_use": "Bank directors and legal counsel; policymakers engaged in regulatory reform to identify and reduce duplicative, overlapping, and unduly burdensome board-level requirements",
+    "form_depth_expectations": "Granular, citation-specific, suitable as a working policy reform document; 40–60 pages in depth; specifying precise regulatory source, nature of duty, full board vs committee, inside/outside and independent/non-independent distinctions per obligation"
+  },
+  "coverage_ledger": {
+    "cells_expected": 135,
+    "cells_covered": 55,
+    "cells_thin": 15,
+    "cells_missing": 65,
+    "material_omissions": [
+      "No committee-specific obligations: audit committee, risk committee, compensation committee, and nominating/governance committee duties are never disaggregated — all obligations assigned generically to 'board'",
+      "No inside vs outside director distinctions anywhere in the 66-row inventory",
+      "No independent vs non-independent director distinctions — the request prominently required this axis",
+      "CFPB coverage is minimal: a single umbrella row (CON-01) with a CFPB exam manual reference; no UDAAP, Reg Z, Reg E, or other CFPB-specific board obligations addressed",
+      "Depth far below 40–60 pages: the output is a 70-row Excel spreadsheet, adequate for a summary map but materially short of the working legal document the request envisioned",
+      "Nominating/governance committee obligations entirely absent",
+      "Category I GSIB-specific enhanced standards (e.g., TLAC, resolution-plan enhanced requirements, Reg YY Category I thresholds) not systematically disaggregated from general large-bank requirements"
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 USC 71a — National Bank Act board size 5–25 directors",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 USC 71a correctly governs number of national bank directors"
+      },
+      {
+        "citation": "12 USC 72 — qualifying shares and citizenship requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 USC 72 is the correct provision for director qualifications including stock-holding and residency"
+      },
+      {
+        "citation": "12 USC 1831i; 12 CFR 5.51 (OCC); 12 CFR 225.71-.73 (Fed) — director/senior officer notice",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 USC 1831i is FDICIA Section 32; OCC rule at 12 CFR 5.51 and Fed rule at 12 CFR 225.71–.73 are correct"
+      },
+      {
+        "citation": "12 CFR 252.22; 252.33 — Reg YY risk committee",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252.22 (publicly traded BHCs $10B–$100B) and 252.33 (BHCs $100B+) are the correct Reg YY risk-committee provisions"
+      },
+      {
+        "citation": "SR 21-3 / CA 21-1 — board effectiveness guidance",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 21-3 and companion CA 21-1 (2021) are real Federal Reserve guidance on board effectiveness"
+      },
+      {
+        "citation": "12 CFR 30 App. D — OCC Heightened Standards",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR Part 30 Appendix D is the OCC's Heightened Standards for large national banks"
+      },
+      {
+        "citation": "12 CFR 252.33; 12 CFR 30 App. D — enterprise risk-management framework (RM-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Both citations correctly require board approval of risk management framework at large institutions"
+      },
+      {
+        "citation": "12 USC 1831m; 12 CFR 363.5 — FDICIA Part 363 audit committee",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 USC 1831m is FDICIA Section 36; 12 CFR 363.5 governs audit committee requirements for large IDIs"
+      },
+      {
+        "citation": "12 USC 1818(s); 12 CFR 21.21 (OCC); 208.63 (Fed); 326.8 (FDIC) — BSA program approval",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "All four citations correctly map the triplication of BSA program approval duties across agencies"
+      },
+      {
+        "citation": "SR 11-7 — model risk management guidance",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 11-7 (2011, joint with OCC) is the foundational model risk management guidance"
+      },
+      {
+        "citation": "SR 26-2 — 2026 interagency MRM guidance (RM-07)",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "SR 26-2 as a 2026 interagency MRM guidance update cannot be independently verified; document dated June 2026 so contemporaneous but unconfirmable"
+      },
+      {
+        "citation": "12 CFR 225.8 — capital plan rule",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 225.8 is the Federal Reserve's capital plan rule requiring board approval"
+      },
+      {
+        "citation": "12 CFR 252.44-.46 (Fed); 12 CFR 46 (OCC) — DFAST stress-test rules",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 252 subpart E (Fed) and 12 CFR 46 (OCC) are the correct stress-test provisions"
+      },
+      {
+        "citation": "SR 10-9 / 75 FR 36395 — incentive compensation guidance",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 10-9 and 75 FR 36395 (June 2010) are the interagency sound incentive compensation guidance"
+      },
+      {
+        "citation": "12 CFR 30 App. B (OCC); 208 App. D-2 (Fed); 364 App. B (FDIC) — info-security program",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Three agency appendices implementing GLBA Safeguards Rule; citations are correct for pre-2023 framework"
+      },
+      {
+        "citation": "SR 23-4 / 88 FR 37920 — interagency third-party risk guidance",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "SR 23-4 (2023) is real; 88 FR 37920 is the correct Federal Register citation for the interagency guidance"
+      },
+      {
+        "citation": "12 CFR 53 (OCC); 225 subpt. N (Fed); 304 (FDIC) — cyber incident notification",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "12 CFR 53 (OCC) and 12 CFR 225 subpart N (Fed) cannot be confirmed to the exact subpart level from available knowledge; general architecture is correct"
+      },
+      {
+        "citation": "12 CFR 243 (Fed); 12 CFR 381 (FDIC) — resolution plans",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "12 CFR 243 (Fed) and 12 CFR 381 (FDIC) are correct resolution plan regulations"
+      },
+      {
+        "citation": "12 CFR 215.4(b) — Regulation O insider loan approval",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 CFR 215.4(b) correctly requires prior board approval for insider extensions of credit above thresholds"
+      },
+      {
+        "citation": "SR 13-1 — internal audit function guidance",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "SR 13-1 (2013) on internal audit function and outsourcing is correctly cited"
+      }
+    ],
+    "summary": {
+      "supports": 17,
+      "wrong_attribution": 0,
+      "not_supported": 0,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 2
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "FAIL — MATERIAL",
+      "note": "All 66 obligations are assigned generically to 'board of directors.' The required committee-level mapping (audit, risk, compensation, nominating/governance committees) is entirely absent. No row distinguishes inside/outside or independent/non-independent directors. This is the output's central structural deficiency relative to the request."
+    },
+    "binding_vs_guidance": {
+      "verdict": "PASS — STRONG",
+      "note": "The 'Source Type' column distinguishes Statute, Reg, Guidance, 'Guidance (enforceable)', and combinations. The README explicitly addresses guidance-vs-law: 'supervisory guidance lacks the force of law. But…guidance operates as de facto binding in exams — which is precisely how vertical/cascade sludge accumulates.' No systematic blending."
+    },
+    "reform_usefulness": {
+      "verdict": "PASS — STRONG",
+      "note": "The Duplication Clusters sheet provides 9 named clusters, each with a mechanism tag, sludge rationale, and specific reform lever (e.g., 'Single interagency program standard; mutual recognition across charters'). The README's Key Findings section identifies actionable deregulatory developments. The Sludge Tag + H/V columns enable systematic triage."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "README states 'Comprehensive across the principal instruments and the major obligation types' while entire required actor classes (committees, inside/outside directors, independent/non-independent directors) are absent from all 66 rows"
+    },
+    {
+      "flag": "F6",
+      "severity": "central",
+      "evidence": "The request explicitly required 'obligations specific to individual board committees such as audit, risk, compensation, and nominating or governance committees' and 'any obligations that distinguish between inside and outside directors or between independent and non-independent directors' — neither axis appears anywhere in the output"
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "'66 principal obligations across 15 domains' — domains are well-covered but committee-specific obligations (audit, risk, comp, nominating) and director-type distinctions entirely absent",
+      "rationale": "All 12+ explicitly-requested regulatory domains are represented, which is meaningful. However, two entire required structural axes (committee-level and director-type distinctions) are absent from every row. The subcriterion 'missing an entire required actor class caps D1 ≤ 2' applies (multiple classes missing), giving raw=2. F6 (material scope evasion) then applies cap: D1_eff = min(2,1) = 1."
+    },
+    "D2_integrity": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 25,
+      "evidence": "'12 CFR 21.21 (OCC); 208.63 (Fed); 326.8 (FDIC)' — triplication of BSA duty correctly identified and cited; 17/20 sampled citations verified as supporting",
+      "rationale": "Citation quality is strong: 17 supports, 0 fabricated, 0 wrong-attribution, 2 unverifiable (both peripheral). No F1/F2/F7 flags. The output is conservative, notes citations are to 'section level' and instructs verification against eCFR. Minor deduction for two unverifiable entries and the SR 26-2 future citation. D2_eff = 3."
+    },
+    "D3_accuracy": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 20,
+      "evidence": "'Per the 2018 interagency statement and the 2020 rule, supervisory guidance lacks the force of law' — README correctly distinguishes binding vs guidance; notes OCC threshold-raise proposal and FDIC 2025 withdrawal",
+      "rationale": "No systematic guidance-as-law blending; binding/guidance separation is explicit and correct. Currency is good — notes active deregulatory developments in 2025–26. Minor issue: SR 26-2 as a cited 2026 source is unverifiable. No central F3/F4. D3_eff = 3."
+    },
+    "D4_sludge_analysis": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 15,
+      "evidence": "'Single interagency program standard; mutual recognition across charters' — Cluster 1 reform lever for BSA triplication; 9 clusters with specific mechanisms and levers",
+      "rationale": "The sludge analysis is genuinely strong: four-quadrant mechanism taxonomy (Duplicative/Cumulative/Cascade/Stale), H/V dimension, 9 named duplication clusters with precise reform levers, accumulation timeline, and README key findings. Reform framing is actionable and well-targeted. D4_eff = 4."
+    },
+    "D5_structure": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "'Bank Board Obligation Inventory…66 principal obligations across 15 domains' — Excel format with 4 sheets is coherent but depth (70 rows) falls far short of 40–60 page working legal document; generic 'board' actor throughout",
+      "rationale": "Excel workbook is a reasonable format for a sludge map, but the request explicitly asked for a legal working document for directors and counsel approximating 40–60 pages. All 66 obligations use generic 'board' actor. Pervasive generic-actor language caps D5 ≤ 2. The 4-sheet structure, action-type taxonomy, and filter/sort design are genuine structural strengths. D5_eff = 2."
+    },
+    "D6_calibration": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "README: 'It is NOT a claim to have captured every CFR subsection — it is a working backbone designed to be extended' but also 'Comprehensive across the principal instruments' — the latter overclaims given the missing actor-class axes",
+      "rationale": "The README provides good transparency about limitations and guidance-vs-law. But the 'comprehensive' self-description coexists with material omissions of entire required axes. F5 (false exhaustiveness) applies: D6_eff = min(2,1) = 1."
+    }
+  },
+  "overall_score": 61,
+  "tier": "C",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D2/D3 — Citation quality is high: 17/20 sampled citations verified as supporting, zero fabricated or misattributed; the output correctly cites the BSA triplication (12 CFR 21.21/208.63/326.8), Reg YY (12 CFR 252.33–.35), and SR 21-3, and is accurate on the binding/guidance distinction throughout",
+      "D4 — Sludge analysis is the output's standout feature: nine named duplication clusters with specific reform levers (e.g., 'single interagency program standard; mutual recognition across charters' for BSA, 'integrated capital-and-stress governance review; single board approval cycle' for capital/stress overlap), a four-quadrant mechanism taxonomy, and horizontal/vertical tagging deliver actionable reform targeting",
+      "D3 — Currency and deregulatory awareness are good: the output notes the OCC's proposed threshold increase from $50B to $700B, the FDIC's 2025 withdrawal of its corporate-governance guidelines proposal, and SR 21-4's letter-by-letter inactivations — all accurate contemporaneous developments",
+      "D4 — The action-type taxonomy (Approve/Adopt/Establish/Designate/Oversee/Review/Ensure/Certify/Composition) and the Accumulation Timeline frame the 'approve-a-policy pile-on' and the non-retirement of duties as systemic sludge — analytically rigorous framing",
+      "D2 — The README explicitly cautions that 'supervisory guidance lacks the force of law' and notes active flux in 2025–26, reducing the risk of a reader misreading guidance-as-binding law"
+    ],
+    "weaknesses": [
+      "D1/F6 — Entire required actor classes absent: the request explicitly required committee-specific obligations (audit, risk, compensation, nominating/governance) and inside/outside and independent/non-independent director distinctions — none of these 66 rows provides any such differentiation, leaving the inventory unusable for its stated audience of directors and counsel without substantial further work",
+      "D5 — Depth is far below the 40–60 page working legal document the request envisioned: 70 spreadsheet rows at one sentence per obligation cannot substitute for the granular, legally cited exposition that bank directors and their counsel require",
+      "D1 — CFPB coverage is near-absent: a single umbrella row (CON-01 citing the CFPB Exam Manual) covers what the request treated as a distinct required agency; no UDAAP, Regulation Z, Regulation E, or CFPB-specific board obligations are addressed",
+      "D6/F5 — The README's 'Comprehensive across the principal instruments' self-description is false in the context of the missing committee and director-type axes, triggering false-exhaustiveness (F5); a user relying on this as a complete inventory would miss systematic gaps",
+      "D5 — The 'Applicability/Threshold' column frequently uses shorthand ('Large BHCs,' 'All banks,' 'Large institutions') without systematic Category I GSIB disaggregation, leaving unclear which obligations apply specifically at the GSIB tier vs smaller large banks"
+    ],
+    "prioritized_remediation": [
+      "Add committee-level actor rows: for each obligation that falls on or is commonly delegated to the audit, risk, compensation, or nominating/governance committee, add a separate row or sub-row flagging the committee and the authority for committee-level delegation vs full-board retention",
+      "Add inside/outside and independent/non-independent director columns: populate for obligations under Reg O, Dodd-Frank s.165(h), Part 363, exchange-listing standards, and OCC Heightened Standards where the distinction is legally operative",
+      "Expand CFPB coverage: add rows for CFPB-specific board obligations including UDAAP oversight (12 CFR 1030, Exam Manual), mortgage-related disclosures, and the CMS board-accountability expectations in the CFPB's examination framework",
+      "Develop obligation-level depth: for the highest-sludge obligations (BSA triplication, risk-framework duplication, stress-capital overlap), expand each row to a paragraph-level annotation with the precise subsection text, exam expectation, and delegation analysis — the format that legal counsel actually needs",
+      "Add a 'delegation permissible?' column to clarify which obligations must remain with the full board vs may be delegated to a committee or management, cross-referenced to the governing authority's text — this is a high-value addition for the reform-document use case"
+    ],
+    "reliance_recommendation": "This output is suitable as a high-level sludge-mapping and reform-targeting reference but should NOT be relied upon as a legal inventory by bank directors or counsel without (a) adding committee-level and director-type actor distinctions, (b) expanding CFPB coverage, and (c) developing each obligation to the granularity that legal use requires."
+  }
+}
+
+**Result:** Tier C (61/100) — integrity+scope-flagged. The output delivers strong citation quality and genuinely actionable sludge analysis, but materially fails the request by omitting entire required actor classes (committees, inside/outside directors, independent/non-independent directors) from all 66 obligations, operating at far too shallow a depth for a legal working document, and overclaiming comprehensiveness.

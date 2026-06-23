@@ -1,0 +1,326 @@
+{
+  "report_name": "kimi_gsib_board_obligations_inventory/gsib_board_obligations_inventory.md",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current U.S. federal banking board obligations for Category I global systemically important bank holding companies and their insured depository institution subsidiaries.",
+    "unit_of_analysis": "Each discrete current, in-force board-level obligation, with precise source, duty, actor allocation, committee or director-type distinction, and reform relevance.",
+    "structural_axes": [
+      "entity tier: Category I GSIB BHC versus insured depository institution subsidiary",
+      "actor: full board versus board committee",
+      "committee type: audit, risk, compensation, nominating/governance, fiduciary, compliance, technology, or other designated committee",
+      "director type: inside, outside, independent, non-independent, risk-expert, interested director, and disqualified director distinctions",
+      "source tier: statute, regulation, enforceable guideline, supervisory guidance, examination manual, enforcement template, and interagency standard",
+      "issuing authority: Federal Reserve, OCC, FDIC, CFPB, FFIEC/interagency, FinCEN/OFAC where relevant",
+      "regulatory domain: safety and soundness, capital, stress testing, liquidity, recovery, resolution, operational resilience, cybersecurity, third-party risk, model risk, BSA/AML, consumer compliance, incentive compensation, audit, internal controls, fiduciary, affiliate, and insider-transaction governance"
+    ],
+    "actor_classes_required": [
+      "Category I GSIB BHC full board",
+      "insured depository institution subsidiary full board",
+      "risk committee",
+      "audit committee",
+      "compensation committee",
+      "nominating/governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent or interested directors"
+    ],
+    "source_universe": [
+      "Federal Reserve regulations, SR/CA letters, guidance, and examination/supervisory materials",
+      "OCC regulations, enforceable guidelines, bulletins, Comptroller's Handbook material, and licensing guidance",
+      "FDIC regulations, guidance, examination material, and IDI resolution-planning rules",
+      "CFPB supervision and examination materials relevant to consumer compliance governance",
+      "FFIEC and other interagency standards",
+      "Federal statutes underlying board-level banking obligations"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience and business continuity",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity and information security governance",
+      "BSA/AML and sanctions oversight",
+      "consumer compliance, fair lending, UDAAP, privacy, and CRA oversight",
+      "safety and soundness generally",
+      "audit, internal control, financial reporting, fiduciary, insider, affiliate, and director-qualification obligations"
+    ],
+    "audience_use": "Bank directors, legal counsel, and policymakers seeking a working reform document to identify duplicative, overlapping, and burdensome board-level requirements.",
+    "form_depth_expectations": "Granular, citation-specific 40-60 page inventory with current-law status, actor mapping, committee/director distinctions, and reform-useful sludge analysis."
+  },
+  "coverage_ledger": {
+    "cells_expected": 120,
+    "cells_covered": 48,
+    "cells_thin": 39,
+    "cells_missing": 33,
+    "material_omissions": [
+      "The report is a relatively compact 82-row inventory, not the requested 40-60 page citation-level working policy reform document.",
+      "CFPB consumer-compliance oversight is materially absent despite being an explicit source and domain in the original request.",
+      "Model risk governance is materially absent despite being an explicit required domain.",
+      "The inventory does not consistently separate Category I BHC duties from IDI subsidiary duties; bank-level and holding-company-level obligations are often mixed.",
+      "Resolution planning is treated mainly at the BHC level; FDIC CIDI resolution-planning obligations are not inventoried.",
+      "Several entries are not true board-level obligations but firm, management, CEO/CFO, or institution-level obligations recast as board duties.",
+      "Inside/outside and independent/non-independent director distinctions are covered for audit/risk committees but not systematically across the inventory.",
+      "Many citations are broad or secondary-source linked, with limited pinpoint primary-source support."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "Federal Reserve GSIB page for eight U.S. GSIBs",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The Federal Reserve lists the eight named U.S. GSIBs, including BNY Mellon and State Street: https://www.federalreserve.gov/supervisionreg/global-systemically-important-banks.htm"
+      },
+      {
+        "citation": "SR 21-3 board effectiveness guidance",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 21-3 supports the five board-effectiveness attributes and board/management distinction: https://www.federalreserve.gov/supervisionreg/srletters/SR2103.htm"
+      },
+      {
+        "citation": "12 CFR 252.33(a)(1)-(a)(4) risk committee requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 252.33 supports risk committee policy, charter, reporting, meeting, CRO report, and independent-chair requirements: https://www.law.cornell.edu/cfr/text/12/252.33"
+      },
+      {
+        "citation": "12 CFR 252.33(b)(1) - board must appoint CRO",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The rule says the bank holding company must appoint a CRO; it does not state that the board itself must appoint the CRO."
+      },
+      {
+        "citation": "12 CFR 252.34(a)-(b) liquidity risk tolerance and contingency funding plan",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 252.34 supports board approval of liquidity risk tolerance and risk committee approval of the contingency funding plan: https://www.law.cornell.edu/cfr/text/12/252.34"
+      },
+      {
+        "citation": "12 CFR 252.54 and 12 CFR 252.44 as board stress-testing obligations",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "Section 252.54 is a company-run stress-test rule and 252.44 is Board analysis; board consideration is better tied to 252.47, not the cited duties: https://www.law.cornell.edu/cfr/text/12/252.47"
+      },
+      {
+        "citation": "12 CFR 252.62-.64 and 252.70-.78 as board compliance obligations",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "TLAC, corporate-practices, and SCCL provisions impose firm requirements, but the sampled text does not impose discrete board duties: https://www.law.cornell.edu/cfr/text/12/252.63"
+      },
+      {
+        "citation": "12 CFR 243.3(e) resolution-plan board approval",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The board approval duty is supported, but the current citation is 12 CFR 243.4(f), not 243.3(e): https://www.law.cornell.edu/cfr/text/12/243.4"
+      },
+      {
+        "citation": "12 U.S.C. 5641 / Dodd-Frank Section 956 as current mandatory board incentive-compensation duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Section 956 directs agencies to issue rules; GAO reported no final rule as of January 2025, and sampled sources show proposals rather than current final duties: https://files.gao.gov/reports/GAO-25-107032/index.html"
+      },
+      {
+        "citation": "12 CFR 248 Volcker compliance program and CEO attestation",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 248.20 supports the compliance-program and CEO attestation framework, though the report should separate CEO attestation from board obligation: https://www.law.cornell.edu/cfr/text/12/248.20"
+      },
+      {
+        "citation": "SR 12-17 and SR 14-8 recovery/corporate governance expectations",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 12-17 remains available and addresses corporate governance and recovery planning integration; SR 14-8 supports recovery-planning governance for certain large BHCs: https://www.federalreserve.gov/supervisionreg/srletters/sr1217.htm"
+      },
+      {
+        "citation": "12 CFR Part 30 Appendix D OCC Heightened Standards",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Appendix D supports the risk-governance framework, risk appetite, CRE/CAE approval, independent director, training, and audit-function rows: https://www.ecfr.gov/current/title-12/chapter-I/part-30/appendix-Appendix%20D%20to%20Part%2030"
+      },
+      {
+        "citation": "17 CFR 229.106 / Regulation S-K Item 106 cybersecurity governance",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "Item 106 requires disclosure of board oversight of cybersecurity risks, but it is a disclosure rule, not a prudential board-oversight mandate: https://www.law.cornell.edu/cfr/text/17/229.106"
+      },
+      {
+        "citation": "12 CFR Part 363 audit committee requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Part 363 supports audit committee outside-director, independence, expertise, outside counsel, and independent public accountant oversight requirements: https://www.law.cornell.edu/cfr/text/12/part-363"
+      },
+      {
+        "citation": "31 CFR 1020.210 board approval of AML program",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 1020.210 requires a bank AML program approved by the board or equivalent governing body: https://www.law.cornell.edu/cfr/text/31/1020.210"
+      },
+      {
+        "citation": "31 CFR 1010.210(a)(2)/(a)(4)/(a)(5) as direct board BSA officer, training, and testing duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "BSA program rules require responsible individual(s), training, and independent testing, but do not make each a direct board duty as stated."
+      },
+      {
+        "citation": "FFIEC Cybersecurity Assessment Tool obligations",
+        "verdict": "STALE",
+        "centrality": "central",
+        "reason": "The CAT was voluntary and sunset on August 31, 2025; listing it as current 2026 guidance obligations is stale: https://www.federalreserve.gov/supervisionreg/srletters/sr2407.htm"
+      },
+      {
+        "citation": "2023 Interagency Guidance on Third-Party Relationships",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The guidance supports board or designated committee oversight, risk-tolerance direction, and possible board approval for higher-risk/critical-activity plans: https://www.federalreserve.gov/frrs/guidance/interagency-guidance-on-third-party-relationships.htm"
+      },
+      {
+        "citation": "12 CFR 215.4(a) and 12 U.S.C. 375b as board duties for insider lending terms and limits",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "Regulation O does contain prior board approval for certain insider loans under 215.4(b), but the cited rows recast bank prohibitions as board ensure duties: https://ecfr.io/Title-12/Section-215.4"
+      },
+      {
+        "citation": "12 CFR 223 and 12 U.S.C. 371c as board duties for affiliate transactions",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "Regulation W imposes member-bank transaction limits and restrictions, but the cited provisions do not impose the stated board-level duties: https://www.federalreserve.gov/supervisionreg/topics/regulation_w.htm"
+      }
+    ],
+    "summary": {
+      "supports": 11,
+      "wrong_attribution": 2,
+      "not_supported": 6,
+      "stale": 1,
+      "fabricated": 0,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "Adequate but incomplete",
+      "note": "The report maps many duties to risk committee, audit committee, full board, CRO/CRE, and independent directors, but it does not consistently map BHC versus IDI subsidiary, compensation/nominating committees, or inside/outside director classes."
+    },
+    "binding_vs_guidance": {
+      "verdict": "Mixed",
+      "note": "The Mandatory/Guidance type column is useful, but several entries labeled mandatory are actually firm, CEO/CFO, proposed, disclosure, or guidance expectations rather than direct board obligations."
+    },
+    "reform_usefulness": {
+      "verdict": "Strong",
+      "note": "The report provides concrete sludge zones and reform levers, including harmonization, safe harbors, committee equivalence, and consolidation of planning and reporting cycles."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "The report cites \"12 CFR 243.3(e)\" for current resolution-plan board approval."
+    },
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "The report cites \"12 CFR 252.54\" for board stress-testing oversight."
+    },
+    {
+      "flag": "F3",
+      "severity": "central",
+      "evidence": "The report lists \"FFIEC Cybersecurity Assessment Tool\" obligations despite noting it was sunsetted."
+    },
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "The report says \"Board must implement policies for forfeiture and clawback\" under Section 956."
+    },
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "The report says \"Board must ensure compliance with credit exposure limits\" under SCCL."
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "The report claims \"The Complete Inventory: 82 Federal Board Obligations\"."
+    },
+    {
+      "flag": "F7",
+      "severity": "central",
+      "evidence": "The report claims \"82 distinct federal-level obligations\" and \"460+ board hours annually\"."
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 20,
+      "evidence": "The report claims \"82 distinct federal-level obligations\".",
+      "rationale": "The report has meaningful coverage of Fed, OCC, FDICIA, BSA, SEC, cyber, third-party, insider, and affiliate areas, but omits CFPB/consumer compliance and model risk and is not a full 40-60 page current inventory."
+    },
+    "D2_integrity": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "The report cites \"12 CFR 252.62-252.63\" as board TLAC duties.",
+      "rationale": "Many citations are real and some support the rows, but central entries misattribute firm or CEO/CFO obligations to boards, use secondary sources where primary sources were needed, and include stale cyber guidance. F2/F7 cap the effective score."
+    },
+    "D3_accuracy": {
+      "raw": 2,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "The report labels Section 956 duties as \"Mandatory\".",
+      "rationale": "The report is directionally sophisticated, but central current-law claims are wrong or overstated, especially Section 956, SCCL/TLAC/Reg W board duties, BSA officer designation, and sunsetted FFIEC CAT obligations. Central F3/F4 caps D3 at zero."
+    },
+    "D4_sludge_analysis": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 15,
+      "evidence": "The report identifies \"The Ten Most Significant Sludge Zones\".",
+      "rationale": "The sludge analysis is the strongest part: it identifies overlap clusters, estimates burden, and offers concrete agency-specific reform levers such as harmonization, safe harbors, and consolidated planning."
+    },
+    "D5_structure": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 10,
+      "evidence": "The tables include \"Obligation | Citation | Type\".",
+      "rationale": "The structure is readable and more inventory-like than the other short reports, with numbered obligations and visual summaries. It still lacks exact actor/entity/director-type columns and is far shorter than requested."
+    },
+    "D6_calibration": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "The report says \"nearly 71%\" are mandatory.",
+      "rationale": "The mandatory/guidance distinction and legal-advice caveat help, but the report overclaims completeness, currentness, and quantified burden while several mandatory classifications are unsupported. F5 caps the effective score."
+    }
+  },
+  "overall_score": 41,
+  "tier": "D",
+  "reliability_overlay": "integrity-flagged",
+  "narrative": {
+    "strengths": [
+      "D5: The report is structured as a numbered inventory with citation and type columns, making it more usable than a prose-only memo.",
+      "D1: It correctly identifies the eight U.S. GSIBs and provides substantial coverage of Regulation YY, OCC Heightened Standards, FDICIA Part 363, BSA/AML, and third-party risk.",
+      "D4: The ten sludge zones are reform-actionable, with concrete recommendations for harmonizing risk committee, risk appetite, audit, ICFR, resilience, compensation, cyber, and third-party risk requirements.",
+      "D6: The report attempts to distinguish mandatory obligations from guidance-based expectations, which is important for directors and counsel."
+    ],
+    "weaknesses": [
+      "D3: Several entries turn firm-level or management/CEO duties into board obligations, especially TLAC, SCCL, Regulation W, Regulation O, Section 956, and stress-testing data submissions.",
+      "D2: Important citations are wrong or stale, including current resolution-plan citation, stress-testing board duties, and FFIEC CAT obligations after the tool was sunsetted.",
+      "D1: CFPB consumer compliance and model risk governance are materially missing even though both were explicitly requested.",
+      "D5: The inventory does not consistently show whether the duty belongs to the BHC board, IDI board, full board, a specific committee, or a director type.",
+      "D6: The report overclaims with 'Complete Inventory,' 82 obligations, 71% mandatory, and 460+ hours without enough support for those conclusions."
+    ],
+    "prioritized_remediation": [
+      "Re-verify all 82 rows against primary sources and relabel firm, management, CEO/CFO, proposed, guidance, and disclosure obligations separately from direct board duties.",
+      "Add missing CFPB consumer compliance and model risk sections with current primary guidance, including SR 26-2 for model risk.",
+      "Correct key citations: use 12 CFR 243.4(f) for BHC resolution-plan board approval, 12 CFR 252.47 for supervisory stress-test result consideration, and primary sources for SEC/SOX and FFIEC materials.",
+      "Add columns for entity tier, actor, committee, director type, frequency, documentation, binding status, and reform lever for every row.",
+      "Remove or qualify unsupported quantified burden estimates unless backed by a transparent methodology and source evidence."
+    ],
+    "reliance_recommendation": "Use this as a strong sludge-analysis draft and obligation checklist, but not as a legal inventory until every row is primary-source verified and remapped by actor and entity tier."
+  }
+}
+
+**Result:** Tier D (41/100) — integrity-flagged. The report is useful as a structured sludge draft, but overstates current board obligations and misses key required domains.

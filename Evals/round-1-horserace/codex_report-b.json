@@ -1,0 +1,289 @@
+{
+  "report_name": "Report_B.txt",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current, in-force federal board-level obligations for Category I U.S. GSIB bank holding companies and their insured depository institution subsidiaries.",
+    "unit_of_analysis": "Individual board-level obligation, with source, duty, actor, entity tier, legal status, committee/full-board locus, director-status distinction, evidence artifact, and reform treatment.",
+    "structural_axes": [
+      "parent bank holding company versus insured depository institution subsidiary",
+      "Federal Reserve, OCC, FDIC, CFPB, and interagency source authority",
+      "binding regulation, enforceable guideline, supervisory guidance, examination procedure, and nonbinding resource",
+      "full board versus risk, audit, compensation, nominating/governance, compliance, technology/cyber, and other committees",
+      "inside versus outside directors",
+      "independent versus non-independent directors",
+      "current in-force obligation versus proposed, rescinded, nonbinding, or excluded source",
+      "approval, review, oversight, reporting, minute notation, escalation, and certification duties"
+    ],
+    "actor_classes_required": [
+      "full board of Category I GSIB bank holding company",
+      "full board of insured depository institution subsidiary",
+      "board risk committee",
+      "board audit committee",
+      "board compensation committee",
+      "nominating or governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent directors"
+    ],
+    "source_universe": [
+      "Federal Reserve Regulation YY, Regulation Y, Regulation Q, SR letters, CA letters, LFI and board-effectiveness guidance",
+      "OCC regulations, appendices, bulletins, heightened standards, BSA and security-program rules",
+      "FDIC regulations, part 360 CIDI resolution rules, part 363 audit rules, part 326 BSA rules, safety-and-soundness and information-security guidelines",
+      "CFPB examination manuals, CMR, CMR-IT, fair-lending, UDAAP, and service-provider oversight materials",
+      "interagency guidance and standards for stress testing, third-party risk, information security, BSA/AML, incentive compensation, and safety and soundness"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity and information security governance",
+      "BSA/AML and financial-crime program oversight",
+      "consumer compliance, fair lending, UDAAP, and CFPB examination expectations",
+      "general safety and soundness standards",
+      "board composition, independence, committee structure, and director status"
+    ],
+    "audience_use": "Bank directors, counsel, and policymakers seeking a working policy-reform inventory of duplicative, overlapping, or disproportionately burdensome board-level requirements.",
+    "form_depth_expectations": "Granular, citation-specific, extensive 40- to 60-page working document with precise actor mapping, current-law calibration, source hierarchy, and reform-actionable overlap analysis."
+  },
+  "coverage_ledger": {
+    "cells_expected": 132,
+    "cells_covered": 87,
+    "cells_thin": 31,
+    "cells_missing": 14,
+    "material_omissions": [
+      "The report is a strong working draft but shorter and less exhaustive than the requested 40- to 60-page inventory.",
+      "BSA/AML coverage omits some SAR-specific board notification and director-notification rules, such as OCC SAR board-notice requirements and agency analogues.",
+      "Consumer compliance coverage relies heavily on CFPB examination procedures and is thin on Federal Reserve consumer compliance guidance such as SR 08-8/CA 08-11.",
+      "Information-security coverage omits or underemphasizes the Federal Reserve state-member-bank appendix analogue while covering OCC, FDIC, and BHC codifications.",
+      "Nominating/governance committee obligations are thin; board composition and independence are covered, but succession, nominations, and committee-governance duties are not systematically inventoried.",
+      "Inside/non-independent director distinctions are mostly handled by negative implication from outside/independent standards rather than mapped as distinct actor classes."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 CFR 252.33(a)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The current eCFR rule supports the BHC board risk committee, independent chair, risk-management expert, and risk-policy review claims."
+      },
+      {
+        "citation": "12 CFR 252.34(a)-(c)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The rule supports annual board liquidity risk tolerance approval, board policy review, contingency funding plan approval, and quarterly board/risk committee reporting."
+      },
+      {
+        "citation": "12 CFR 252.35",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The liquidity stress-testing and buffer provisions support the report's stress-testing obligations, with board role correctly tied to broader liquidity governance."
+      },
+      {
+        "citation": "12 CFR 225.8",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The capital-plan and stress-capital-buffer rule supports the report's capital planning and distribution-governance discussion."
+      },
+      {
+        "citation": "SR 15-18",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve capital-planning guidance supports heightened Category I governance, controls, scenario, projection, and board-reporting expectations."
+      },
+      {
+        "citation": "12 CFR part 217",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Advanced-approaches provisions support board-approved implementation plans and internal audit reporting to the board or board committee, though the report could cite narrower sections."
+      },
+      {
+        "citation": "12 CFR 243.4(f); 12 CFR 381.4(f)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The resolution-plan rules support board approval and minute notation before covered-company plan submission."
+      },
+      {
+        "citation": "12 CFR 360.10",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The CIDI resolution rule supports IDI board approval/delegation and minute notation for covered insured depository institution resolution submissions."
+      },
+      {
+        "citation": "SR 14-8",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve recovery-planning guidance supports the report's recovery-planning governance and board/senior-management oversight treatment."
+      },
+      {
+        "citation": "Former 12 CFR part 30, appendix E",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The report correctly treats OCC recovery-planning guidelines as rescinded and not a current in-force board obligation."
+      },
+      {
+        "citation": "12 CFR 363.5",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "FDICIA part 363 supports independent audit committee requirements, including outside-director and independence-of-management standards."
+      },
+      {
+        "citation": "12 CFR part 30, appendix D",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "OCC Heightened Standards support the covered-bank risk-governance framework, board oversight, risk appetite approval, independent directors, and escalation duties."
+      },
+      {
+        "citation": "12 CFR part 30 appendix B; 12 CFR part 364 appendix B; 12 CFR part 225 appendix F",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The interagency information-security guidelines support board or committee approval, oversight, and management-report review obligations."
+      },
+      {
+        "citation": "12 CFR part 21, subpart A",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "OCC security-program rules support board designation/oversight and annual security-officer reporting reflected in minutes."
+      },
+      {
+        "citation": "12 CFR 21.21; 12 CFR 208.63; 12 CFR 326.8",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The agency BSA rules support written BSA compliance programs approved by the board and noted in board minutes."
+      },
+      {
+        "citation": "SR 23-4 / 2023 Interagency Guidance on Third-Party Relationships",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The guidance supports third-party lifecycle, responsibility-not-outsourced, board/senior-management oversight, and risk-based critical-activity concepts."
+      },
+      {
+        "citation": "SR 26-2",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Revised model-risk guidance supports board and senior-management oversight, risk-based tailoring, validation, controls, and governance statements."
+      },
+      {
+        "citation": "CFPB Compliance Management Review procedures",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The CFPB procedures support board and management oversight, board-minutes review, CMS components, and service-provider oversight as examination expectations."
+      },
+      {
+        "citation": "CFPB CMR-IT procedures",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "The cited CFPB IT examination procedures support the report's use of CMR-IT as an operational-resilience and consumer-compliance examination source."
+      },
+      {
+        "citation": "Interagency due diligence guide for fintech relationships",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "I did not verify this nonbinding-resource citation against a primary source during the sample; the report labels it peripheral and nonbinding."
+      }
+    ],
+    "summary": {
+      "supports": 19,
+      "wrong_attribution": 0,
+      "not_supported": 0,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 1
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "strong but not exhaustive",
+      "note": "The report maps most duties to BHC board, IDI board, risk committee, audit committee, compensation committee, board or appropriate committee, and management-with-board-reporting actors. Nominating/governance and inside/non-independent director classes are thinner."
+    },
+    "binding_vs_guidance": {
+      "verdict": "strong",
+      "note": "The report consistently separates binding regulations, enforceable guidelines, supervisory guidance, examination procedures, excluded proposals, and rescinded sources."
+    },
+    "reform_usefulness": {
+      "verdict": "exemplary",
+      "note": "The report gives concrete reform levers, including de-duplicating approvals, separating approval from oversight, harmonizing independence terminology, subsidiary-board reliance, and materiality-based reporting."
+    }
+  },
+  "critical_flags": [],
+  "scores": {
+    "D1_coverage": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 20,
+      "evidence": "Category I GSIB boards face a dense board-governance stack built from at least five overlapping layers",
+      "rationale": "The report covers nearly all requested domains and actor categories with source/duty/actor/status tables and detailed obligation cards. It is not exemplary because several current-law cells are thin or missing, including SAR board-notification rules, SR 08-8 consumer-compliance guidance, some information-security analogues, and nominating/governance committee detail."
+    },
+    "D2_integrity": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 25,
+      "evidence": "The inventory was built from four source categories.",
+      "rationale": "The sampled citation base is mostly sound and uses many official URLs. The score is held at 3 because some references are broad part-level citations, one peripheral citation was not verified, and several board-role statements are inferential rather than direct pin-cited obligations."
+    },
+    "D3_accuracy": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 20,
+      "evidence": "Proposed rules are not counted as current in-force obligations.",
+      "rationale": "The report is generally current and accurately avoids treating proposed or rescinded materials as binding obligations. It is not a 4 because some current obligations are omitted and a few indirect board roles need more precise legal calibration."
+    },
+    "D4_sludge_analysis": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 15,
+      "evidence": "distinguish nondelegable board duties from management tasks",
+      "rationale": "The reform analysis is concrete and action-oriented, with clear duplication categories, burden coding, source-by-source implementation notes, and practical levers for consolidation, reliance, materiality thresholds, and guidance discipline."
+    },
+    "D5_structure": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 10,
+      "evidence": "This appendix converts the domain inventory into granular obligation cards.",
+      "rationale": "The report is well structured with domain chapters, matrices, detailed obligation cards, source register, calendar model, and coding key. It falls short of a top score because it is still a draft-level inventory rather than a fully exhaustive 40- to 60-page legal workpaper with complete pin cites for every duty."
+    },
+    "D6_calibration": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 10,
+      "evidence": "It distinguishes binding regulations, enforceable guidelines, supervisory guidance, and examination expectations.",
+      "rationale": "The report is unusually transparent about legal status, exclusions, rescinded materials, proposed rules, examination expectations, and counsel-validation needs. It avoids most false precision and guidance-as-law blending."
+    }
+  },
+  "overall_score": 81,
+  "tier": "B",
+  "reliability_overlay": "clean",
+  "narrative": {
+    "strengths": [
+      "D1: Broad domain coverage includes capital, liquidity, resolution, recovery, audit, cyber, third-party risk, model risk, incentive compensation, BSA/AML, consumer compliance, and director status.",
+      "D2: The source register uses many official eCFR, Federal Reserve, OCC, FDIC, and CFPB references, and sampled primary citations mostly support the claims.",
+      "D4: The duplication analysis is directly reform-actionable, especially on parent-subsidiary duplication, approval proliferation, committee overlap, and guidance-driven hardening.",
+      "D5: The detailed obligation cards provide useful fields such as legal status, board actor, duty summary, evidence artifact, overlap issue, and potential reform treatment.",
+      "D6: The report clearly excludes proposals and rescinded materials and repeatedly distinguishes binding law from guidance and examination expectations."
+    ],
+    "weaknesses": [
+      "D1: The report is not fully comprehensive; SAR board-notification rules, some agency analogues, SR 08-8 consumer-compliance guidance, and nominating/governance committee duties need more work.",
+      "D2: Some citations are too broad, especially references to entire CFR parts rather than precise sections or subsections.",
+      "D3: A few board-role statements are inferential, such as quantitative liquidity standards and some model/AI governance references, and should be tied more explicitly to primary text or labeled as inference.",
+      "D5: The report is a strong working draft but still below the requested 40- to 60-page, all-obligation legal inventory depth.",
+      "D1: Inside and non-independent director distinctions are not independently inventoried, even though outside and independent-director standards are covered well."
+    ],
+    "prioritized_remediation": [
+      "Add a complete agency-by-agency BSA/SAR subsection covering board approval, SAR notification, non-suspect director notice, and director-specific obligations.",
+      "Expand consumer compliance coverage beyond CFPB examination procedures to include Federal Reserve and prudential consumer-compliance guidance and any board-relevant agency materials.",
+      "Replace broad source labels such as '12 CFR part 217' with exact section and subsection pin cites for each obligation card.",
+      "Add a dedicated nominating/governance and succession-planning chapter, separating binding disclosure or committee requirements from supervisory board-composition expectations.",
+      "Complete an agency analogue crosswalk for information security, safety-and-soundness, BSA, and resolution-planning rules across national banks, state member banks, state nonmember banks, BHCs, and FDIC-supervised IDIs."
+    ],
+    "reliance_recommendation": "This is useful as a reform-oriented working draft and board-counsel issue map, but it should not be treated as a complete legal inventory until counsel fills the missing cells and verifies every pin cite."
+  }
+}
+
+**Result:** Tier B (81/100) — clean. Strong, calibrated, and reform-useful, but still short of a complete current-law inventory because several source/actor cells remain thin or missing.

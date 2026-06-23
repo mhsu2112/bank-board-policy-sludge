@@ -1,0 +1,299 @@
+{
+  "report_name": "Report_C.txt",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current, in-force federal board-level obligations for Category I U.S. GSIB bank holding companies and their insured depository institution subsidiaries.",
+    "unit_of_analysis": "Each citation-level board duty, including source, legal status, actor, full-board or committee allocation, entity level, director-status distinction, cadence, and reform relevance.",
+    "structural_axes": [
+      "top-tier bank holding company versus insured depository institution subsidiary",
+      "Federal Reserve, OCC, FDIC, CFPB, and interagency authority",
+      "statute, binding regulation, enforceable safety-and-soundness guideline, supervisory guidance, examination manual, and nonbinding or rescinded source",
+      "full board versus risk, audit, compensation, nominating/governance, and designated board committees",
+      "inside versus outside directors",
+      "independent versus non-independent directors",
+      "current in-force obligation versus proposed, rescinded, superseded, retired, or future-effective source",
+      "approval, review, oversight, reporting, committee composition, minute notation, escalation, and credible-challenge duties"
+    ],
+    "actor_classes_required": [
+      "full board of Category I GSIB bank holding company",
+      "full board of insured depository institution subsidiary",
+      "board risk committee",
+      "board audit committee",
+      "board compensation committee",
+      "nominating or governance committee",
+      "inside directors",
+      "outside directors",
+      "independent directors",
+      "non-independent directors"
+    ],
+    "source_universe": [
+      "Federal Reserve Regulation YY, Regulation Y, Regulation Q, Regulation QQ, SR letters, CA letters, and LFI/board-effectiveness guidance",
+      "OCC Part 30 safety-and-soundness, information-security, recovery-planning, and heightened-standards materials, plus BSA and security-program rules",
+      "FDIC Part 360, Part 363, Part 364, Part 326, FILs, and CIDI-resolution materials",
+      "CFPB CMR, CMR-IT, UDAAP, fair-lending, service-provider, and consumer-compliance examination materials",
+      "interagency standards for safety and soundness, information security, third-party risk, liquidity, operational resilience, BSA/AML, incentive compensation, and model risk"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity and information-security governance",
+      "BSA/AML program oversight",
+      "consumer compliance oversight",
+      "safety and soundness generally",
+      "committee structure, director independence, and board-governance architecture"
+    ],
+    "audience_use": "Bank directors, legal counsel, and policymakers seeking a reform-ready inventory of duplicative, overlapping, or disproportionate board-level requirements.",
+    "form_depth_expectations": "Granular, citation-specific, current-law working document approximating 40 to 60 pages, with source hierarchy, actor mapping, exact pin cites, and reform-actionable overlap analysis."
+  },
+  "coverage_ledger": {
+    "cells_expected": 145,
+    "cells_covered": 103,
+    "cells_thin": 30,
+    "cells_missing": 12,
+    "material_omissions": [
+      "The report does not consistently distinguish OCC-covered national bank subsidiaries from state member GSIB lead banks, which materially affects OCC Appendix D applicability.",
+      "BSA/AML coverage does not fully inventory SAR-specific board notification rules and charter-specific SAR analogues as primary legal sources.",
+      "Consumer compliance relies heavily on CFPB CMR procedures and is thinner on prudential consumer-compliance guidance such as SR 08-8/CA 08-11.",
+      "The source universe expands into SEC and exchange-listing rules, which helps committee coverage but goes beyond the requested banking-agency source universe and is not always separated from federal banking obligations.",
+      "Some Appendix A matrix entries retain rescinded or changed sources in a compact table, creating possible confusion unless read with the currency appendix.",
+      "Firm-by-firm IDI charter/regulator mapping is missing, even though it is necessary to know whether OCC, Federal Reserve, or FDIC IDI rules attach to each subsidiary board."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 CFR 252.5; 12 CFR 217.402",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "eCFR supports Category I being tied to global systemically important BHC status and 217.402 GSIB identification."
+      },
+      {
+        "citation": "Financial Stability Board 2025 G-SIB list",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The FSB/Federal Reserve materials support the eight U.S. GSIB population named in the report."
+      },
+      {
+        "citation": "12 CFR part 30, appendix A",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Appendix A supports safety-and-soundness standards, internal audit review, board reporting, and compensation-related unsafe-and-unsound standards."
+      },
+      {
+        "citation": "12 CFR part 30, appendix D",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "Appendix D supports OCC covered-bank duties, but not the report's claim that it reaches the lead bank of every U.S. GSIB; several lead banks are state member banks."
+      },
+      {
+        "citation": "SR 21-3 / CA 21-1",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Official Federal Reserve guidance supports the five board-effectiveness attributes and board-versus-management calibration."
+      },
+      {
+        "citation": "12 CFR 252.33",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The rule supports the risk committee, written charter, independent committee, quarterly meetings, risk expert, independent chair, and CRO reporting line."
+      },
+      {
+        "citation": "12 CFR 363.5; 12 U.S.C. 1831m",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The audit committee rules support outside-director, independent-of-management, expertise, outside-counsel, and holding-company substitution claims."
+      },
+      {
+        "citation": "12 CFR 225.8(e)(1)(iii)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The capital-plan rule supports board or committee review of capital adequacy, remediation of deficiencies, and capital-plan approval."
+      },
+      {
+        "citation": "SR 15-18",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve capital-planning guidance supports board accountability, capital policy approval, and quarterly internal-audit board briefing expectations."
+      },
+      {
+        "citation": "12 CFR 252.56(c)(2)-(3)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The company-run stress-testing rule supports board or committee approval of stress-testing policies and receipt/use of results."
+      },
+      {
+        "citation": "12 CFR 252.34",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The liquidity rule supports annual liquidity risk tolerance approval, semiannual review information, policy approval, CFP approval, and quarterly reporting."
+      },
+      {
+        "citation": "SR 10-6",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve liquidity guidance supports board ultimate responsibility, annual review, quarterly reports, and contingency-funding-plan oversight."
+      },
+      {
+        "citation": "12 CFR 243.4(f)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The Title I resolution-planning rule supports board approval, minute notation, biennial GSIB filing status, and July 1 filing cadence."
+      },
+      {
+        "citation": "12 CFR 360.10(c)(5)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The CIDI resolution rule supports CIDI board approval and minute notation for full resolution submissions."
+      },
+      {
+        "citation": "OCC Bulletin 2026-10 / 91 FR 16156",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Official OCC materials support rescission of Part 30 Appendix E recovery-planning guidelines effective May 1, 2026."
+      },
+      {
+        "citation": "SR 14-8",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve recovery-planning guidance supports board or committee oversight for the eight domestic GSIB holding companies."
+      },
+      {
+        "citation": "SR 20-24 / OCC Bulletin 2020-94",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The sound-practices guidance supports board approval and periodic review of operational-resilience risk appetite."
+      },
+      {
+        "citation": "SR 26-2 / OCC Bulletin 2026-13",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Official revised model-risk guidance supports the replacement of SR 11-7, risk-based tailoring, and the non-enforceability disclaimer."
+      },
+      {
+        "citation": "12 CFR part 30 appendix B; 12 CFR part 208 appendix D-2; 12 CFR part 225 appendix F; 12 CFR part 364 appendix B",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "The information-security guidelines support board or committee approval, oversight, and annual reporting obligations."
+      },
+      {
+        "citation": "91 FR 18279",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "The final reputation-risk rule exists, but sources indicate an effective date after April 2026, so the report's 'took effect in April 2026' statement is inaccurate."
+      }
+    ],
+    "summary": {
+      "supports": 18,
+      "wrong_attribution": 0,
+      "not_supported": 2,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "strong but materially overbroad on IDI charter allocation",
+      "note": "The report maps board, risk committee, audit committee, compensation committee, nominating/governance committee, and director-independence distinctions well, but fails to map GSIB IDI subsidiaries by charter and regulator before applying OCC Appendix D."
+    },
+    "binding_vs_guidance": {
+      "verdict": "strong",
+      "note": "The report generally distinguishes binding rules, enforceable guidelines, supervisory guidance, examination procedures, rescinded sources, and non-board duties."
+    },
+    "reform_usefulness": {
+      "verdict": "exemplary",
+      "note": "The overlap analysis identifies concrete reform levers: consolidated approvals, harmonized independence standards, parent/subsidiary reliance, guidance cleanup, and explicit enforceability gradients."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "The output says OCC Appendix D applies to \"the lead bank of every U.S. GSIB,\" but several GSIB lead banks are not OCC-covered banks."
+    },
+    {
+      "flag": "F3",
+      "severity": "peripheral",
+      "evidence": "The output says the reputation-risk rule \"took effect in April 2026,\" but the final rule's effective date was not in April."
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 20,
+      "evidence": "Within each, individual obligations are catalogued in a uniform format",
+      "rationale": "The report covers nearly all requested domains and structural axes with real granularity, including committees and director-status distinctions. It loses a point for missing firm-by-firm IDI charter/regulator mapping and incomplete SAR and consumer-compliance source coverage."
+    },
+    "D2_integrity": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 25,
+      "evidence": "Operative quotations are reproduced from those sources.",
+      "rationale": "Most sampled citations support the claims and the report uses many specific pin cites and official sources. The main integrity weakness is the unsupported OCC Appendix D all-GSIB-lead-bank applicability claim; otherwise the citation architecture is strong."
+    },
+    "D3_accuracy": {
+      "raw": 3,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "the lead bank of every U.S. GSIB",
+      "rationale": "The report is generally accurate and current, especially on 2025-2026 transitions, but the central invented applicability of OCC Heightened Standards to every GSIB lead bank materially misstates which IDI boards owe those duties. The F4 central cap reduces the effective score to zero."
+    },
+    "D4_sludge_analysis": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 15,
+      "evidence": "The same underlying board duty ... recurs across at least a dozen separate authorities",
+      "rationale": "The report provides high-quality sludge analysis with specific overlap patterns, consolidation candidates, enforceability gradients, parent/IDI duplication, and a balanced counterargument."
+    },
+    "D5_structure": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 10,
+      "evidence": "A single-table view of the board-level obligations catalogued in this document.",
+      "rationale": "The structure is well suited to the task: chapters, uniform obligation entries, a master matrix, currency notes, and table of authorities. It is much closer to a usable policy-reform workpaper than a generic narrative."
+    },
+    "D6_calibration": {
+      "raw": 4,
+      "effective": 4,
+      "weight": 10,
+      "evidence": "This inventory is a research and policy-analysis tool. It is not legal advice.",
+      "rationale": "The report is transparent about legal status, rescinded materials, non-board duties, proposed rules, current-law caveats, and the need for primary-source confirmation."
+    }
+  },
+  "overall_score": 69,
+  "tier": "C",
+  "reliability_overlay": "integrity-flagged",
+  "narrative": {
+    "strengths": [
+      "D1: The report is broad and granular, with domain chapters for capital, liquidity, resolution, recovery, resilience, model risk, TPRM, compensation, cyber, BSA/AML, and consumer compliance.",
+      "D5: The uniform obligation-entry format gives source, board duty, allocation, director distinction, frequency, and entity level.",
+      "D6: The report carefully quarantines non-current materials, including superseded SR 11-7, rescinded OCC recovery planning, withdrawn FDIC corporate governance, retired FFIEC CAT, and unfinalized section 956 rules.",
+      "D4: The reform analysis is concrete and balanced, especially on approval proliferation, parent/subsidiary duplication, inconsistent independence standards, and guidance hardening."
+    ],
+    "weaknesses": [
+      "D3: The report materially over-applies OCC Appendix D by saying it reaches the lead bank of every U.S. GSIB, despite multiple GSIB lead banks being state member banks rather than OCC-covered national banks.",
+      "D1: It lacks a firm-by-firm IDI charter and primary regulator map, which is essential for deciding whether OCC, Federal Reserve, or FDIC subsidiary-board obligations apply.",
+      "D2: A few transition citations are imprecise, including the reputation-risk rule effective-date statement.",
+      "D1: SAR-specific board notification requirements and charter-specific SAR analogues are not fully captured as primary-law obligation cards.",
+      "D1: Consumer compliance coverage is good on CFPB examination expectations but thinner on prudential consumer-compliance guidance."
+    ],
+    "prioritized_remediation": [
+      "Add a firm-by-firm GSIB subsidiary chart showing each major IDI, charter type, primary federal regulator, and which OCC/Fed/FDIC rules attach.",
+      "Revise every OCC Appendix D entry and overlap conclusion to apply only to OCC-covered national banks, federal savings associations, and insured federal branches.",
+      "Add primary-source SAR notification cards for OCC, Federal Reserve, and FDIC rules, distinguishing legal rules from FFIEC manual commentary.",
+      "Correct 2025-2026 transition dates, especially the reputation-risk rule effective date and any pre-effective amendments shown as current.",
+      "Expand consumer-compliance treatment to include prudential guidance and a clearer CFPB-versus-charter-regulator division."
+    ],
+    "reliance_recommendation": "Use this as a strong reform-oriented draft, but do not rely on it as a legal inventory until the IDI charter/regulator allocation and OCC Appendix D applicability are corrected."
+  }
+}
+
+**Result:** Tier C (69/100) — integrity-flagged. The report is unusually thorough and reform-useful, but a central overstatement of OCC Heightened Standards applicability prevents it from being reliable as a current-law inventory.

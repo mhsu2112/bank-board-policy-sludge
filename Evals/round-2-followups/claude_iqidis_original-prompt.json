@@ -1,0 +1,316 @@
+{
+  "report_name": "Iqidis_Summary-of-Online-and-Irys-Database-Authorities.md",
+  "judge_model": "claude-sonnet-4-6",
+  "spec_reconstruction": {
+    "domain": "U.S. federal banking regulation — board-level obligations",
+    "unit_of_analysis": "Individual board obligation (per actor, per source, per domain) at Category I GSIB bank holding companies and their insured depository institution subsidiaries",
+    "structural_axes": [
+      "Full board vs specific committees (audit, risk, compensation, nominating/governance)",
+      "Inside vs outside directors",
+      "Independent vs non-independent directors",
+      "BHC vs IDI subsidiary entity tier",
+      "Regulatory domain (12+ named explicitly)",
+      "Agency issuer (Fed, OCC, FDIC, CFPB, interagency)"
+    ],
+    "actor_classes_required": [
+      "Full board of directors",
+      "Audit committee",
+      "Risk committee",
+      "Compensation committee",
+      "Nominating/governance committee",
+      "Inside directors",
+      "Outside directors",
+      "Independent directors",
+      "Non-independent directors"
+    ],
+    "source_universe": [
+      "Federal statutes (12 USC, 31 CFR, etc.)",
+      "Federal regulations (CFR) — Fed, OCC, FDIC, CFPB",
+      "Agency guidance / supervisory letters (SR letters, OCC bulletins, CA letters)",
+      "Interagency standards and guidelines",
+      "FFIEC examination manuals and handbooks"
+    ],
+    "coverage_areas": [
+      "Capital planning and stress testing",
+      "Liquidity risk management",
+      "Resolution planning",
+      "Recovery planning",
+      "Operational resilience",
+      "Model risk governance",
+      "Third-party risk management",
+      "Incentive compensation",
+      "Cybersecurity governance",
+      "BSA and AML program oversight",
+      "Consumer compliance oversight",
+      "Safety and soundness generally"
+    ],
+    "audience_use": "Bank directors and legal counsel; policymakers engaged in regulatory reform to identify and reduce duplicative, overlapping, and unduly burdensome board-level requirements",
+    "form_depth_expectations": "Granular, citation-specific, 40–60 pages in depth; specifying precise regulatory source, nature of duty, full board vs committee, inside/outside and independent/non-independent distinctions per obligation; suitable as a working policy reform document"
+  },
+  "coverage_ledger": {
+    "cells_expected": 120,
+    "cells_covered": 20,
+    "cells_thin": 25,
+    "cells_missing": 75,
+    "material_omissions": [
+      "Resolution planning: entirely absent — no mention of Dodd-Frank Section 165(d), 12 CFR 243/381, or living wills",
+      "Recovery planning: entirely absent",
+      "Operational resilience: entirely absent — no FFIEC BCM, no operational risk governance section",
+      "Model risk governance: entirely absent — SR 11-7 not cited or referenced",
+      "Third-party risk management: entirely absent — 2023 interagency guidance not addressed",
+      "Cybersecurity governance: entirely absent — no FFIEC CAT, no information-security standards, no computer-security incident notification",
+      "Incentive compensation: barely mentioned (one phrase 'Review remuneration of senior management' in the strategic-planning row); no interagency guidance, no Dodd-Frank Section 956",
+      "Category I GSIB-specific scope: entirely absent — the document covers the U.S. banking sector broadly without scoping to Category I BHCs; 12 CFR Part 252 tailoring framework not referenced",
+      "BHC vs IDI entity-level distinctions: entirely absent",
+      "Inside/outside and independent/non-independent director distinctions: not systematically applied to any obligation",
+      "Document depth is approximately 5–6 pages of substantive content — far below the 40–60 page requirement"
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "'Section 5040 of the Federal Reserve's Bank Rating Manual' — cited as source for fiduciary duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "No standard Federal Reserve document called 'Bank Rating Manual' with a Section 5040 governing fiduciary duties is recognizable; the well-known reference is FRB Commercial Bank Examination Manual Section 5000.1; this citation appears confused and cannot be verified as a real primary source"
+      },
+      {
+        "citation": "31 CFR Part 1020 (BSA) — cited for BSA compliance-program obligations",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "31 CFR Part 1020 contains bank-specific BSA requirements including written compliance program obligations — correct"
+      },
+      {
+        "citation": "OCC Guidelines (risk-governance framework for national banks ≥ $50 bn) — cited for risk-governance oversight",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Refers to OCC Heightened Standards (12 CFR Part 30 Appendix D) — accurate vague reference, though lacks section specificity"
+      },
+      {
+        "citation": "Basel Committee 'Corporate Governance Principles for Banks' (Basel III principles) — cited for risk-governance oversight",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "BCBS Corporate Governance Principles for Banks (d328) is a real document; appropriately characterized as an international standard"
+      },
+      {
+        "citation": "FDICIA § 317 (capital-adequacy reporting thresholds) — cited for capital-adequacy oversight",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "FDICIA capital adequacy provisions are in Sections 131 (PCA), 138, 141, 142; Section 317 is not a recognized FDICIA capital adequacy provision; this citation is wrong and does not correspond to a standard primary source for the claimed obligation"
+      },
+      {
+        "citation": "FRB's capital-adequacy regulations (Reg < 12 CFR Part 23) — cited for board capital oversight",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "12 CFR Part 23 is an OCC regulation governing national bank activities and borrowings, not FRB capital rules; Federal Reserve capital requirements are at 12 CFR Part 217 (Reg Q); this is a central wrong-part citation in the capital section"
+      },
+      {
+        "citation": "FDIC § 326 (audit-committee charter) — cited for external/internal audit oversight",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "peripheral",
+        "reason": "12 CFR Part 326 covers minimum security procedures and BSA compliance, not audit committee requirements; FDICIA audit committee requirements are in 12 CFR Part 363 (§ 363.5)"
+      },
+      {
+        "citation": "Call-report (FFIEC 312) certifications — cited for reporting/certification duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "FFIEC 312 is not a recognized call report form; the main call report forms are FFIEC 031, 041, and 051; this designation is not traceable to a real FFIEC form number"
+      },
+      {
+        "citation": "FDIC § 370 (deposit-insurance ownership data) — cited for board IT-testing attestation proposal",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "12 CFR Part 370 is FDIC's recordkeeping rule for timely deposit insurance determination; board attestation of IT system testing was discussed in FDIC's rulemaking under this part — accurate"
+      },
+      {
+        "citation": "OCC § 41 (annual corporate-filings) — cited for reporting duties",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "peripheral",
+        "reason": "No standard OCC regulation designated '§ 41' for annual corporate filings is recognizable; OCC filing requirements are in 12 CFR Part 5; this citation does not correspond to a standard primary source"
+      },
+      {
+        "citation": "Executive Order 14331 (2021) — cited for removal of 'reputation-risk' from exam guidance",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The removal of reputation risk from bank examination guidance occurred in 2025–2026, not 2021; EO 14331 is not the recognized authority for this regulatory change; this citation is wrong on both the year and the EO-number attribution for a contemporaneous regulatory development"
+      },
+      {
+        "citation": "Sarbanes-Oxley § 404 (public banks) — cited for external/internal audit oversight",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "SOX Section 404 ICFR assessment and auditor attestation requirements correctly apply to publicly traded banking organizations — accurate"
+      },
+      {
+        "citation": "CFPB consumer-protection rules (TILA, RESPA, ECOA, Fair-Housing) — cited for compliance program oversight",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "TILA, RESPA, ECOA, and the Fair Housing Act are real federal consumer protection statutes administered by CFPB — accurate general characterization"
+      },
+      {
+        "citation": "FDIC 'Statement Concerning the Responsibilities of Bank Directors and Officers' — cited for fiduciary duties",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "This is a real FDIC document (also cited in Citations 31 and 41 to the correct fdic.gov URL) — correct"
+      },
+      {
+        "citation": "Citation 4: 'Become a Certified Bank Director (CBD) with IOB | IOB' (iob.ie) — cited as a source in the inventory",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "peripheral",
+        "reason": "The IOB (Institute of Banking) is an Irish banking education body; its certified bank director program has no relevance to U.S. federal banking obligations; this citation is irrelevant to the inventory's claimed scope"
+      },
+      {
+        "citation": "Citation 8: 'Central Bank Dissolves Boards of Union, Polaris, and Keystone Banks' (techhiveadvisory.africa) — cited in the inventory",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "peripheral",
+        "reason": "This citation concerns Nigerian bank regulatory actions by the Central Bank of Nigeria, which has no bearing on U.S. federal banking board obligations; irrelevant to the claimed scope"
+      },
+      {
+        "citation": "Basel III 'end-game' proposals and Bowman speech (2026) — cited for capital-adequacy context",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "Citation 24 links to a real Federal Reserve speech by Governor Bowman on Basel III and bank capital rules (March 2026); contemporarily accurate"
+      },
+      {
+        "citation": "FRB 'Management-Plan' requirements (FR B-1) — cited for strategic-planning board obligations",
+        "verdict": "UNVERIFIABLE",
+        "centrality": "peripheral",
+        "reason": "The FR B-1 is a Federal Reserve form used in certain holding-company applications; its characterization as a general 'management-plan requirement' imposing board duties cannot be confirmed without current Fed form documentation"
+      },
+      {
+        "citation": "State corporate statutes (e.g., Delaware General Corporation Law) — cited for corporate-governance requirements",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "DGCL governs corporate governance of Delaware-incorporated entities; referenced correctly as a separate layer from federal banking regulation"
+      },
+      {
+        "citation": "Citation 52: 'Nominee Director and Governance Requirements for FINTRAC-Registered MSBs in Canada' (ecompaniescanada.com) — included in citation list",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "peripheral",
+        "reason": "This citation concerns Canadian FINTRAC MSB governance requirements, which are entirely irrelevant to U.S. federal banking board obligations; its inclusion in a U.S. federal banking inventory citation list is inexplicable"
+      }
+    ],
+    "summary": {
+      "supports": 9,
+      "wrong_attribution": 5,
+      "not_supported": 5,
+      "stale": 0,
+      "fabricated": 0,
+      "unverifiable": 1
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "FAIL — no systematic actor mapping",
+      "note": "The 'Board-level duty(s)' column is uniformly generic across all 10 table rows; no obligation is assigned to a specific committee (audit, risk, compensation, nominating/governance); inside/outside and independent/non-independent director distinctions are not applied to any obligation; committees are mentioned only in a single row ('Corporate-governance & board-structure requirements') without mapping specific obligations to them."
+    },
+    "binding_vs_guidance": {
+      "verdict": "FAIL — no systematic binding/guidance distinction",
+      "note": "The table has no field or column distinguishing binding obligations from guidance-based expectations; the 'Comments' column sometimes notes that guidance is 'treated as de-facto rules' or that attestation requirements duplicate existing oversight, but this is inconsistent and not applied as a structural dimension; several guidance items appear without any indication that they lack the force of law."
+    },
+    "reform_usefulness": {
+      "verdict": "PARTIAL — directionally correct sludge observations; not actionable for reform",
+      "note": "The 'Comments on duplication/overlap' column and 'Key take-aways' section correctly identify policy sludge patterns (management-in-character duties, 800+ provisions, 50+ annual approvals, attestation creep, resource-disparity). 'Practical implications' gives four actionable steps. However, these observations are sourced from a trade association (AABD) rather than primary regulatory analysis, no specific reform lever is tied to a specific duplicative obligation, and no cross-domain overlap mapping is performed."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "'FRB's capital-adequacy regulations (Reg < 12 CFR Part 23)' — 12 CFR Part 23 is an OCC regulation governing national bank activities, not FRB capital rules; Federal Reserve capital adequacy regulations are at 12 CFR Part 217 (Reg Q); this is a central wrong-part attribution in the primary capital oversight row"
+    },
+    {
+      "flag": "F3",
+      "severity": "central",
+      "evidence": "'Executive Order 14331 (2021) – removal of reputation-risk from exam guidance' — reputation risk removal occurred in 2025–2026 under different authority, not via EO 14331 in 2021; this citation misrepresents the year, the EO number, and the mechanism for a contemporaneous regulatory development in the ESG row"
+    },
+    {
+      "flag": "F5",
+      "severity": "central",
+      "evidence": "Document titled 'Comprehensive inventory of board-of-directors obligations in the U.S. banking sector (as of 2026)' while omitting six of twelve explicitly required domains (resolution planning, recovery planning, operational resilience, model risk governance, third-party risk management, cybersecurity governance) and providing a 5–6 page table rather than the 40–60 page inventory"
+    },
+    {
+      "flag": "F6",
+      "severity": "central",
+      "evidence": "The ORIGINAL_REQUEST specified Category I GSIB BHCs and IDI subsidiaries; the document covers the U.S. 'banking sector' broadly without any reference to Category I, 12 CFR Part 252 tailoring, BHC vs IDI distinctions, or GSIB-specific obligations; GSIB-specific domains (TLAC, resolution planning, enhanced prudential standards) are absent"
+    },
+    {
+      "flag": "F7",
+      "severity": "central",
+      "evidence": "'1933 Banking Act (Section 5040 of the Federal Reserve's Bank Rating Manual)' cited as the primary source for foundational fiduciary duties — no recognized Federal Reserve 'Bank Rating Manual' with a Section 5040 governing fiduciary duties can be identified; the standard primary reference is FRB CBEM Section 5000.1; this unsupported citation anchors the first and most foundational row of the inventory"
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "Ten-row table covers BSA/AML, consumer compliance, capital/liquidity, corporate governance, fiduciary duties, reporting — but resolution planning, recovery planning, operational resilience, model risk governance, third-party risk management, and cybersecurity governance are entirely absent; no GSIB-specific scoping; no committee-level actor mapping",
+      "rationale": "Six of twelve required domains are entirely absent; the GSIB-specific scope is missing; actor-class distinctions are not applied; document is 5–6 pages vs. 40–60 target. Missing required actor classes caps D1 ≤ 2; F6 central applies D1_eff = min(raw,1) = 1. Raw is already 1 (poor: multiple material problems)."
+    },
+    "D2_integrity": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "9/20 SUPPORTS; 5 NOT-SUPPORTED including 'Section 5040 of the Federal Reserve's Bank Rating Manual,' 'FDICIA § 317,' 'FFIEC 312'; 5 WRONG-ATTRIBUTION including '12 CFR Part 23' for FRB capital, 'FDIC § 326' for audit committee, IOB Irish certification and Nigerian bank news in citation list",
+      "rationale": "Half the sampled citations are wrong or unsupported. The core table — the document's substantive output — contains errors in three of its most central rows (fiduciary duties, capital, audit). The 100-item citation list pads with secondary and irrelevant sources (LinkedIn profiles, Nigerian banking, Irish certification, Career Trend website, Canadian FINTRAC). F2 central and F7 central both trigger D2_eff = min(raw,1) = 1."
+    },
+    "D3_accuracy": {
+      "raw": 1,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "'Executive Order 14331 (2021) – removal of reputation-risk from exam guidance' — wrong year (2025–26 action), wrong EO number, wrong mechanism; 'FDICIA § 317' and '12 CFR Part 23' for FRB capital are also substantively wrong",
+      "rationale": "F3 central (EO 14331/2021 misrepresents a current 2025–26 regulatory development with wrong year and wrong authority) triggers D3_eff = 0. Additional inaccuracies (FDICIA § 317 wrong, 12 CFR Part 23 wrong) further reduce confidence. No systematic guidance-as-law distinction. D3_eff = 0."
+    },
+    "D4_sludge_analysis": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 15,
+      "evidence": "'Boards are required to approve more than fifty written policies every year' (from AABD); 'Multiple agencies issue similar risk-oversight expectations (OCC, FDIC, FRB)' — directionally correct sludge observations sourced from trade association secondary material, not from primary regulatory cross-analysis",
+      "rationale": "The Comments column and Key take-aways section identify genuine sludge patterns (management-in-character duties, attestation creep, duplicative agency requirements). However, all observations are sourced from AABD secondary material, not from analysis of the primary regulations themselves. No specific reform levers tied to specific obligations, no mechanism taxonomy, no cross-domain overlap map. Purely descriptive list cap (D4 ≤ 2) applies; raw = 1. D4_eff = 1."
+    },
+    "D5_structure": {
+      "raw": 1,
+      "effective": 1,
+      "weight": 10,
+      "evidence": "A 10-row table of approximately 5–6 pages; 100 citation URLs that are mostly secondary or irrelevant; no committee allocation column; no director-type column; generic 'board-level duty' descriptions throughout",
+      "rationale": "Format is a simple table — appropriate for a summary but not for a 40–60 page working legal document. Depth is approximately 10–12% of the target. No per-obligation committee mapping, no director-type axis, no binding/guidance field. The 100-citation list is structurally misleading — it suggests depth that does not exist in the substantive content. D5_eff = 1."
+    },
+    "D6_calibration": {
+      "raw": 0,
+      "effective": 0,
+      "weight": 10,
+      "evidence": "Titled 'Comprehensive inventory of board-of-directors obligations in the U.S. banking sector (as of 2026)' with no disclosure that six required domains are absent, no acknowledgment of the 40–60 page gap, no GSIB-scope limitation noted",
+      "rationale": "The title and framing assert comprehensive coverage ('as of 2026') with no disclosure of the domains absent, the shallow depth, or the mismatch with the GSIB-specific scope of the request. F5 central (false exhaustiveness) applies: D6_eff = min(raw,1) = min(0,1) = 0."
+    }
+  },
+  "overall_score": 18,
+  "tier": "E",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D4 — The 'Comments on duplication/overlap' column and 'Key take-aways' section identify directionally correct policy sludge patterns: management-in-character board duties (50+ annual policy approvals from AABD data), attestation creep (FDIC §370 IT-testing proposal), and duplicative OCC/FDIC/FRB requirements — these observations are accurate even if sourced from secondary material",
+      "D3 — The 2026 Basel III end-game proposals and Bowman speech (Citation 24, linking to a real March 2026 Fed speech) and OCC 2026 community bank burden-reduction rules (Citations 16, 26) reflect genuine contemporaneous regulatory developments",
+      "D2 — A minority of the core citations are accurate: 31 CFR Part 1020 (BSA), SOX § 404, FDIC Statement on Director Responsibilities, BCBS Corporate Governance Principles, and FDIC § 370 (deposit insurance recordkeeping) are all correctly cited",
+      "D4 — The 'Practical implications' section provides four actionable reform steps including EGRPRA decennial review, shifting management-in-character items to senior management, and internal obligation mapping — directionally sound advice",
+      "D1 — BSA/AML, consumer compliance, capital/liquidity, fiduciary duties, corporate governance, and external/internal audit are at least mentioned, providing some minimum domain presence"
+    ],
+    "weaknesses": [
+      "D2/F2+F7 — Multiple central citation errors undermine the document's foundational credibility: '12 CFR Part 23' cited for FRB capital rules (correct: 12 CFR 217); 'FDIC § 326' cited for audit-committee charter (correct: 12 CFR 363.5); 'FFIEC 312' cited for call reports (correct: FFIEC 031/041/051); 'Section 5040 of the Federal Reserve's Bank Rating Manual' cited for fiduciary duties (no such standard reference exists); 'FDICIA § 317' for capital adequacy (not a recognized FDICIA provision)",
+      "D3/F3 — 'Executive Order 14331 (2021) – removal of reputation-risk from exam guidance' is wrong on year (2025–26), EO number, and mechanism — a current regulatory development is misrepresented with fabricated-looking specificity",
+      "D1/F6 — Six of twelve required domains entirely absent: resolution planning, recovery planning, operational resilience, model risk governance, third-party risk management, and cybersecurity governance; GSIB-specific scoping (Category I, 12 CFR Part 252 tailoring) is absent; the document covers community banks and large banks indiscriminately",
+      "D6/F5 — The 'Comprehensive inventory' title and '2026' contemporaneity claim are false given the document is a 5–6 page table with pervasive citation errors; no disclosure of gaps or limitations",
+      "D5 — The 100-citation list, rather than demonstrating depth, illustrates the opposite: it includes LinkedIn profiles (Citations 51, 54), Nigerian banking enforcement news (Citation 8), Irish bank director certification (Citation 4), and Canadian FINTRAC governance (Citation 52) — none relevant to U.S. federal banking board obligations; this padding obscures the thin substantive content"
+    ],
+    "prioritized_remediation": [
+      "Replace all wrong regulatory citations with correct primary sources: FRB capital = 12 CFR Part 217 (Reg Q); audit committee = 12 CFR Part 363 (§ 363.5); call reports = FFIEC 031/041/051; fiduciary duties = FRB CBEM § 5000.1; capital adequacy FDICIA = Sections 131/138/141; EO for reputation risk = correct 2025–26 regulatory authority",
+      "Add the six missing domains: resolution planning (Dodd-Frank § 165(d), 12 CFR 243/381), recovery planning (OCC 12 CFR 30 App. E), operational resilience (FFIEC BCM handbook), model risk governance (SR 11-7), third-party risk management (2023 interagency guidance), and cybersecurity governance (GLBA information security standards, computer-security incident notification rule)",
+      "Scope to Category I GSIBs: add 12 CFR Part 252 tailoring framework, identify Category I-specific obligations (TLAC, enhanced stress testing, full-scope resolution planning), and distinguish BHC from IDI obligations",
+      "Replace secondary/irrelevant citations with section-level primary source citations; remove LinkedIn profiles, Nigerian banking news, Irish certification, and Canadian FINTRAC entries entirely",
+      "Add committee-allocation and director-type columns to each domain row: specify which obligations fall on the audit, risk, compensation, or nominating/governance committee, and flag which require independent director participation (with the governing authority for each independence requirement)"
+    ],
+    "reliance_recommendation": "This document is not suitable for any reliance by bank directors, legal counsel, or policymakers: multiple core citations are wrong or unsupported, six required domains are absent, the GSIB-specific scope is entirely missing, and the 100-citation list is dominated by secondary and irrelevant sources that provide no legal grounding; it must be substantially rebuilt from primary regulatory sources before it can serve any of its stated purposes."
+  }
+}
+
+**Result:** Tier E (18/100) — integrity+scope-flagged. The document's core regulatory citations contain pervasive errors (wrong CFR part numbers, nonexistent FFIEC form, wrong FDICIA section, misattributed Executive Order), six of twelve required domains are entirely absent, the GSIB-specific scope is missing, and a 100-item citation list padded with LinkedIn profiles, Nigerian banking news, and Irish director certification provides false appearance of depth over a 5–6 page table with substantive content that does not approach the requested 40–60 page working policy reform document.

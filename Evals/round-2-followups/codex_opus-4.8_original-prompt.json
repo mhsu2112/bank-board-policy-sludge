@@ -1,0 +1,309 @@
+{
+  "report_name": "Bank_Board_Obligation_Inventory_1+Opus4.8+original prompt.xlsx",
+  "judge_model": "Codex (GPT-5)",
+  "spec_reconstruction": {
+    "domain": "Current U.S. federal banking board obligations for Category I global systemically important bank holding companies and their insured depository institution subsidiaries.",
+    "unit_of_analysis": "Each discrete current, in-force board-level obligation, with source, duty, actor, committee or director-type allocation, and reform relevance.",
+    "structural_axes": [
+      "entity tier: Category I GSIB BHC versus insured depository institution subsidiary",
+      "actor: full board versus board committee",
+      "committee: audit, risk, compensation, nominating/governance, and any other required committee",
+      "director type: inside, outside, independent, non-independent, and risk-expert distinctions",
+      "source tier: statute, regulation, enforceable guideline, supervisory guidance, examination manual, interagency standard",
+      "issuing authority: Federal Reserve, OCC, FDIC, CFPB, FFIEC/interagency",
+      "regulatory domain: capital, stress testing, liquidity, resolution, recovery, operational resilience, model risk, third-party risk, incentive compensation, cybersecurity, BSA/AML, consumer compliance, safety and soundness"
+    ],
+    "actor_classes_required": [
+      "Category I GSIB BHC full board",
+      "IDI subsidiary full board",
+      "risk committee",
+      "audit committee",
+      "compensation committee",
+      "nominating/governance committee",
+      "inside directors",
+      "outside or independent directors"
+    ],
+    "source_universe": [
+      "Federal Reserve regulations and supervision letters/guidance",
+      "OCC regulations, enforceable guidelines, bulletins, and Comptroller's Handbook material",
+      "FDIC regulations, guidance, and examination material",
+      "CFPB supervision and examination material relevant to bank consumer compliance oversight",
+      "FFIEC and other interagency standards",
+      "Relevant federal statutes underlying those regulations and guidance"
+    ],
+    "coverage_areas": [
+      "capital planning and stress testing",
+      "liquidity risk management",
+      "resolution planning",
+      "recovery planning",
+      "operational resilience and business continuity",
+      "model risk governance",
+      "third-party risk management",
+      "incentive compensation",
+      "cybersecurity and information security governance",
+      "BSA/AML and sanctions oversight",
+      "consumer compliance and CRA oversight",
+      "safety and soundness generally",
+      "audit, reporting, insider, affiliate, fiduciary, and corporate governance obligations"
+    ],
+    "audience_use": "Bank directors, counsel, and policymakers seeking a granular working document for reform and reduction of duplicative or burdensome board requirements.",
+    "form_depth_expectations": "Extensive 40-60 page, citation-level inventory with granular pin cites, actor mapping, current-law status, and reform-useful analysis."
+  },
+  "coverage_ledger": {
+    "cells_expected": 120,
+    "cells_covered": 31,
+    "cells_thin": 42,
+    "cells_missing": 47,
+    "material_omissions": [
+      "No systematic BHC-versus-IDI subsidiary tiering; the workbook says its lens is 'Primarily the national bank / federal savings association view (OCC)'.",
+      "No required actor column mapping duties to full board, risk committee, audit committee, compensation committee, nominating/governance committee, or director type.",
+      "Nominating/governance committee obligations are essentially absent; compensation committee content is thin and mostly securities-law oriented.",
+      "Category I GSIB-specific obligations are mixed with all-bank, national-bank, public-company, smaller-institution, trust, and de novo bank material without a filter.",
+      "Consumer compliance, CRA, fair lending, and flood-insurance rows are mostly generic oversight assertions rather than citation-level board duties.",
+      "IDI resolution planning under FDIC 12 CFR 360.10 is missing while BHC resolution planning is covered.",
+      "Recovery planning is treated as current even though OCC rescinded 12 CFR part 30 Appendix E before June 2026.",
+      "The workbook is a compact 66-row spreadsheet, not the requested 40-60 page granular inventory."
+    ]
+  },
+  "citation_check": {
+    "sampled": 20,
+    "results": [
+      {
+        "citation": "12 USC 71a (G-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "US Code supports the 5-25 national-bank director band; source verified via U.S. Code House site: https://uscode.house.gov/"
+      },
+      {
+        "citation": "12 USC 72 (G-02/G-03)",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "US Code supports qualifying-share and citizenship/residency director qualifications for national banks; source verified via U.S. Code House site: https://uscode.house.gov/"
+      },
+      {
+        "citation": "12 CFR 252.33 (G-07/RM-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve Regulation YY requires a risk committee, committee charter, independent chair, and risk-management framework oversight: https://www.federalreserve.gov/frrs/regulations/section-25233-risk-management-and-risk-committee-requirements.htm"
+      },
+      {
+        "citation": "SR 21-3 / CA 21-1 (G-08/RM-03/RM-04/SS-05)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve SR 21-3 sets five board-effectiveness attributes for large domestic BHCs/SLHCs >= $100B: https://www.federalreserve.gov/supervisionreg/srletters/SR2103.htm"
+      },
+      {
+        "citation": "12 CFR 30 App. D (SS-02/SS-03/RM-02)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "OCC heightened standards support board/risk-committee oversight of risk governance framework and risk appetite; OCC also proposed a $700B threshold: https://www.occ.gov/news-issuances/bulletins/2025/bulletin-2025-51.html"
+      },
+      {
+        "citation": "12 CFR 30 App. E (SS-04)",
+        "verdict": "STALE",
+        "centrality": "central",
+        "reason": "The cited recovery-planning guidelines were rescinded by OCC before this June 2026 report; OCC Bulletin 2026-10 says Appendix E is rescinded: https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-10.html"
+      },
+      {
+        "citation": "12 CFR 225.8 (CAP-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve Regulation Y capital-plan rule applies at $100B and requires board or committee approval of the capital plan: https://www.federalreserve.gov/frrs/regulations/section-2258-capital-planning-and-stress-capital-buffer-requirement.htm"
+      },
+      {
+        "citation": "12 CFR 252.34; 12 CFR 252.35 (LIQ-01/LIQ-02)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Section 252.34 requires board approval/review of liquidity risk tolerance and policies; section 252.35 supplies the stress-testing framework: https://www.federalreserve.gov/frrs/regulations/section-25234-liquidity-risk-management-requirements.htm"
+      },
+      {
+        "citation": "12 CFR 363.5; 15 USC 78j-1 (AUD-01/AUD-03)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "FDIC Part 363 and SOX audit-committee provisions support independent audit committee and outside-auditor oversight duties; FDIC overview: https://www.fdic.gov/corporate-governance-and-auditing-programs/part-363-summary-filing-requirements"
+      },
+      {
+        "citation": "FFIEC 031/041; 12 USC 161 (AUD-06)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Call Report instructions and 12 USC 161 support director attestation; FDIC notes Call Reports are attested by two or three directors: https://www.fdic.gov/accounting/consolidated-reports-condition-and-income"
+      },
+      {
+        "citation": "12 CFR 21.21; 12 CFR 208.63; 12 CFR 326.8 (BSA-01/BSA-02/BSA-03)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Federal Reserve Regulation H confirms written BSA program board approval, minutes notation, internal controls, testing, officer designation, and training: https://www.federalreserve.gov/frrs/regulations/section-20863-procedures-for-monitoring-bank-secrecy-act-compliance.htm"
+      },
+      {
+        "citation": "12 CFR 30 App. B; 12 CFR 208 App. D-2; 12 CFR 364 App. B (OPS-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Interagency information-security standards require board or committee approval and oversight of the written program: https://www.federalreserve.gov/supervisionreg/interagencyguidelines.htm"
+      },
+      {
+        "citation": "SR 11-7; SR 26-2 (RM-07)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "SR 26-2 exists and supersedes SR 11-7, but explicitly says the guidance is not enforceable; row is supportable only as guidance: https://www.federalreserve.gov/supervisionreg/srletters/SR2602.htm"
+      },
+      {
+        "citation": "SR 23-4 / 88 FR 37920 (OPS-02)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Interagency third-party guidance supports board oversight of third-party risk management and is guidance, not a new binding rule: https://www.federalreserve.gov/frrs/guidance/interagency-guidance-on-third-party-relationships.htm"
+      },
+      {
+        "citation": "12 CFR 53; 12 CFR 225 subpt. N; 12 CFR 304 (OPS-04)",
+        "verdict": "WRONG-ATTRIBUTION",
+        "centrality": "central",
+        "reason": "The computer-security incident rule requires banking organization notice to its primary federal regulator within 36 hours, not a board-level duty to be informed: https://www.federalreserve.gov/newsevents/pressreleases/bcreg20211118a.htm"
+      },
+      {
+        "citation": "CFPB Exam Manual; FFIEC/FDIC CMS material (CON-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "CFPB and FDIC examination manuals assess board and management oversight of CMS, but CFPB warns the manual is non-binding examiner guidance: https://www.consumerfinance.gov/compliance/supervision-examinations/"
+      },
+      {
+        "citation": "12 USC 2901; 12 CFR 25/228/345 (CON-02)",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "CRA sources support bank performance evaluation and regulator-approved strategic plans, but not a general board obligation to oversee CRA performance: https://www.federalreserve.gov/frrs/regulations/appendix-g-community-reinvestment-act-regulation-bb.htm"
+      },
+      {
+        "citation": "15 USC 1691; 42 USC 3601; 12 USC 2801 (CON-03)",
+        "verdict": "NOT-SUPPORTED",
+        "centrality": "central",
+        "reason": "The cited ECOA, FHA, and HMDA statutes impose substantive institution/creditor obligations, not a citation-level board oversight duty."
+      },
+      {
+        "citation": "12 CFR 9.6; 12 CFR 9.9 (FID-01/FID-02/FID-03)",
+        "verdict": "SUPPORTS",
+        "centrality": "peripheral",
+        "reason": "OCC fiduciary rules support board responsibility for fiduciary powers, annual review, and fiduciary audit oversight for national banks with trust powers."
+      },
+      {
+        "citation": "12 CFR 243; 12 CFR 381 (RES-01)",
+        "verdict": "SUPPORTS",
+        "centrality": "central",
+        "reason": "Fed/FDIC resolution-plan rules support board approval of covered-company living wills, though the workbook misses IDI resolution planning under FDIC 12 CFR 360.10: https://www.federalreserve.gov/frrs/regulations/section-2434-resolution-plan-required.htm"
+      }
+    ],
+    "summary": {
+      "supports": 16,
+      "wrong_attribution": 1,
+      "not_supported": 2,
+      "stale": 1,
+      "fabricated": 0,
+      "unverifiable": 0
+    }
+  },
+  "subcriteria": {
+    "actor_mapping": {
+      "verdict": "Poor",
+      "note": "The report mostly uses generic board language and lacks a required actor column for full board, specific committees, entity tier, or director type."
+    },
+    "binding_vs_guidance": {
+      "verdict": "Mixed",
+      "note": "The Source Type column and 'Guidance != law' caveat help, but labels such as 'Guidance (enforceable)' are too blunt and several exam/manual expectations are treated as obligations."
+    },
+    "reform_usefulness": {
+      "verdict": "Strong but fragile",
+      "note": "Duplication clusters and levers are useful, but their value is limited by incomplete actor/source mapping and some unsupported board-duty claims."
+    }
+  },
+  "critical_flags": [
+    {
+      "flag": "F2",
+      "severity": "central",
+      "evidence": "Output row says: \"Be informed of significant cybersecurity incidents (36-hr notice)\"; the cited rule is regulator-notification, not board-notification."
+    },
+    {
+      "flag": "F3",
+      "severity": "central",
+      "evidence": "Output row says: \"Review and approve a recovery plan\" under 12 CFR 30 App. E, which OCC rescinded before June 2026."
+    },
+    {
+      "flag": "F4",
+      "severity": "central",
+      "evidence": "Output row says: \"Oversee fair-lending compliance (ECOA, FHA, HMDA)\" but cites statutes that do not impose a board-level duty."
+    },
+    {
+      "flag": "F6",
+      "severity": "central",
+      "evidence": "Output scope says: \"Primarily the national bank / federal savings association view (OCC)\", evading the requested Category I GSIB BHC/IDI map."
+    }
+  ],
+  "scores": {
+    "D1_coverage": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 20,
+      "evidence": "Output says: \"Primarily the national bank / federal savings association view (OCC)\".",
+      "rationale": "The workbook covers many domains, but misses the required Category I GSIB BHC/IDI architecture and required actor classes. F6 caps the effective score."
+    },
+    "D2_integrity": {
+      "raw": 2,
+      "effective": 1,
+      "weight": 25,
+      "evidence": "Output says: \"Cited to the section level where confident.\"",
+      "rationale": "Many citations checked out, but several central rows are stale, unsupported, or wrongly attributed, and citations are often broad section-level references rather than pin cites. F2 caps the effective score."
+    },
+    "D3_accuracy": {
+      "raw": 1,
+      "effective": 0,
+      "weight": 20,
+      "evidence": "Output says: \"Review and approve a recovery plan\".",
+      "rationale": "The inventory includes a rescinded recovery-planning obligation and repeatedly turns institution-level or examiner-expectation material into board duties. Central F3/F4 caps D3 at zero."
+    },
+    "D4_sludge_analysis": {
+      "raw": 3,
+      "effective": 3,
+      "weight": 15,
+      "evidence": "Output proposes: \"Single interagency program standard; mutual recognition across charters\".",
+      "rationale": "The duplication clusters, H/V tags, accumulation timeline, and reform levers are useful and action-oriented, though built on an incomplete and sometimes inaccurate inventory."
+    },
+    "D5_structure": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "Output describes \"one row per discrete board obligation\".",
+      "rationale": "The spreadsheet is readable and filterable, but lacks required actor/entity/committee granularity and falls far short of the requested 40-60 page working reform document."
+    },
+    "D6_calibration": {
+      "raw": 2,
+      "effective": 2,
+      "weight": 10,
+      "evidence": "Output warns: \"Verify exact subsection and current text against eCFR\".",
+      "rationale": "The caveats are helpful and it distinguishes guidance from law in places, but the report still overstates coverage and does not transparently mark unsupported or stale entries."
+    }
+  },
+  "overall_score": 33,
+  "tier": "D",
+  "reliability_overlay": "integrity+scope-flagged",
+  "narrative": {
+    "strengths": [
+      "D5: The workbook is organized and filterable, with Domain, Action Type, Source Type, Citation, Authority, Applicability, Frequency, and Sludge Tag columns.",
+      "D4: The duplication-cluster sheet is reform-actionable, especially for BSA/AML, information security, risk governance, and policy-approval pile-on.",
+      "D2: Several important citations are valid, including Reg YY risk committee/liquidity duties, BSA program approval, Part 363 audit committee duties, and information-security program approval.",
+      "D6: The report includes useful caveats, including that guidance lacks force of law and that exact subsections should be verified before legal reliance."
+    ],
+    "weaknesses": [
+      "D1: It materially evades the requested Category I GSIB BHC/IDI scope by using a primarily OCC/national-bank lens and mixing in all-bank or public-company material.",
+      "D5: It does not map duties to the required board structures; audit, risk, compensation, nominating/governance, and director-type distinctions are mostly absent or scattered.",
+      "D3: It includes stale current-law content, most notably the OCC recovery-planning Appendix E obligation after OCC rescinded it.",
+      "D2/D3: It converts several institution-level or examiner expectations into board obligations, including cyber incident notification, CRA oversight, and fair-lending oversight.",
+      "D1: It is far shallower than requested: 66 rows plus summary tabs, not a 40-60 page citation-level inventory."
+    ],
+    "prioritized_remediation": [
+      "Rebuild the inventory around entity tier and actor class: Category I GSIB BHC full board, IDI subsidiary full board, audit committee, risk committee, compensation committee, nominating/governance committee, and director independence/inside-outside distinctions.",
+      "Re-verify every row against current primary sources and remove or mark rescinded/non-current items such as OCC 12 CFR 30 Appendix E.",
+      "Separate binding law, enforceable safety-and-soundness guidelines, supervisory guidance, and examination expectations into distinct columns with reliance notes.",
+      "Replace generic 'oversee compliance' rows with citation-specific board duties or reclassify them as management/institution duties with indirect board oversight only.",
+      "Add missing Category I and IDI-specific material, especially FDIC IDI resolution planning, full stress/capital governance requirements, and CFPB/consumer compliance board guidance."
+    ],
+    "reliance_recommendation": "Do not rely on this as a current legal inventory; use it only as a preliminary sludge-map scaffold after counsel-led citation verification and a full actor/entity remap."
+  }
+}
+
+**Result:** Tier D (33/100) — integrity+scope-flagged. Useful as a preliminary sludge map, but not reliable as the requested current, comprehensive board-obligation inventory.

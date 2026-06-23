@@ -1,0 +1,18 @@
+# Local-only provenance: superseded v1 artifacts and duplicates
+_archive/
+
+# macOS / OS junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Microsoft Office lock/temp files
+~$*
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
